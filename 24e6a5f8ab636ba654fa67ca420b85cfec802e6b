@@ -22,6 +22,30 @@
       },
       "revId": "24e6a5f8ab636ba654fa67ca420b85cfec802e6b",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f498452_7ac65fd6",
+        "filename": "dci-blog.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-02-24T12:07:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f4cd2d2_2572762b",
+      "range": {
+        "startLine": 1,
+        "startChar": 11,
+        "endLine": 1,
+        "endChar": 20
+      },
+      "revId": "24e6a5f8ab636ba654fa67ca420b85cfec802e6b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
