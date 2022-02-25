@@ -8,13 +8,13 @@ Summary: Red Hat provides mainly infrastructure software like RHEL, Openshift or
 
 # The Red Hat’s partner use case
 
-There are multiple kinds of partners companies, the main are what we call “hardware vendors” who are selling specific hardware, in the IT market we can see for instance Dell, NEC, NetApp, F5, Cisco, etc… There is also ISV or Independent Software Vendor who are selling specific software stack like SAP, or some networkingSDN companies like Juniper.
+There are multiple kinds of partners companies, the main are what we call “hardware vendors” who are selling specific hardware, in the IT market we can see for instance companies that sell servers, networking components, hardware storage solutions, etc… There is also ISV or Independent Software Vendor who are selling specific software solutions in various areas.
 
-The common denominator between all these companies is that when it comes to integrating their stack with the Red Hat ones to provide a complete solution for their customers: they do want to minimize as much as possible the number of bugs. Also, the ice of the cake would be to start this integration as early as possible, ideally it should begin before the products (on both sides) are released (General Availability - GA). This is typically the use case when the RH DCI workflow comes into place.
+The common denominator between all these companies is that when it comes to integrating their stack with the Red Hat ones to provide a complete solution for their customers: they do want to minimize as much as possible the number of bugs. Also, the ice of the cake would be to start this integration as early as possible, ideally it should begin before the products (on both sides) are released (General Availability - GA). This is typically the use case when the Red Hat DCI workflow comes into place.
 
 # The DCI workflow
 
-The main idea behind DCI is to integrate and test together multiple un-released software in order to be predictive (which software combos is working correctly ?) and provide useful insights either for Red Hat or the partners. To do so, Red Hat engineers and their partners engineers are collaborating together for the full integration, once this is done the DCI automation might replay the process as new unreleased software are pushed.
+The main idea behind DCI is to integrate and test together multiple (un)-released software in order to be predictive (which software combos is working correctly ?) and provide useful insights either for Red Hat or the partners. To do so, Red Hat engineers and the partners engineers are collaborating together for the full integration, once this is done the DCI automation might replay the process as new unreleased software is pushed.
 
 Another very important benefit of such workflow is that all these tests take place inside partners walls with their own specific hardware and configuration. This allows Red Hat to reduce part of the CI cost and to leverage partner’s knowledge for their stack (partners know the best of their own software!) thus avoiding some consulting nor a learning curve.
 
@@ -38,8 +38,7 @@ In practice, a remote ci is acting like a “user” with it’s own authenticat
 
 An agent is in charge of effectively running the job at the partner’s platform and reporting back to the control server. Today we are offering one agent per product, we support Openshift, RHEL and Openstack.
 
-All agents are Ansible based and they drive their respective Red Hat’s installer to deploy the product in the partner’s platform. The plumbing to the DCI Control Server is done transparently thanks to a specific Ansible callback plugin.
-A mechanism based on “hooks” gives the opportunity to the partner to plug in their specific tasks during the run of a job, this way it’s possible to easily customize the deployment for their specific needs.
+All agents are Ansible based and they drive their respective Red Hat’s installer to deploy the product in the partner’s platform. The plumbing to the Control Server is done transparently thanks to a specific Ansible callback plugin. A mechanism based on “hooks” gives the opportunity to the partner to plug in their specific tasks during the run of a job, this way it’s possible to easily customize the deployment for their specific needs.
 
 ## What is a job and why are components so important ?
 
