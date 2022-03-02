@@ -1,0 +1,47 @@
+<html>
+  <head>
+    {% block head %}
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>{% block title %}{% endblock title %} - {{ SITENAME }}</title>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="{{ SITEURL }}/theme/css/styles.css"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Display"
+        rel="stylesheet"
+      />
+    {% endblock %}
+  </head>
+  <body>
+    <header class="dci-header">
+      <nav class="dci-container dci-header__nav" aria-label="Header">
+        <a
+          href="."
+          title="Documentation"
+          class="dci-header__logo-link"
+          aria-label="Documentation"
+          data-dci-component="logo"
+        >
+          <img
+            src="{{ SITEURL }}/theme/images/logo.min.svg"
+            alt="logo"
+            class="dci-header__logo"
+          />
+        </a>
+        <div class="dci-header__title">Blog</div>
+      </nav>
+    </header>
+    <div class="dci-container">
+      <div class="dci-main-content">
+        {% block content %}
+        {% endblock %}
+      </div>
+    </div>
+  </body>
+</html>
