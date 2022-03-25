@@ -1,0 +1,9 @@
+Code-Review+2: Ramon Perez <raperez@redhat.com>
+Code-Review+2: Manuel Rodriguez <manuel.rodriguez@redhat.com>
+Workflow+1: Tony Garcia <tonyg@redhat.com>
+Verified+2: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-by: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-at: Fri, 25 Mar 2022 16:33:39 +0000
+Reviewed-on: https://softwarefactory-project.io/r/c/dci-blog/+/24363
+Project: dci-blog
+Branch: refs/heads/master
