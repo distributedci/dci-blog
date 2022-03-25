@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3df01bdd_8d9dca67",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-03-25T07:39:04Z",
+      "side": 1,
+      "message": "LGTM, I already reviewed the content and it\u0027s fine for me",
+      "revId": "e46b3e55c9f1c405f5b85c80d21bc2532c642277",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
