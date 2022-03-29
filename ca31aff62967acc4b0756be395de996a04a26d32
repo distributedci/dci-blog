@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca01bd9f_cb378465",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Thank you very much for the review!",
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a7dfceb1_8e8a14e7",
@@ -31,6 +48,30 @@
       "writtenOn": "2022-03-29T06:57:50Z",
       "side": 1,
       "message": "Sometimes you use Openshift, sometimes OpenShift, and in some cases, openshift in lower case. Just a reminder to harmonize that",
+      "range": {
+        "startLine": 7,
+        "startChar": 9,
+        "endLine": 7,
+        "endChar": 18
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b102cf59_0c7d8b53",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a7dfceb1_8e8a14e7",
       "range": {
         "startLine": 7,
         "startChar": 9,
@@ -64,6 +105,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "69a381d4_8fab33c5",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "28769679_5d93f21f",
+      "range": {
+        "startLine": 13,
+        "startChar": 34,
+        "endLine": 13,
+        "endChar": 38
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "415d893c_2fa7288e",
@@ -77,6 +142,30 @@
       "writtenOn": "2022-03-29T06:57:50Z",
       "side": 1,
       "message": "Sometimes it appears DCI-Openshift-Agent, others DCI-openshift-agent, or it may even be DCI-OpenShift-Agent or DCI Openshift Agent without -. Just a reminder to harmonize this too",
+      "range": {
+        "startLine": 15,
+        "startChar": 119,
+        "endLine": 15,
+        "endChar": 138
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0aa57562_7c9a9cfb",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "415d893c_2fa7288e",
       "range": {
         "startLine": 15,
         "startChar": 119,
@@ -123,6 +212,30 @@
       "writtenOn": "2022-03-29T06:57:50Z",
       "side": 1,
       "message": "final, in lower case?",
+      "range": {
+        "startLine": 17,
+        "startChar": 338,
+        "endLine": 17,
+        "endChar": 343
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "800dd500_4270c1e8",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0b6bd2b6_d3caea70",
       "range": {
         "startLine": 17,
         "startChar": 338,
@@ -202,6 +315,78 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e780f5a9_db0a545d",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e99a65ee_4ee67cef",
+      "range": {
+        "startLine": 23,
+        "startChar": 258,
+        "endLine": 23,
+        "endChar": 268
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0bc76cd5_2a00034f",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3dbc5917_9f8bbbea",
+      "range": {
+        "startLine": 23,
+        "startChar": 220,
+        "endLine": 23,
+        "endChar": 227
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a7aec6c_23ea1eb3",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "439e8c1d_def64060",
+      "range": {
+        "startLine": 23,
+        "startChar": 488,
+        "endLine": 23,
+        "endChar": 494
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5cb5e08f_3b5f8f58",
@@ -215,6 +400,30 @@
       "writtenOn": "2022-03-29T06:57:50Z",
       "side": 1,
       "message": "is it worth to add the post-run too?",
+      "range": {
+        "startLine": 26,
+        "startChar": 144,
+        "endLine": 26,
+        "endChar": 148
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a390ad3a_666c3389",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "The list is not exhaustive and as it does not contain much logic as of today, I don\u0027t think it is worth mentioning here as one of the main steps",
+      "parentUuid": "5cb5e08f_3b5f8f58",
       "range": {
         "startLine": 26,
         "startChar": 144,
@@ -248,6 +457,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "44ec7c71_3bd813f8",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f4c0349f_458d9b1f",
+      "range": {
+        "startLine": 28,
+        "startChar": 349,
+        "endLine": 28,
+        "endChar": 351
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a5a9e718_5316ad2e",
@@ -271,6 +504,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1cae11ad_b32d6592",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a5a9e718_5316ad2e",
+      "range": {
+        "startLine": 34,
+        "startChar": 3,
+        "endLine": 34,
+        "endChar": 16
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "88636f30_6d5ce770",
@@ -284,6 +541,30 @@
       "writtenOn": "2022-03-29T06:57:50Z",
       "side": 1,
       "message": "YAML",
+      "range": {
+        "startLine": 36,
+        "startChar": 310,
+        "endLine": 36,
+        "endChar": 314
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8aba6055_f4d510a4",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88636f30_6d5ce770",
       "range": {
         "startLine": 36,
         "startChar": 310,
@@ -342,6 +623,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "219bfdd2_946efb61",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "hehe that was the automatic correction of G-doc which did that ^^",
+      "parentUuid": "85705aa5_63bdc607",
+      "range": {
+        "startLine": 54,
+        "startChar": 3,
+        "endLine": 54,
+        "endChar": 13
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "63963f29_bc55f651",
         "filename": "content/2022-03-28-customizable-ansible-hooks.md",
         "patchSetId": 1
@@ -353,6 +658,30 @@
       "writtenOn": "2022-03-29T06:57:50Z",
       "side": 1,
       "message": "dci_disconnected",
+      "range": {
+        "startLine": 55,
+        "startChar": 2,
+        "endLine": 55,
+        "endChar": 18
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a69a356_abb83372",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "63963f29_bc55f651",
       "range": {
         "startLine": 55,
         "startChar": 2,
@@ -386,6 +715,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "30a1d4d1_c424d4f8",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b773265e_808b94d0",
+      "range": {
+        "startLine": 56,
+        "startChar": 2,
+        "endLine": 56,
+        "endChar": 17
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "961039cf_2bae0ab8",
@@ -399,6 +752,30 @@
       "writtenOn": "2022-03-29T06:57:50Z",
       "side": 1,
       "message": "hooks",
+      "range": {
+        "startLine": 60,
+        "startChar": 35,
+        "endLine": 60,
+        "endChar": 39
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c627ae6b_829c2ca3",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "961039cf_2bae0ab8",
       "range": {
         "startLine": 60,
         "startChar": 35,
@@ -432,6 +809,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dd1e192_1913d7db",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ad4d88c1_d4c30563",
+      "range": {
+        "startLine": 62,
+        "startChar": 260,
+        "endLine": 62,
+        "endChar": 268
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2772caae_549dfc12",
@@ -445,6 +846,30 @@
       "writtenOn": "2022-03-29T06:57:50Z",
       "side": 1,
       "message": "maybe I\u0027ll put \"a next blog post\", just in case there\u0027s a new blog post before this one and it is not that one",
+      "range": {
+        "startLine": 84,
+        "startChar": 239,
+        "endLine": 84,
+        "endChar": 242
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e833d1db_40fc9cdd",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-03-29T07:30:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2772caae_549dfc12",
       "range": {
         "startLine": 84,
         "startChar": 239,
