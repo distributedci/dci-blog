@@ -434,6 +434,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e192ad1_ef81dcb4",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-03-29T10:52:27Z",
+      "side": 1,
+      "message": "Cool then!",
+      "parentUuid": "a390ad3a_666c3389",
+      "range": {
+        "startLine": 26,
+        "startChar": 144,
+        "endLine": 26,
+        "endChar": 148
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f4c0349f_458d9b1f",
@@ -635,6 +659,30 @@
       "side": 1,
       "message": "hehe that was the automatic correction of G-doc which did that ^^",
       "parentUuid": "85705aa5_63bdc607",
+      "range": {
+        "startLine": 54,
+        "startChar": 3,
+        "endLine": 54,
+        "endChar": 13
+      },
+      "revId": "ca31aff62967acc4b0756be395de996a04a26d32",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5997e775_1cc37cbc",
+        "filename": "content/2022-03-28-customizable-ansible-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-03-29T10:52:27Z",
+      "side": 1,
+      "message": "Know it! 😊 just a reminder,as you know, hehe",
+      "parentUuid": "219bfdd2_946efb61",
       "range": {
         "startLine": 54,
         "startChar": 3,
