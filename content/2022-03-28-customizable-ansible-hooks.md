@@ -18,20 +18,21 @@ The following of this article will be focused on a particular lab in Dallas whic
 
 ### A typical DCI pipeline for a Telco lab
 
-1. Deploying the core infrastructure
+#### Deploying the core infrastructure
 
 CI pipelines in Dallas are composed of two mains stages. The first one is the installation of the bare-metal Openshift Platform. In this specific context, DCI shows its strengths. The DCI Openshift Agent contains all the Ansible roles and tasks to install on bare-metal servers any version of OCP with everything to handle specific constraints of Telco environments . For example, it includes an ansible role that mirrors OCP dependencies for disconnected environnement, another to manage SRIOV cards for better network performance  or another role that installs a list of operators from the Red Hat Marketplace automatically.
 
 
 The core of this first step is an ansible playbook which is split into several ansible files that contain a set of tasks. Here is a list of the main ones:
-* **Pre-run.yml**: it prepares the environment of the jumpbox before the installation of OCP. It includes tasks like mirroring binaries locally or getting the desired version of OCP.
-* **Install.yml**: it launches the roles to install a vanilla OCP platform. It is then followed by the installation of some important operators like the ‘performance-operator’ to set up some specific configuration needed in Telco workloads. In the Dallas Lab, we are talking about bare-metal installs but the agent covers the IPI and the SNO install as well.
-* **Tests.yml** : it includes tasks that check the cluster is working properly. Test suite could run as conformance tests or CSI tests. Final results are then published in the UI of DCI.
-* **Failure.yml**: these tasks collect extra logs and publish them into DCI to help troubleshoot and understand why the job failed.
-* **Teardown.yml**: these tasks clean up the cluster when the job is finished.
+
+- **Pre-run.yml**: it prepares the environment of the jumpbox before the installation of OCP. It includes tasks like mirroring binaries locally or getting the desired version of OCP.
+- **Install.yml**: it launches the roles to install a vanilla OCP platform. It is then followed by the installation of some important operators like the ‘performance-operator’ to set up some specific configuration needed in Telco workloads. In the Dallas Lab, we are talking about bare-metal installs but the agent covers the IPI and the SNO install as well.
+- **Tests.yml** : it includes tasks that check the cluster is working properly. Test suite could run as conformance tests or CSI tests. Final results are then published in the UI of DCI.
+- **Failure.yml**: these tasks collect extra logs and publish them into DCI to help troubleshoot and understand why the job failed.
+- **Teardown.yml**: these tasks clean up the cluster when the job is finished.
 
 
-2. Parametrizing the pipeline
+#### Parametrizing the pipeline
 
 All tasks and playbooks mentioned above are provided by Red Hat Teams and are highly customizable! The DCI Openshift Agent is covering the common tasks needed in all OCP installations and then, partners can parameterize the pipeline to fit their needs. It is done by the usage of variables defined in a simple YAML file that describes the execution of the agent. Here is an example of such file:
 
@@ -57,7 +58,7 @@ In this example, this file is piloting and centralizing complex tasks of the ins
 The example is not exhaustive, if you want to see all the possibilities built in the [DCI Openshift Agent, check the code here](https://github.com/redhat-cip/dci-Openshift-agent).
 
 
-3. Customize the pipeline by using hooks
+#### Customize the pipeline by using hooks
 
 As Telco partners have specific needs, some external plugins are requested such as a specific load-balancer or a solution to manage storage and volumes inside the cluster. The setup of these external solutions are not handled by Red Hat teams but by partners themselves. That’s why the hook system is coming into the place!
 
