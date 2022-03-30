@@ -1,0 +1,8 @@
+Code-Review+2: Charles CAPORALI <ccaporal@redhat.com>
+Workflow+1: Charles CAPORALI <ccaporal@redhat.com>
+Verified+2: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-by: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-at: Wed, 30 Mar 2022 16:53:48 +0000
+Reviewed-on: https://softwarefactory-project.io/r/c/dci-blog/+/24466
+Project: dci-blog
+Branch: refs/heads/master
