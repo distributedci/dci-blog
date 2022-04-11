@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d062f92_d2a53c42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 166
+      },
+      "writtenOn": "2022-04-11T10:57:25Z",
+      "side": 1,
+      "message": "Thanks Yassine.\n",
+      "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "230d3d77_bc4408fd",
@@ -14,6 +31,24 @@
       "writtenOn": "2022-04-11T01:33:57Z",
       "side": 1,
       "message": "\"interact with DCI Python API\"  -\u003e \"interact with DCI through the Python API\" ?",
+      "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7edbad4a_87af7ab4",
+        "filename": "content/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 166
+      },
+      "writtenOn": "2022-04-11T10:57:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "230d3d77_bc4408fd",
       "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -35,6 +70,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f779530_2c9db08d",
+        "filename": "content/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 166
+      },
+      "writtenOn": "2022-04-11T10:57:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "9b057e1f_7cf9a11c",
+      "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "26bd4a45_119bad54",
@@ -48,6 +101,24 @@
       "writtenOn": "2022-04-11T01:33:57Z",
       "side": 1,
       "message": "s/mijor/minor",
+      "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3fd41c28_76d25a3f",
+        "filename": "content/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 166
+      },
+      "writtenOn": "2022-04-11T10:57:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "26bd4a45_119bad54",
       "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -69,6 +140,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac0403f3_6a029b50",
+        "filename": "content/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 166
+      },
+      "writtenOn": "2022-04-11T10:57:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5bb813f0_727908f2",
+      "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2727643e_84b8f679",
@@ -82,6 +171,24 @@
       "writtenOn": "2022-04-11T01:33:57Z",
       "side": 1,
       "message": "some words on the etag ?",
+      "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7653c991_aeba8c09",
+        "filename": "content/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 166
+      },
+      "writtenOn": "2022-04-11T10:57:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2727643e_84b8f679",
       "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
