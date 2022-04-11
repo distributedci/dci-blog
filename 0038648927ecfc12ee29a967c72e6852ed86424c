@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "230d3d77_bc4408fd",
+        "filename": "content/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-04-11T01:33:57Z",
+      "side": 1,
+      "message": "\"interact with DCI Python API\"  -\u003e \"interact with DCI through the Python API\" ?",
+      "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b057e1f_7cf9a11c",
+        "filename": "content/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-04-11T01:33:57Z",
+      "side": 1,
+      "message": "should remove this one ?",
+      "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26bd4a45_119bad54",
+        "filename": "content/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-04-11T01:33:57Z",
+      "side": 1,
+      "message": "s/mijor/minor",
+      "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5bb813f0_727908f2",
+        "filename": "content/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-04-11T01:33:57Z",
+      "side": 1,
+      "message": "maybe providing explicitly the topic_id parameter ?",
+      "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2727643e_84b8f679",
+        "filename": "content/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-04-11T01:33:57Z",
+      "side": 1,
+      "message": "some words on the etag ?",
+      "revId": "0038648927ecfc12ee29a967c72e6852ed86424c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
