@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "614ea196_6c30da5e",
+        "filename": "content/2022-04-22-sno-deployments-with-dci-under-the-hood.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-04-22T14:45:00Z",
+      "side": 1,
+      "message": "Add a line between headers",
+      "revId": "6d74259780cc51953e33283a9838bff6a61b6336",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ace44413_a369093d",
+        "filename": "content/2022-04-22-sno-deployments-with-dci-under-the-hood.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-04-22T14:45:00Z",
+      "side": 1,
+      "message": "Add a line  so the numbering is indented automatically",
+      "revId": "6d74259780cc51953e33283a9838bff6a61b6336",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9345f59_483ffe53",
+        "filename": "content/2022-04-22-sno-deployments-with-dci-under-the-hood.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-04-22T14:45:00Z",
+      "side": 1,
+      "message": "Add a line and you could use 1. instead of 2. and the md rendering will take are of adding the right number for you.",
+      "revId": "6d74259780cc51953e33283a9838bff6a61b6336",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "133132bd_fd2ed594",
+        "filename": "content/2022-04-22-sno-deployments-with-dci-under-the-hood.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-04-22T14:45:00Z",
+      "side": 1,
+      "message": "nit: remove spaces at the end of the lines",
+      "revId": "6d74259780cc51953e33283a9838bff6a61b6336",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
