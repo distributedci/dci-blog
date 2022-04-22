@@ -16,6 +16,23 @@
       "message": "Thanks for checking Tony, I fixed those format issues.",
       "revId": "83bd2b4b10590ea790cba6b0d92e9dd4cbce74ee",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c825f46_61fbd5f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-04-22T15:43:18Z",
+      "side": 1,
+      "message": "LGTM, Thanks! Let\u0027s publish this one 🎉",
+      "revId": "83bd2b4b10590ea790cba6b0d92e9dd4cbce74ee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
