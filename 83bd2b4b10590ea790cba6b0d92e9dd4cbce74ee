@@ -33,6 +33,23 @@
       "message": "LGTM, Thanks! Let\u0027s publish this one 🎉",
       "revId": "83bd2b4b10590ea790cba6b0d92e9dd4cbce74ee",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3f14bb3_d55ceebc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-04-22T16:00:04Z",
+      "side": 1,
+      "message": "thanks!",
+      "revId": "83bd2b4b10590ea790cba6b0d92e9dd4cbce74ee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
