@@ -41,6 +41,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f39014e2_f5ef1c1d",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-04-27T16:01:56Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "1361c881_83559725",
+      "range": {
+        "startLine": 15,
+        "startChar": 192,
+        "endLine": 15,
+        "endChar": 230
+      },
+      "revId": "3b745d3fd956fc0764739623d1c02393847d2fed",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ee8d84b3_467a5ee1",
@@ -64,6 +88,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7977a8ae_a1f77e41",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-04-27T16:01:56Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ee8d84b3_467a5ee1",
+      "range": {
+        "startLine": 83,
+        "startChar": 102,
+        "endLine": 83,
+        "endChar": 104
+      },
+      "revId": "3b745d3fd956fc0764739623d1c02393847d2fed",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1bdf2bd_2fa91986",
@@ -77,6 +125,30 @@
       "writtenOn": "2022-04-27T15:17:24Z",
       "side": 1,
       "message": "Whitespace here and there are more below, just take care of them",
+      "range": {
+        "startLine": 92,
+        "startChar": 47,
+        "endLine": 92,
+        "endChar": 49
+      },
+      "revId": "3b745d3fd956fc0764739623d1c02393847d2fed",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9d6536e_ab8132bd",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-04-27T16:01:56Z",
+      "side": 1,
+      "message": "Thanks, these were needed so it can preserve the multilines, is an issue with the rendering of md, but I\u0027ve switched to use html, it should be fixed in the latest patch",
+      "parentUuid": "c1bdf2bd_2fa91986",
       "range": {
         "startLine": 92,
         "startChar": 47,
