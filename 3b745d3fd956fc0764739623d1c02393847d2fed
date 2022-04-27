@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aabd6ce6_41fc07aa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-04-27T15:17:24Z",
+      "side": 1,
+      "message": "Such a nice blog post Tony, leaving some minor suggestions and warning you about some whitespaces, but in general it is quite fine from my side!",
+      "revId": "3b745d3fd956fc0764739623d1c02393847d2fed",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1361c881_83559725",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-04-27T15:17:24Z",
+      "side": 1,
+      "message": "Maybe this sentence can be linked to the previous one with a comma and using something like \"so that...\"",
+      "range": {
+        "startLine": 15,
+        "startChar": 192,
+        "endLine": 15,
+        "endChar": 230
+      },
+      "revId": "3b745d3fd956fc0764739623d1c02393847d2fed",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee8d84b3_467a5ee1",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-04-27T15:17:24Z",
+      "side": 1,
+      "message": "Whitespace",
+      "range": {
+        "startLine": 83,
+        "startChar": 102,
+        "endLine": 83,
+        "endChar": 104
+      },
+      "revId": "3b745d3fd956fc0764739623d1c02393847d2fed",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1bdf2bd_2fa91986",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-04-27T15:17:24Z",
+      "side": 1,
+      "message": "Whitespace here and there are more below, just take care of them",
+      "range": {
+        "startLine": 92,
+        "startChar": 47,
+        "endLine": 92,
+        "endChar": 49
+      },
+      "revId": "3b745d3fd956fc0764739623d1c02393847d2fed",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
