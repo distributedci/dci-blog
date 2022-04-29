@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "268ba7f0_9c239bb0",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-04-29T13:59:06Z",
+      "side": 1,
+      "message": "good catch about the TOPIC_ID",
+      "revId": "a6e894004c3ee0f0970ebcd5dd61f5d3e5f461d1",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
