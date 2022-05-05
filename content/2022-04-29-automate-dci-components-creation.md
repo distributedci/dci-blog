@@ -97,10 +97,10 @@ $(type -p pip3 pip | head -1) install --user --upgrade dciclient
 
     <pre>
     TOPIC_ID=$( dcictl \
-                 -–format json \
+                 --format json \
                  topic-list \
                  --where "name:OCP-4.10" |
-                jq -r '.products[].id' )
+                jq -r '.topics[].id' )
     </pre>
 
 1. Create the component
