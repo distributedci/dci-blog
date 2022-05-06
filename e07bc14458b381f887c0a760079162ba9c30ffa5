@@ -1,0 +1,8 @@
+Code-Review+2: Tony Garcia <tonyg@redhat.com>
+Workflow+1: Tony Garcia <tonyg@redhat.com>
+Verified+2: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-by: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-at: Fri, 06 May 2022 17:19:41 +0000
+Reviewed-on: https://softwarefactory-project.io/r/c/dci-blog/+/24810
+Project: dci-blog
+Branch: refs/heads/master
