@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "143ddba7_5432c9a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-05-06T15:47:30Z",
+      "side": 1,
+      "message": "Ramon, in you didn\u0027t know Tony told me how to check the blog will look like before posting, just run   \n\"make devserver\" in the dci-blog repo and go to 127.0.0.1:8000 in your browser.",
+      "revId": "f90adba6f5f9c17489040bbd21a5926461de150d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
