@@ -34,18 +34,18 @@ After deploying the workloads to be tested by CNF Cert Suite, in the DCI Red Hat
 - Save images related to CNF Cert Suite execution in a provided local registry if we are in a disconnected environment.
 - Create a temporary directory to clone `test-network-function` (TNF) repo.
 - Clone the correct TNF version, depending if we are testing a stable branch or a pull request from the CNF Cert Suite repository:
-  - If testing a pull request, the container image is built, based on the code included in the pull request. A customized DCI component is also created based on the latest commit SHA hash in the pull request.
-  - If testing a stable branch, download the container image from Quay.
+    - If testing a pull request, the container image is built, based on the code included in the pull request. A customized DCI component is also created based on the latest commit SHA hash in the pull request.
+    - If testing a stable branch, download the container image from Quay.
 - Generate the configuration file, based on a template, which takes care of filling the following fields:
-  - `targetNameSpaces`, including the namespaces from which the certification suite has to look for auto-discovery labels.
-  - `targetPodLabels`, defining the auto-discovery labels to be checked by the suite.
-  - `acceptedKernelTaints`, including the tainted modules.
+    - `targetNameSpaces`, including the namespaces from which the certification suite has to look for auto-discovery labels.
+    - `targetPodLabels`, defining the auto-discovery labels to be checked by the suite.
+    - `acceptedKernelTaints`, including the tainted modules.
 - Run CNF Cert Suite with the correct parameters, being able to tune configurations like the location of the partner repository, the log level, the type of tests (intrusive or safe), etc.
 - Copy the log files generated in the execution in a log folder, to be uploaded to DCI afterwards. Four main files are gathered after the execution:
-  - The created configuration file.
-  - The generated `claim.json` file by the CNF Cert Suite.
-  - The XML file containing the test results in JUnit format.
-  - A file called `execution.log`, containing the standard output and standard error from the execution of the certification suite.
+    - The created configuration file.
+    - The generated `claim.json` file by the CNF Cert Suite.
+    - The XML file containing the test results in JUnit format.
+    - A file called `execution.log`, containing the standard output and standard error from the execution of the certification suite.
 
 Then, after finishing the tests, in the DCI `post-run` phase, the environment is cleaned in the following way:
 
@@ -61,24 +61,24 @@ The configuration does not include the deployment of the workloads (containers, 
 The main variables to have in mind, whose default values are [these](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/group_vars/all) for some generic variables, and [these](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/roles/cnf-cert/defaults/main.yml) for some specific variables related to the certification suite, are the following:
 
 - Generic:
-  - `do_cnf_cert`: boolean variable that activates or not the execution of the CNF Cert Suite.
-  - `dci_disconnected`: boolean variable that indicates if we are in a disconnected environment or not.
-  - `provisionhost_registry`: registry to be used on disconnected environments.
-  - `partner_creds`: file including partner credentials to access private registries.
-  - `sync_cnf_cert_and_preflight`: boolean variable that activates or not the gathering of the data related to operators tested by CNF Cert Suite, as well as to validate operators and container images via a role called `preflight`. More information regarding this functionality is available in its [specific role](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/sync-cnf-cert-and-preflight).
+    - `do_cnf_cert`: boolean variable that activates or not the execution of the CNF Cert Suite.
+    - `dci_disconnected`: boolean variable that indicates if we are in a disconnected environment or not.
+    - `provisionhost_registry`: registry to be used on disconnected environments.
+    - `partner_creds`: file including partner credentials to access private registries.
+    - `sync_cnf_cert_and_preflight`: boolean variable that activates or not the gathering of the data related to operators tested by CNF Cert Suite, as well as to validate operators and container images via a role called `preflight`. More information regarding this functionality is available in its [specific role](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/sync-cnf-cert-and-preflight).
 - Specific:
-  - `test_network_function_version`: allows to indicate the CNF Cert Suite version to use, pointing to a specific release version or to the latest code released, referenced with `HEAD`. `HEAD` version (in the main branch) can be used, but is not guaranteed.
-  - `tnf_suites`: list of executed test suites by the CNF Cert Suite, separated by spaces.
-  - `tnf_config`: complex variable used to fill the CNF Cert Suite configuration file, allowing to test multiple resources on different namespaces, and including a list of elements composed by:
-    - `namespace`: namespace in which we want to autodiscover workloads.
-    - `targetpodlabels`: list of auto-discovery labels to consider by the CNF Cert Suite for pod testing.
-    - `operators_regexp`<sup>1</sup> (optional): a regular expresion (regex) to select operators to be tested by the CNF Cert Suite.
-    - `exclude_connectivity_regexp`<sup>1</sup> (optional): a regex to exclude containers from the connectivity test.
-  - `accepted_kernel_taints`: allow-list for tainted modules. It must be composed of a list of elements called `module: "<module_name>"`.
-  - `tnf_non_intrusive_only`: skip intrusive tests which may disrupt cluster operations.
-  - `tnf_run_cfd_test`: run the test suites from [openshift-kni/cnf-feature-deploy](https://github.com/openshift-kni/cnf-features-deploy) prior to the actual CNF certification test execution. The results are incorporated in the same claim.
-  - `tnf_log_level`: log level in the CNF Cert Suite.
-  - `tnf_postrun_delete_resources`: boolean variable, to whether or not keep resources after the CNF Cert Suite execution. Used for debugging purposes.
+    - `test_network_function_version`: allows to indicate the CNF Cert Suite version to use, pointing to a specific release version or to the latest code released, referenced with `HEAD`. `HEAD` version (in the main branch) can be used, but is not guaranteed.
+    - `tnf_suites`: list of executed test suites by the CNF Cert Suite, separated by spaces.
+    - `tnf_config`: complex variable used to fill the CNF Cert Suite configuration file, allowing to test multiple resources on different namespaces, and including a list of elements composed by:
+        - `namespace`: namespace in which we want to autodiscover workloads.
+        - `targetpodlabels`: list of auto-discovery labels to consider by the CNF Cert Suite for pod testing.
+        - `operators_regexp`<sup>1</sup> (optional): a regular expresion (regex) to select operators to be tested by the CNF Cert Suite.
+        - `exclude_connectivity_regexp`<sup>1</sup> (optional): a regex to exclude containers from the connectivity test.
+    - `accepted_kernel_taints`: allow-list for tainted modules. It must be composed of a list of elements called `module: "<module_name>"`.
+    - `tnf_non_intrusive_only`: skip intrusive tests which may disrupt cluster operations.
+    - `tnf_run_cfd_test`: run the test suites from [openshift-kni/cnf-feature-deploy](https://github.com/openshift-kni/cnf-features-deploy) prior to the actual CNF certification test execution. The results are incorporated in the same claim.
+    - `tnf_log_level`: log level in the CNF Cert Suite.
+    - `tnf_postrun_delete_resources`: boolean variable, to whether or not keep resources after the CNF Cert Suite execution. Used for debugging purposes.
 
 <sup>1</sup> The logic for these settings requires an implementation. See examples in the following section.
 
@@ -97,34 +97,34 @@ It also deploys an operator in one of the namespaces, based on [simple-demo-oper
 Here are the steps on each hook for this example:
 
 - `pre-run`:
-  - Install required RPM packages.
-  - Prepare the operator for disconnected environments.
+    - Install required RPM packages.
+    - Prepare the operator for disconnected environments.
 - `install`:
-  - Create namespaces and deploy (based on [this template](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/samples/tnf_test_example/hooks/templates/test_deployment.yml.j2)) test pods on each namespace. Here, it is possible to create `skip_connectivity_tests` label when the `exclude_connectivity_regexp` variable is defined in the `tnf_config`.
-  - Deploy `simple-demo-operator` in one of the two namespaces under test.
-  - Tag `simple-demo-operator` CSV with the auto-discovery label when `operators_regexp` is defined in the `tnf_config`.
+    - Create namespaces and deploy (based on [this template](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/samples/tnf_test_example/hooks/templates/test_deployment.yml.j2)) test pods on each namespace. Here, it is possible to create `skip_connectivity_tests` label when the `exclude_connectivity_regexp` variable is defined in the `tnf_config`.
+    - Deploy `simple-demo-operator` in one of the two namespaces under test.
+    - Tag `simple-demo-operator` CSV with the auto-discovery label when `operators_regexp` is defined in the `tnf_config`.
 - `teardown`:
-  - Delete the namespaces under test if not done before (so, the workloads are automatically removed).
-  - Delete the resources related to `simple-demo-operator`.
+    - Delete the namespaces under test if not done before (so, the workloads are automatically removed).
+    - Delete the resources related to `simple-demo-operator`.
 
 ### Variables to have in mind
 
-To deploy this example, it is needed to define the following variables: 
+To deploy this example, it is needed to define the following variables:
 
 - `dci_config_dir`: it must point to `"/var/lib/dci-openshift-app-agent/samples/tnf_test_example"`, place in which this example is defined. This variable allows to incorporate the hooks defined there to the execution of `dci-openshift-app-agent`.
 - `dci_openshift_app_image`: it references the image to be used by the workloads. In this case, it must point to `“quay.io/testnetworkfunction/cnf-test-partner:latest”`.
 - `dci_openshift_app_ns`: base namespace to deploy workloads. It must be set to `“test-cnf"`.
 - `tnf_config`: defining two elements, to deploy the workload in two different namespaces. In one of them, `simple-demo-operator` is referenced. When showing an example of DCI job, the full definition of this variable will be provided.
 - `tnf_operator_to_install`: references the information related to `simple-demo-operator`, including:
-  - `operator_name`: it would be `“simple-demo-operator”`.
-  - `operator_version`: referencing the correct version of the operator. In the tests, it is used `“v0.0.5”`.
-  - `operator_bundle`: including the bundle for the operator. In our case, it would be `"quay.io/telcoci/simple-demo-operator-bundle@sha256:8a4b6e4a430a520b438d91c5ecb815de3c49b204488dafd910d2a450ede1692a"`.
+    - `operator_name`: it would be `“simple-demo-operator”`.
+    - `operator_version`: referencing the correct version of the operator. In the tests, it is used `“v0.0.5”`.
+    - `operator_bundle`: including the bundle for the operator. In our case, it would be `"quay.io/telcoci/simple-demo-operator-bundle@sha256:8a4b6e4a430a520b438d91c5ecb815de3c49b204488dafd910d2a450ede1692a"`.
 
 ## Example of DCI job running tnf_test_example with CNF Cert Suite
 
 In order to execute an example of a DCI job, managed by `dci-openshift-app-agent`, making use of the `tnf_test_example` and running CNF Cert Suite, just follow these steps:
 
-1. Confirm you have a cluster up and running:
+- Confirm you have a cluster up and running:
 
 ```Shell
 $ export KUBECONFIG=/var/lib/dci-openshift-app-agent/kubeconfig
@@ -141,7 +141,7 @@ master-1   Ready    master,worker   12h   v1.23.3+54654d2
 master-2   Ready    master,worker   12h   v1.23.3+54654d2
 ```
 
-2. Create a `settings.yml` file and place it in `/etc/dci-openshift-app-agent/settings.yml`, with the following content:
+- Create a `settings.yml` file and place it in `/etc/dci-openshift-app-agent/settings.yml`, with the following content:
 
 ```Shell
 $ cat /etc/dci-openshift-app-agent/settings.yml
@@ -175,14 +175,15 @@ tnf_operator_to_install:
 ...
 ```
 
-3. Run `dci-openshift-app-agent`:
+- Run `dci-openshift-app-agent`:
 
 ```Shell
 $ dci-openshift-app-agent-ctl -s -- -v
 ```
 
-4. Check the status of the DCI job until it finishes.
-5. Check the results.
+- Check the status of the DCI job until it finishes.
+
+- Check the results.
 
 Finally, you should have a DCI job like [this one](https://www.distributed-ci.io/jobs/185e2c6e-549b-4dd7-bbf0-8b149ee45737/jobStates), which was done in a connected environment. There, you can observe the results obtained. Mainly, you have to take care of the following:
 
