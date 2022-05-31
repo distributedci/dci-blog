@@ -1,0 +1,205 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc4d49c2_9afaaccf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-05-31T08:57:11Z",
+      "side": 1,
+      "message": "Some comments from my side, some of them repeated from the Google doc",
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55c57df8_11037652",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-05-31T08:57:11Z",
+      "side": 1,
+      "message": "I commented this in the google doc: Maybe we can add 1-2 lines to explain what testpmd-operator is?",
+      "range": {
+        "startLine": 27,
+        "startChar": 41,
+        "endLine": 27,
+        "endChar": 107
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89129c72_2f99e260",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-05-31T08:57:11Z",
+      "side": 1,
+      "message": "Several extra whitespaces to be removed starting here",
+      "range": {
+        "startLine": 29,
+        "startChar": 227,
+        "endLine": 29,
+        "endChar": 228
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b87db41d_d21a28f8",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-05-31T08:57:11Z",
+      "side": 1,
+      "message": "commented by Charles: Is a regular user enough for running the certification? or do you need a user with admin rights?",
+      "range": {
+        "startLine": 35,
+        "startChar": 10,
+        "endLine": 35,
+        "endChar": 20
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b4afb91_ebd1fead",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-05-31T08:57:11Z",
+      "side": 1,
+      "message": "Maybe you can follow the approach I followed to introduce commands, using \u003cpre\u003e tags: https://softwarefactory-project.io/r/c/dci-blog/+/24810",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 69
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6a52608_70839355",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-05-31T08:57:11Z",
+      "side": 1,
+      "message": "commented in Google doc: Maybe we can add here the link to the preflight README in d-o-a-a repo",
+      "range": {
+        "startLine": 40,
+        "startChar": 15,
+        "endLine": 40,
+        "endChar": 27
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7aae7ee_bd517162",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-05-31T08:57:11Z",
+      "side": 1,
+      "message": "commented by Charles: Not all DCI users would be able to see this job as it is under \u0027telco-ci-lab\u0027 team",
+      "range": {
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 119,
+        "endChar": 209
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4790cfe7_aa36c2b8",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-05-31T08:57:11Z",
+      "side": 1,
+      "message": "(this applies for other variables defined in the text as well), I\u0027d put `pyxis_container_identifier`",
+      "range": {
+        "startLine": 147,
+        "startChar": 262,
+        "endLine": 147,
+        "endChar": 288
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c66ec273_43d311cd",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-05-31T08:57:11Z",
+      "side": 1,
+      "message": "From google doc:\nThis variable, and also  pyxis_apikey_path, were already mentioned in the previous section, \"How to run Preflight tests with DCI\".\nWith this text, it looks like we were not using these variables in previous DCI jobs, but when having check container green results, then we define the variables. However, when defining the settings.yml in the previous section, these variables were already present, so that, in theory, these steps should have already been done. Maybe this section should be written prior to \"How to run Preflight tests with DCI\", or split it in two parts: one to explain the interaction with connect.redhat.com, and the other to explain the result obtained on DCI?",
+      "range": {
+        "startLine": 147,
+        "startChar": 242,
+        "endLine": 147,
+        "endChar": 260
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
