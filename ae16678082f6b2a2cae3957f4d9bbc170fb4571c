@@ -41,6 +41,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9f0a9cd_f5b6fc58",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-05-31T19:57:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "55c57df8_11037652",
+      "range": {
+        "startLine": 27,
+        "startChar": 41,
+        "endLine": 27,
+        "endChar": 107
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "89129c72_2f99e260",
@@ -54,6 +78,30 @@
       "writtenOn": "2022-05-31T08:57:11Z",
       "side": 1,
       "message": "Several extra whitespaces to be removed starting here",
+      "range": {
+        "startLine": 29,
+        "startChar": 227,
+        "endLine": 29,
+        "endChar": 228
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d251623e_1d1c52bb",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-05-31T19:57:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "89129c72_2f99e260",
       "range": {
         "startLine": 29,
         "startChar": 227,
@@ -87,6 +135,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "be1d3911_2cfba5e9",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-05-31T19:57:49Z",
+      "side": 1,
+      "message": "I\u0027d prefer to have a separate article on how to install and run d-o-a-a. These details are not really relevant here, imho it\u0027s a topic aside.\n\nConcerning the question - I guess the user should have admin permissions on the cluster, otherwise we could not retrieve job logs. Concerning sudo/no-sudo - no idea, I asked Pierre but he used sudo-user as well.",
+      "parentUuid": "b87db41d_d21a28f8",
+      "range": {
+        "startLine": 35,
+        "startChar": 10,
+        "endLine": 35,
+        "endChar": 20
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1b4afb91_ebd1fead",
@@ -100,6 +172,30 @@
       "writtenOn": "2022-05-31T08:57:11Z",
       "side": 1,
       "message": "Maybe you can follow the approach I followed to introduce commands, using \u003cpre\u003e tags: https://softwarefactory-project.io/r/c/dci-blog/+/24810",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 69
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b307b260_f8035fec",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-05-31T19:57:49Z",
+      "side": 1,
+      "message": "I\u0027d usually prefer a CSS approach. Here everything is displayed well, it\u0027s verified.",
+      "parentUuid": "1b4afb91_ebd1fead",
       "range": {
         "startLine": 37,
         "startChar": 0,
@@ -133,6 +229,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fea7dbc6_58090a6e",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-05-31T19:57:49Z",
+      "side": 1,
+      "message": "Good idea, did it, thanks!",
+      "parentUuid": "f6a52608_70839355",
+      "range": {
+        "startLine": 40,
+        "startChar": 15,
+        "endLine": 40,
+        "endChar": 27
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b7aae7ee_bd517162",
@@ -146,6 +266,30 @@
       "writtenOn": "2022-05-31T08:57:11Z",
       "side": 1,
       "message": "commented by Charles: Not all DCI users would be able to see this job as it is under \u0027telco-ci-lab\u0027 team",
+      "range": {
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 119,
+        "endChar": 209
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d8125be_12bf2c91",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-05-31T19:57:49Z",
+      "side": 1,
+      "message": "Good point, I honestly don\u0027t know what to do about it. What is better - to keep the link with restricted access or to remove it? Wdyt?",
+      "parentUuid": "b7aae7ee_bd517162",
       "range": {
         "startLine": 119,
         "startChar": 0,
@@ -192,6 +336,54 @@
       "writtenOn": "2022-05-31T08:57:11Z",
       "side": 1,
       "message": "From google doc:\nThis variable, and also  pyxis_apikey_path, were already mentioned in the previous section, \"How to run Preflight tests with DCI\".\nWith this text, it looks like we were not using these variables in previous DCI jobs, but when having check container green results, then we define the variables. However, when defining the settings.yml in the previous section, these variables were already present, so that, in theory, these steps should have already been done. Maybe this section should be written prior to \"How to run Preflight tests with DCI\", or split it in two parts: one to explain the interaction with connect.redhat.com, and the other to explain the result obtained on DCI?",
+      "range": {
+        "startLine": 147,
+        "startChar": 242,
+        "endLine": 147,
+        "endChar": 260
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80634278_0a266f81",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-05-31T19:57:49Z",
+      "side": 1,
+      "message": "nice catch, done!",
+      "parentUuid": "4790cfe7_aa36c2b8",
+      "range": {
+        "startLine": 147,
+        "startChar": 262,
+        "endLine": 147,
+        "endChar": 288
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c94dc56_c2974b89",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-05-31T19:57:49Z",
+      "side": 1,
+      "message": "Yes, it\u0027s already like this, \"Debug test results with DCI UI\" and \"E2E certification with DCI\".",
+      "parentUuid": "c66ec273_43d311cd",
       "range": {
         "startLine": 147,
         "startChar": 242,

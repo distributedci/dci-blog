@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1023c421_28a12038",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-05-31T19:57:49Z",
+      "side": 1,
+      "message": "Hi Ramon and Charles, \n\nthank you for the review. I fixed almost everything except two comments by Charles:\n- About restricted-access link to the DCI job. To be honest, don\u0027t know to keep or not. I believe we can\u0027t have a wide-open DCI access.\n- I should add info about health status ranking displayed in the certification UI. ",
+      "revId": "2f464420a431f5578b338f5b142010487db6d4a4",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
