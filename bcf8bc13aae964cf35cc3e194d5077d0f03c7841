@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "178518dd_55ddd78f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-06-01T08:15:25Z",
+      "side": 1,
+      "message": "Hello Charles, Ramon, and Beto, thank you again for the review, the requested changes are applied and CR is ready to be merged.",
+      "revId": "bcf8bc13aae964cf35cc3e194d5077d0f03c7841",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
