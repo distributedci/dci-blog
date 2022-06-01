@@ -302,6 +302,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e292f767_37be0cc6",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-06-01T10:59:55Z",
+      "side": 1,
+      "message": "We can leave it for the moment, if anybody complains, the blog post can be modified afterwards if needed",
+      "parentUuid": "6d8125be_12bf2c91",
+      "range": {
+        "startLine": 119,
+        "startChar": 0,
+        "endLine": 119,
+        "endChar": 209
+      },
+      "revId": "ae16678082f6b2a2cae3957f4d9bbc170fb4571c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4790cfe7_aa36c2b8",
         "filename": "content/2022-05-30-preflight-integration-in-dci.md",
         "patchSetId": 1

@@ -16,6 +16,23 @@
       "message": "Hello Charles, Ramon, and Beto, thank you again for the review, the requested changes are applied and CR is ready to be merged.",
       "revId": "bcf8bc13aae964cf35cc3e194d5077d0f03c7841",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ab2546a_197e813d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-06-01T10:59:55Z",
+      "side": 1,
+      "message": "Thanks Tatiana for addressing all the comments! LGTM",
+      "revId": "bcf8bc13aae964cf35cc3e194d5077d0f03c7841",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
