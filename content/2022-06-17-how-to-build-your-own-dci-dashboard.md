@@ -6,7 +6,6 @@ Slug: how-to-build-your-own-dci-dashboard
 Authors: Olivier Petit
 Summary: Everydays, Red Hat DCI platform runs hundreds of jobs from different teams and partners, with all our products, with different purposes: debugging, certifications, tests, daily activities etc. You may need to build a dedicated dashboard to follow your own specific activity, display graphical results, study some specific datas or identify specific job behaviors. For such requirements, Google spreadsheet can provide you facilities to implement your ideas in a few minutes In this blog post, you will learn how to quickly build a dashboard with Google spreadsheet by requesting DCI data, get it dynamic and send a pdf report by email periodically.
 
-## Introduction
 
 Everydays, [Red Hat DCI platform](https://www.distributed-ci.io/jobs?page=1&perPage=20) runs hundreds of jobs from different teams and partners, with all our products, with different purposes: debugging, certifications, tests, daily activities etc.
 
@@ -111,11 +110,8 @@ Here is the result:
 ## Send my report by email
 
 Let's assume we use the last example in the tab renamed “myReport”.
-Before to launch “Sent report by email” from Script Menu, you need to customize the script by catching SSID (spreadsheet id) and GID (sheet ID) of your current sheet from url:
+Before to launch “Sent report by email” from Script Menu, you need to customize the script by catching SSID (spreadsheet id) and GID (sheet ID) of your current sheet from url: [Sheet URL sample](https://docs.google.com/spreadsheets/d/1JxWyHnslKRdosWaGujgKs8SrpKKCzXXXXXG8P4JfOc/edit#gid=665341234)
 
-> Sheet URL sample:
->
->       https://docs.google.com/spreadsheets/d/1JxWyHnslKRdosWaGujgKs8SrpKKCzXXXXXG8P4JfOc/edit#gid=665341234
 
 Then update the script in exportSpreadSheet() function:
 
@@ -137,17 +133,18 @@ To manipulate a set of data by label versus relative position in a spreadsheet, 
 
 Here is how to set a named range for Topic (Data!C13:C) in our example
 
-- Menu Data / Named Ranges, name: Topic, Range: Data!E13:E
+    Menu Data / Named Ranges, name: Topic, Range: Data!E13:E
 
 ### Filters
 
 Filter function can extend the pivot table feature with flexibility on data to transform and display.
 
-> Here is an example:
->
-> Let’s assume we need to extract the last not successful execution of a job in the last 5 days and show a concatenation of comment and reason data in a same cell:
->
->       =filter({Created_At,pipeline_name,OCP_version,Status,"["&Comment&"] "&reason},date(year(Created_At),month(Created_At),day(Created_At))> today()-5,Status<>"success",Daily=TRUE)
+
+Here is an example:
+
+Let’s assume we need to extract the last not successful execution of a job in the last 5 days and show a concatenation of comment and reason data in a same cell:
+
+    =filter({Created_At,pipeline_name,OCP_version,Status,"["&Comment&"] "&reason},date(year(Created_At),month(Created_At),day(Created_At))> today()-5,Status<>"success",Daily=TRUE)
 
 ### Presentation & other tips
 
