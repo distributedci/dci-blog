@@ -4,9 +4,7 @@ Category: DCI
 Tags: introduction, dci
 Slug: introduction-to-the-red-hat-distributed-ci-python-api
 Authors: Haïkel Guémar
-Summary: In a previous post, you have been introduced to [Red Hat Distributed CI (DCI) infrastructure](introduction-to-the-red-hat-distributed-ci.html) and how it enables Red Hat partners to integrate into Red Hat CI workflow. Now, we will be focusing on how to interact with DCI through the Python API.
-
-In a previous post, you have been introduced to [Red Hat Distributed CI (DCI) infrastructure](introduction-to-the-red-hat-distributed-ci.html) and how it enables Red Hat partners to integrate into Red Hat CI workflow. Now, we will be focusing on how to interact with DCI Python API.
+Summary: In a previous post, you have been introduced to Red Hat Distributed CI (DCI) infrastructure and how it enables Red Hat partners to integrate into Red Hat CI workflow. Now, we will be focusing on how to interact with DCI through the Python API.
 
 
 ## How to interact with DCI infrastructure
