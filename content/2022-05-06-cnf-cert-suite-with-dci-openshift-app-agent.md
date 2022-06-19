@@ -6,7 +6,6 @@ Slug: cnf-cert-suite-with-dci-openshift-app-agent
 Authors: Ramon Perez
 Summary: The dci-openshift-app-agent enables Cloud-Native Applications and Operators in OpenShift using the Red Hat Distributed CI service. It also includes the possibility of running a set of certification tools over the workloads deployed by this agent, including the CNF Cert Suite, which allows CNF Developers to test their CNFs readiness for certification. This blog post summarizes the main points to have in mind when running CNF Cert Suite with the dci-openshift-app-agent, also providing an example.
 
-## Introduction
 
 The [dci-openshift-app-agent](https://github.com/redhat-cip/dci-openshift-app-agent) supports the execution of multiple test suites to validate containers, virtual functions, Helm charts, and operators. These suites are built as Ansible roles, helping the partners on getting prepared for the Red Hat certifications or actually running the certification process on the workloads deployed via DCI.
 

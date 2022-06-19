@@ -1,0 +1,21 @@
+<article class="dci-article-summary">
+  <p class="dci-article-summary__date" title="{{ article.date.isoformat() }}">
+    <time datetime="2020-03-16">{{ article.locale_date }}</time>
+  </p>
+  <a
+    href="{{ SITEURL }}/{{ article.url }}"
+    class="dci-article-summary__link"
+    title="Permalink to {{ article.title|striptags }}"
+  >
+    <div class="dci-article-summary__title">{{ article.title }}</div>
+    <div class="dci-article-summary__text">{{ article.summary }}</div>
+  </a>
+  <div class="dci-article-summary__readmore">
+    <a
+      href="{{ SITEURL }}/{{ article.url }}"
+      class="dci-article-summary__readmore-link"
+    >
+      Read more
+    </a>
+  </div>
+</article>

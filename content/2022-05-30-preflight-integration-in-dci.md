@@ -6,7 +6,6 @@ Slug: preflight-integration-in-dci
 Authors: Tatiana Krishtop
 Summary: This post has some practical information about running Preflight certification suites with DCI. You will learn how to run the tests, debug using log files, and submit the results for the certification. All this is an embedded functionality offered by DCI.
 
-## Introduction
 
 This post has some practical information about running Preflight certification suites with DCI. You will learn how to run the tests, debug using log files, and submit the results for the certification. All this is an embedded functionality offered by DCI.
 
@@ -21,7 +20,7 @@ Prerequisites:
 [Preflight](https://connect.redhat.com/blog/container-certification-tooling-ready-takeoff) offers two certification suites: `check container` and `check operator`. To fully certify an operator, you have to certify all containers used by that operator and then certify the operator.
 
 ![cert_steps](images/2022-05-30/operator_with_one_container.png)
-*<br>Fig. 1. Certification steps.*
+*Fig. 1. Certification steps.*
 {:align=center}
 
 Let’s run these test suites for the [testpmd-operator](https://github.com/rh-nfv-int/testpmd-operator), often used as an as-is forwarder for the traffic testing. It uses one container: testpmd-operator. That means you have two certification projects ahead of you: a container certification project to certify an operator image and an operator certification project to certify a bundle image. If you work in a disconnected environment and have to handle the mirroring, the overall certification scenario could become quite complex.
@@ -121,25 +120,25 @@ Once the job is executed, the results are displayed in the DCI UI. Let’s go th
 It’s convenient to start from the /tests tab to check the overall situation. Since there are two test suites to execute, you would typically see two JUnit files with the results: one for the container and one for the operator. In our case, container tests are 100% green and ready to be submitted.
 
 ![container_res](images/2022-05-30/testpmd_test_results.png)
-*<br>Fig. 2. Check container results for testpmd-operator.*
+*Fig. 2. Check container results for testpmd-operator.*
 {:align=center}
 
 There is more to fix about operator tests, and tips and suggestions are available right here.
 
 ![operator_res](images/2022-05-30/operator_check.png)
-*<br>Fig. 3. Check operator results for testpmd-operator.*
+*Fig. 3. Check operator results for testpmd-operator.*
 {:align=center}
 
 Let’s follow the suggestion to check the preflight.log file in the /files tab of the job. The ValidateOperatorBundle test failed because of an invalid service account found in the bundle.
 
 ![preflight_log](images/2022-05-30/validate_operator_bundle.png)
-*<br>Fig. 4. Detailed logs in preflight.log.*
+*Fig. 4. Detailed logs in preflight.log.*
 {:align=center}
 
 In case of tricky errors, more log files and configuration snapshots are available in the same tab to help.
 
 ![log_files](images/2022-05-30/more_logs.png)
-*<br>Fig. 5. There are more log files to check.*
+*Fig. 5. There are more log files to check.*
 {:align=center}
 
 ## End-to-end certification of container images with DCI
@@ -147,25 +146,25 @@ In case of tricky errors, more log files and configuration snapshots are availab
 Once the `check container` suite is green, you might want to submit test results and certify your container image. To do that with DCI, create a "Certify a Container Image" project in connect.redhat.com and provide its id in DCI settings.yml using the variable `pyxis_container_identifier`.
 
 ![id_container](images/2022-05-30/id_container_project.png)
-*<br>Fig. 6. ID for container image project.*
+*Fig. 6. ID for container image project.*
 {:align=center}
 
 The last step is to generate an access token that would be shared between all your projects, save it into a file and provide a path to this file in a variable `pyxis_apikey_path`.
 
 ![pyxis_token](images/2022-05-30/generate_pyxis_token.png)
-*<br>Fig. 7. Generate Pyxis token.*
+*Fig. 7. Generate Pyxis token.*
 {:align=center}
 
 Now everything is ready, and the new DCI job would run the tests and submit their results directly into the certification UI in [connect.redhat.com](connect.redhat.com). The "Certification test" tab contains all Preflight tests run by DCI.
 
 ![submitted_results](images/2022-05-30/container_submitted_results.png)
-*<br>Fig. 8. Submitted results in connect.redhat.com.*
+*Fig. 8. Submitted results in connect.redhat.com.*
 {:align=center}
 
 One more tab, "Health index", is a security check utterly unrelated to the Preflight certification suite; [here is](https://redhat-connect.gitbook.io/catalog-help/container-images/container-health) the detailed explanation. The certification is almost done! The last step is to provide a container description for the RedHat Container catalog.
 
 ![submitted_results](images/2022-05-30/container_publication_details.png)
-*<br>Fig. 9. Last step - provide container description.*
+*Fig. 9. Last step - provide container description.*
 {:align=center}
 
 ## Work in progress: operator end-to-end certification
