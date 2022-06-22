@@ -16,6 +16,108 @@
       "message": "Would love to get your initial feedback.",
       "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aba92feb_df4276b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-06-22T15:49:32Z",
+      "side": 1,
+      "message": "Good stuff! a few remarks but nothing too big, I like it 😊",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "698c09f2_62bbafb8",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-06-22T15:49:32Z",
+      "side": 1,
+      "message": "Is the linked blog post supposed to be the one I am working on?",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22138a39_332c3408",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-06-22T15:49:32Z",
+      "side": 1,
+      "message": "\"But there is a better way: you can still use dci-check-change when pushing your changes to gerrit from your development environment\"",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50b64c5c_19cd8420",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-06-22T15:49:32Z",
+      "side": 1,
+      "message": "Too many \"But\" just keep \"There is a trick...\"",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2899782_f14444f8",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-06-22T15:49:32Z",
+      "side": 1,
+      "message": "Prior to this section I\u0027d put a NOTE explaining you\u0027re doing this manually but there\u0027s a git-review tool that may help things and link to it",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe472c29_4e7d24a9",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-06-22T15:49:32Z",
+      "side": 1,
+      "message": "You gotta explain this is the commit message",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
