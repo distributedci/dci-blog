@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd75b7fa_e2d712e8",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-06-22T14:03:43Z",
+      "side": 1,
+      "message": "you could also remove these two, and sorry for the dirty formatting",
+      "revId": "4ec16d5eaa47eac6ba5a8901489a0f26184d2729",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
