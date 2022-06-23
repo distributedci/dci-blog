@@ -156,6 +156,150 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "02eff81a_d9094dc9",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff2d82c9_ae58e53d",
+      "range": {
+        "startLine": 7,
+        "startChar": 617,
+        "endLine": 7,
+        "endChar": 621
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a56d9227_6d539138",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d5cddcb0_d66ed52b",
+      "range": {
+        "startLine": 7,
+        "startChar": 598,
+        "endLine": 7,
+        "endChar": 601
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17a02b9d_f22c7a68",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88062577_3f2a61b2",
+      "range": {
+        "startLine": 7,
+        "startChar": 605,
+        "endLine": 7,
+        "endChar": 612
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61c81334_c65cf2f6",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0317e887_cf418bd3",
+      "range": {
+        "startLine": 7,
+        "startChar": 331,
+        "endLine": 7,
+        "endChar": 336
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38511b30_7a386527",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c264c162_fe41e93b",
+      "range": {
+        "startLine": 7,
+        "startChar": 482,
+        "endLine": 7,
+        "endChar": 483
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5749a3f_1a37d736",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9695beb0_6b7450f7",
+      "range": {
+        "startLine": 7,
+        "startChar": 196,
+        "endLine": 7,
+        "endChar": 197
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4ecc2bd0_67949342",
@@ -179,6 +323,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ea424b8_cb74902c",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Those are 2 different part. One is the summary on the front page, the other is the actual blog post. I will improve this in another patch",
+      "parentUuid": "4ecc2bd0_67949342",
+      "range": {
+        "startLine": 9,
+        "startChar": 3,
+        "endLine": 9,
+        "endChar": 15
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3bf42a05_7c2bae82",
@@ -192,6 +360,30 @@
       "writtenOn": "2022-06-21T12:33:26Z",
       "side": 1,
       "message": "there are some punctuation differences in all the bullet points (some ended with \":\" and some others not, some ended with \"./,\" and some others not...), I\u0027d harmonize that",
+      "range": {
+        "startLine": 29,
+        "startChar": 14,
+        "endLine": 29,
+        "endChar": 21
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c92bfd3a_29af8dae",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3bf42a05_7c2bae82",
       "range": {
         "startLine": 29,
         "startChar": 14,
@@ -248,6 +440,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6fd1b9c_4d0b7dd0",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b43cfc0_8daaed48",
+      "range": {
+        "startLine": 33,
+        "startChar": 5,
+        "endLine": 33,
+        "endChar": 11
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b82197c3_77428950",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "91e6f6f5_096f1abc",
+      "range": {
+        "startLine": 33,
+        "startChar": 28,
+        "endLine": 33,
+        "endChar": 30
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "76261fad_bec2b453",
@@ -261,6 +501,30 @@
       "writtenOn": "2022-06-21T12:33:26Z",
       "side": 1,
       "message": "Save",
+      "range": {
+        "startLine": 39,
+        "startChar": 5,
+        "endLine": 39,
+        "endChar": 9
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8916ff0_33f65eff",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "76261fad_bec2b453",
       "range": {
         "startLine": 39,
         "startChar": 5,
@@ -317,6 +581,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "15e02ceb_f3d5b97b",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bd8876d0_dc6f0a75",
+      "range": {
+        "startLine": 40,
+        "startChar": 5,
+        "endLine": 40,
+        "endChar": 7
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3eb408f4_105ca3b8",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8ddb12d1_c94e3784",
+      "range": {
+        "startLine": 40,
+        "startChar": 8,
+        "endLine": 40,
+        "endChar": 82
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4887d9d6_c3ac0f00",
@@ -330,6 +642,30 @@
       "writtenOn": "2022-06-21T12:33:26Z",
       "side": 1,
       "message": "Are these names correct with the *?",
+      "range": {
+        "startLine": 85,
+        "startChar": 4,
+        "endLine": 85,
+        "endChar": 40
+      },
+      "revId": "92018c4691c5b7a8bfaf05a0e76015a133e2ef65",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6168e75_6b8aaaeb",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 405
+      },
+      "writtenOn": "2022-06-23T15:20:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4887d9d6_c3ac0f00",
       "range": {
         "startLine": 85,
         "startChar": 4,
