@@ -98,6 +98,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a096292e_2a8b4aff",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-06-23T18:07:30Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a820e4bd_199d9abc",
+      "range": {
+        "startLine": 12,
+        "startChar": 355,
+        "endLine": 12,
+        "endChar": 364
+      },
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89f34a22_02eb4789",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-06-23T18:07:30Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7e695e48_39cde0ae",
+      "range": {
+        "startLine": 12,
+        "startChar": 102,
+        "endLine": 12,
+        "endChar": 121
+      },
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d24a9903_97aedffe",
@@ -140,6 +188,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a49b74da_7523379b",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-06-23T18:07:30Z",
+      "side": 1,
+      "message": "Yes",
+      "parentUuid": "698c09f2_62bbafb8",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "22138a39_332c3408",
         "filename": "content/2022-06-14-using-dci-check-change.md",
         "patchSetId": 1
@@ -151,6 +217,24 @@
       "writtenOn": "2022-06-22T15:49:32Z",
       "side": 1,
       "message": "\"But there is a better way: you can still use dci-check-change when pushing your changes to gerrit from your development environment\"",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "900fb0e4_c4591453",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-06-23T18:07:30Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "22138a39_332c3408",
       "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -168,6 +252,24 @@
       "writtenOn": "2022-06-22T15:49:32Z",
       "side": 1,
       "message": "Too many \"But\" just keep \"There is a trick...\"",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b88530c3_2cf55acb",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-06-23T18:07:30Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "50b64c5c_19cd8420",
       "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -202,6 +304,24 @@
       "writtenOn": "2022-06-22T15:49:32Z",
       "side": 1,
       "message": "You gotta explain this is the commit message",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24d9cba9_eacf5947",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-06-23T18:07:30Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "fe472c29_4e7d24a9",
       "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
