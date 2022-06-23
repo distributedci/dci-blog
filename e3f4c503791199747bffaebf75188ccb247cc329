@@ -35,6 +35,92 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d866abe_439a5e36",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-06-23T08:58:06Z",
+      "side": 1,
+      "message": "Just some minor reviews, but the content looks fine, I also like it :)",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e695e48_39cde0ae",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-06-23T08:58:06Z",
+      "side": 1,
+      "message": "I\u0027d name it in the same way in all places, probably, because in the summary, it is used dci-openshift-agent, but here it\u0027s used DCI openshift agent.",
+      "range": {
+        "startLine": 12,
+        "startChar": 102,
+        "endLine": 12,
+        "endChar": 121
+      },
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a820e4bd_199d9abc",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-06-23T08:58:06Z",
+      "side": 1,
+      "message": "OpenShift?",
+      "range": {
+        "startLine": 12,
+        "startChar": 355,
+        "endLine": 12,
+        "endChar": 364
+      },
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d24a9903_97aedffe",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-06-23T08:58:06Z",
+      "side": 1,
+      "message": "This will probably change in the near future, because as we have right now BOS2 up and running, we\u0027ll probably allow the check of WIP changes, just to make you aware.",
+      "range": {
+        "startLine": 16,
+        "startChar": 73,
+        "endLine": 16,
+        "endChar": 123
+      },
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "698c09f2_62bbafb8",
