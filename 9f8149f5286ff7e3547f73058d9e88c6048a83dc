@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3987dadb_0e4569da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-06-24T07:55:40Z",
+      "side": 1,
+      "message": "Thanks for taking account my review :) just one minor comment regarding the introduction, just to clarify what I said in my previous review.",
+      "revId": "9f8149f5286ff7e3547f73058d9e88c6048a83dc",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "562f5886_e0e15bbf",
+        "filename": "content/2022-06-17-how-to-build-your-own-dci-dashboard.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-06-24T07:55:40Z",
+      "side": 1,
+      "message": "Here, what I was saying in my previous comment, is that the content should be similar to what we have in the Summary section, because there are some changes that have been including in the Summary (e.g. \"daily activities, etc.\", \"getting it dynamically and sending a pdf report\"...), that are not here. I saw \"datas\" was replaced by \"data\" here, but the other changes proposed for the Summary should be there too.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 174
+      },
+      "revId": "9f8149f5286ff7e3547f73058d9e88c6048a83dc",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
