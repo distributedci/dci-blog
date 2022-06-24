@@ -1,0 +1,9 @@
+Code-Review+2: Guillaume Vincent <gvincent@redhat.com>
+Code-Review+2: Tony Garcia <tonyg@redhat.com>
+Workflow+1: Guillaume Vincent <gvincent@redhat.com>
+Verified+2: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-by: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-at: Fri, 24 Jun 2022 06:39:38 +0000
+Reviewed-on: https://softwarefactory-project.io/r/c/dci-blog/+/25311
+Project: dci-blog
+Branch: refs/heads/master
