@@ -169,6 +169,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e878a0d_4c300ba3",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-06-27T20:13:56Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d24a9903_97aedffe",
+      "range": {
+        "startLine": 16,
+        "startChar": 73,
+        "endLine": 16,
+        "endChar": 123
+      },
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "698c09f2_62bbafb8",
@@ -200,6 +224,24 @@
       "side": 1,
       "message": "Yes",
       "parentUuid": "698c09f2_62bbafb8",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55da166c_3e6c7fa8",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-06-27T20:13:56Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a49b74da_7523379b",
       "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -287,6 +329,24 @@
       "writtenOn": "2022-06-22T15:49:32Z",
       "side": 1,
       "message": "Prior to this section I\u0027d put a NOTE explaining you\u0027re doing this manually but there\u0027s a git-review tool that may help things and link to it",
+      "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df41b60e_5ac61f89",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-06-27T20:13:56Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b2899782_f14444f8",
       "revId": "e3f4c503791199747bffaebf75188ccb247cc329",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
