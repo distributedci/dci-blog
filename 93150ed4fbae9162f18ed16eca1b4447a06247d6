@@ -16,6 +16,23 @@
       "message": "I\u0027ve updated the blog to not use Work In Progress.  I mention the no-check hint which will allow one to do the same thing.  I also thought it made sense to mention the use case of the partner running dci-check-change as well.",
       "revId": "93150ed4fbae9162f18ed16eca1b4447a06247d6",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fab5ac54_16d3ba0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-06-28T12:27:34Z",
+      "side": 1,
+      "message": "Thanks Bill!",
+      "revId": "93150ed4fbae9162f18ed16eca1b4447a06247d6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
