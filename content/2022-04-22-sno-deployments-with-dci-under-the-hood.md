@@ -3,7 +3,8 @@ Date: 2022-04-22 10:00
 Category: divulgation
 Tags: deployment, sno, virtual, baremetal
 Slug: SNO with DCI under the hood
-Authors: Manuel Rodriguez Hernandez
+Author: Manuel Rodriguez Hernandez
+Github: manurodriguez
 Summary: Single Node OpenShift (SNO) was introduced officially in OCP 4.9, available documentation describes the ways to deploy it using Assisted Installer through the Red Hat portal in order to generate an ISO and install it using virtual media or ACM. This article illustrates how we leverage some of those features and highlights the most relevant aspects of the installation using DCI Openshift Agent.
 
 ## SNO Official deployment options
