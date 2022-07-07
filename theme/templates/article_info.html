@@ -1,0 +1,19 @@
+<div class="dci-article-summary__info">
+  {% if article.github %}
+      <div>
+        <img
+          class="dci-article-summary__avatar"
+          src="https://github.com/{{ article.github }}.png?size=40"
+        />
+      </div>
+  {% endif %}
+  <div>
+    <p class="dci-article-summary__author">{{ article.author }}</p>
+    <p
+      class="dci-article-summary__date"
+      title="{{ article.date.isoformat() }}"
+    >
+      <time datetime="2020-03-16">{{ article.locale_date }}</time>
+    </p>
+  </div>
+</div>

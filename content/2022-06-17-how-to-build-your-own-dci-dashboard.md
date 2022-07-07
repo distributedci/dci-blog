@@ -3,7 +3,8 @@ Date: 2022-06-17 10:00
 Category: DCI
 Tags: dci, data, dashboard, api
 Slug: how-to-build-your-own-dci-dashboard
-Authors: Olivier Petit
+Author: Olivier Petit
+Github: olpetit
 Summary: Everydays, Red Hat DCI platform runs hundreds of jobs from different teams and partners, with all our products, with different purposes: debugging, certifications, tests, daily activities, etc. You may need to build a dedicated dashboard to follow your own specific activity, display graphical results, study some specific data or identify specific job behaviors. For such requirements, Google spreadsheet can provide you facilities to implement your ideas in a few minutes. In this blog post, you will learn how to quickly build a dashboard with Google spreadsheet by requesting DCI data, getting it dynamically and sending a pdf report by email periodically.
 
 Everydays, [Red Hat DCI platform](https://www.distributed-ci.io/jobs?page=1&perPage=20) runs hundreds of jobs from different teams and partners, with all our products, with different purposes: debugging, certifications, tests, daily activities, etc.

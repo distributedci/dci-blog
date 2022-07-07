@@ -3,7 +3,8 @@ Date: 2022-05-30 10:00
 Category: how-to
 Tags: partners, certification, operator-certification, container-certification, preflight, dci-openshift-app-agent
 Slug: preflight-integration-in-dci
-Authors: Tatiana Krishtop
+Author: Tatiana Krishtop
+Github: tkrishtop
 Summary: This post has some practical information about running Preflight certification suites with DCI. You will learn how to run the tests, debug using log files, and submit the results for the certification. All this is an embedded functionality offered by DCI.
 
 

@@ -1,7 +1,5 @@
 <article class="dci-article-summary">
-  <p class="dci-article-summary__date" title="{{ article.date.isoformat() }}">
-    <time datetime="2020-03-16">{{ article.locale_date }}</time>
-  </p>
+  {% include "article_info.html" %}
   <a
     href="{{ SITEURL }}/{{ article.url }}"
     class="dci-article-summary__link"
