@@ -3,7 +3,8 @@ Date: 2022-03-28 10:00
 Category: DCI
 Tags: dci, ansible, OCP, telco
 Slug: customizable-ansible-hooks
-Authors: Charles Caporali
+Author: Charles Caporali
+Github: capolrik
 Summary: Openshift Cloud Platform is meant to be the standard for modern Telco infrastructure. One of the goals of the Telco Partner CI Lab team is to test the installation of Openshift with all the requirements needed for Telco workloads. For one of our main partners, it means installing/upgrading an Openshift platform, some extra operators to handle specific hardware like SRIOV cards, and external products for storage or load balancing needed to handle CNFs to reduce any risk.
 
 ### A telco context

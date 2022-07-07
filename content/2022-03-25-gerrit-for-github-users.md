@@ -3,7 +3,8 @@ Date: 2022-03-25 10:00
 Category: how-to
 Tags: introduction, gerrit, git, github
 Slug: gerrit-for-github-users
-Authors: Tony Garcia
+Author: Tony Garcia
+Github: tonyskapunk
 Summary: Most, if not all of the Distributed CI repositories, including this blog, are hosted in softwarefactory-project.io. Gerrit is the tool used to integrate the changes to such repositories. On the other hand, GitHub is the most popular service to host and integrate changes these days, this makes most of the developers familiar with GitHub to a certain extent. As such, this article attempts to explain to developers/contributors how to use Gerrit from the perspective of someone already familiar with GitHub.
 
 ## Who is this post good for?

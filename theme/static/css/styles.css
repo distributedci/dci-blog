@@ -86,10 +86,25 @@ a:visited {
   margin-bottom: 4rem;
 }
 
+.dci-article-summary__info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dci-article-summary__avatar {
+  border-radius: 9999px;
+  height: 40px;
+}
+
+.dci-article-summary__author {
+  font-weight: 500;
+  color: rgb(17, 24, 39);
+}
+
 .dci-article-summary__link,
 .dci-article-summary__link:hover {
   text-decoration: none;
-  margin-top: 8px;
   display: block;
 }
 

@@ -3,7 +3,8 @@ Date: 2022-04-29 10:00
 Category: how-to
 Tags: introduction, dci, git, github, github-actions, ci, components, OpenShift, OCP
 Slug: automate-dci-components
-Authors: Tony Garcia
+Author: Tony Garcia
+Github: tonyskapunk
 Summary: Components are the artifacts used in a DCI job, these are the elements that distinguish jobs. They are the elements to be tested on each job. In this post, we will discuss what they are, what they are used for, and an example of how to automate them to be continuously tested.
 
 ## What is a component?

@@ -3,7 +3,8 @@ Date: 2022-02-22 10:24
 Category: DCI
 Tags: introduction, dci
 Slug: introduction-to-the-red-hat-distributed-ci
-Authors: Yassine Lamgarchal
+Author: Yassine Lamgarchal
+Github: ylamgarchal
 Summary: Red Hat provides mainly infrastructure software like RHEL, OpenShift or OpenStack. These are established technologies for our customers but also for our partners. In order to keep the software as stable as possible, Red Hat works on doing various Quality Assurance and Continuous Integration processes. In this article we are going to focus on one specifically. The CI workflow from the point of view of a Red Hat partner.
 
 Red Hat provides mainly infrastructure software like RHEL, OpenShift or OpenStack. These are established technologies for our customers but also for our partners. In order to keep the software as stable as possible, Red Hat works on doing various Quality Assurance and Continuous Integration processes. In this article we are going to focus on one specifically. The CI workflow from the point of view of a Red Hat partner.
