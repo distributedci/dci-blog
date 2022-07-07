@@ -3,6 +3,8 @@
 {{ article.title|striptags }}
 {% endblock %}
 {% block content %}
+{% include "article_info.html" %}
+<br/>
 <article>
   <h1 class="article__title">
     {{ article.title }}
