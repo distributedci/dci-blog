@@ -29,3 +29,10 @@ DEFAULT_PAGINATION = False
 THEME = "theme"
 
 PLUGINS = ["readtime"]
+MARKDOWN = {
+    "extension_configs": {
+        "markdown.extensions.admonition": {},
+        "markdown.extensions.toc": {},
+        "markdown.extensions.codehilite": {"css_class": "highlight"},
+    }
+}
