@@ -35,6 +35,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "982ae6e8_7a88812d",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f891f641_944370a6",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e939916e_f812de92",
@@ -48,6 +66,24 @@
       "writtenOn": "2022-07-22T16:25:27Z",
       "side": 1,
       "message": "invert the acronym/description e.g.\n\n    System Under Test (SUT)",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44005123_51286aa3",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e939916e_f812de92",
       "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -69,6 +105,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "32108f42_51d78cc6",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eb7343f7_49048a65",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "00cf8a9b_26f3126f",
@@ -82,6 +136,24 @@
       "writtenOn": "2022-07-22T16:25:27Z",
       "side": 1,
       "message": "maybe linking IPI install to their doc, e.g.\n\n    [IPI install](https://openshift-kni.github.io/baremetal-deploy/)",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a4202de_bf933757",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "00cf8a9b_26f3126f",
       "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -103,6 +175,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "633075f2_304ce20c",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "98d03166_c8505b70",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0e50fa26_9a03fa9c",
@@ -116,6 +206,24 @@
       "writtenOn": "2022-07-22T16:25:27Z",
       "side": 1,
       "message": "nit: multiline e.g.\n\n    sudo dnf install \\\n      libvirt \\\n      libvirt-daemon-kvm \\\n      libvirt-client \\\n      virt-install \\\n      libvirt-python3 \\\n      python3-netaddr \\\n      python3-lxml",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b18f4bf_a9ec7632",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e50fa26_9a03fa9c",
       "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -137,6 +245,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6b57638_6e7bc94e",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95c10161_b243eab0",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7af147f4_6d02a3a6",
@@ -150,6 +276,24 @@
       "writtenOn": "2022-07-22T16:25:27Z",
       "side": 1,
       "message": "It would be nice to have copy/paste example",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48cb2515_b0efe450",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7af147f4_6d02a3a6",
       "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -171,6 +315,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "092d0097_48974a02",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c05a7c27_f780caeb",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "26be2861_f44a36d2",
@@ -184,6 +346,24 @@
       "writtenOn": "2022-07-22T16:25:27Z",
       "side": 1,
       "message": "maybe add that it has to run as dci-openshift-agent user\n\n    sudo -iu dci-openshift-agent\n    cd ~dci-openshift-agent/samples/ocp_on_libvirt\n    ansible-playbook -v libvirt_up.yml",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7990d51_2dd5b94f",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "26be2861_f44a36d2",
       "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -205,6 +385,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "15b69318_30f89819",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "546b09b8_68eab25a",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2a86e58b_5d81b6e8",
@@ -218,6 +416,24 @@
       "writtenOn": "2022-07-22T16:25:27Z",
       "side": 1,
       "message": "Minor fixes on wording and punctuation\n\nDeveloping for/with OCP is not easy; we at DCI aim to make it as easy as possible to tighten the development-\u003etesting-\u003erelease feedback loop, but there is and always will be room to improve. So feel free to get in touch with us if you see something not quite right or have any questions, don\u0027t hesitate!",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1276d275_2d104e6d",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-22T17:20:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2a86e58b_5d81b6e8",
       "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
