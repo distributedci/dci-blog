@@ -1,0 +1,225 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b67ccf5_16d04ce5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "Nice work!",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f891f641_944370a6",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "Use long format for acronyms/short-names the first time then use them, e.g.\n\n    dci-openshift-agent (d-o-a)",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e939916e_f812de92",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "invert the acronym/description e.g.\n\n    System Under Test (SUT)",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb7343f7_49048a65",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "Memory specs?\n\n    - 64 GiB of memory",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00cf8a9b_26f3126f",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "maybe linking IPI install to their doc, e.g.\n\n    [IPI install](https://openshift-kni.github.io/baremetal-deploy/)",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98d03166_c8505b70",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "It would be nice to have the command to copy/paste the repo and then ansible pkg",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e50fa26_9a03fa9c",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "nit: multiline e.g.\n\n    sudo dnf install \\\n      libvirt \\\n      libvirt-daemon-kvm \\\n      libvirt-client \\\n      virt-install \\\n      libvirt-python3 \\\n      python3-netaddr \\\n      python3-lxml",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95c10161_b243eab0",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "nit: grep -q",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7af147f4_6d02a3a6",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "It would be nice to have copy/paste example",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c05a7c27_f780caeb",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "Suggestion to link to the remoteCI doc, e.g. [remote CI](https://docs.distributed-ci.io/#remote-ci)",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26be2861_f44a36d2",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "maybe add that it has to run as dci-openshift-agent user\n\n    sudo -iu dci-openshift-agent\n    cd ~dci-openshift-agent/samples/ocp_on_libvirt\n    ansible-playbook -v libvirt_up.yml",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "546b09b8_68eab25a",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "Maybe be more explicit about what fields are used on each setting from the remoteCI, e.g.\n\n    * `dci_client_id`: Use DCI_CLIENT_ID from your remote CI credentials\n    * `dci_api_secret`: Use DCI_API_SECRET from your remote CI credentials",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2a86e58b_5d81b6e8",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-07-22T16:25:27Z",
+      "side": 1,
+      "message": "Minor fixes on wording and punctuation\n\nDeveloping for/with OCP is not easy; we at DCI aim to make it as easy as possible to tighten the development-\u003etesting-\u003erelease feedback loop, but there is and always will be room to improve. So feel free to get in touch with us if you see something not quite right or have any questions, don\u0027t hesitate!",
+      "revId": "7ae5ed1792fefe55b61b6a769bc84355e37791c2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
