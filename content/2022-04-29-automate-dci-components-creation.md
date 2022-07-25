@@ -114,7 +114,7 @@ $(type -p pip3 pip | head -1) install --user --upgrade dciclient
       --team-id ${TEAM_ID} \
       --name 'v1.2.3' \
       --canonical_project_name 'My Awesome Operator v1.2.3' \
-      --type "operator" |
+      --type "awesome-operator" |
     jq .
     </pre>
 
