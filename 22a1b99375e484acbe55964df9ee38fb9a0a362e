@@ -36,6 +36,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3befd50_2dd8b118",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-27T21:41:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38268ad3_ffcd2a30",
+      "revId": "22a1b99375e484acbe55964df9ee38fb9a0a362e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7d6baffe_4f17485f",
@@ -71,6 +89,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c68463df_7b9f27f2",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-27T21:41:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5a263089_b57c2df5",
+      "revId": "22a1b99375e484acbe55964df9ee38fb9a0a362e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "49e1a406_e546f990",
@@ -102,6 +138,24 @@
       "side": 1,
       "message": "hmmm you are right, I should at least put a note here saying the playbook will handle it",
       "parentUuid": "49e1a406_e546f990",
+      "revId": "22a1b99375e484acbe55964df9ee38fb9a0a362e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e70e791_b0e1300e",
+        "filename": "content/2022-07-30-ocp-on-libvirt.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2022-07-27T21:41:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "20b0bd7f_b4a27a4e",
       "revId": "22a1b99375e484acbe55964df9ee38fb9a0a362e",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
