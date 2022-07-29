@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c57b167_ba22e9ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-07-29T12:42:14Z",
+      "side": 1,
+      "message": "we could also mentioned that dci-check-change can test dci-openshift-app-agent changes.",
+      "revId": "ad8aa6129ff9a55d603e1f9dffc8f016b05c578f",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
