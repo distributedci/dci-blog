@@ -1,0 +1,57 @@
+---
+
+- name: Build blog preview
+  hosts: testrunner
+  tasks:
+    - name: Build from source
+      shell: |
+        set -ex
+        virtualenv .venv
+        . .venv/bin/activate
+        pip install -r requirements.txt
+        make html
+      args:
+        chdir: "{{ zuul.project.src_dir }}"
+
+    - name: Ensure local output dirs exists
+      delegate_to: localhost
+      file:
+        path: "{{ item }}"
+        state: directory
+      with_items:
+        - "{{ zuul.executor.work_root }}/artifacts"
+
+    - name: Check for build folder
+      stat:
+        path: "{{ zuul.project.src_dir }}/output/"
+        get_checksum: false
+        get_mime: false
+        get_md5: false
+
+    - name: Copy artifacts when zuul_use_fetch_output
+      copy:
+        src: "{{ zuul.project.src_dir }}/output/"
+        dest: "{{ ansible_user_dir }}/zuul-output/artifacts"
+        remote_src: true
+        mode: 0755
+      when: zuul_use_fetch_output
+
+    - name: Collect artifacts when not zuul_use_fetch_output
+      synchronize:
+        src: "{{ zuul.project.src_dir }}/output/"
+        dest: "{{ zuul_executor_dest }}"
+        mode: pull
+        verify_host: true
+      when: not zuul_use_fetch_output
+
+    - name: Return site artifact location to Zuul
+      zuul_return:
+        data:
+          zuul:
+            artifacts:
+              - name: "Site preview"
+                url: "artifacts/"
+                metadata:
+                  type: site
+
+...
