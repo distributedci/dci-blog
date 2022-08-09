@@ -1,0 +1,34 @@
+---
+
+- job:
+    name: dci-blog-preview
+    description: dci blog preview of the current review
+    success-url: 'artifacts/'
+    run: zuul.d/build-and-collect-static-files.yaml
+    nodeset:
+      nodes:
+        - name: testrunner
+          label: dci-centos-8
+
+- project:
+    name: dci-blog
+    check:
+      jobs:
+        - dci-rpm-build-el8
+        - dci-blog-preview:
+            voting: false
+    gate:
+      jobs:
+        - dci-rpm-build-el8
+    dci-post:
+      queue: dci
+      jobs:
+        - dci-rpm-build-el8
+        - dci-rpm-publish:
+            dependencies:
+              - dci-rpm-build-el8
+        - dci-deploy:
+            dependencies:
+              - dci-rpm-publish
+
+...
