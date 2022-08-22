@@ -35,6 +35,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "75f9a07e_6e965a64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-08-22T15:01:27Z",
+      "side": 1,
+      "message": "you need to fix the extension of the file to be .md else it will not work.\n\nAlso could you add a `Github: \u003cgithub login\u003e` metadata to have a nice icon?",
+      "revId": "7a42c116dc4ba20fc37f94f345feb9f95f4f6038",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "be116a64_5f0ac641",
