@@ -68,6 +68,74 @@
       "message": "Could you also explain how to use prefixes with dci-check-change? It needs to be published after https://softwarefactory-project.io/r/c/dci-blog/+/25588.",
       "revId": "ad8aa6129ff9a55d603e1f9dffc8f016b05c578f",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18c0efa4_4d8bc0a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-08-24T05:53:53Z",
+      "side": 1,
+      "message": "See inline comments. Another point are we targeting Red Hatters or partners in this blog? I had the feeling it was more partners but we need to discuss it.",
+      "revId": "ad8aa6129ff9a55d603e1f9dffc8f016b05c578f",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22555c25_c13e7313",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-08-24T05:53:53Z",
+      "side": 1,
+      "message": "change the date to be after Joge\u0027s blog",
+      "revId": "ad8aa6129ff9a55d603e1f9dffc8f016b05c578f",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de4ade09_38301671",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-08-24T05:53:53Z",
+      "side": 1,
+      "message": "console doesn\u0027t seem to be supported by the blogging system. ShellSession instead?",
+      "revId": "ad8aa6129ff9a55d603e1f9dffc8f016b05c578f",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47eaacbe_a7244876",
+        "filename": "content/2022-06-14-using-dci-check-change.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-08-24T05:53:53Z",
+      "side": 1,
+      "message": "I suppose it needs a blank line here as the preview is messed up...",
+      "revId": "ad8aa6129ff9a55d603e1f9dffc8f016b05c578f",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
