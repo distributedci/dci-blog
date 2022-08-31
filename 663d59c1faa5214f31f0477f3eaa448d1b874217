@@ -16,6 +16,210 @@
       "message": "Hello everyone, this is an update of Preflight-in-DCI certification article. \nThe formatting is verified, and I did my best to fix the grammar.",
       "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1333839_9348515c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "Tania, thanks for updating this, I\u0027m following this post to run Casa tests 😊\nI rendered the post in HTML and the formatting is odd in the new code block sections and numbers, I made some suggestions that can fix it (tested it locally) ",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11a16c4c_9d7da119",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "I wonder if you should update the date or if there is a field for that, just to highlight that this post has been updated",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6eceecee_dfad33eb",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "let\u0027s remove these extra spaces :)",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37d625f5_fd6be8b6",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "another extra space at the end of the line",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac4d48ce_6250b0ee",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "The formatting looks a little bit odd in the HTML page, specially the # symbols\nI suggest to include this line at the same indentation level and replace the ---\n        $ cat /etc/dci-openshift-app-agent/settings.yml",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e155fdc_b6dbb15a",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "Here let\u0027s keep the same indentation as the block above, otherwise the number 2 below is not displayed (we see 1)",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "57755c7a_3ee4606d",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "same as above (add a tabulation at the beginning of this line)",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86097276_b8b0f266",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "same, add a tabulation to add indentation of the image",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49c60473_5f75df14",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "add a tabulation at the beginning of this line.",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52bef86c_e1340d36",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "replace --- with:\n        $ cat /etc/dci-openshift-app-agent/settings.yml",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b67bb5a_cebfae61",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "Add to fix the block formatting\n        $ cat /etc/dci-openshift-app-agent/settings.yml",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28aaec0a_f4c18900",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-08-31T20:09:30Z",
+      "side": 1,
+      "message": "same here, add this to fix the block formatting:\n        $ cat /etc/dci-openshift-app-agent/settings.yml",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
