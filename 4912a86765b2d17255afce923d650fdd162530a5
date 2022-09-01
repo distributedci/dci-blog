@@ -16,6 +16,23 @@
       "message": "Thank you, Manny and Ramon, that was really kind to test locally! I applied all the changes you proposed, and the code formatting now looks much better, thanks!",
       "revId": "4912a86765b2d17255afce923d650fdd162530a5",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86307b25_68c4302c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-01T14:01:15Z",
+      "side": 1,
+      "message": "do we put a link in the previous article pointing to this one?",
+      "revId": "4912a86765b2d17255afce923d650fdd162530a5",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
