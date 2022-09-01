@@ -92,6 +92,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "af4efcbd_6e75cc25",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "yes, it\u0027s to display contents at the very beginning.",
+      "parentUuid": "967a6a3f_76166353",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 5
+      },
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bddde8de_2060a572",
@@ -105,6 +129,30 @@
       "writtenOn": "2022-09-01T09:40:53Z",
       "side": 1,
       "message": "\u0027`check container` certification suite\u0027 may be better",
+      "range": {
+        "startLine": 33,
+        "startChar": 102,
+        "endLine": 33,
+        "endChar": 139
+      },
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31261d93_32a0d557",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "yes, sounds better, thanks",
+      "parentUuid": "bddde8de_2060a572",
       "range": {
         "startLine": 33,
         "startChar": 102,
@@ -138,6 +186,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c5e6bac_7f2e18a2",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e62cfd65_3be24ff9",
+      "range": {
+        "startLine": 37,
+        "startChar": 7,
+        "endLine": 37,
+        "endChar": 53
+      },
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b1a230ba_1b0011b0",
@@ -151,6 +223,30 @@
       "writtenOn": "2022-09-01T09:40:53Z",
       "side": 1,
       "message": "\u0027`check operator` certification suite\u0027 may be better",
+      "range": {
+        "startLine": 43,
+        "startChar": 102,
+        "endLine": 43,
+        "endChar": 138
+      },
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "677e3dba_01517eff",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b1a230ba_1b0011b0",
       "range": {
         "startLine": 43,
         "startChar": 102,
@@ -184,6 +280,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "55e79c9f_e38866ac",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "thanks Ramon, fixed",
+      "parentUuid": "ca32bed7_e8c3f6b0",
+      "range": {
+        "startLine": 47,
+        "startChar": 7,
+        "endLine": 47,
+        "endChar": 24
+      },
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d16ee6a6_1834f28a",
@@ -197,6 +317,30 @@
       "writtenOn": "2022-09-01T09:40:53Z",
       "side": 1,
       "message": "maybe it\u0027s better to reorder this to be \u0027[settings.yml](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/preflight) file\u0027",
+      "range": {
+        "startLine": 67,
+        "startChar": 10,
+        "endLine": 67,
+        "endChar": 112
+      },
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ee57590_33c3edbd",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "thanks",
+      "parentUuid": "d16ee6a6_1834f28a",
       "range": {
         "startLine": 67,
         "startChar": 10,
@@ -224,6 +368,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6122987_3524c370",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "thanks :)",
+      "parentUuid": "6eceecee_dfad33eb",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "37d625f5_fd6be8b6",
@@ -237,6 +399,24 @@
       "writtenOn": "2022-08-31T20:09:30Z",
       "side": 1,
       "message": "another extra space at the end of the line",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef850c07_23459ac6",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": ":)",
+      "parentUuid": "37d625f5_fd6be8b6",
       "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -258,6 +438,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa18b710_26347d48",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac4d48ce_6250b0ee",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1e155fdc_b6dbb15a",
@@ -271,6 +469,24 @@
       "writtenOn": "2022-08-31T20:09:30Z",
       "side": 1,
       "message": "Here let\u0027s keep the same indentation as the block above, otherwise the number 2 below is not displayed (we see 1)",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8f958bf_3f7e3078",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "thanks Manny, fixed that",
+      "parentUuid": "1e155fdc_b6dbb15a",
       "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -292,6 +508,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4fcbec0_88c05a6f",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "57755c7a_3ee4606d",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "86097276_b8b0f266",
@@ -305,6 +539,24 @@
       "writtenOn": "2022-08-31T20:09:30Z",
       "side": 1,
       "message": "same, add a tabulation to add indentation of the image",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2166b128_3c87f1a1",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "86097276_b8b0f266",
       "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -326,6 +578,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "91701296_b57c582e",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49c60473_5f75df14",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "52bef86c_e1340d36",
@@ -339,6 +609,24 @@
       "writtenOn": "2022-08-31T20:09:30Z",
       "side": 1,
       "message": "replace --- with:\n        $ cat /etc/dci-openshift-app-agent/settings.yml",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0ac5908_fa10b966",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "52bef86c_e1340d36",
       "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -366,6 +654,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc018157_fc88ec53",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "nice catch, thanks!",
+      "parentUuid": "b47a0452_da28b67d",
+      "range": {
+        "startLine": 227,
+        "startChar": 94,
+        "endLine": 227,
+        "endChar": 100
+      },
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9b67bb5a_cebfae61",
@@ -379,6 +691,24 @@
       "writtenOn": "2022-08-31T20:09:30Z",
       "side": 1,
       "message": "Add to fix the block formatting\n        $ cat /etc/dci-openshift-app-agent/settings.yml",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21fe8dbc_093cb6c5",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b67bb5a_cebfae61",
       "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -400,6 +730,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "96d12719_7649d781",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "28aaec0a_f4c18900",
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e3493fd8_6a97fd7d",
@@ -413,6 +761,30 @@
       "writtenOn": "2022-09-01T09:40:53Z",
       "side": 1,
       "message": "reorder this to be \u0027[certified-operators](https://github.com/redhat-openshift-ecosystem/certified-operators/pulls) repository\u0027",
+      "range": {
+        "startLine": 284,
+        "startChar": 103,
+        "endLine": 284,
+        "endChar": 208
+      },
+      "revId": "663d59c1faa5214f31f0477f3eaa448d1b874217",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0dc14667_49938a62",
+        "filename": "content/2022-05-30-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 284,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-01T13:35:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e3493fd8_6a97fd7d",
       "range": {
         "startLine": 284,
         "startChar": 103,
