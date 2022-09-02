@@ -16,6 +16,23 @@
       "message": "This CR is ready for review.",
       "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e72b9950_01b0a654",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2022-09-02T09:53:03Z",
+      "side": 1,
+      "message": "Hi Ramon,\n\nThanks for your review. I believe I addressed or your points.",
+      "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
