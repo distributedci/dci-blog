@@ -33,6 +33,213 @@
       "message": "Hi Ramon,\n\nThanks for your review. I believe I addressed or your points.",
       "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6cec1dc9_403adf4a",
+        "filename": "content/2022-07-14-using-prefixes-to-operate-multiple-clusters.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-02T10:00:20Z",
+      "side": 1,
+      "message": "I guess this should be updated with the final date, as well as the file name",
+      "range": {
+        "startLine": 2,
+        "startChar": 6,
+        "endLine": 2,
+        "endChar": 22
+      },
+      "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f833e906_15e10535",
+        "filename": "content/2022-07-14-using-prefixes-to-operate-multiple-clusters.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-02T10:00:20Z",
+      "side": 1,
+      "message": "This applies for the other images too: take care of the final date if changed",
+      "range": {
+        "startLine": 17,
+        "startChar": 29,
+        "endLine": 17,
+        "endChar": 39
+      },
+      "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "627ef598_0da0b6db",
+        "filename": "content/2022-07-14-using-prefixes-to-operate-multiple-clusters.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-02T10:00:20Z",
+      "side": 1,
+      "message": "`-p` better, maybe",
+      "range": {
+        "startLine": 79,
+        "startChar": 89,
+        "endLine": 79,
+        "endChar": 93
+      },
+      "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f9e40464_74924e72",
+        "filename": "content/2022-07-14-using-prefixes-to-operate-multiple-clusters.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-02T10:00:20Z",
+      "side": 1,
+      "message": "settings and hosts files",
+      "range": {
+        "startLine": 150,
+        "startChar": 64,
+        "endLine": 150,
+        "endChar": 83
+      },
+      "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "006ffc41_cd999405",
+        "filename": "content/2022-07-14-using-prefixes-to-operate-multiple-clusters.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-02T10:00:20Z",
+      "side": 1,
+      "message": "populating",
+      "range": {
+        "startLine": 150,
+        "startChar": 193,
+        "endLine": 150,
+        "endChar": 201
+      },
+      "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a13dd09_eb9f1edd",
+        "filename": "content/2022-07-14-using-prefixes-to-operate-multiple-clusters.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-02T10:00:20Z",
+      "side": 1,
+      "message": "maybe a link to the docs describing this command, or to a blog post talking about it? (I believe Bill was working on it)",
+      "range": {
+        "startLine": 160,
+        "startChar": 5,
+        "endLine": 160,
+        "endChar": 21
+      },
+      "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "169add95_ef682899",
+        "filename": "content/2022-07-14-using-prefixes-to-operate-multiple-clusters.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-02T10:00:20Z",
+      "side": 1,
+      "message": "To use the same name than they have in the repos, I\u0027d say dci-openshift-agent and dci-openshift-app-agent",
+      "range": {
+        "startLine": 170,
+        "startChar": 175,
+        "endLine": 170,
+        "endChar": 214
+      },
+      "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a8e60ea_89bacab1",
+        "filename": "content/2022-07-14-using-prefixes-to-operate-multiple-clusters.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-02T10:00:20Z",
+      "side": 1,
+      "message": "reference to dci-schedule and/or queues?",
+      "range": {
+        "startLine": 182,
+        "startChar": 27,
+        "endLine": 182,
+        "endChar": 41
+      },
+      "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d475c8e_0541fe75",
+        "filename": "content/2022-07-14-using-prefixes-to-operate-multiple-clusters.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-02T10:00:20Z",
+      "side": 1,
+      "message": "gets",
+      "range": {
+        "startLine": 184,
+        "startChar": 108,
+        "endLine": 184,
+        "endChar": 113
+      },
+      "revId": "e158726bf04d14e4e3dc51fd2e49c2e1b0e7191d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }

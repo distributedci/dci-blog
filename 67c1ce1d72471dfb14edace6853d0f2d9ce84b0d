@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6ce73ad_8ea9ba8b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-02T10:00:20Z",
+      "side": 1,
+      "message": "Thanks Nacho for reviewing my comments, I\u0027ve left some more",
+      "revId": "67c1ce1d72471dfb14edace6853d0f2d9ce84b0d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b2bd879_33df5364",
+        "filename": "content/2022-07-14-using-prefixes-to-operate-multiple-clusters.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-02T10:00:20Z",
+      "side": 1,
+      "message": "different testing scopes, without \"a\", or \"scope\" otherwise",
+      "range": {
+        "startLine": 72,
+        "startChar": 38,
+        "endLine": 72,
+        "endChar": 64
+      },
+      "revId": "67c1ce1d72471dfb14edace6853d0f2d9ce84b0d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
