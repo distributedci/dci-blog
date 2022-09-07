@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7cb66b4_c7d72fb6",
+        "filename": "content/2022-09-16-naming-for-dci-jobs.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-07T08:12:24Z",
+      "side": 1,
+      "message": "should we make a reference to DCI components? as they appear in the images (but may not be related to naming)",
+      "range": {
+        "startLine": 16,
+        "startChar": 53,
+        "endLine": 16,
+        "endChar": 59
+      },
+      "revId": "5d19823245b3413011a210fe4cc16d6bb0fd1674",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07c91ed2_a7bfcbe7",
+        "filename": "content/2022-09-16-naming-for-dci-jobs.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-07T08:12:24Z",
+      "side": 1,
+      "message": "Missing an \u0027l\u0027 at the end, settings.yml",
+      "range": {
+        "startLine": 44,
+        "startChar": 59,
+        "endLine": 44,
+        "endChar": 70
+      },
+      "revId": "5d19823245b3413011a210fe4cc16d6bb0fd1674",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed0680fe_3f552f8d",
+        "filename": "content/2022-09-16-naming-for-dci-jobs.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-07T08:12:24Z",
+      "side": 1,
+      "message": "\u0027not to set\u0027, better?",
+      "range": {
+        "startLine": 44,
+        "startChar": 12,
+        "endLine": 44,
+        "endChar": 23
+      },
+      "revId": "5d19823245b3413011a210fe4cc16d6bb0fd1674",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e256b93_f48ecf5a",
+        "filename": "content/2022-09-16-naming-for-dci-jobs.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-07T08:12:24Z",
+      "side": 1,
+      "message": "Should we include any reference to this feature? I suppose you are referring to our analyze_job, but other people may not be aware of this and how it works",
+      "range": {
+        "startLine": 44,
+        "startChar": 106,
+        "endLine": 44,
+        "endChar": 336
+      },
+      "revId": "5d19823245b3413011a210fe4cc16d6bb0fd1674",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a92e055_8e025970",
+        "filename": "content/2022-09-16-naming-for-dci-jobs.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-07T08:12:24Z",
+      "side": 1,
+      "message": "rather than",
+      "range": {
+        "startLine": 59,
+        "startChar": 192,
+        "endLine": 59,
+        "endChar": 198
+      },
+      "revId": "5d19823245b3413011a210fe4cc16d6bb0fd1674",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
