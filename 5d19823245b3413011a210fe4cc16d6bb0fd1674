@@ -72,6 +72,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "51d39789_15746744",
+        "filename": "content/2022-09-16-naming-for-dci-jobs.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T10:07:49Z",
+      "side": 1,
+      "message": "\u003e We have it, by the way: We have it: https://blog.distributed-ci.io/automate-dci-components.html. Including it here in case you want to include the reference. If not, you can close the comment.\n\nI think that\u0027s out of scope for this article.",
+      "parentUuid": "6f71de4d_1e4ca3be",
+      "range": {
+        "startLine": 16,
+        "startChar": 53,
+        "endLine": 16,
+        "endChar": 59
+      },
+      "revId": "5d19823245b3413011a210fe4cc16d6bb0fd1674",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "07c91ed2_a7bfcbe7",
@@ -227,6 +251,30 @@
       "side": 1,
       "message": "It\u0027s fine for me, but can this sentence be rephrased somehow? I propose, for example:\n\"Some examples you can consider for analysis purposes are, for example, to build your own automation (...) when a comment is set. If you were interested in these examples, please reach us to give you some insights\"\nThen, we just mention examples, and if anybody is interested in it, they can contact us and we can explain to them features like analyze_job and so on.\nIf you don\u0027t think it would be useful, then you can close this comment.",
       "parentUuid": "f47d7748_925644c7",
+      "range": {
+        "startLine": 44,
+        "startChar": 106,
+        "endLine": 44,
+        "endChar": 336
+      },
+      "revId": "5d19823245b3413011a210fe4cc16d6bb0fd1674",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac2958cb_220b3a59",
+        "filename": "content/2022-09-16-naming-for-dci-jobs.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T10:07:49Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "84f27b9f_c909c40e",
       "range": {
         "startLine": 44,
         "startChar": 106,
