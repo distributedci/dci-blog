@@ -367,6 +367,24 @@
       "parentUuid": "78c0f1eb_3a01629e",
       "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "220142d5_150ffbb5",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T17:43:41Z",
+      "side": 1,
+      "message": "yes I don\u0027t think that\u0027s very visual so I propose to not put a screenshot for that. wdyt?",
+      "parentUuid": "d84c798b_f76008af",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
