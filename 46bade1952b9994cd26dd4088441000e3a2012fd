@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f346c6b_1700e908",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-09-08T09:51:52Z",
+      "side": 1,
+      "message": "i (dcictl)",
+      "range": {
+        "startLine": 50,
+        "startChar": 209,
+        "endLine": 50,
+        "endChar": 210
+      },
+      "revId": "46bade1952b9994cd26dd4088441000e3a2012fd",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
