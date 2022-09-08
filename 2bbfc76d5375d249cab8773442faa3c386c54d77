@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6979e7eb_8b21a2d6",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-08T15:37:31Z",
+      "side": 1,
+      "message": "Suggestion:\n    naming your\n\nInstead of:\n    naming for your",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b132f3bb_018ff1ca",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-08T15:37:31Z",
+      "side": 1,
+      "message": "Suggestion:\n    start with your company\u0027s name and\nInstead of:\n    start by the name of your company and",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ad145d3_254aee4f",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-08T15:37:31Z",
+      "side": 1,
+      "message": "Suggestion:\n    A Remote CI represents the lab, so to easily find it, use the name of your company and something to identify your lab. For example, the lab\u0027s location or the type of hardware in your lab.",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e7592ec_d91ecabc",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-08T15:37:31Z",
+      "side": 1,
+      "message": "Suggestion:\n    Use a meaningful name for\nInstead of:\n    Use a name that is meaningful for",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5acb1da0_9d4b1f99",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-08T15:37:31Z",
+      "side": 1,
+      "message": "Suggestion:\n    for analysis. Instead, you can build automation to put a comment\n\nInstead of:\n    for analysis. You can build your own automation to set a comment\n\nSuggestion:\n    your team to set a comment on failed jobs; this way, you know a job has been analyzed.\n\nInstead of:\n    your team to comment failed jobs and this way you know a job has been analyzed when a comment is set.",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "506c74ca_1caf67cd",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-08T15:37:31Z",
+      "side": 1,
+      "message": "Suggestion:\n    is a job field that can\nInstead of:\n    is a field of a job that can\n\nSuggestion:\n    is usually used to track bug IDs for\nInstead of:\n    is used usually to track bug ids for\n\nSuggestion:\n    In addition, it is helpful for statistics on failures.\nInstead of:\n    It is very useful for statistics on failures.",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4fd07fc5_bc1d62ef",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-08T15:37:31Z",
+      "side": 1,
+      "message": "Suggestion:\n     The URL is usually\nInstead of:\n    This is usually\n\nSuggestion:\n    file, as at each invocation, it can change.\nInstead of:\n    file as at each invocation it can change.",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3be1676_8f679db6",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-08T15:37:31Z",
+      "side": 1,
+      "message": "Suggestion:\n    Tags can be set using\nInstead of:\n    This can be set by using",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06aa6b83_9c7a8b44",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-08T15:37:31Z",
+      "side": 1,
+      "message": "Suggestion:\n    DCI jobs look for a previous job to display improvements or regression in test results. What defines a previous job is the most recent job before the current one with the following attributes:",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44a887bc_25e5b636",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-08T15:37:31Z",
+      "side": 1,
+      "message": "It would be nice to have a screenshot of the tests to showcase this",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
