@@ -18,6 +18,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "da9ebda4_ac2b1bc5",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T16:03:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6979e7eb_8b21a2d6",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b132f3bb_018ff1ca",
@@ -31,6 +49,24 @@
       "writtenOn": "2022-09-08T15:37:31Z",
       "side": 1,
       "message": "Suggestion:\n    start with your company\u0027s name and\nInstead of:\n    start by the name of your company and",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fca4911f_142f30a1",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T16:03:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b132f3bb_018ff1ca",
       "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -52,6 +88,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb4f9d6c_8d5c2de5",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T16:03:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3ad145d3_254aee4f",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e7592ec_d91ecabc",
@@ -65,6 +119,24 @@
       "writtenOn": "2022-09-08T15:37:31Z",
       "side": 1,
       "message": "Suggestion:\n    Use a meaningful name for\nInstead of:\n    Use a name that is meaningful for",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7d4629b_8afcddab",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T16:03:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e7592ec_d91ecabc",
       "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -86,6 +158,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6f563d6_ac3fddea",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T16:03:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5acb1da0_9d4b1f99",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "506c74ca_1caf67cd",
@@ -99,6 +189,24 @@
       "writtenOn": "2022-09-08T15:37:31Z",
       "side": 1,
       "message": "Suggestion:\n    is a job field that can\nInstead of:\n    is a field of a job that can\n\nSuggestion:\n    is usually used to track bug IDs for\nInstead of:\n    is used usually to track bug ids for\n\nSuggestion:\n    In addition, it is helpful for statistics on failures.\nInstead of:\n    It is very useful for statistics on failures.",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5734cbf6_459ccca4",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T16:03:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "506c74ca_1caf67cd",
       "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -120,6 +228,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8b6cacd_b8cfaa2f",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T16:03:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4fd07fc5_bc1d62ef",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f3be1676_8f679db6",
@@ -133,6 +259,24 @@
       "writtenOn": "2022-09-08T15:37:31Z",
       "side": 1,
       "message": "Suggestion:\n    Tags can be set using\nInstead of:\n    This can be set by using",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8bbcd671_3ac6a7dc",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T16:03:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3be1676_8f679db6",
       "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -154,6 +298,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c46867ac_de297e56",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T16:03:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "06aa6b83_9c7a8b44",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "44a887bc_25e5b636",
@@ -167,6 +329,24 @@
       "writtenOn": "2022-09-08T15:37:31Z",
       "side": 1,
       "message": "It would be nice to have a screenshot of the tests to showcase this",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78c0f1eb_3a01629e",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T16:03:29Z",
+      "side": 1,
+      "message": "I didn\u0027t find an example...",
+      "parentUuid": "44a887bc_25e5b636",
       "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
