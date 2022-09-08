@@ -349,6 +349,24 @@
       "parentUuid": "44a887bc_25e5b636",
       "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d84c798b_f76008af",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-08T17:19:33Z",
+      "side": 1,
+      "message": "Wouldn\u0027t be the case for these two jobs?\nhttps://www.distributed-ci.io/jobs/d9c99e65-0d5c-49f0-b1b9-84bf79d45699/jobStates\nhttps://www.distributed-ci.io/jobs/bfa9f388-d240-4670-b221-58ba7c436d51/jobStates\n\nAlthough, I\u0027m not sure how such differences would be seen, in the jobs above, both succeed",
+      "parentUuid": "78c0f1eb_3a01629e",
+      "revId": "2bbfc76d5375d249cab8773442faa3c386c54d77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
