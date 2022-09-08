@@ -33,6 +33,24 @@
       "message": "s/reprensents/represents",
       "revId": "99a21bda6ea21922b00c7f4cb03ccf8715360022",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13d098d1_a99446d3",
+        "filename": "content/2022-09-08-naming-for-dci-jobs.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-08T11:38:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0c032ebc_aea8c025",
+      "revId": "99a21bda6ea21922b00c7f4cb03ccf8715360022",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
