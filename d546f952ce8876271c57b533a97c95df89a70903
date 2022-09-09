@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6de38e2a_2d2c6d8c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2022-09-09T14:32:17Z",
+      "side": 1,
+      "message": "Hi Ramon,\n\nThanks for all your comments.\n\nI\u0027m pushing a new patch set right away addressing all of them.",
+      "revId": "d546f952ce8876271c57b533a97c95df89a70903",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
