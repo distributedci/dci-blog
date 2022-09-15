@@ -1,31 +1,30 @@
 Title: How to automate DCI components creation
 Date: 2022-04-29 10:00
+Modified: 2022-09-30 10:00
 Category: how-to
 Tags: introduction, dci, git, github, github-actions, ci, components, OpenShift, OCP
 Slug: automate-dci-components
 Author: Tony Garcia
 Github: tonyskapunk
-Summary: Components are the artifacts used in a DCI job, these are the elements that distinguish jobs. They are the elements to be tested on each job. In this post, we will discuss what they are, what they are used for, and an example of how to automate them to be continuously tested.
+Summary: Components are the artifacts used in a DCI job, these are the elements that distinguish jobs. They are the elements to be tested on each job. This post will discuss their use and an example of how to automate them to be continuously tested.
 
 ## What is a component?
 
 A component is an artifact (file, package, URL, etc.) attached to a topic. An agent takes components in its workflow. Components are immutable and should be regularly created with newer versions of the artifact.
 
-In DCI, we have some basic components that are constantly created with new versions, this is part of the work made by the feeder. The feeder is a service that takes care of watching for newer versions/releases of different components.  For example, the versions of the OpenShift Container Platform (OCP), latest, release candidates, or nightly builds.
+In DCI, we have some basic components that are constantly created with new versions; this is part of the work made by the feeder. The feeder is a service that takes care of watching for newer versions/releases of different components.  For example, the versions of the OpenShift Container Platform (OCP), latest, release candidates, or nightly builds.
 
-Components are not limited to the DCI creation through its feeder. Partners or individuals using DCI can create their components to represent that element/artifact they want to test in a job, so that a job has context.
+Components are not limited to the DCI creation through its feeder. Partners or individuals using DCI can create their components to represent that element/artifact they want to test in a job, so a job has context.
 
 ## What are the components used for?
 
-Primarily, they provide the specific version of a product, for example, a particular RHEL version or a release candidate of OCP. Additionally, components provide the link of elements that are tested or validated in a job.
+Primarily, they provide the specific version of a product, for example, a particular RHEL version or a release candidate of OCP. Additionally, components offer the link of elements that are tested or validated in a job.
 
 Let's see an example of how a component could be used.
 
-Say, you have an operator and would like to test it on all the supported versions of OCP. If you're new to DCI, most likely the first thing you would like to do is to run a job on top of a version your operator works as expected, this way you could have a baseline and compare the results when using other versions of OCP.
+Say you have an operator and would like to test it on all the supported versions of OCP. If you're new to DCI, most likely, the first thing you would like to do is to run a job on top of a version your operator works as expected; this way you could have a baseline and compare the results when using other versions of OCP.
 
-To deploy a particular version of OCP you could leverage our [dci-openshift-agent](https://docs.distributed-ci.io/dci-openshift-agent/). Then to deploy your operator and your tests you could use our [dci-openshift-app-agent](https://docs.distributed-ci.io/dci-openshift-app-agent/).
-
-You could repeat the same process for the other versions of OCP and then compare each Job to figure out the differences and any potential issues between them. Even though doing this works, the more you repeat, the harder it is to track those differences.
+To deploy a particular version of OCP, you could leverage our [dci-openshift-agent](https://docs.distributed-ci.io/dci-openshift-agent/). Then to deploy your operator and your tests, you could use our [dci-openshift-app-agent](https://docs.distributed-ci.io/dci-openshift-app-agent/). Finally, you could repeat the same process for other versions of OCP and then compare each Job to determine their differences and potential issues. However, even though doing this works, the more you repeat, the harder it is to track those differences.
 
 If we have created a component for the operator to be tested, it would be easier to compare jobs between different versions of OCP or even different versions of the same operator.
 
@@ -33,51 +32,39 @@ Here we have the same component version run in two different topics:
 
 - OCP-4.10
 
-    ![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath, a list of jobs with their name, status, tags, duration, and time of creation]({static}/images/component_ocp-4.10-v029.png)
+    ![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath a list of jobs with their name, status, tags, duration, and time of creation]({static}/images/component_ocp-4.10-v029.png)
 
 - OCP-4.11
 
-    ![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath, a list of jobs with their name, status, tags, duration, and time of creation]({static}/images/component_ocp-4.11-v029.png)
+    ![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath a list of jobs with their name, status, tags, duration, and time of creation]({static}/images/component_ocp-4.11-v029.png)
 
 Now, here we have the same component but of an older version and an older version of OCP
 
-![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath, a list of jobs with their name, status, tags, duration, and, time of creation]({static}/images/component_ocp-4.7-v027.png)
+![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath a list of jobs with their name, status, tags, duration, and, time of creation]({static}/images/component_ocp-4.7-v027.png)
 
 ## Why should I care about components?
 
-In the previous sections, we mentioned that components provide context to a job. We also provided an example of how the components are used. From there it is clear that the benefit of using a component is to differentiate jobs that will have different versions of components. Then, in continuous integration, it's important to have a clear way to differentiate job executions to know what was tested against what.
+In the previous sections, we mentioned that components provide context to a job. We also offered an example of how the components are used. From there, it is clear that the benefit of using a component is to differentiate jobs that will have different versions of components. So then, in continuous integration, it's essential to have a straightforward way to determine job executions to know what was tested against what.
 
-Additionally, the use of components could help with the generation of a compatibility matrix, between OCP versions and the different components and their versions used by a partner.
+Additionally, using components could help with the generation of a compatibility matrix between OCP versions and the different components and their versions used by a partner.
 
 If you're using DCI, and you're using it to test your operator, your driver, your application, you name it. Then you should use a component for it.
 
 ## How to create a component?
 
-Creating a component is quite easy with the help of the [python-dciclient](https://docs.distributed-ci.io/python-dciclient/) package. Available either as an RPM or a python library through PyPI.
+Creating a component is relatively easy with the help of the [python-dciclient](https://docs.distributed-ci.io/python-dciclient/) package.
 
-### Installation
-
-#### RPM
+### Tool installation
 
 Install repositories:
 
-```Shell
-source /etc/os-release
-dnf -y install epel-release
-dnf -y install https://packages.distributed-ci.io/dci-release.el${VERSION}.noarch.rpm
-```
+    source /etc/os-release
+    dnf -y install epel-release
+    dnf -y install https://packages.distributed-ci.io/dci-release.el${VERSION}.noarch.rpm
 
 Install package:
 
-```Shell
-dnf -y install python3-dciclient
-```
-
-#### PYPI
-
-```Shell
-$(type -p pip3 pip | head -1) install --user --upgrade dciclient
-```
+    dnf -y install python3-dciclient
 
 ### Creation
 
@@ -87,58 +74,62 @@ $(type -p pip3 pip | head -1) install --user --upgrade dciclient
     source myremoteci.sh
     </pre>
 
-1. Get remoteCI Team ID:
+1. Create the component using `dci-create-component` tool:
 
     <pre>
-    TEAM_ID=$( dcictl --format json team-list |
-               jq -r '.teams[] | select(.name == "my-team-name") | .id' )
-    </pre>
-
-1. Get the Topic ID where you want to create the component, for example, "OCP-4.10":
-
-    <pre>
-    TOPIC_ID=$( dcictl \
-                 --format json \
-                 topic-list \
-                 --where "name:OCP-4.10" |
-                jq -r '.topics[].id' )
-    </pre>
-
-1. Create the component
-
-    <pre>
-    dcictl \
+    dci-create-component \
       --format json \
-      component-create \
-      --topic-id ${TOPIC_ID} \
-      --team-id ${TEAM_ID} \
-      --name 'v1.2.3' \
-      --canonical_project_name 'My Awesome Operator v1.2.3' \
-      --type "awesome-operator" |
-    jq .
+      OCP-4.11 "my awesome operator" v1.2.3 ga
     </pre>
 
-## How to automate components creation releases?
+### Example
 
-The automation should live in the release process of your component, this is usually your CI, it could be in a GitHub Action, a Jenkins pipeline, etc.
+In this example, we are creating a component called "FredCo dci operator" on a release candidate version v1.2.3-rc1:
 
-Ideally, the creation of a component should occur at the time a new version of your component is going to be created or published, but it can be created as well once it has been released. Once a new version of your component is ready, a step should be introduced to create this component using the python-dciclient to later use a DCI agent and test it.
+    $ dci-create-component --format json OCP-4.10 "FredCo dci operator" v1.2.3-rc1 candidate
+    {
+        "component": {
+            "canonical_project_name": "Fredco Dci Operator v1.2.3-rc1",
+            "created_at": "2022-12-23T00:11:22.00000",
+            "data": {},
+            "etag": "a0b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+            "id": "87654321-dcba-cdef-2109-dcba0987654321",
+            "message": null,
+            "name": "v1.2.3-rc1",
+            "state": "active",
+            "tags": [
+                "build:candidate"
+            ],
+            "team_id": "12345678-abcd-fedc-9012-34567890abcd",
+            "title": null,
+            "topic_id": "",
+            "type": "fredco-dci-operator",
+            "updated_at": "2022-12-23T00:11:22.00000",
+            "url": null
+        }
+    }
 
-In this repository: <https://github.com/rh-nfv-int/nfv-example-cnf-index> we create a catalog (an image with multiple operator bundles inside). When we release a new version of that catalog, we create a new component in multiple topics, in this case in multiple versions of OCP. Later, we use the new component through the DCI agent to validate its working as expected.
+## How to automate component creation releases?
 
-In this catalog repository, we make use of GitHub actions to create the components during release time, here is the link to the code that takes care of this: <https://github.com/rh-nfv-int/nfv-example-cnf-index/blob/master/.github/workflows/quay.yml>
+The automation should live in the release process of your component; this is usually your CI. It could be in a GitHub Action, a Jenkins pipeline, etc.
+
+Ideally, the creation of a component should occur before it is released. Once a new version of your component is ready, a step should be introduced to create this component with the `dci-create-component` tool, to use the DCI agent later and test it.
+
+In this repository: <https://github.com/rh-nfv-int/nfv-example-cnf-index>, we create a catalog (an image with multiple operator bundles inside). Then, when we release a new version of that catalog, we automatically create new components in all the OCP topics. Later, we use the newly created component through the DCI agent to validate it's working as expected.
+
+In this catalog repository, we use GitHub actions to create the components during release time. Here is the link to the code that takes care of this: <https://github.com/rh-nfv-int/nfv-example-cnf-index/blob/master/.github/workflows/quay.yml>
 
 ### Automation of components creation through GitHub Actions
 
-A GitHub Action has been created to help with the step of creating the component during a particular time, this could be either during the creation of a PR, the release of the artifact, or as needed.
+A GitHub Action is available to help with the component creation. It could be either during the creation of a PR, the release of the artifact, or as needed.
 
-The details and documentation on how to use this particular GitHub Action can be found here: <https://github.com/tonyskapunk/dci-component>
+The documentation on how to use this particular GitHub Action is available n the marketplace: <https://github.com/marketplace/actions/dci-component>
 
 ## Summary
 
-Components are quite important as they represent a change or a version of an artifact that is being tested or validated.
-As a Red Hat partner, it is not only important to verify the upcoming versions of a product are going to work in my use case, but to verify the integration of the upcoming product and my components.
+Components are quite important as they represent a change or a version of an artifact being tested or validated.
+As a Red Hat partner, it is essential to verify that the upcoming versions of a product will work as expected.  DCI provides a way to verify the integration of the upcoming product and the partner's components.
 
-Finally, we understand your components and our products are not released at the same time. Thus it is important to automate the creation of the component so it keeps being continuously verified each time there's a new release or a change in your components.
+Finally, we understand your components and our products are not released at the same time. Thus it is crucial to automate the creation of the component, so it keeps being continuously verified each time there's a new release or a change in your components.
 
 ---
