@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa836a6f_84167ab9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-16T04:37:31Z",
+      "side": 1,
+      "message": "Could you move the github action to the dci-labs org and make it use dci-create-component?",
+      "revId": "ae0695372fb6b049bfa9d2fa15f12690542028ba",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
