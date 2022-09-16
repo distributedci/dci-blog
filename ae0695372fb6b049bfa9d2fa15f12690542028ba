@@ -16,6 +16,23 @@
       "message": "Could you move the github action to the dci-labs org and make it use dci-create-component?",
       "revId": "ae0695372fb6b049bfa9d2fa15f12690542028ba",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a633225a_42019495",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-09-16T04:42:17Z",
+      "side": 1,
+      "message": "use the Modified: header to let pelican do the right thing with the RSS feeds. See https://docs.getpelican.com/en/latest/content.html for more details.",
+      "revId": "ae0695372fb6b049bfa9d2fa15f12690542028ba",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
