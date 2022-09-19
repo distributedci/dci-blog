@@ -8,8 +8,11 @@ TIMEZONE = "EST"
 
 DEFAULT_LANG = "en"
 
+FEED_DOMAIN = SITEURL
 CATEGORY_FEED_RSS = 'feeds/{slug}.rss.xml'
 FEED_RSS = "feeds/all.rss.xml"
+FEED_ALL_ATOM = "feeds/all.atom.xml"
+CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 
 # Blogroll
 LINKS = (("Dashboard", "https://www.distributed-ci.io/"),)
