@@ -1,5 +1,5 @@
 Name:        dci-blog
-Version:     0.1.0
+Version:     0.1.1
 Release:     1.VERS%{?dist}
 Summary:     The Official blog of Distributed-CI
 
@@ -23,7 +23,7 @@ rm -rf venv
 %{__python3} -m venv venv
 %{_builddir}/dci-blog-%{version}/venv/bin/python -m pip install --upgrade pip
 LANG=en_US.UTF-8 %{_builddir}/dci-blog-%{version}/venv/bin/python -m pip install -r requirements.txt
-%{_builddir}/dci-blog-%{version}/venv/bin/pelican ./content -o ./output -s ./pelicanconf.py
+%{_builddir}/dci-blog-%{version}/venv/bin/pelican ./content -o ./output -s ./publishconf.py
 
 %install
 install -d %{buildroot}/var/www/html/blog
@@ -33,5 +33,8 @@ cp -r output/* %{buildroot}/var/www/html/blog
 /var/www/html/blog/*
 
 %changelog
+* Mon Sep 19 2022 Frederic Lepied <flepied@redhat.com> 0.1.1-1
+- fix build to use publishconf.py
+
 * Thu Feb 24 2022 Guillaume Vincent <gvincent@redhat.com> 0.1.0-1
 - Initial commit
