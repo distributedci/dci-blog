@@ -18,6 +18,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "66e7e566_27c5ef20",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-28T18:23:58Z",
+      "side": 1,
+      "message": "It has been moved and added into the marketplace: https://github.com/marketplace/actions/dci-component",
+      "parentUuid": "fa836a6f_84167ab9",
+      "revId": "ae0695372fb6b049bfa9d2fa15f12690542028ba",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a633225a_42019495",
@@ -31,6 +49,24 @@
       "writtenOn": "2022-09-16T04:42:17Z",
       "side": 1,
       "message": "use the Modified: header to let pelican do the right thing with the RSS feeds. See https://docs.getpelican.com/en/latest/content.html for more details.",
+      "revId": "ae0695372fb6b049bfa9d2fa15f12690542028ba",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0d46e1d_5f5c70fd",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-28T18:23:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a633225a_42019495",
       "revId": "ae0695372fb6b049bfa9d2fa15f12690542028ba",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
