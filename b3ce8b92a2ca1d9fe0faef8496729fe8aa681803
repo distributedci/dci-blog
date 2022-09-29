@@ -35,6 +35,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2998e49_df723d92",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-29T17:02:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca72a69a_be536209",
+      "revId": "b3ce8b92a2ca1d9fe0faef8496729fe8aa681803",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3b578cd3_a14b8268",
@@ -48,6 +66,24 @@
       "writtenOn": "2022-09-29T08:48:42Z",
       "side": 1,
       "message": "These 2 paragraphs seems heavy. Perhaps we could add a screenshot of the component coverage to show the what can be done with components like in https://www.distributed-ci.io/analytics/component_coverage",
+      "revId": "b3ce8b92a2ca1d9fe0faef8496729fe8aa681803",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8e474f4_e29d2586",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-29T17:02:04Z",
+      "side": 1,
+      "message": "A snapshot has been added, let me know if that eases the reading.",
+      "parentUuid": "3b578cd3_a14b8268",
       "revId": "b3ce8b92a2ca1d9fe0faef8496729fe8aa681803",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
