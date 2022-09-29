@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c928a01_ed9f53f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-29T19:16:01Z",
+      "side": 1,
+      "message": "Hi Tony, thanks for the update, looking forward to using it! I added some minor suggestions.",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3625829b_aaa67b1a",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-29T19:16:01Z",
+      "side": 1,
+      "message": "\"this way you could have a baseline\" -\u003e \"this way, you could have a baseline\", it seems that you\u0027re missing a comma",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ae23d0d_f6043052",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-29T19:16:01Z",
+      "side": 1,
+      "message": "\"and, time of creation\" -\u003e \"and time of creation\", unnecessary comma.",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f9f210e7_aef478ba",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-29T19:16:01Z",
+      "side": 1,
+      "message": "I\u0027d propose to shorten a bit.\n\n\"From there, it is clear that the benefit of using a component is to differentiate jobs that will have different versions of components. So then, in continuous integration, it\u0027s essential to have a straightforward way to determine job executions to know what was tested against what.\"\n-\u003e\n\"The benefit of using a component is differentiating jobs by component versions and thus pinning the exact version of the tested software.\"",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f4cdec4_baba4e9c",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-29T19:16:01Z",
+      "side": 1,
+      "message": "I\u0027d rewrite a bit\n\"Once a new version of your component is ready, a step should be introduced to create this component with the `dci-create-component` tool, to use the DCI agent later and test it.\"\n-\u003e\n\"Every time a new version of your software is ready, `dci-create-component` tool could automatically create a component for further testing with DCI.\"",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c8cf82b_67bdee0c",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-09-29T19:16:01Z",
+      "side": 1,
+      "message": "\"upcoming versions of a product\" -\u003e \"upcoming product versions\"",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
