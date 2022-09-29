@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "31c24386_0a947153",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-29T22:21:32Z",
+      "side": 1,
+      "message": "Thanks for the feedback, it has been addressed in the coming patch",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3625829b_aaa67b1a",
@@ -31,6 +48,24 @@
       "writtenOn": "2022-09-29T19:16:01Z",
       "side": 1,
       "message": "\"this way you could have a baseline\" -\u003e \"this way, you could have a baseline\", it seems that you\u0027re missing a comma",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a43bc31c_e8570d73",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-29T22:21:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3625829b_aaa67b1a",
       "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -52,6 +87,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "952ed634_4d267b1f",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-29T22:21:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7ae23d0d_f6043052",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f9f210e7_aef478ba",
@@ -65,6 +118,24 @@
       "writtenOn": "2022-09-29T19:16:01Z",
       "side": 1,
       "message": "I\u0027d propose to shorten a bit.\n\n\"From there, it is clear that the benefit of using a component is to differentiate jobs that will have different versions of components. So then, in continuous integration, it\u0027s essential to have a straightforward way to determine job executions to know what was tested against what.\"\n-\u003e\n\"The benefit of using a component is differentiating jobs by component versions and thus pinning the exact version of the tested software.\"",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e18a2ccf_8b559d9b",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-29T22:21:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f9f210e7_aef478ba",
       "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -86,6 +157,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a400344c_3d7bd42c",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-29T22:21:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f4cdec4_baba4e9c",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2c8cf82b_67bdee0c",
@@ -99,6 +188,24 @@
       "writtenOn": "2022-09-29T19:16:01Z",
       "side": 1,
       "message": "\"upcoming versions of a product\" -\u003e \"upcoming product versions\"",
+      "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be087e61_c8e1e5c7",
+        "filename": "content/2022-04-29-automate-dci-components-creation.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-09-29T22:21:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c8cf82b_67bdee0c",
       "revId": "e8da5a506e39a339eb6fedfb4b5b80b968cff95d",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
