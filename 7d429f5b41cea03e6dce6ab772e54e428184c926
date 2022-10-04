@@ -33,6 +33,40 @@
       "message": "- command snippets are not well indented (see site preview)\n- state that dci-check-change can also test dci-openshift-app-agent changes",
       "revId": "7d429f5b41cea03e6dce6ab772e54e428184c926",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "824ba9c8_ea050ea3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-10-04T07:13:33Z",
+      "side": 1,
+      "message": "- the formatting is not correct for command snippets (see site preview). It needs to use indentation iirc.\n- we should state that dci-check-change also support dci-openshift-app-agent\n- add a section on how to access private github repository as this is what partners will need to do to be able to access their config repository.",
+      "revId": "7d429f5b41cea03e6dce6ab772e54e428184c926",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6ee77b8_7e55fcba",
+        "filename": "content/2022-10-01-using-dci-check-change.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-10-04T07:13:33Z",
+      "side": 1,
+      "message": "we should rather say that in this case, you need to contact the DCI team to get access to the logs as partners and other teams at Red Hat will not be able to access the servers.",
+      "revId": "7d429f5b41cea03e6dce6ab772e54e428184c926",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
