@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "efb89710_4c8d656d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-10-05T20:08:19Z",
+      "side": 1,
+      "message": "As Bill pointed out in 25269, at some point the GitHub Markup (GHM) was removed, I found another blog post not showing the code snippets as expected. Also table support in md used to be in place and now is not, I\u0027m adding it back in here",
+      "revId": "51d919485c9d45fe3222ebc48061569ecd17914c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
