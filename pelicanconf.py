@@ -32,6 +32,7 @@ MARKDOWN = {
     "extension_configs": {
         "markdown.extensions.admonition": {},
         "markdown.extensions.toc": {},
+        "markdown.extensions.tables": {},
         "markdown.extensions.codehilite": {"css_class": "highlight"},
     }
 }

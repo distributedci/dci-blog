@@ -37,20 +37,20 @@ The core of this first step is an ansible playbook which is split into several a
 
 All tasks and playbooks mentioned above are provided by Red Hat Teams and are highly customizable! The DCI Openshift Agent is covering the common tasks needed in all OCP installations and then, partners can parameterize the pipeline to fit their needs. It is done by the usage of variables defined in a simple YAML file that describes the execution of the agent. Here is an example of such file:
 
-```yaml
----
-- name: Openshift-vanilla
-  type: ocp
-  ansible_extravars:
-    cnf_test_suites: ['sctp','ptp','performance','sriov','dpdk']
-    enable_cnv: true
-    dci_disconnected: true
-  topic: OCP-4.7
-  components:
-    - ocp=4.7.24
-  outputs:
-    kubeconfig: "kubeconfig"
-```
+    :::yaml
+    ---
+    - name: Openshift-vanilla
+      type: ocp
+      ansible_extravars:
+        cnf_test_suites: ['sctp','ptp','performance','sriov','dpdk']
+        enable_cnv: true
+        dci_disconnected: true
+      topic: OCP-4.7
+      components:
+        - ocp=4.7.24
+      outputs:
+        kubeconfig: "kubeconfig"
+
 In this example, this file is piloting and centralizing complex tasks of the installation in a very simple way:
 * ‘OCP=4.7.24’ is defining which version of OCP to install. It could have also fetched an RC version for testing in advance versions.
 * ‘enable_cnv’ boolean triggers the installation of Hyper-converged and Virtualisation in the cluster.
@@ -65,16 +65,16 @@ As Telco partners have specific needs, some external plugins are requested such 
 
 DCI Openshift Agent allows more customization than the parameterized of the installation pipeline. It loads custom playbooks written by partners to be run during the execution. It all starts with a simple include_tasks in ansible:
 
-```yaml
- tasks:
-   - block:
-       - name: "dci-Openshift-agent : Launch partner install"
-         include_tasks: '{{ hookdir }}/hooks/install.yml'
-         loop: "{{ dci_config_dirs }}"
-         loop_control:
-           loop_var: hookdir
-     rescue: *teardown_failure
-```
+    :::yaml
+    tasks:
+      - block:
+          - name: "dci-Openshift-agent : Launch partner install"
+            include_tasks: '{{ hookdir }}/hooks/install.yml'
+            loop: "{{ dci_config_dirs }}"
+            loop_control:
+              loop_var: hookdir
+        rescue: *teardown_failure
+
 With this mechanism, partners can customize the installation of their Telco Infrastructure by using ansible scripts. From one file, partner roles can be dynamically used with the ‘include_role’ keyword. For each step of the installation (pre-run.yml, install.yml, failure.yml as mentioned above) there could be hooks that can be executed after the steps of the corresponding name and before the next one.
 
 Typically, after the installation, a hooks/install.yml could deploy a custom operator made by a partner with its own deployment logic without impacting. Another example is the mirroring of external resources in the hooks/pre-run.yml when the cluster is running in disconnected mode.
