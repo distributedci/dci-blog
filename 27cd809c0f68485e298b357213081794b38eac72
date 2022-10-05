@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f32628a_d8136cb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-10-05T13:27:28Z",
+      "side": 1,
+      "message": "Something is wrong with the markup parsing.. I was trying to fix the ```Shell sections in this blog and noticed that they are wrong here as well:\n\nhttps://blog.distributed-ci.io/gerrit-for-github-users.html\n\nWas this being parsed correctly in the beginning?",
+      "revId": "27cd809c0f68485e298b357213081794b38eac72",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
