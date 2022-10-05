@@ -87,10 +87,9 @@ Note: You may see a blank page with the word "Forbidden", if that's the case ple
 
 In our `~/.gitconfig` we need to add the following setting:
 
-```INI
-[gitreview]
-    username = our-github-username
-```
+    :::ini
+    [gitreview]
+        username = our-github-username
 
 ## A guided example
 
@@ -126,10 +125,9 @@ The first difference with the GitHub flow is that we didn't "fork" then clone lo
 
 Let's now explain what's going on with the command that we will execute:
 
-```Shell
-git clone "ssh://our-github-username@softwarefactory-project.io:29418/dci-openshift-app-agent" &&
-scp -p -P 29418 our-github-username@softwarefactory-project.io:hooks/commit-msg "dci-openshift-app-agent/.git/hooks/"
-```
+    :::bash
+    git clone "ssh://our-github-username@softwarefactory-project.io:29418/dci-openshift-app-agent" &&
+    scp -p -P 29418 our-github-username@softwarefactory-project.io:hooks/commit-msg "dci-openshift-app-agent/.git/hooks/"
 
 The first command is a regular git clone to the `dci-openshift-app-agent` repo that is hosted in `softwarefactory-project.io` using `our-github-username` via ssh on port `29418`.
 
@@ -146,16 +144,14 @@ Again, let's stop here to explain what's going on.
 
 Remember the `Change-Id`? The hook `commit-msg` will generate it after writing the commit message. If you have created a commit and look at the message, you will find there's a `Change-Id`. As an example, let's take a look at the most recent commit in that project at the time of this writing. The commit is: [baa3f42](https://softwarefactory-project.io/r/plugins/gitiles/dci-openshift-app-agent/+/baa3f423ad1fb8c6daa9368f834166a5f3a4dd93)
 
-```Shell
-$ git show baa3f42 --summary
-commit baa3f423ad1fb8c6daa9368f834166a5f3a4dd93
-Author: Tony Garcia <tonyg@redhat.com>
-Date:   Wed Mar 16 09:15:57 2022 -0500
+    $ git show baa3f42 --summary
+    commit baa3f423ad1fb8c6daa9368f834166a5f3a4dd93
+    Author: Tony Garcia <tonyg@redhat.com>
+    Date:   Wed Mar 16 09:15:57 2022 -0500
 
-    Fix pullsecrets usage in preflight role
+        Fix pullsecrets usage in preflight role
 
-    Change-Id: I2f72c5fab255490132c348c73f2214e473833d5d
-```
+        Change-Id: I2f72c5fab255490132c348c73f2214e473833d5d
 
 The `Change-Id` is important because this is the way Gerrit tracks changes. When a commit is pushed to the project repository, Gerrit identifies a new `Change-Id`, and a Change Request (CR) is created. This is another difference with GitHub, instead of requesting the project to pull a branch with one or more commits (PR), a change request is created with the new commit.
 
@@ -185,7 +181,7 @@ In GitHub, this is equivalent to having a PR with multiple commits and squashing
 
 Now that we have reviewed both workflows, let's put them side to side:
 
-| Gerrit | GitHub|
+| Gerrit | GitHub |
 |---| --- |
 | Find an awesome Gerrit repo you would like to contribute | Find an awesome GitHub repo you would like to contribute |
 | Read the collaboration notes, etc. | Read the collaboration notes, etc. |
