@@ -16,6 +16,24 @@
       "message": "Something is wrong with the markup parsing.. I was trying to fix the ```Shell sections in this blog and noticed that they are wrong here as well:\n\nhttps://blog.distributed-ci.io/gerrit-for-github-users.html\n\nWas this being parsed correctly in the beginning?",
       "revId": "27cd809c0f68485e298b357213081794b38eac72",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83db3162_2fdaeee6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-10-05T13:42:53Z",
+      "side": 1,
+      "message": "Thanks for pointing that out, I\u0027ll get it fixed in that post.\n\nIt works, when there\u0027s no level of indentation. i.e. the way you have it, looks good to me.\n\nI faced problems when I had it on a 2nd level of indentation, i.e. I had a number and then a snippet of code. In that case ``` does not work, but doing 8 spaces indentation does\n\nThis is equivalent:\n\n```Shell\nSnippet of code\n`` `\n\nvs\n\n    Snippet of code\n\nBut if you need to indent more, only the 2nd option works, example:\n\nThis does not work:\n\n    1. Numbering\n    \n    ```Shell\n     Snippet of code\n     ```\n\nThis works:\n\n   1. Numbering\n\n            Snippet of code",
+      "parentUuid": "8f32628a_d8136cb6",
+      "revId": "27cd809c0f68485e298b357213081794b38eac72",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
