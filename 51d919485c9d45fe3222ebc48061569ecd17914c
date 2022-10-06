@@ -33,6 +33,23 @@
       "message": "Thanks for addressing this Tony.\nTaking a look to the DCI blog, I\u0027ve seen this other one that needs this update too: https://blog.distributed-ci.io/customizable-ansible-hooks.html",
       "revId": "51d919485c9d45fe3222ebc48061569ecd17914c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f2afb1d_88a07193",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-10-06T13:25:56Z",
+      "side": 1,
+      "message": "LGTM!",
+      "revId": "51d919485c9d45fe3222ebc48061569ecd17914c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
