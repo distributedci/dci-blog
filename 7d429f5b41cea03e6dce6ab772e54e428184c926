@@ -70,6 +70,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f34082d7_c2e415cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-10-06T12:25:07Z",
+      "side": 1,
+      "message": "the partner will need to generate a Github token and then store it under ~/.github_token.",
+      "parentUuid": "39c9a4f9_65c2732e",
+      "revId": "7d429f5b41cea03e6dce6ab772e54e428184c926",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f6ee77b8_7e55fcba",
