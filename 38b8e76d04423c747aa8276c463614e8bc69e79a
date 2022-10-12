@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2d54f07_e642047f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-10-12T12:12:18Z",
+      "side": 1,
+      "message": "It a boring updating-config-in-the-blog-post CR, not sure if somebody would be interested to review it. Going to self-merge.",
+      "revId": "38b8e76d04423c747aa8276c463614e8bc69e79a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
