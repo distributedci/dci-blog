@@ -1,11 +1,11 @@
 Title: Certification tests for OpenShift containers and operators: how to run with DCI
-Date: 2022-09-01 10:00
+Date: 2022-10-20 10:00
 Category: how-to
 Tags: partners, certification, operator-certification, container-certification, preflight, dci-openshift-app-agent
 Slug: preflight-integration-in-dci
 Author: Tatiana Krishtop
 Github: tkrishtop
-Summary: This post has some practical information about running Preflight certification suites with DCI. You will learn how to run the tests, debug using log files, and submit the results for the certification. All this is an embedded functionality offered by DCI.
+Summary: This post has some practical information about running Preflight certification suites with DCI. You will learn how to run the tests, debug using log files, and submit the results for certification. All this is an embedded functionality offered by DCI.
 
 [TOC]
 
@@ -30,28 +30,27 @@ Here is the entire process at a glance:
 
 1. Certify the container:
 
-    a. Run [Preflight](https://connect.redhat.com/blog/container-certification-tooling-ready-takeoff) `check container` certification suite on the operator image and ensure it is fully green.
+    a. Run [Preflight](https://connect.redhat.com/blog/container-certification-tooling-ready-takeoff) `check container` certification suite on the operator image and ensure that they are entirely green.
 
     b. Run [OSCAP-podman](https://www.redhat.com/sysadmin/container-vulnerabilities-openscap) check to ensure the container is vulnerability-free.
 
-    c. Create a certification project, "Container image", at connect.redhat.com and push there all test results.
+    c. Create a "Container image" certification project at connect.redhat.com and push all test results there.
 
     d. Provide official information about your company and software to be displayed in the catalog and press the "publish" button to finish the certification process.
 
 2. Certify the operator:
 
-    a. Run [Preflight](https://connect.redhat.com/blog/container-certification-tooling-ready-takeoff) `check operator` certification suite on the bundle image and ensure it to be fully green.
+    a. Run [Preflight](https://connect.redhat.com/blog/container-certification-tooling-ready-takeoff) `check operator` certification suite on the bundle image and ensure that they are fully green.
 
     b. Create a certification project, "Operator Bundle Image", at connect.redhat.com, push Preflight test results into this project, and provide support and sales information for your operator.
 
-    c. Open a pull request in the repository [certified-operators](https://github.com/redhat-openshift-ecosystem/certified-operators/pulls), providing the operator's manifests and metadata. Once the formatting checks are fully green, you could merge your pull request. This merge will trigger operator publication in the catalog.
+    c. Open a pull request in the repository [certified-operators](https://github.com/redhat-openshift-ecosystem/certified-operators/pulls), providing the operator's manifests and metadata. Once the formatting checks are fully green, you can merge your pull request. This merge will trigger operator publication in the catalog.
 
 That means you have three test suites and at least two certification projects ahead of you: a container certification project to certify an operator image and an operator certification project to certify a bundle image. The overall certification scenario could become quite complex if you work in a disconnected environment and have to handle the mirroring.
 
 The good news is that DCI handles this complexity for you. All you need is to provide DCI with bundle and index images. DCI could automatically extract all containers, run required tests for containers and the operator and help you to debug by providing detailed logs out of [DCI UI](https://www.distributed-ci.io/jobs). Once everything is green, DCI could automatically create the certification projects in [connect.redhat.com](connect.redhat.com) and push the test results there.
 
-There are still some remaining manual steps: to provide official information about your software for the catalog and decide when to publish. To publish a container, press the button in the [certification UI](connect.redhat.com), and to publish an operator, open and then merge a pull request in [certified-operators repository](https://github.com/redhat-openshift-ecosystem/certified-operators/pulls).
-
+There are still some remaining manual steps: to provide official information about your software for the catalog and decide when to publish. To publish a container, press the button in the [certification UI](connect.redhat.com), and to publish an operator, close and then re-open an automatically created pull request in [certified-operators](https://github.com/redhat-openshift-ecosystem/certified-operators/pulls) repository.
 
 ## How to run certification tests with DCI
 
@@ -78,7 +77,7 @@ We assume that the OCP cluster is already up and running and the dci-openshift-a
         # could be checked here: https://www.distributed-ci.io/topics
         dci_component: ['8cef32d9-bb90-465f-9b42-8b058878780a']
 
-        # Optional, please provide these credentials
+        # Optional; provide these credentials
         # if your registry is private.
         partner_creds: "/opt/pull-secrets/partner_config.json"
 
@@ -113,7 +112,7 @@ We assume that the OCP cluster is already up and running and the dci-openshift-a
         # In this case, please provide all credentials here.
         partner_creds: "/opt/pull-secrets/partner_config.json"
 
-        # Optional, provide it if your registry is self-signed.
+        # Optional; provide it if your registry is self-signed.
         preflight_custom_ca: "/var/lib/dci-openshift-agent/registry/certs/cert.ca"
 
         # List of operators to certify,
@@ -138,7 +137,7 @@ In our case, Preflight container tests are 100% green and ready to be submitted.
 ![container_res](images/preflight-in-dci/testpmd_test_results.png)
 *Fig. 2. Check container results for testpmd-operator.*
 
-OSCAP-podman tests have some failures; usually, migrating to the latest UBI is enough to fix them.
+OSCAP-podman tests have some failures; usually, migrating to the latest UBI or [another base image from the catalog](https://catalog.redhat.com/software/containers/search) is enough to fix them.
 
 ![container_hc](images/preflight-in-dci/testpmd_health_check.png)
 *Fig. 3. oscap-podman (health-check) results for testpmd-operator.*
@@ -170,15 +169,11 @@ The first step is to generate an access token that would be shared between all y
 
 It's time to get a certification project in [connect.redhat.com](connect.redhat.com). DCI provides two options: automatically create a certification project or reuse the existing one.
 
-1. To automatically create a certification project, add configuration `create_cert_projects: true` in the settings.yml
+1. To automatically create a certification project for the container, add configuration `create_container_project: true`
 
         $ cat /etc/dci-openshift-app-agent/settings.yml
         ---
         # -- snip --
-
-        # Optional; choose this option for the automated creation
-        # of certification projects
-        create_cert_projects: true
 
         # Optional; provide it when you need to submit test results.
         # This token is shared between all your projects.
@@ -192,6 +187,9 @@ It's time to get a certification project in [connect.redhat.com](connect.redhat.
           - bundle_image: "quay.io/rh-nfv-int/testpmd-operator-bundle:v0.2.9"
             # Mandatory for the connected environments.
             index_image: "quay.io/rh-nfv-int/nfv-example-cnf-catalog:v0.2.9"
+            # Optional; provide it when you need to create
+            # a new "Container Image project" and submit test results in it.
+            create_container_project: true
 
     Using this config, DCI creates a new project automatically, displays its ID in the logs, and then submits the results of Preflight tests into this project.
 
@@ -225,7 +223,7 @@ It's time to get a certification project in [connect.redhat.com](connect.redhat.
             pyxis_container_identifier: "my_nice_container_id"
 
 
-In both cases, the DCI job would run the tests and submit their results directly into the certification UI at [connect.redhat.com](connect.redhat.com). The "Certification test -> Certification test" column displays the Preflight tests run by DCI, and the "Health index" column is for [OSCAP-podman vulnerability check](https://redhat-connect.gitbook.io/catalog-help/container-images/container-health) results.
+In both cases, the DCI job would run the tests and submit their results directly into the certification UI at [connect.redhat.com](connect.redhat.com). The "Images -> Certification test" column displays the Preflight tests run by DCI, and the "Health index" column is for [OSCAP-podman vulnerability check](https://redhat-connect.gitbook.io/catalog-help/container-images/container-health) results.
 
 ![submitted_results](images/preflight-in-dci/container_submitted_results.png)
 *Fig. 10. Submitted results in connect.redhat.com.*
@@ -241,23 +239,24 @@ Once all requested information is here, click the publish button to add the cont
 *Fig. 12. Click the publish button to display the container in the catalog.*
 
 ## End-to-end certification of operators with DCI
-Once you have all containers certified and nailed `check operator` to be green, you might want to submit the results for the operator certification. Similarly to the container certification, DCI provides two options: automatically create a certification project or reuse the existing one.
+Once all containers are certified and the `check operator` is green, you might want to submit the results in the certification UI. Unlike the container certification, there is an additional step to open a pull request in the [certified-operators](https://github.com/redhat-openshift-ecosystem/certified-operators/pulls) repository, and below, we use options `create_pr: true` and `merge_pr: true` to do it automatically with DCI. Do not forget [to generate a github token](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/create-certification-project#github-token) before proceeding futher.
 
-1. To create a certification project automatically, add configuration `create_cert_projects: true` in the settings.yml. Note that this option will create two new certification projects: for your container and operator.
+DCI provides two options: automatically create a certification project or reuse the existing one.
+
+1. To create a certification project automatically, add `create_operator_project: true` for the operator.
 
         $ cat /etc/dci-openshift-app-agent/settings.yml
         ---
         # -- snip --
-
-        # Optional; choose this option for the automated creation
-        # of certification projects
-        create_cert_projects: true
 
         # Optional; provide it when you need to submit test results.
         # This token is shared between all your projects.
         # To generate it: connect.redhat.com -> Product certification ->
         # Container API Keys -> Generate new key
         pyxis_apikey_path: "/opt/cache/pyxis-apikey.txt"
+
+        # Optional; provide this token when using the create_pr option
+        github_token_path: "/opt/cache/dcicertbot-token.txt"
 
         # List of operators to certify,
         # you could provide many operators at once.
@@ -265,8 +264,22 @@ Once you have all containers certified and nailed `check operator` to be green, 
           - bundle_image: "quay.io/rh-nfv-int/testpmd-operator-bundle:v0.2.9"
             # Mandatory for the connected environments.
             index_image: "quay.io/rh-nfv-int/nfv-example-cnf-catalog:v0.2.9"
+            # Optional; provide it when you need to create
+            # a new "Operator Bundle Image" and submit test results in it.
+            create_operator_project: true
+            # Optional; use it to open the certification PR automatically
+            # in the certified-operators repository
+            create_pr: true
+            # Optional; use it to merge the certification PR automatically
+            # in the certified-operators repository
+            merge_pr: true
+    
+    Using this config, DCI creates a new project automatically, displays its ID in the logs, and then submits the results of Preflight tests into this project.
 
-2. If you already have the certification projects, provide an ID for container project "Container image" as `pyxis_container_identifier` and an ID for operator project "Operator Bundle Image" as `pyxis_operator_identifier`.
+    ![operator_project](images/preflight-in-dci/automated_project_creation.png)
+    *Fig. 13. DCI displays an ID of an automatically created project.*
+
+2. If you already have a certification project, provide an ID for operator project "Operator Bundle Image" as `pyxis_operator_identifier`.
 
         $ cat /etc/dci-openshift-app-agent/settings.yml
         ---
@@ -277,6 +290,9 @@ Once you have all containers certified and nailed `check operator` to be green, 
         # To generate it: connect.redhat.com -> Product certification ->
         # Container API Keys -> Generate new key
         pyxis_apikey_path: "/opt/cache/pyxis-apikey.txt"
+
+        # Optional; provide this token when using the create_pr option
+        github_token_path: "/opt/cache/dcicertbot-token.txt"
 
         # List of operators to certify,
         # you could provide many operators at once.
@@ -293,9 +309,35 @@ Once you have all containers certified and nailed `check operator` to be green, 
             # It is an id of your Operator Bundle Image
             # https://connect.redhat.com/projects/my_nice_container_id
             pyxis_operator_identifier: "my_nice_operator_id"
+            # Optional; use it to open the certification PR automatically
+            # in the certified-operators repository
+            create_pr: true
+            # Optional; use it to merge the certification PR automatically
+            # in the certified-operators repository
+            merge_pr: true
 
+In both cases, the DCI job would run the tests and submit their results directly into the certification UI at [connect.redhat.com](connect.redhat.com). The "Test results -> Test result" column displays the Preflight tests run by DCI.
 
-The last step is to publish an operator in the catalog. For that, open and merge a pull request in the [certified-operators](https://github.com/redhat-openshift-ecosystem/certified-operators/pulls) repository, providing the operator's manifests and metadata. This merge will trigger operator publication in the catalog.
+![operator_test_results](images/preflight-in-dci/operator_test_results.png)
+*Fig. 14. Submitted results in connect.redhat.com*
+
+Here we have an error "Most recent pull request unsuccessful" because marketing information is missing in the overview tab. To fix that, add a repository description and product listing to be displayed in the catalog.
+
+![operator_test_results](images/preflight-in-dci/missing_info.png)
+*Fig. 15. Provide operator description and marketing information.*
+
+The last step is to take care of the automatically opened pull request. Similarly to automatically created certification projects, 
+the link to the automatically created pull request is displayed in the DCI UI.
+
+![create_pr](images/preflight-in-dci/create_pr.png)
+*Fig. 16. Provide operator description and marketing information.*
+
+Some formatting tests displayed in the pull requests comments will be in the failed state because the marketing information was not provided when DCI created pull request. To re-run the formatting tests, close and re-open the pull request. That should fix the issue, make the tests 100% green, and automatically merge the pull request.
+
+![formatting](images/preflight-in-dci/tekton_formatting_tests.png)
+*Fig. 17. Fully-green formatting tests.*
+
+This merge will finish the certification by triggering operator publication in the [catalog](https://catalog.redhat.com/software/operators/search).
 
 <br>
 <br>
