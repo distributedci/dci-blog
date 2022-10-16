@@ -4,6 +4,7 @@ Category: how-to
 Tags: introduction, dci, ci, OpenShift, OCP
 Slug: using-prefixes
 Authors: Nacho Silla
+Github: nsilla
 Summary: Prefixes allow you to control the inventory and settings of different DCI environments from a single central directory. We hope this article will convince you of the convenience of using prefixes in your DCI labs and will serve as a solid foundation for you to start leveraging their potential.
 
 Prefixes allow you to control the inventory and settings of different DCI environments from a single central directory. We hope this article will convince you of the convenience of using prefixes in your DCI labs and will serve as a solid foundation for you to start leveraging their potential.
