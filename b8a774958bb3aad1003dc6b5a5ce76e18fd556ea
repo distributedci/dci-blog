@@ -188,6 +188,30 @@
       },
       "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb803618_9f286dad",
+        "filename": "content/2022-10-27-shared-resources-management.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-10-17T10:18:41Z",
+      "side": 1,
+      "message": "\u003e Then, two proposals here:\n\u003e - Instead of saying \"for more details\", can we say \"for more details about prefixes\u0027 usage\"?\n\nok. done.\n\n\u003e - Can we modify \"using-prefixes.html\" for \"http://2022-09-09-using-prefixes-to-operate-multiple-clusters.md\"?\n\nThat\u0027s not really visible. why do you want to change it?",
+      "parentUuid": "7cb1ccf2_441e181d",
+      "range": {
+        "startLine": 87,
+        "startChar": 48,
+        "endLine": 87,
+        "endChar": 67
+      },
+      "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
