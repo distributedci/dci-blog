@@ -95,6 +95,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "86e9e84c_ca088168",
+        "filename": "content/2022-10-27-shared-resources-management.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-10-17T10:13:28Z",
+      "side": 1,
+      "message": "I\u0027ve re-read it more carefully and it\u0027s fine then",
+      "parentUuid": "f32c3527_db0e753c",
+      "range": {
+        "startLine": 74,
+        "startChar": 2,
+        "endLine": 74,
+        "endChar": 10
+      },
+      "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1858eb35_ddfc93b5",
@@ -132,6 +156,30 @@
       "side": 1,
       "message": "I know but it is more to explain the concept of prefix itself.",
       "parentUuid": "1858eb35_ddfc93b5",
+      "range": {
+        "startLine": 87,
+        "startChar": 48,
+        "endLine": 87,
+        "endChar": 67
+      },
+      "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7cb1ccf2_441e181d",
+        "filename": "content/2022-10-27-shared-resources-management.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-10-17T10:13:28Z",
+      "side": 1,
+      "message": "Then, two proposals here:\n- Instead of saying \"for more details\", can we say \"for more details about prefixes\u0027 usage\"?\n- Can we modify \"using-prefixes.html\" for \"http://2022-09-09-using-prefixes-to-operate-multiple-clusters.md\"?",
+      "parentUuid": "0ba2d86f_11d0e89c",
       "range": {
         "startLine": 87,
         "startChar": 48,
