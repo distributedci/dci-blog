@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e27c01f6_827b9711",
+        "filename": "content/2022-10-27-shared-resources-management.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-10-17T08:11:41Z",
+      "side": 1,
+      "message": "resources",
+      "range": {
+        "startLine": 69,
+        "startChar": 33,
+        "endLine": 69,
+        "endChar": 41
+      },
+      "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "466b8c7a_f0d45b49",
+        "filename": "content/2022-10-27-shared-resources-management.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-10-17T08:11:41Z",
+      "side": 1,
+      "message": "I would extend a little bit what does @RESOURCE mean, or include a reference to point to that. I\u0027m saying this because people outside our team may be lost trying to understand this command",
+      "range": {
+        "startLine": 74,
+        "startChar": 2,
+        "endLine": 74,
+        "endChar": 10
+      },
+      "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1858eb35_ddfc93b5",
+        "filename": "content/2022-10-27-shared-resources-management.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-10-17T08:11:41Z",
+      "side": 1,
+      "message": "Are you referring to \"2022-09-09-using-prefixes-to-operate-multiple-clusters.md\"? Because, in that blog post, @RESOURCE is not mentioned anywhere.",
+      "range": {
+        "startLine": 87,
+        "startChar": 48,
+        "endLine": 87,
+        "endChar": 67
+      },
+      "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
