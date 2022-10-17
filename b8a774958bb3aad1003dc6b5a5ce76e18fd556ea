@@ -212,6 +212,30 @@
       },
       "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "660eec73_8e94ea7a",
+        "filename": "content/2022-10-27-shared-resources-management.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-10-17T10:32:31Z",
+      "side": 1,
+      "message": "Ouch, yes, you\u0027re right, now I\u0027ve checked how links to other blog posts are done and I was wrong. I\u0027ll close this, it\u0027s fine then.",
+      "parentUuid": "bb803618_9f286dad",
+      "range": {
+        "startLine": 87,
+        "startChar": 48,
+        "endLine": 87,
+        "endChar": 67
+      },
+      "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
