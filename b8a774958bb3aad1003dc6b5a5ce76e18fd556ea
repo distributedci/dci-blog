@@ -24,6 +24,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ea40b16_68fc9949",
+        "filename": "content/2022-10-27-shared-resources-management.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-10-17T09:45:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e27c01f6_827b9711",
+      "range": {
+        "startLine": 69,
+        "startChar": 33,
+        "endLine": 69,
+        "endChar": 41
+      },
+      "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "466b8c7a_f0d45b49",
@@ -49,6 +73,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f32c3527_db0e753c",
+        "filename": "content/2022-10-27-shared-resources-management.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-10-17T09:45:15Z",
+      "side": 1,
+      "message": "That\u0027s what I tried to do in the previous paragraph. How should I fix it?",
+      "parentUuid": "466b8c7a_f0d45b49",
+      "range": {
+        "startLine": 74,
+        "startChar": 2,
+        "endLine": 74,
+        "endChar": 10
+      },
+      "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1858eb35_ddfc93b5",
         "filename": "content/2022-10-27-shared-resources-management.md",
         "patchSetId": 2
@@ -60,6 +108,30 @@
       "writtenOn": "2022-10-17T08:11:41Z",
       "side": 1,
       "message": "Are you referring to \"2022-09-09-using-prefixes-to-operate-multiple-clusters.md\"? Because, in that blog post, @RESOURCE is not mentioned anywhere.",
+      "range": {
+        "startLine": 87,
+        "startChar": 48,
+        "endLine": 87,
+        "endChar": 67
+      },
+      "revId": "b8a774958bb3aad1003dc6b5a5ce76e18fd556ea",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ba2d86f_11d0e89c",
+        "filename": "content/2022-10-27-shared-resources-management.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2022-10-17T09:45:15Z",
+      "side": 1,
+      "message": "I know but it is more to explain the concept of prefix itself.",
+      "parentUuid": "1858eb35_ddfc93b5",
       "range": {
         "startLine": 87,
         "startChar": 48,
