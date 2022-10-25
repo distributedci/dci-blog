@@ -23,7 +23,7 @@ Prerequisites:
 
 To fully certify an operator, you must first certify all containers the operator uses and then certify the operator.
 
-![cert_steps](images/preflight-in-dci/operator_with_one_container.png)
+![cert_steps](images/preflight-in-dci/one_container.png)
 *Fig. 1. Certification steps.*
 
 Here is the entire process at a glance:
