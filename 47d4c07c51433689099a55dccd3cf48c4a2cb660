@@ -1,0 +1,739 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3385ca45_1757a0f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "Hello Charles,\nGood topic, thanks for the all the work",
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bbc246a1_83e62c03",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "I would suggest renaming this to something like: \"Quay for disconnected environments\", \"Why we choose Quay for our Dallas Lab?\" as you are mainly talking about its benefits. Maybe for the next delivery talk about recommended practices for multitency, organization, sharing organizations, etc.",
+      "range": {
+        "startLine": 1,
+        "startChar": 7,
+        "endLine": 1,
+        "endChar": 59
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "294137ef_548e66cb",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "Some alternatives...\n\n- Overview?\n- The Dallas lab needs?\n- Our requirements for images mirroring at Dallas?",
+      "range": {
+        "startLine": 13,
+        "startChar": 3,
+        "endLine": 13,
+        "endChar": 10
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f2e1d26_1b4f2def",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "does",
+      "range": {
+        "startLine": 15,
+        "startChar": 144,
+        "endLine": 15,
+        "endChar": 146
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4bde47a_50c40f7a",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "I wasn\u0027t aware that is an option, I was thinking that a local registry was always required for airgapped envs. But what a pain! hehe",
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e14055a8_64f5702d",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "As you are still talking about the the same idea, I think this should be part of the previous paragraph,",
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "32e1e377_6034ddd7",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "use",
+      "range": {
+        "startLine": 23,
+        "startChar": 7,
+        "endLine": 23,
+        "endChar": 12
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93c82693_125dd56d",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "extras",
+      "range": {
+        "startLine": 25,
+        "startChar": 516,
+        "endLine": 25,
+        "endChar": 521
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d7fa270_4205adce",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "scanning,",
+      "range": {
+        "startLine": 25,
+        "startChar": 460,
+        "endLine": 25,
+        "endChar": 462
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4e11c4a_d2489805",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "I think you need to continue talking about the \"Why\u0027s\" and let the other alternative for later. \n\nMaybe list the benefits/features. Like Red hatters love Quay, Granular access, security, image scanning and then elaborate a bit about the ones that we need.",
+      "range": {
+        "startLine": 25,
+        "startChar": 199,
+        "endLine": 25,
+        "endChar": 400
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae74aed6_de3416e5",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "of",
+      "range": {
+        "startLine": 25,
+        "startChar": 251,
+        "endLine": 25,
+        "endChar": 256
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "532aca8f_b160c1d6",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "with",
+      "range": {
+        "startLine": 25,
+        "startChar": 532,
+        "endLine": 25,
+        "endChar": 533
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5e6f29a_c3ee1029",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "of",
+      "range": {
+        "startLine": 25,
+        "startChar": 549,
+        "endLine": 25,
+        "endChar": 551
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29c4093c_ee7c4c93",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "\"Multitenancy and namespaces for access management\"\n\nMaybe mention something like, multiple users can be created... and those can have organizations",
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "140952be_84f60ed7",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "IMHO we should create users per partner with their own orgs",
+      "range": {
+        "startLine": 35,
+        "startChar": 188,
+        "endLine": 35,
+        "endChar": 236
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75b61956_2546d0ff",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "maybe remove \"the\"",
+      "range": {
+        "startLine": 35,
+        "startChar": 293,
+        "endLine": 35,
+        "endChar": 300
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b76db1b3_2e172c2e",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "who",
+      "range": {
+        "startLine": 35,
+        "startChar": 287,
+        "endLine": 35,
+        "endChar": 292
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40a90eae_79a99d0b",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "Organizations",
+      "range": {
+        "startLine": 35,
+        "startChar": 165,
+        "endLine": 35,
+        "endChar": 177
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de164459_02110776",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "I think it is part of the previous paragraph",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 2
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "66e33a4b_cb1036b3",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "in",
+      "range": {
+        "startLine": 36,
+        "startChar": 100,
+        "endLine": 36,
+        "endChar": 102
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ee0fd6f_a17831a8",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "\"The\" (To cut the relationship with the previous paragraph)",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 5
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8aa20fbf_5452cb9d",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "the",
+      "range": {
+        "startLine": 39,
+        "startChar": 47,
+        "endLine": 39,
+        "endChar": 48
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9afa36af_35a84c12",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "It will be a nice to have, we are still not there.",
+      "range": {
+        "startLine": 39,
+        "startChar": 249,
+        "endLine": 39,
+        "endChar": 291
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1d3c2804_5f3d97be",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": ",",
+      "range": {
+        "startLine": 42,
+        "startChar": 137,
+        "endLine": 42,
+        "endChar": 138
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04e6a7b6_6574af69",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "set up",
+      "range": {
+        "startLine": 43,
+        "startChar": 74,
+        "endLine": 43,
+        "endChar": 79
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f387f413_507e5791",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "maintainability",
+      "range": {
+        "startLine": 43,
+        "startChar": 26,
+        "endLine": 43,
+        "endChar": 40
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f5be14f_4de217ca",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "Not sure if this should jump the configuration area, I think the article is general overview and not a config guide, even this is just small item. Up to you.",
+      "range": {
+        "startLine": 43,
+        "startChar": 81,
+        "endLine": 46,
+        "endChar": 34
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0381c802_27722a90",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "security scanner? \n\nTo do not say vulnerability 2 times in the same sentence?",
+      "range": {
+        "startLine": 50,
+        "startChar": 189,
+        "endLine": 50,
+        "endChar": 211
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d670341_640be930",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": ",",
+      "range": {
+        "startLine": 50,
+        "startChar": 156,
+        "endLine": 50,
+        "endChar": 157
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72a95150_9eba534c",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "provided by Clair (https://github.com/quay/clair)",
+      "range": {
+        "startLine": 50,
+        "startChar": 211,
+        "endLine": 50,
+        "endChar": 212
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3adf962c_dcffd4cb",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": ",",
+      "range": {
+        "startLine": 53,
+        "startChar": 352,
+        "endLine": 53,
+        "endChar": 357
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee63aa41_cd42622e",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "open-source",
+      "range": {
+        "startLine": 53,
+        "startChar": 126,
+        "endLine": 53,
+        "endChar": 140
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a11672a_9f88ffe6",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-10-27T23:35:23Z",
+      "side": 1,
+      "message": "and",
+      "range": {
+        "startLine": 53,
+        "startChar": 379,
+        "endLine": 53,
+        "endChar": 381
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
