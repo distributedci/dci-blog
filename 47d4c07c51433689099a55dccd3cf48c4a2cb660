@@ -58,6 +58,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e6fc1a2_751b8b37",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:37:56Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "bbc246a1_83e62c03",
+      "range": {
+        "startLine": 1,
+        "startChar": 7,
+        "endLine": 1,
+        "endChar": 59
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "294137ef_548e66cb",
@@ -235,6 +259,30 @@
       "writtenOn": "2022-10-27T23:35:23Z",
       "side": 1,
       "message": "use",
+      "range": {
+        "startLine": 23,
+        "startChar": 7,
+        "endLine": 23,
+        "endChar": 12
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86bc321d_960d9a3b",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:37:56Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "32e1e377_6034ddd7",
       "range": {
         "startLine": 23,
         "startChar": 7,
@@ -1097,6 +1145,30 @@
         "startChar": 74,
         "endLine": 43,
         "endChar": 79
+      },
+      "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0daf6868_2f381cfb",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:37:56Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "f387f413_507e5791",
+      "range": {
+        "startLine": 43,
+        "startChar": 26,
+        "endLine": 43,
+        "endChar": 40
       },
       "revId": "47d4c07c51433689099a55dccd3cf48c4a2cb660",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
