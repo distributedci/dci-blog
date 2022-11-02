@@ -18,6 +18,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "52789936_ce89902a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:32:07Z",
+      "side": 1,
+      "message": "The idea behind this article is to present some features that are not so known and that can be very useful in various environment. For practical example, it is better to see the official documentation. I will add the link to the official Quay doc though.",
+      "parentUuid": "7d8eea89_6d8e11c8",
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8762dbc3_9aa20809",
@@ -77,6 +95,78 @@
       "writtenOn": "2022-11-02T07:47:39Z",
       "side": 1,
       "message": "Ansible",
+      "range": {
+        "startLine": 18,
+        "startChar": 271,
+        "endLine": 18,
+        "endChar": 278
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5eec0b80_af870aa1",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:32:07Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2fe501f0_cc618163",
+      "range": {
+        "startLine": 18,
+        "startChar": 630,
+        "endLine": 18,
+        "endChar": 631
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a26b048d_73049299",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:32:07Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8762dbc3_9aa20809",
+      "range": {
+        "startLine": 18,
+        "startChar": 344,
+        "endLine": 18,
+        "endChar": 347
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eba131ad_ef5a296b",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:32:07Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "0f3e9b8b_28bd3163",
       "range": {
         "startLine": 18,
         "startChar": 271,
@@ -156,6 +246,78 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7436020f_6f14c6a6",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:32:07Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "78b2d56d_8a58b77e",
+      "range": {
+        "startLine": 22,
+        "startChar": 271,
+        "endLine": 22,
+        "endChar": 274
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a4ce3c5_12ac1c36",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:32:07Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2238536b_598de9ca",
+      "range": {
+        "startLine": 22,
+        "startChar": 121,
+        "endLine": 22,
+        "endChar": 125
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0aada1b6_1ddbbd32",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:32:07Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "86aa8103_de0428bd",
+      "range": {
+        "startLine": 22,
+        "startChar": 446,
+        "endLine": 22,
+        "endChar": 451
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "27c925b3_d3312d12",
@@ -169,6 +331,30 @@
       "writtenOn": "2022-11-02T07:47:39Z",
       "side": 1,
       "message": "\"using\", maybe?",
+      "range": {
+        "startLine": 23,
+        "startChar": 8,
+        "endLine": 23,
+        "endChar": 11
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "560ee005_b539cfb9",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:32:07Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "27c925b3_d3312d12",
       "range": {
         "startLine": 23,
         "startChar": 8,
@@ -220,6 +406,54 @@
         "startChar": 549,
         "endLine": 33,
         "endChar": 551
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6daebcd7_d2729ffb",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:32:07Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "c17e2197_da14ed86",
+      "range": {
+        "startLine": 33,
+        "startChar": 549,
+        "endLine": 33,
+        "endChar": 551
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "511459cd_a67b2651",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-02T09:32:07Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "349c45c7_acb5fa8f",
+      "range": {
+        "startLine": 33,
+        "startChar": 485,
+        "endLine": 33,
+        "endChar": 503
       },
       "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
