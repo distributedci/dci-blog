@@ -1,0 +1,228 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d8eea89_6d8e11c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-02T07:47:39Z",
+      "side": 1,
+      "message": "Thanks Charles for the work! Here you have some suggestions from my side.\nAlso, should we also consider a practical example to show people how to create organizations and how to deal with them? Or this may be probably a content for a next article?",
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8762dbc3_9aa20809",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-02T07:47:39Z",
+      "side": 1,
+      "message": "space before \"But\"",
+      "range": {
+        "startLine": 18,
+        "startChar": 344,
+        "endLine": 18,
+        "endChar": 347
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2fe501f0_cc618163",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-02T07:47:39Z",
+      "side": 1,
+      "message": "I have the opinion that the first chapter should have a slight introduction about the topics that will be covered in the article. Here we can see some background regarding why to use Quay, but Quay was not mentioned in the Overview. Maybe a short sentence here would be appropriate (e.g. \"That is where Quay is coming on the stage!\" from the next chapter)",
+      "range": {
+        "startLine": 18,
+        "startChar": 630,
+        "endLine": 18,
+        "endChar": 631
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f3e9b8b_28bd3163",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-02T07:47:39Z",
+      "side": 1,
+      "message": "Ansible",
+      "range": {
+        "startLine": 18,
+        "startChar": 271,
+        "endLine": 18,
+        "endChar": 278
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78b2d56d_8a58b77e",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-02T07:47:39Z",
+      "side": 1,
+      "message": "web-based",
+      "range": {
+        "startLine": 22,
+        "startChar": 271,
+        "endLine": 22,
+        "endChar": 274
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2238536b_598de9ca",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-02T07:47:39Z",
+      "side": 1,
+      "message": "Quay",
+      "range": {
+        "startLine": 22,
+        "startChar": 121,
+        "endLine": 22,
+        "endChar": 125
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86aa8103_de0428bd",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-02T07:47:39Z",
+      "side": 1,
+      "message": "help",
+      "range": {
+        "startLine": 22,
+        "startChar": 446,
+        "endLine": 22,
+        "endChar": 451
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27c925b3_d3312d12",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-02T07:47:39Z",
+      "side": 1,
+      "message": "\"using\", maybe?",
+      "range": {
+        "startLine": 23,
+        "startChar": 8,
+        "endLine": 23,
+        "endChar": 11
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "349c45c7_acb5fa8f",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-02T07:47:39Z",
+      "side": 1,
+      "message": "does not only improve",
+      "range": {
+        "startLine": 33,
+        "startChar": 485,
+        "endLine": 33,
+        "endChar": 503
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c17e2197_da14ed86",
+        "filename": "content/2022-10-27-managing-partners-with-quay.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-02T07:47:39Z",
+      "side": 1,
+      "message": "but it...",
+      "range": {
+        "startLine": 33,
+        "startChar": 549,
+        "endLine": 33,
+        "endChar": 551
+      },
+      "revId": "08b6bf182ec114c30ef5af148b58ba5258c8c400",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
