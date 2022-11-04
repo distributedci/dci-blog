@@ -1,5 +1,6 @@
 Title: Naming capabilities for DCI jobs
 Date: 2022-09-08 07:00
+Modified: 2022-11-04 07:15
 Category: how-to
 Tags: dci
 Slug: naming-for-dci-jobs
@@ -70,6 +71,7 @@ Tags are a good way to organize jobs to be able to filter them. This can be set 
 
 DCI jobs look for a previous job to display improvements or regression in test results. What defines a previous job is the most recent job before the current one with the following attributes:
 
+* same topic
 * same remote CI
 * same job name
 * same configuration
