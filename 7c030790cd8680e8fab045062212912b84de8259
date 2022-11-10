@@ -64,6 +64,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ad93bd6_6db5e4a6",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-11-10T14:01:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ae0625cd_04316322",
+      "range": {
+        "startLine": 73,
+        "startChar": 44,
+        "endLine": 73,
+        "endChar": 50
+      },
+      "revId": "7c030790cd8680e8fab045062212912b84de8259",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35c45a62_4b6cfd3f",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-11-10T14:01:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "76a4c006_f8f8f124",
+      "range": {
+        "startLine": 73,
+        "startChar": 293,
+        "endLine": 73,
+        "endChar": 294
+      },
+      "revId": "7c030790cd8680e8fab045062212912b84de8259",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "19008b3f_ac75a4d5",
@@ -87,6 +135,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e1c7fe5_560b7a21",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-11-10T14:01:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "19008b3f_ac75a4d5",
+      "range": {
+        "startLine": 84,
+        "startChar": 38,
+        "endLine": 84,
+        "endChar": 44
+      },
+      "revId": "7c030790cd8680e8fab045062212912b84de8259",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b4f70ba7_ac466da7",
@@ -100,6 +172,30 @@
       "writtenOn": "2022-11-10T07:06:43Z",
       "side": 1,
       "message": "Github",
+      "range": {
+        "startLine": 112,
+        "startChar": 16,
+        "endLine": 112,
+        "endChar": 22
+      },
+      "revId": "7c030790cd8680e8fab045062212912b84de8259",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1bfa2a3_e1a63285",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-11-10T14:01:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b4f70ba7_ac466da7",
       "range": {
         "startLine": 112,
         "startChar": 16,
