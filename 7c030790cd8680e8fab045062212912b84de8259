@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f734107_6957ed91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-10T07:06:43Z",
+      "side": 1,
+      "message": "Some super-minor comments",
+      "revId": "7c030790cd8680e8fab045062212912b84de8259",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae0625cd_04316322",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-10T07:06:43Z",
+      "side": 1,
+      "message": "Github, upper case",
+      "range": {
+        "startLine": 73,
+        "startChar": 44,
+        "endLine": 73,
+        "endChar": 50
+      },
+      "revId": "7c030790cd8680e8fab045062212912b84de8259",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "76a4c006_f8f8f124",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-10T07:06:43Z",
+      "side": 1,
+      "message": "I think \":\" suits better than \",\" here",
+      "range": {
+        "startLine": 73,
+        "startChar": 293,
+        "endLine": 73,
+        "endChar": 294
+      },
+      "revId": "7c030790cd8680e8fab045062212912b84de8259",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "19008b3f_ac75a4d5",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-10T07:06:43Z",
+      "side": 1,
+      "message": "Github",
+      "range": {
+        "startLine": 84,
+        "startChar": 38,
+        "endLine": 84,
+        "endChar": 44
+      },
+      "revId": "7c030790cd8680e8fab045062212912b84de8259",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4f70ba7_ac466da7",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-10T07:06:43Z",
+      "side": 1,
+      "message": "Github",
+      "range": {
+        "startLine": 112,
+        "startChar": 16,
+        "endLine": 112,
+        "endChar": 22
+      },
+      "revId": "7c030790cd8680e8fab045062212912b84de8259",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
