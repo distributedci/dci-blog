@@ -103,6 +103,24 @@
       "message": "we should rather say that in this case, you need to contact the DCI team to get access to the logs as partners and other teams at Red Hat will not be able to access the servers.",
       "revId": "7d429f5b41cea03e6dce6ab772e54e428184c926",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "246840cb_6c73566a",
+        "filename": "content/2022-10-01-using-dci-check-change.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-11-10T14:02:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f6ee77b8_7e55fcba",
+      "revId": "7d429f5b41cea03e6dce6ab772e54e428184c926",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
