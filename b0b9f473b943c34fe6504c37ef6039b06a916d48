@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbd3e4c0_1c1a934e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Thanks Tatiana for all your comments! I\u0027ve addressed all of them, creating the patchset now",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "953e57df_4e5cc530",
@@ -31,6 +48,24 @@
       "writtenOn": "2022-11-14T12:40:15Z",
       "side": 1,
       "message": "I\u0027d rewrite it a bit:\n\n1/ \nto establish \n-\u003e \nfor establishing\n\n2/ \nThis blog post will cover the full workflow that a partner should follow from the creation of the components to the deployment of DCI jobs using these components. \n-\u003e \nThis blog post will cover the full workflow that a partner should follow, from creating the components to deploying DCI jobs using these components.",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e36a276_50902cec",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "953e57df_4e5cc530",
       "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -52,6 +87,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "55775c72_271867c4",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "44f76590_64bb0766",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e79976bd_595d1395",
@@ -65,6 +118,24 @@
       "writtenOn": "2022-11-14T12:40:15Z",
       "side": 1,
       "message": "the comma is not needed",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ff2640a_0cd069a2",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e79976bd_595d1395",
       "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -86,6 +157,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ead01fe_e8d907eb",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "848a5915_19de2a32",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9f8d5400_2adea596",
@@ -99,6 +188,24 @@
       "writtenOn": "2022-11-14T12:40:15Z",
       "side": 1,
       "message": "the comma is not needed here",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f88dc9e6_10a9175e",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "9f8d5400_2adea596",
       "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -120,6 +227,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "48751666_71e01b9b",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "I usually use UK words (so afterwards is correct), but I\u0027ll change it",
+      "parentUuid": "3e86ac0e_2fc259a8",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "49d3fee4_060de00c",
@@ -133,6 +258,24 @@
       "writtenOn": "2022-11-14T12:40:15Z",
       "side": 1,
       "message": "If not specified, release date\n-\u003e\nIf not specified, the release date",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf3570a4_f8c15814",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "49d3fee4_060de00c",
       "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -154,6 +297,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cf8da1b_aa3ab003",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2aedb08a_8164d817",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d4dfd701_77d40295",
@@ -167,6 +328,24 @@
       "writtenOn": "2022-11-14T12:40:15Z",
       "side": 1,
       "message": "we could write a bit shorter:\n\nThis data can be retrieved in the partner hooks so that you can use them.",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06d27c81_ada86420",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d4dfd701_77d40295",
       "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -188,6 +367,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "50231d91_8c8df027",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "6f7ec6fd_0a671c48",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "505c3ca2_15fe2e33",
@@ -201,6 +398,24 @@
       "writtenOn": "2022-11-14T12:40:15Z",
       "side": 1,
       "message": "one is connected environment, the other is disconnected environment\n-\u003e\none is the connected environment, the other is the disconnected environment",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d839743_aaa53b15",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "maybe I\u0027ll use \"a\" instead of \"the\", as we are not specifying anything about the lab later",
+      "parentUuid": "505c3ca2_15fe2e33",
       "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -222,6 +437,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d63476a_20c5b198",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "facf6e31_1f589a69",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4b474a3f_e7e6c9d4",
@@ -235,6 +468,24 @@
       "writtenOn": "2022-11-14T12:40:15Z",
       "side": 1,
       "message": "we could say it a bit shorter:\n\nAs a result, they make evaluating and comparing job results easier.",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "176b44d5_e94ba89b",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-14T14:55:24Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "4b474a3f_e7e6c9d4",
       "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
