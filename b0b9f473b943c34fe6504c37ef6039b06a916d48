@@ -1,0 +1,242 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67b3f615_22d45b5b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "Hi Ramon, great job, thank you for the post!\n\nI added some minor grammar issues and will review in more details after the meeting with my mentor.\n",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "953e57df_4e5cc530",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "I\u0027d rewrite it a bit:\n\n1/ \nto establish \n-\u003e \nfor establishing\n\n2/ \nThis blog post will cover the full workflow that a partner should follow from the creation of the components to the deployment of DCI jobs using these components. \n-\u003e \nThis blog post will cover the full workflow that a partner should follow, from creating the components to deploying DCI jobs using these components.",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44f76590_64bb0766",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "I\u0027d rewrite a bit shorter:\n\nDCI components are really useful for establishing efficient CI workflows with partner workloads. This blog post will cover the full workflow that a partner should follow to:",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e79976bd_595d1395",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "the comma is not needed",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "848a5915_19de2a32",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "excepting -\u003e except",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f8d5400_2adea596",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "the comma is not needed here",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e86ac0e_2fc259a8",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "afterwards -\u003e afterward",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49d3fee4_060de00c",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "If not specified, release date\n-\u003e\nIf not specified, the release date",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2aedb08a_8164d817",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "the comma is missing\n\nHere you can specify variables\n-\u003e\nHere, you can specify variables",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d4dfd701_77d40295",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "we could write a bit shorter:\n\nThis data can be retrieved in the partner hooks so that you can use them.",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f7ec6fd_0a671c48",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "too many commas :) \n\nTake care of not including data that can be exclusive to a specific lab because a component should be immutable and portable. In that case, just move these data to variables defined directly in the hooks or in the configuration files used to define your variables (settings, pipelines, etc.)",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "505c3ca2_15fe2e33",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "one is connected environment, the other is disconnected environment\n-\u003e\none is the connected environment, the other is the disconnected environment",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "facf6e31_1f589a69",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "used for automating \n-\u003e\nused to automate",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b474a3f_e7e6c9d4",
+        "filename": "content/2022-11-14-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T12:40:15Z",
+      "side": 1,
+      "message": "we could say it a bit shorter:\n\nAs a result, they make evaluating and comparing job results easier.",
+      "revId": "b0b9f473b943c34fe6504c37ef6039b06a916d48",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
