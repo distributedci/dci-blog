@@ -16,6 +16,40 @@
       "message": "Hi Ramon, added two more tabs everywhere to get code block correctly displayed.",
       "revId": "c876b69196a3b2c37164d138174d81f8a77ee1bb",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce52bb23_6c80ae6c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T18:49:49Z",
+      "side": 1,
+      "message": "Hi Ramon, LGTM, thanks!",
+      "revId": "c876b69196a3b2c37164d138174d81f8a77ee1bb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "625e36d6_10fa0fce",
+        "filename": "content/2022-11-16-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-14T18:49:49Z",
+      "side": 1,
+      "message": "it would be nice to add some comments about why it\u0027s recommended to use ga",
+      "revId": "c876b69196a3b2c37164d138174d81f8a77ee1bb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
