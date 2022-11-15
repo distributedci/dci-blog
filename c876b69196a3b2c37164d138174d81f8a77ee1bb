@@ -50,6 +50,24 @@
       "message": "it would be nice to add some comments about why it\u0027s recommended to use ga",
       "revId": "c876b69196a3b2c37164d138174d81f8a77ee1bb",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "020e285b_93d61fad",
+        "filename": "content/2022-11-16-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-15T09:17:43Z",
+      "side": 1,
+      "message": "I\u0027ve added it above, when we talk about the release type, as this is an example. What do you think?\n\n- Release type of the component (dev, candidate, ga). If you consider your software is ready for production, please set up `ga` as release type, else select between `dev` or `candidate` depending on the current status of your software development.",
+      "parentUuid": "625e36d6_10fa0fce",
+      "revId": "c876b69196a3b2c37164d138174d81f8a77ee1bb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
