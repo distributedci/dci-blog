@@ -68,6 +68,24 @@
       "parentUuid": "625e36d6_10fa0fce",
       "revId": "c876b69196a3b2c37164d138174d81f8a77ee1bb",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04982d90_b379c664",
+        "filename": "content/2022-11-16-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-15T09:27:59Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "020e285b_93d61fad",
+      "revId": "c876b69196a3b2c37164d138174d81f8a77ee1bb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
