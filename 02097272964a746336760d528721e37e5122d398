@@ -52,6 +52,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bb30f4c_614646f2",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-11-15T17:00:33Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "24a59bb6_977fec74",
+      "revId": "02097272964a746336760d528721e37e5122d398",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9021017e_62779bc8",
@@ -65,6 +83,24 @@
       "writtenOn": "2022-11-15T05:08:20Z",
       "side": 1,
       "message": "could you add a paragraph and link to software factory (https://softwarefactory-project.io/r/) to direct the reader to where the code changes are?",
+      "revId": "02097272964a746336760d528721e37e5122d398",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e5b2522_3ff8ffe5",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-11-15T17:00:33Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "9021017e_62779bc8",
       "revId": "02097272964a746336760d528721e37e5122d398",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -92,6 +128,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2e86aef_dff26a6d",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-11-15T17:00:33Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a1fdc9dc_b70bc55b",
+      "range": {
+        "startLine": 37,
+        "startChar": 48,
+        "endLine": 37,
+        "endChar": 177
+      },
+      "revId": "02097272964a746336760d528721e37e5122d398",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "42676d77_f654730e",
@@ -105,6 +165,24 @@
       "writtenOn": "2022-11-15T05:08:20Z",
       "side": 1,
       "message": "you should add a link to our gerrit like https://softwarefactory-project.io/r/q/project:dci-openshift-agent",
+      "revId": "02097272964a746336760d528721e37e5122d398",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0dd6a410_57823195",
+        "filename": "content/2022-11-09-using-dci-check-change.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-11-15T17:00:33Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "42676d77_f654730e",
       "revId": "02097272964a746336760d528721e37e5122d398",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
