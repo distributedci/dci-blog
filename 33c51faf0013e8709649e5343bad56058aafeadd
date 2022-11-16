@@ -1,0 +1,9 @@
+Workflow+1: Bill Peck <bill@pecknet.com>
+Workflow+1: Frederic Lepied <flepied@redhat.com>
+Code-Review+2: Ramon Perez <raperez@redhat.com>
+Verified+2: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-by: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-at: Wed, 16 Nov 2022 14:30:00 +0000
+Reviewed-on: https://softwarefactory-project.io/r/c/dci-blog/+/25269
+Project: dci-blog
+Branch: refs/heads/master
