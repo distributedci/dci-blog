@@ -39,6 +39,30 @@
       },
       "revId": "c3ac5234d72fb3cc418e5d023b84f39e0701245d",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be591c7d_5e0a4769",
+        "filename": "content/2022-11-16-using-dci-check-change.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2022-11-16T13:00:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0d97378d_7c43b0ca",
+      "range": {
+        "startLine": 15,
+        "startChar": 396,
+        "endLine": 15,
+        "endChar": 402
+      },
+      "revId": "c3ac5234d72fb3cc418e5d023b84f39e0701245d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
