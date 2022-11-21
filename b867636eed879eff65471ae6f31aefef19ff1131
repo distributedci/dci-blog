@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c281898_d6c2571a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-21T15:24:17Z",
+      "side": 1,
+      "message": "I reallly like how your article is built around real example, it makes it easy to follow even if it is an advanced topic.\nI have just commented some syntax/display issue I have see in the dci-blog-preview.",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f7be15a_17132ad9",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-21T15:24:17Z",
+      "side": 1,
+      "message": "I think you do not want to display theses",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f9de0b0_6d14669a",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-21T15:24:17Z",
+      "side": 1,
+      "message": "Missing the capital I at the beginning of the sentence and a final \u0027.\u0027",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ef18b69_4feeac45",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-21T15:24:17Z",
+      "side": 1,
+      "message": "My suggestion is  a bit dummy but is it worth adding a step to know on which node the pod is running or is it too trivial?",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ca2d691_3c9ebcdc",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-21T15:24:17Z",
+      "side": 1,
+      "message": "Final . is missing",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7839712_d7d6c601",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-21T15:24:17Z",
+      "side": 1,
+      "message": "the \u0027#\u0027 is putting weird color in the preview, it looks like a comment.",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
