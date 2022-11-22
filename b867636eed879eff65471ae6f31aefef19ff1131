@@ -52,6 +52,41 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3508682e_1338d1a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "I agree, I didn\u0027t want to throw f5 under the bus, but it was a real example of a crappy pod, so I\u0027ll give it a try on next commit to remove f5/spk/dallas references to see how it looks. Thanks",
+      "parentUuid": "512c054c_d886c901",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95930afe_9234622d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Thank you all for the comments! it\u0027s looking better, I still have some items to fix.",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "aa511c1f_1b9724e5",
@@ -139,6 +174,102 @@
         "startChar": 61,
         "endLine": 8,
         "endChar": 62
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3ab23c3_451fb8c4",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "I changed it for most ocourrences, but I kept it in this, and expanded to say \"tcpdump packet capture\" because here I wanted to highlight not just the command but the whole concept of a packet capture.",
+      "parentUuid": "aa511c1f_1b9724e5",
+      "range": {
+        "startLine": 8,
+        "startChar": 169,
+        "endLine": 8,
+        "endChar": 176
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c6a4afb_3e5eb675",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3737b382_3189c881",
+      "range": {
+        "startLine": 8,
+        "startChar": 61,
+        "endLine": 8,
+        "endChar": 62
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eecd2e1a_4002bf98",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "22da6af2_1a95bbb2",
+      "range": {
+        "startLine": 8,
+        "startChar": 459,
+        "endLine": 8,
+        "endChar": 468
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93b428c5_2160e279",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "503b75c8_96610bcb",
+      "range": {
+        "startLine": 8,
+        "startChar": 326,
+        "endLine": 8,
+        "endChar": 335
       },
       "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
@@ -282,6 +413,150 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a091b2e_1e391c1d",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "261176e3_bc2b50dd",
+      "range": {
+        "startLine": 13,
+        "startChar": 230,
+        "endLine": 13,
+        "endChar": 231
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2a45d66_c60d0766",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5574e2f3_a51443d2",
+      "range": {
+        "startLine": 13,
+        "startChar": 279,
+        "endLine": 13,
+        "endChar": 289
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06ff11b1_1db98a36",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0056bbe2_95f7dba6",
+      "range": {
+        "startLine": 13,
+        "startChar": 324,
+        "endLine": 13,
+        "endChar": 329
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14bf2c70_8b1ad798",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffd43059_42c65605",
+      "range": {
+        "startLine": 13,
+        "startChar": 605,
+        "endLine": 13,
+        "endChar": 606
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47a8e12d_9c3fe715",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "I think \"where is the traffic ..?\" is correct since is part of the question",
+      "parentUuid": "0f29ba2b_fde19206",
+      "range": {
+        "startLine": 13,
+        "startChar": 364,
+        "endLine": 13,
+        "endChar": 380
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79a51b11_727caa0e",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "06895871_e7a77c3c",
+      "range": {
+        "startLine": 13,
+        "startChar": 322,
+        "endLine": 13,
+        "endChar": 323
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b5bbfb0a_871cba91",
@@ -295,6 +570,30 @@
       "writtenOn": "2022-11-21T16:05:50Z",
       "side": 1,
       "message": "Note you\u0027re using spk-data namespace in the \"strike\" commands, but other commands uses spk-dns46 namespace",
+      "range": {
+        "startLine": 20,
+        "startChar": 12,
+        "endLine": 20,
+        "endChar": 20
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5358b4d7_670d81b0",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "good catch, and I might replace all these exmaples to not mention f5 references based on Tony\u0027s feedback",
+      "parentUuid": "b5bbfb0a_871cba91",
       "range": {
         "startLine": 20,
         "startChar": 12,
@@ -328,6 +627,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6fa982d2_afda27ca",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8a01c74f_c512d1bb",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 3
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7f7be15a_17132ad9",
@@ -341,6 +664,24 @@
       "writtenOn": "2022-11-21T15:24:17Z",
       "side": 1,
       "message": "I think you do not want to display theses",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47309eca_f214a418",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "I really want :), but do you mean that I should not display these logs to avoid putting f5 on the spot?",
+      "parentUuid": "7f7be15a_17132ad9",
       "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -368,6 +709,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b81e256_42fa0be8",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "yes, I change it to \"is also not allowed either\" to avoid double negation.",
+      "parentUuid": "93318ddc_d2b8c8ce",
+      "range": {
+        "startLine": 45,
+        "startChar": 103,
+        "endLine": 45,
+        "endChar": 123
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "12d4c2f0_2e7d4bac",
@@ -381,6 +746,30 @@
       "writtenOn": "2022-11-21T16:05:50Z",
       "side": 1,
       "message": "same as tcpdump, can we use `nsenter` in all textual occurences?",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 7
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76574674_a6c88e28",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "I tried, but not sure if I got them all",
+      "parentUuid": "12d4c2f0_2e7d4bac",
       "range": {
         "startLine": 49,
         "startChar": 0,
@@ -431,6 +820,48 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "38c2a079_5eecb032",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8f9de0b0_6d14669a",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07110e20_4904aba4",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0807d1b1_70a505f7",
+      "range": {
+        "startLine": 54,
+        "startChar": 163,
+        "endLine": 54,
+        "endChar": 171
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5ef18b69_4feeac45",
@@ -471,6 +902,48 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "50a6a773_897002e9",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "919a9a1d_ceda2b63",
+      "range": {
+        "startLine": 56,
+        "startChar": 82,
+        "endLine": 56,
+        "endChar": 89
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3fb6840f_40ae6ad7",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "it\u0027s good suggestion, but I already did it in the very first command of this post, I pasted the output of \"oc -n spk-dns46 get pods -o wide\" and we see where the pod is running :P",
+      "parentUuid": "5ef18b69_4feeac45",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "aaa6a84e_ce0abaf7",
@@ -484,6 +957,30 @@
       "writtenOn": "2022-11-21T16:05:50Z",
       "side": 1,
       "message": "dot at the end.",
+      "range": {
+        "startLine": 62,
+        "startChar": 79,
+        "endLine": 62,
+        "endChar": 80
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4650915d_0c113df5",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aaa6a84e_ce0abaf7",
       "range": {
         "startLine": 62,
         "startChar": 79,
@@ -603,6 +1100,120 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "05206370_b4e940d2",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c8f789a4_a1cf159a",
+      "range": {
+        "startLine": 80,
+        "startChar": 208,
+        "endLine": 80,
+        "endChar": 224
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "568d4974_ddbb5e88",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0ca2d691_3c9ebcdc",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45502e45_31e582ee",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4c0870df_06542159",
+      "range": {
+        "startLine": 80,
+        "startChar": 56,
+        "endLine": 80,
+        "endChar": 61
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07639f8b_f44c78b4",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "94acbd2c_d34b718f",
+      "range": {
+        "startLine": 80,
+        "startChar": 66,
+        "endLine": 80,
+        "endChar": 76
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3510bd66_cfee1214",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "75825b1b_f4577260",
+      "range": {
+        "startLine": 80,
+        "startChar": 126,
+        "endLine": 80,
+        "endChar": 135
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "823aadf9_1cb89a2e",
@@ -639,6 +1250,54 @@
       "writtenOn": "2022-11-21T16:05:50Z",
       "side": 1,
       "message": "use `...`",
+      "range": {
+        "startLine": 91,
+        "startChar": 113,
+        "endLine": 91,
+        "endChar": 127
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d900c8a1_0f4164be",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "823aadf9_1cb89a2e",
+      "range": {
+        "startLine": 91,
+        "startChar": 213,
+        "endLine": 91,
+        "endChar": 214
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "203ba63b_d41e4865",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b90e93f3_bd5722e0",
       "range": {
         "startLine": 91,
         "startChar": 113,
@@ -695,6 +1354,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "806b643f_66fb7665",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "53785041_9d723cf4",
+      "range": {
+        "startLine": 99,
+        "startChar": 75,
+        "endLine": 99,
+        "endChar": 86
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9194fe0b_6aac4c80",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "91f9174a_7b9f2cdb",
+      "range": {
+        "startLine": 99,
+        "startChar": 175,
+        "endLine": 99,
+        "endChar": 179
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1e0419c1_93cbe098",
@@ -741,6 +1448,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e93c989_0c9178d2",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e0419c1_93cbe098",
+      "range": {
+        "startLine": 101,
+        "startChar": 161,
+        "endLine": 101,
+        "endChar": 163
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2384c9e2_e7345bd6",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6cc4030c_684bbee3",
+      "range": {
+        "startLine": 101,
+        "startChar": 272,
+        "endLine": 101,
+        "endChar": 288
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f7839712_d7d6c601",
@@ -754,6 +1509,24 @@
       "writtenOn": "2022-11-21T15:24:17Z",
       "side": 1,
       "message": "the \u0027#\u0027 is putting weird color in the preview, it looks like a comment.",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff4c8ce0_a66f369c",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Are you suggesting to replace all \u0027#\u0027? In vscode looks fine, but I\u0027ll render and check in a browser to make sure. Thanks.",
+      "parentUuid": "f7839712_d7d6c601",
       "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -804,6 +1577,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e09f3d1b_e8a34466",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec5244cf_eabd97a7",
+      "range": {
+        "startLine": 106,
+        "startChar": 102,
+        "endLine": 106,
+        "endChar": 110
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbd16338_0993eaaf",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "876d3f00_72ac1813",
+      "range": {
+        "startLine": 106,
+        "startChar": 149,
+        "endLine": 106,
+        "endChar": 162
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9db00b03_3a827c25",
@@ -840,6 +1661,54 @@
       "writtenOn": "2022-11-21T16:05:50Z",
       "side": 1,
       "message": "we\u0027ll",
+      "range": {
+        "startLine": 125,
+        "startChar": 181,
+        "endLine": 125,
+        "endChar": 185
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21b93cd1_00868fe1",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9db00b03_3a827c25",
+      "range": {
+        "startLine": 125,
+        "startChar": 225,
+        "endLine": 125,
+        "endChar": 228
+      },
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f17d13e2_6c84d84e",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-22T03:43:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "00576e90_65e5c911",
       "range": {
         "startLine": 125,
         "startChar": 181,
