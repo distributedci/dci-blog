@@ -704,6 +704,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5965ab7_4f10ac78",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-22T13:50:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab0f29ec_efdcdc29",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "93318ddc_d2b8c8ce",
@@ -1545,6 +1563,24 @@
       "side": 1,
       "message": "Are you suggesting to replace all \u0027#\u0027? In vscode looks fine, but I\u0027ll render and check in a browser to make sure. Thanks.",
       "parentUuid": "f7839712_d7d6c601",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cae5f125_15cc564b",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-22T13:50:10Z",
+      "side": 1,
+      "message": "In the web page, it looks like a comment but it is readable.",
+      "parentUuid": "ff4c8ce0_a66f369c",
       "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },

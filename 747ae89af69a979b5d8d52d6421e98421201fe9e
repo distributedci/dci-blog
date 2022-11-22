@@ -16,6 +16,23 @@
       "message": "Change looks nice now :) just one suggestion to see if we can anonymize a little bit more the content",
       "revId": "747ae89af69a979b5d8d52d6421e98421201fe9e",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fecff0b8_e3a0a78c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2022-11-22T13:50:10Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "747ae89af69a979b5d8d52d6421e98421201fe9e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
