@@ -688,6 +688,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ab0f29ec_efdcdc29",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-22T10:30:07Z",
+      "side": 1,
+      "message": "May it be a good idea to \"anonymize\" a little bit more the blog post? I mean, to remove references to spk, f5, etc. (i.e. change names to other dummy ones)",
+      "parentUuid": "47309eca_f214a418",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "93318ddc_d2b8c8ce",
         "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
         "patchSetId": 2

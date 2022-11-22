@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a8173bf_d1692934",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-22T10:30:07Z",
+      "side": 1,
+      "message": "Change looks nice now :) just one suggestion to see if we can anonymize a little bit more the content",
+      "revId": "747ae89af69a979b5d8d52d6421e98421201fe9e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
