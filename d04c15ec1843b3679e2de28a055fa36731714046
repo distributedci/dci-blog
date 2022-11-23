@@ -16,6 +16,23 @@
       "message": "Thanks again all for the feedback 😎!\nI removed f5/spk/dallas references and use generic names for resources.",
       "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "442185d7_ff40d336",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-11-23T23:08:24Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
