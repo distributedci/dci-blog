@@ -1585,6 +1585,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c57b0d7c_e8840ccb",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-23T22:25:15Z",
+      "side": 1,
+      "message": "I couldn\u0027t find why certain code blocks are not well rendered in the browser, so I added the block inside \u003cpre\u003e \u003c/pre\u003e, so the color is gone but now all characters look normal",
+      "parentUuid": "cae5f125_15cc564b",
+      "revId": "b867636eed879eff65471ae6f31aefef19ff1131",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "876d3f00_72ac1813",
