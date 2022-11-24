@@ -33,6 +33,159 @@
       "message": "LGTM",
       "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5312ec42_ec9e8c2e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-24T13:53:42Z",
+      "side": 1,
+      "message": "Thank you Manny, great post, really interesting! I only spotted some missing commas.",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3dd2fbf6_4d329f23",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-24T13:53:42Z",
+      "side": 1,
+      "message": "Hi Manny, we could trim punctuation a bit:\n\"capture, however not all pods\" -\u003e \"capture; however, not all pods\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03bbb3f9_d62f9af3",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-24T13:53:42Z",
+      "side": 1,
+      "message": "three small things:\n\n\"could help, however sometimes you would like\" -\u003e \"could help; however, sometimes, you would like\"\n\n\n\"where the is traffic going\" -\u003e \"where the traffic is going\"\n\n\"the next commands\" -\u003e \"the following commands\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8eac725f_14808f2c",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-24T13:53:42Z",
+      "side": 1,
+      "message": "\"perform the tcpdump capture in the other side (the DNS server) but if that is also not allowed\" -\u003e \"perform the tcpdump capture on the other side (the DNS server), but if that is also not allowed\"\n\n\"but if that is also not allowed either, what options are left?\" -\u003e \"but what options are left if that is also not allowed either?\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53664c24_6299e764",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-24T13:53:42Z",
+      "side": 1,
+      "message": "we could rewrite a bit short:\n\"First, login to the worker node where the pod is running, and from there, look for the pod you want to check.\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "564eb499_3658d2cf",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-24T13:53:42Z",
+      "side": 1,
+      "message": "We could split into 2:\n\"inspect it and grep the PID. Here, `crictl` commands\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34354069_a373bc36",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-24T13:53:42Z",
+      "side": 1,
+      "message": "\"In order to use tcpdump we\u0027ll require\" -\u003e \"To use tcpdump, we\u0027ll require\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c1a15cb_251b0573",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-24T13:53:42Z",
+      "side": 1,
+      "message": "\"Once logged into the toolbox you can\" -\u003e \"Once logged into the toolbox, you can\"\n\n\"and this time pass the tcpdump command\" -\u003e \"and, this time, pass the tcpdump command\"\n\n\"in this case `/host/var/tmp/`\" -\u003e \"in this case, `/host/var/tmp/`\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28a739f5_40e634db",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-24T13:53:42Z",
+      "side": 1,
+      "message": "I\u0027d rephrase a bit:\n\"Only some things can be proved with tcpdump captures, but having the option to use them to confirm certain aspects of the communication between two resources is helpful. In the future, we\u0027ll talk more\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
