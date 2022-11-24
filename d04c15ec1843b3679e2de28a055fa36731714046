@@ -52,6 +52,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9cbfe16d_4ad7e8fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-24T21:54:48Z",
+      "side": 1,
+      "message": "Thanks for the recommendations Tania!",
+      "parentUuid": "5312ec42_ec9e8c2e",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3dd2fbf6_4d329f23",
@@ -65,6 +83,24 @@
       "writtenOn": "2022-11-24T13:53:42Z",
       "side": 1,
       "message": "Hi Manny, we could trim punctuation a bit:\n\"capture, however not all pods\" -\u003e \"capture; however, not all pods\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69eed589_605023f4",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-24T21:54:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3dd2fbf6_4d329f23",
       "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -86,6 +122,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd26f384_ed725985",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-24T21:54:48Z",
+      "side": 1,
+      "message": "\"where the traffic is going\" was observed a few times in other comments, but I did a typo in my correction :), fixed finally. Also changed \"the following commands\"",
+      "parentUuid": "03bbb3f9_d62f9af3",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8eac725f_14808f2c",
@@ -99,6 +153,24 @@
       "writtenOn": "2022-11-24T13:53:42Z",
       "side": 1,
       "message": "\"perform the tcpdump capture in the other side (the DNS server) but if that is also not allowed\" -\u003e \"perform the tcpdump capture on the other side (the DNS server), but if that is also not allowed\"\n\n\"but if that is also not allowed either, what options are left?\" -\u003e \"but what options are left if that is also not allowed either?\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8d03828_b291addc",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-24T21:54:48Z",
+      "side": 1,
+      "message": "I fixed the first remark and for the second I left \"but what options are left if that is not allowed either\"",
+      "parentUuid": "8eac725f_14808f2c",
       "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -120,6 +192,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffa8f2ef_d97102f7",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-24T21:54:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "53664c24_6299e764",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "564eb499_3658d2cf",
@@ -133,6 +223,24 @@
       "writtenOn": "2022-11-24T13:53:42Z",
       "side": 1,
       "message": "We could split into 2:\n\"inspect it and grep the PID. Here, `crictl` commands\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c150b6c_eefa4574",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-24T21:54:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "564eb499_3658d2cf",
       "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -154,6 +262,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc2f1840_5679760a",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-24T21:54:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "34354069_a373bc36",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2c1a15cb_251b0573",
@@ -171,6 +297,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3c1c6b8_5da679e3",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-24T21:54:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c1a15cb_251b0573",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "28a739f5_40e634db",
@@ -184,6 +328,24 @@
       "writtenOn": "2022-11-24T13:53:42Z",
       "side": 1,
       "message": "I\u0027d rephrase a bit:\n\"Only some things can be proved with tcpdump captures, but having the option to use them to confirm certain aspects of the communication between two resources is helpful. In the future, we\u0027ll talk more\"",
+      "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e5e36ae_38a78701",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-24T21:54:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "28a739f5_40e634db",
       "revId": "d04c15ec1843b3679e2de28a055fa36731714046",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
