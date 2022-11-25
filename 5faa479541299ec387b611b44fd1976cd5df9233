@@ -50,6 +50,69 @@
       "message": "LGTM, thanks Manny!!",
       "revId": "5faa479541299ec387b611b44fd1976cd5df9233",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "219428db_91a8e1de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-25T10:16:31Z",
+      "side": 1,
+      "message": "Sorry for changing my vote, but I\u0027ve seen some references to F5 and SPK in the blog post",
+      "revId": "5faa479541299ec387b611b44fd1976cd5df9233",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8851b357_4f7a0eb7",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-25T10:16:31Z",
+      "side": 1,
+      "message": "SPK here",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 77
+      },
+      "revId": "5faa479541299ec387b611b44fd1976cd5df9233",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ed1fd9b_7da77bbf",
+        "filename": "content/2022-11-25-tcpdump-captures-from-pods.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-11-25T10:16:31Z",
+      "side": 1,
+      "message": "ooops sorry, I\u0027ve seen this old ref to F5!",
+      "range": {
+        "startLine": 118,
+        "startChar": 73,
+        "endLine": 118,
+        "endChar": 89
+      },
+      "revId": "5faa479541299ec387b611b44fd1976cd5df9233",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
