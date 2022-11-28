@@ -16,6 +16,23 @@
       "message": "Apologies for the last changes, if you can review now, I think this is the good one :P ",
       "revId": "4bc1d6f330d810cd63f6f780aacce5448fdde81f",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "376d301c_8b07413f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-11-28T10:08:38Z",
+      "side": 1,
+      "message": "it seems like F5 and SPK were fixed, thanks Manny!",
+      "revId": "4bc1d6f330d810cd63f6f780aacce5448fdde81f",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
