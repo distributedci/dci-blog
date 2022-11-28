@@ -50,6 +50,23 @@
       "message": "Now yes, we are partner-agnostic :) thanks Manny!",
       "revId": "4bc1d6f330d810cd63f6f780aacce5448fdde81f",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce03a8cb_75839fa5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-11-28T16:17:28Z",
+      "side": 1,
+      "message": "Thank you all!",
+      "revId": "4bc1d6f330d810cd63f6f780aacce5448fdde81f",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
