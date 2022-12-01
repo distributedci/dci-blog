@@ -1,5 +1,6 @@
 Title: Using DCI components in partner hooks
 Date: 2022-11-15 10:00
+Modified: 2022-12-01 10:00
 Category: how-to
 Tags: dci-components, partner-hooks, cnf-cert-suite, dci-openshift-app-agent, certification, partners
 Slug: using-dci-components-in-partner-hooks
@@ -31,20 +32,20 @@ Components are created with `dci-create-component` utility from [python-dciclien
 To create the component with this tool, you need to specify the following configuration:
 
 - The credentials from your [remoteCI](https://www.distributed-ci.io/remotecis) or user because the component is attached to the team.
-  - A component can only be attached to one single team (except the Red Hat or global components).
-  - If you need to use the same component in different teams, you will have to create a different component for each team by using the proper credentials.
+    - A component can only be attached to one single team (except the Red Hat or global components).
+    - If you need to use the same component in different teams, you will have to create a different component for each team by using the proper credentials.
 - The [OCP topic](https://www.distributed-ci.io/topics) (version) where the component will run.
-  - If you want to use the component in more than one OCP topic, you will have to create a component for each OCP topic.
+    - If you want to use the component in more than one OCP topic, you will have to create a component for each OCP topic.
 - The name of your component.
 - The version of your component.
-  - You can reference the component in your job configuration with `<name>:<version>` afterward.
+    - You can reference the component in your job configuration with `<name>:<version>` afterward.
 - Release type of the component (dev, candidate, ga). If you consider your software is ready for production, please set up `ga` as release type, else select between `dev` or `candidate` depending on the current status of your software development.
 - (Optional, but used to reorder components) Release date of the component.
-  - If not specified, the release date will be the creation date of the component.
+    - If not specified, the release date will be the creation date of the component.
 - (Optional, but really useful for automation purposes) Data embedded in the component.
-  - Here, you can specify variables related to the workloads to be deployed.
-  - This data can be retrieved in the partner hooks so that you can use them.
-  - Take care of not including data that can be exclusive to a specific lab because a component should be immutable and portable. In that case, just move these data to variables defined directly in the hooks or in the configuration files used to define your variables (settings, pipelines, etc.)
+    - Here, you can specify variables related to the workloads to be deployed.
+    - This data can be retrieved in the partner hooks so that you can use them.
+    - Take care of not including data that can be exclusive to a specific lab because a component should be immutable and portable. In that case, just move these data to variables defined directly in the hooks or in the configuration files used to define your variables (settings, pipelines, etc.)
 
 For the case of `tnf_test_example`, let's see what we have to do to meet the following requirements:
 
@@ -124,7 +125,7 @@ By clicking in any component, we can also check the details of the component. He
 Firstly, we need to reference the component in the configuration file we use to launch the job. This depends on the configuration used:
 
 - Pipelines: you can use `components variable`. For example, for `tnf_test_example`:
-  - Pinning the version to be used:
+    - Pinning the version to be used:
 
         ---
         - name: tnf-test-cnf
@@ -145,7 +146,7 @@ Firstly, we need to reference the component in the configuration file we use to 
             kubeconfig: kubeconfig_path
           success_tag: tnf-test-cnf-ok
 
-  - If not pinning the version, latest component created (according to release date) is used:
+    - If not pinning the version, latest component created (according to release date) is used:
 
         ---
         - name: tnf-test-cnf
@@ -168,7 +169,7 @@ Firstly, we need to reference the component in the configuration file we use to 
 
   - Settings: you can use `dci_component` variable, but you need to specify the component ID that can be retrieved from DCI GUI (e.g. `dci_component: ["<component_id>"]`), which is not efficient in terms of CI automation. The best option for CI automation is to use `dci_components_by_query` variable, which allows to retrieve a component based on its name (type), version (name) of a combination of them. For `tnf_test_example`, a complete settings file to run the sample would be:
 
-  - Pinning the version to be used:
+    - Pinning the version to be used:
 
         ---
         dci_tags: ["debug"]
@@ -179,7 +180,7 @@ Firstly, we need to reference the component in the configuration file we use to 
           - namespace: "test-cnf"
             targetpodlabels: [environment=test]
             target_crds: ["crdexamples.test-network-function.com"]
-            operators_regexp: "mongodb-enterprise"
+            operators_regexp: "simple-demo-operator"
             exclude_connectivity_regexp: ""
           - namespace: "production-cnf"
             targetpodlabels: [environment=production]
@@ -188,7 +189,7 @@ Firstly, we need to reference the component in the configuration file we use to 
             exclude_connectivity_regexp: ""
         ...
 
-  - If not pinning the version, latest component created (according to release date) is used:
+    - If not pinning the version, latest component created (according to release date) is used:
 
         ---
         dci_tags: ["debug"]
@@ -307,14 +308,14 @@ In this way, no hardcoded configuration is needed in the hooks or in the pipelin
 Please check the following documentation as references that supports this work:
 
 - Main repositories:
-  - [python-dciclient](https://github.com/redhat-cip/python-dciclient).
-  - [dci-pipeline](https://github.com/redhat-cip/dci-pipeline).
-  - [dci-openshift-agent](https://github.com/redhat-cip/dci-openshift-agent).
-  - [dci-openshift-app-agent](https://github.com/redhat-cip/dci-openshift-app-agent).
-    - Focusing on [tnf_test_example](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples/tnf_test_example).
+    - [python-dciclient](https://github.com/redhat-cip/python-dciclient).
+    - [dci-pipeline](https://github.com/redhat-cip/dci-pipeline).
+    - [dci-openshift-agent](https://github.com/redhat-cip/dci-openshift-agent).
+    - [dci-openshift-app-agent](https://github.com/redhat-cip/dci-openshift-app-agent).
+        - Focusing on [tnf_test_example](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples/tnf_test_example).
 - Blog posts:
-  - [How to automate DCI components creation](automate-dci-components.html).
-  - [Customizable Ansible pipelines for Telco partners using DCI](customizable-ansible-hooks.html).
-  - [Running CNF Cert Suite certification with dci-openshift-app-agent](cnf-cert-suite-with-dci-openshift-app-agent.html).
+    - [How to automate DCI components creation](automate-dci-components.html).
+    - [Customizable Ansible pipelines for Telco partners using DCI](customizable-ansible-hooks.html).
+    - [Running CNF Cert Suite certification with dci-openshift-app-agent](cnf-cert-suite-with-dci-openshift-app-agent.html).
 
 ---
