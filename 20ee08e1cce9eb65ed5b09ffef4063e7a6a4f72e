@@ -16,6 +16,91 @@
       "message": "Hi guys, can you take a look to this if you have some time? Thanks in advance!",
       "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "125acc03_9a201e15",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-12-02T14:03:13Z",
+      "side": 1,
+      "message": "Ramon, mostly all good just a few sections look odd when rendering in the browser",
+      "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd834083_7f96f906",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-12-02T14:03:13Z",
+      "side": 1,
+      "message": "The section below is not rendering correctly in the browser",
+      "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2e9ebe6_57e3a733",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-12-02T14:03:13Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "59f98801_34a7cb94",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-12-02T14:03:13Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "067182dd_ab764ef5",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-12-02T14:03:13Z",
+      "side": 1,
+      "message": "same here, this section looks odd too",
+      "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
