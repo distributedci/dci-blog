@@ -72,6 +72,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7d95691e_e3ee0673",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-02T16:38:02Z",
+      "side": 1,
+      "message": "I think it can be fixed by adding some more tabs, tell me if it can be seen better now. I\u0027m avoiding using \u003cpre\u003e at this time, I also removed it in the other blog post :P",
+      "parentUuid": "2d9ecc0a_0ec9bb15",
+      "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b2e9ebe6_57e3a733",
         "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
         "patchSetId": 1
@@ -83,6 +101,24 @@
       "writtenOn": "2022-12-02T14:03:13Z",
       "side": 1,
       "message": "ditto",
+      "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc2ced2e_668500ce",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-02T16:38:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b2e9ebe6_57e3a733",
       "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -104,6 +140,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7a7be2f_92aca668",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-02T16:38:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "59f98801_34a7cb94",
+      "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "067182dd_ab764ef5",
@@ -117,6 +171,24 @@
       "writtenOn": "2022-12-02T14:03:13Z",
       "side": 1,
       "message": "same here, this section looks odd too",
+      "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e2707c7_bcfa17cd",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-02T16:38:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "067182dd_ab764ef5",
       "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
