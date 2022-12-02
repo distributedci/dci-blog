@@ -54,6 +54,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2d9ecc0a_0ec9bb15",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2022-12-02T14:47:28Z",
+      "side": 1,
+      "message": "I forgot to say, that I had a similar problem in my last blog post and I ended up using this tags to make the code look properly:\n\n\u003cpre\u003e\nyour code\n\u003c/pre\u003e\n\nI tested in your post, and it works but I had to remove the initial \"---\" of ech block otherwise the whole code disappears :P",
+      "parentUuid": "cd834083_7f96f906",
+      "revId": "20ee08e1cce9eb65ed5b09ffef4063e7a6a4f72e",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b2e9ebe6_57e3a733",
         "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
         "patchSetId": 1
