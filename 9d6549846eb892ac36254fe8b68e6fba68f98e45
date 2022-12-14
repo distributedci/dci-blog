@@ -1,0 +1,9 @@
+Code-Review+1: Tatiana Krishtop <tkrishto@redhat.com>
+Code-Review+2: Tony Garcia <tonyg@redhat.com>
+Workflow+1: Ramon Perez <raperez@redhat.com>
+Verified+2: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-by: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-at: Wed, 14 Dec 2022 17:25:35 +0000
+Reviewed-on: https://softwarefactory-project.io/r/c/dci-blog/+/27004
+Project: dci-blog
+Branch: refs/heads/master
