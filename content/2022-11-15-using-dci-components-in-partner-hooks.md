@@ -1,6 +1,6 @@
 Title: Using DCI components in partner hooks
 Date: 2022-11-15 10:00
-Modified: 2022-12-01 10:00
+Modified: 2022-12-14 10:00
 Category: how-to
 Tags: dci-components, partner-hooks, cnf-cert-suite, dci-openshift-app-agent, certification, partners
 Slug: using-dci-components-in-partner-hooks
@@ -100,7 +100,7 @@ For each remoteCI, we would execute the following (component data must be provid
         for i in {7..12}; do
           echo OCP-4."$i"
           dci-create-component --format json OCP-4."$i" tnf_test_example v0.0.1 ga --data "${JSON_DATA_V1}"
-          dci-create-component --format json OCP-4."$i" tnf_test_example v0.0.1 ga --data "${JSON_DATA_V2}"
+          dci-create-component --format json OCP-4."$i" tnf_test_example v0.0.2 ga --data "${JSON_DATA_V2}"
         done
 
 Finally, validate that the execution has provided a successful response, showing the `id` provided to your component and verifying that the `data` you have introduced is saved there.
