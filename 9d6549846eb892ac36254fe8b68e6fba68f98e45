@@ -86,6 +86,24 @@
       "parentUuid": "26ace913_87ba74f9",
       "revId": "9d6549846eb892ac36254fe8b68e6fba68f98e45",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f27d063_90803b68",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-14T17:06:51Z",
+      "side": 1,
+      "message": "Yes, exactly, this component version is directly pinned, not depending on tnf, it\u0027s related to our sample in d-o-a-a :)",
+      "parentUuid": "a2deb2c6_1c14343b",
+      "revId": "9d6549846eb892ac36254fe8b68e6fba68f98e45",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
