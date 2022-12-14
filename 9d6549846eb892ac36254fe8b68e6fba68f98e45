@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bae33cfe_e81eb47d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-14T14:24:47Z",
+      "side": 1,
+      "message": "Thank you Ramon, I\u0027ll leave one more vote for Tony.",
+      "revId": "9d6549846eb892ac36254fe8b68e6fba68f98e45",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "99e2a8dc_22770a83",
@@ -14,6 +31,24 @@
       "writtenOn": "2022-12-14T14:06:40Z",
       "side": 1,
       "message": "Would be nice to provide a way to calculate it automatically so this does not depend on every release of tnf",
+      "revId": "9d6549846eb892ac36254fe8b68e6fba68f98e45",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26ace913_87ba74f9",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-14T14:24:47Z",
+      "side": 1,
+      "message": "Hi Tony, I believe the idea is to always pin the versions to provide predictable behavior.",
+      "parentUuid": "99e2a8dc_22770a83",
       "revId": "9d6549846eb892ac36254fe8b68e6fba68f98e45",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
