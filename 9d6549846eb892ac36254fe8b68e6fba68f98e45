@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "644f11b0_468fa8f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-12-14T14:54:14Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "9d6549846eb892ac36254fe8b68e6fba68f98e45",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "99e2a8dc_22770a83",
@@ -49,6 +66,24 @@
       "side": 1,
       "message": "Hi Tony, I believe the idea is to always pin the versions to provide predictable behavior.",
       "parentUuid": "99e2a8dc_22770a83",
+      "revId": "9d6549846eb892ac36254fe8b68e6fba68f98e45",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2deb2c6_1c14343b",
+        "filename": "content/2022-11-15-using-dci-components-in-partner-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2022-12-14T14:54:14Z",
+      "side": 1,
+      "message": "Actually nevermind, I read it wrong, this is an example of the component creation where it explicitly shows two diff versions, my bad.",
+      "parentUuid": "26ace913_87ba74f9",
       "revId": "9d6549846eb892ac36254fe8b68e6fba68f98e45",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
