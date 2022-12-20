@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "12507aca_da555a6f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Thanks for the feedback Ramon",
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5d2106af_52e8335b",
@@ -31,6 +48,30 @@
       "writtenOn": "2022-12-20T16:17:54Z",
       "side": 1,
       "message": "better to say \"easy-to-use\"",
+      "range": {
+        "startLine": 23,
+        "startChar": 5,
+        "endLine": 23,
+        "endChar": 16
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fad37123_cdafeafe",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d2106af_52e8335b",
       "range": {
         "startLine": 23,
         "startChar": 5,
@@ -64,6 +105,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a174112f_4a042216",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7e692a9c_1293dc6b",
+      "range": {
+        "startLine": 29,
+        "startChar": 98,
+        "endLine": 29,
+        "endChar": 99
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "61e2af25_495fcd02",
@@ -87,6 +152,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d7c1d98_1f16a04d",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "61e2af25_495fcd02",
+      "range": {
+        "startLine": 43,
+        "startChar": 59,
+        "endLine": 43,
+        "endChar": 64
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "38551f7f_da7c609d",
@@ -100,6 +189,30 @@
       "writtenOn": "2022-12-20T16:17:54Z",
       "side": 1,
       "message": "maybe a comma here is better again",
+      "range": {
+        "startLine": 47,
+        "startChar": 168,
+        "endLine": 47,
+        "endChar": 169
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6244713b_c6ce6b0f",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38551f7f_da7c609d",
       "range": {
         "startLine": 47,
         "startChar": 168,
@@ -156,6 +269,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4cfe555_3294d911",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7b821395_13833c50",
+      "range": {
+        "startLine": 54,
+        "startChar": 236,
+        "endLine": 54,
+        "endChar": 238
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d385fb4_c7df6644",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "381f571c_088a86d6",
+      "range": {
+        "startLine": 54,
+        "startChar": 50,
+        "endLine": 54,
+        "endChar": 54
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "116311ca_f50a07a9",
@@ -169,6 +330,30 @@
       "writtenOn": "2022-12-20T16:17:54Z",
       "side": 1,
       "message": "maybe a reference here to a pipeline blog post? e.g. this https://blog.distributed-ci.io/customizable-ansible-hooks.html",
+      "range": {
+        "startLine": 69,
+        "startChar": 56,
+        "endLine": 69,
+        "endChar": 65
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6dc9dee_34b6c252",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "116311ca_f50a07a9",
       "range": {
         "startLine": 69,
         "startChar": 56,
@@ -225,6 +410,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "12420e8b_4f44a737",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa588a23_8079ca07",
+      "range": {
+        "startLine": 98,
+        "startChar": 19,
+        "endLine": 98,
+        "endChar": 22
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c181e86_d36422f0",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "112f0e8e_bfcd7d6d",
+      "range": {
+        "startLine": 98,
+        "startChar": 7,
+        "endLine": 98,
+        "endChar": 14
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4719e217_7bd43345",
@@ -238,6 +471,30 @@
       "writtenOn": "2022-12-20T16:17:54Z",
       "side": 1,
       "message": "Hub, upper case?",
+      "range": {
+        "startLine": 100,
+        "startChar": 81,
+        "endLine": 100,
+        "endChar": 84
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7bd7ee72_239dcc5a",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4719e217_7bd43345",
       "range": {
         "startLine": 100,
         "startChar": 81,
@@ -271,6 +528,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e897b342_cd0390bf",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "56c2547e_e45d2fc1",
+      "range": {
+        "startLine": 133,
+        "startChar": 7,
+        "endLine": 133,
+        "endChar": 14
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cbf78606_44409e86",
@@ -284,6 +565,30 @@
       "writtenOn": "2022-12-20T16:17:54Z",
       "side": 1,
       "message": "-",
+      "range": {
+        "startLine": 135,
+        "startChar": 321,
+        "endLine": 135,
+        "endChar": 322
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d7456fa_683dc805",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cbf78606_44409e86",
       "range": {
         "startLine": 135,
         "startChar": 321,
@@ -317,6 +622,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c806bc83_b0a3cf30",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e6717751_fd731fd3",
+      "range": {
+        "startLine": 171,
+        "startChar": 7,
+        "endLine": 171,
+        "endChar": 14
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "13814bfe_c620e7f6",
@@ -330,6 +659,30 @@
       "writtenOn": "2022-12-20T16:17:54Z",
       "side": 1,
       "message": "two",
+      "range": {
+        "startLine": 173,
+        "startChar": 58,
+        "endLine": 173,
+        "endChar": 59
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05bed6c5_1b4bd530",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "13814bfe_c620e7f6",
       "range": {
         "startLine": 173,
         "startChar": 58,
@@ -386,6 +739,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f095f09_f28a81f6",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd1fc85c_cee7b97f",
+      "range": {
+        "startLine": 183,
+        "startChar": 10,
+        "endLine": 183,
+        "endChar": 15
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26ba053f_3d266a8c",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0de74994_e0bd0b94",
+      "range": {
+        "startLine": 183,
+        "startChar": 23,
+        "endLine": 183,
+        "endChar": 26
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "160c9639_d892e12d",
@@ -432,6 +833,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5b20f95_ac829404",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "160c9639_d892e12d",
+      "range": {
+        "startLine": 185,
+        "startChar": 196,
+        "endLine": 185,
+        "endChar": 230
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f60a7f5_4b9b7d48",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd93adc1_46929c73",
+      "range": {
+        "startLine": 185,
+        "startChar": 36,
+        "endLine": 185,
+        "endChar": 39
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "585ae493_81202d60",
@@ -445,6 +894,30 @@
       "writtenOn": "2022-12-20T16:17:54Z",
       "side": 1,
       "message": "comma",
+      "range": {
+        "startLine": 193,
+        "startChar": 39,
+        "endLine": 193,
+        "endChar": 40
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8831f120_30009fce",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "585ae493_81202d60",
       "range": {
         "startLine": 193,
         "startChar": 39,
@@ -478,6 +951,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9090cdaa_4d71f467",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b55c9581_d750d914",
+      "range": {
+        "startLine": 210,
+        "startChar": 61,
+        "endLine": 210,
+        "endChar": 63
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "627aea10_8d9c1cc2",
@@ -491,6 +988,30 @@
       "writtenOn": "2022-12-20T16:17:54Z",
       "side": 1,
       "message": "Then",
+      "range": {
+        "startLine": 218,
+        "startChar": 157,
+        "endLine": 218,
+        "endChar": 161
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5b11fa5_761f0061",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-20T17:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "627aea10_8d9c1cc2",
       "range": {
         "startLine": 218,
         "startChar": 157,
