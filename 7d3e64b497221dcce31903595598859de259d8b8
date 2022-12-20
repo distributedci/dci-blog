@@ -1,0 +1,504 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "20bb5ba7_eef9790b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "Thanks Beto! some minor comments from my side!",
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d2106af_52e8335b",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "better to say \"easy-to-use\"",
+      "range": {
+        "startLine": 23,
+        "startChar": 5,
+        "endLine": 23,
+        "endChar": 16
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e692a9c_1293dc6b",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "maybe a comma here is better",
+      "range": {
+        "startLine": 29,
+        "startChar": 98,
+        "endLine": 29,
+        "endChar": 99
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61e2af25_495fcd02",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "Spoke, upper case, as well as with Hub",
+      "range": {
+        "startLine": 43,
+        "startChar": 59,
+        "endLine": 43,
+        "endChar": 64
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38551f7f_da7c609d",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "maybe a comma here is better again",
+      "range": {
+        "startLine": 47,
+        "startChar": 168,
+        "endLine": 47,
+        "endChar": 169
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "381f571c_088a86d6",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "\"requirement\", better?",
+      "range": {
+        "startLine": 54,
+        "startChar": 50,
+        "endLine": 54,
+        "endChar": 54
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b821395_13833c50",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "are",
+      "range": {
+        "startLine": 54,
+        "startChar": 236,
+        "endLine": 54,
+        "endChar": 238
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "116311ca_f50a07a9",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "maybe a reference here to a pipeline blog post? e.g. this https://blog.distributed-ci.io/customizable-ansible-hooks.html",
+      "range": {
+        "startLine": 69,
+        "startChar": 56,
+        "endLine": 69,
+        "endChar": 65
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa588a23_8079ca07",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "Hub, upper case?",
+      "range": {
+        "startLine": 98,
+        "startChar": 19,
+        "endLine": 98,
+        "endChar": 22
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "112f0e8e_bfcd7d6d",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "Create",
+      "range": {
+        "startLine": 98,
+        "startChar": 7,
+        "endLine": 98,
+        "endChar": 14
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4719e217_7bd43345",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "Hub, upper case?",
+      "range": {
+        "startLine": 100,
+        "startChar": 81,
+        "endLine": 100,
+        "endChar": 84
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "56c2547e_e45d2fc1",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "Create",
+      "range": {
+        "startLine": 133,
+        "startChar": 7,
+        "endLine": 133,
+        "endChar": 14
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cbf78606_44409e86",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "-",
+      "range": {
+        "startLine": 135,
+        "startChar": 321,
+        "endLine": 135,
+        "endChar": 322
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6717751_fd731fd3",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "Run (to use the same tense in all items)",
+      "range": {
+        "startLine": 171,
+        "startChar": 7,
+        "endLine": 171,
+        "endChar": 14
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13814bfe_c620e7f6",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "two",
+      "range": {
+        "startLine": 173,
+        "startChar": 58,
+        "endLine": 173,
+        "endChar": 59
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0de74994_e0bd0b94",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "Hub, upper case",
+      "range": {
+        "startLine": 183,
+        "startChar": 23,
+        "endLine": 183,
+        "endChar": 26
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd1fc85c_cee7b97f",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "use",
+      "range": {
+        "startLine": 183,
+        "startChar": 10,
+        "endLine": 183,
+        "endChar": 15
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "160c9639_d892e12d",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "missing some commas at some point, this sentence is quite short.",
+      "range": {
+        "startLine": 185,
+        "startChar": 196,
+        "endLine": 185,
+        "endChar": 230
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd93adc1_46929c73",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "Hub, upper case",
+      "range": {
+        "startLine": 185,
+        "startChar": 36,
+        "endLine": 185,
+        "endChar": 39
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "585ae493_81202d60",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "comma",
+      "range": {
+        "startLine": 193,
+        "startChar": 39,
+        "endLine": 193,
+        "endChar": 40
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b55c9581_d750d914",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "comma",
+      "range": {
+        "startLine": 210,
+        "startChar": 61,
+        "endLine": 210,
+        "endChar": 63
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "627aea10_8d9c1cc2",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-20T16:17:54Z",
+      "side": 1,
+      "message": "Then",
+      "range": {
+        "startLine": 218,
+        "startChar": 157,
+        "endLine": 218,
+        "endChar": 161
+      },
+      "revId": "7d3e64b497221dcce31903595598859de259d8b8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
