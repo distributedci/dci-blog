@@ -16,6 +16,92 @@
       "message": "Hi Beto and Ramon,\n\nI\u0027d like to merge our blog post before Xmas, so I\u0027m asking you to review it, while still working on the title image, sorry for that! Please provide any feedback that you may have before heading on holiday. Thanks. ",
       "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29eb88ed_49ec8b67",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-21T23:37:51Z",
+      "side": 1,
+      "message": "Thanks for wrapping up this Tatiana! Just a couple of suggestions and some trailing spaces that need to be removed. Cheers!",
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7c59037_b0e5f74c",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-21T23:37:51Z",
+      "side": 1,
+      "message": "Agent - Infrastructure tests",
+      "range": {
+        "startLine": 14,
+        "startChar": 2,
+        "endLine": 14,
+        "endChar": 33
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94d530d2_9668251f",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-21T23:37:51Z",
+      "side": 1,
+      "message": "Application Agent - Workload tests",
+      "range": {
+        "startLine": 24,
+        "startChar": 2,
+        "endLine": 24,
+        "endChar": 36
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d08ff6e_bd32da77",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-21T23:37:51Z",
+      "side": 1,
+      "message": "better a list",
+      "range": {
+        "startLine": 28,
+        "startChar": 389,
+        "endLine": 28,
+        "endChar": 466
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
