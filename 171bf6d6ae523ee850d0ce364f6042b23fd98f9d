@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b2050a3_ba8e10d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-21T22:22:52Z",
+      "side": 1,
+      "message": "Hi Beto and Ramon,\n\nI\u0027d like to merge our blog post before Xmas, so I\u0027m asking you to review it, while still working on the title image, sorry for that! Please provide any feedback that you may have before heading on holiday. Thanks. ",
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
