@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63324fc0_039106bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-21T09:05:38Z",
+      "side": 1,
+      "message": "Just one minor change more from my side!",
+      "revId": "b6110d26797e3b08c95edb9c3c96062a0e2d2906",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0836cc3f_ffe99539",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-21T09:05:38Z",
+      "side": 1,
+      "message": "It\u0027s enough to put here customizable-ansible-hooks.html, as blog posts are in the same level in the web page structure",
+      "range": {
+        "startLine": 69,
+        "startChar": 68,
+        "endLine": 69,
+        "endChar": 130
+      },
+      "revId": "b6110d26797e3b08c95edb9c3c96062a0e2d2906",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
