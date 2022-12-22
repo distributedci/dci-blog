@@ -39,6 +39,30 @@
       },
       "revId": "b6110d26797e3b08c95edb9c3c96062a0e2d2906",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b57c1cd6_68e5fafd",
+        "filename": "content/2022-12-21-acm-integration.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T00:39:44Z",
+      "side": 1,
+      "message": "Thanks!",
+      "parentUuid": "0836cc3f_ffe99539",
+      "range": {
+        "startLine": 69,
+        "startChar": 68,
+        "endLine": 69,
+        "endChar": 130
+      },
+      "revId": "b6110d26797e3b08c95edb9c3c96062a0e2d2906",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
