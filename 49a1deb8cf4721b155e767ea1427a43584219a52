@@ -75,6 +75,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1527ca5a_77e49a21",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T22:20:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5be0963a_85446f5b",
+      "range": {
+        "startLine": 2,
+        "startChar": 14,
+        "endLine": 2,
+        "endChar": 16
+      },
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "12c2500b_91a4eb76",
@@ -129,6 +153,24 @@
       "side": 1,
       "message": "nice!",
       "parentUuid": "8c6a3c56_c008cf01",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5a3cd55_1f0f9e44",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T22:20:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "41b7ee6b_eb9a07ab",
       "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
