@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8c65225_ac500e6b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T15:18:28Z",
+      "side": 1,
+      "message": "From my side, it\u0027s fine to merge, just only one comment for one of the sentences, in case we decide to reformule it (but not needed if you find it fine)",
+      "revId": "ae266cefa54fca1dd53913089f86b1b31409eb55",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2c59e57_5a8dc854",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T15:18:28Z",
+      "side": 1,
+      "message": "From my side, it\u0027s fine, but I don\u0027t know if this can be reformuled so that we clearly specify that DCI does NOT submit the results to partner connect portal, DCI just generates the files that then have to be uploaded manually.",
+      "range": {
+        "startLine": 42,
+        "startChar": 815,
+        "endLine": 42,
+        "endChar": 942
+      },
+      "revId": "ae266cefa54fca1dd53913089f86b1b31409eb55",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
