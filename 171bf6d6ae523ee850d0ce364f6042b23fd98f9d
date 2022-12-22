@@ -35,6 +35,161 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "746181f2_d3d02454",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "thanks Tatiana! including my feedback below",
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0014692b_6b41aceb",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "update date properly",
+      "range": {
+        "startLine": 2,
+        "startChar": 14,
+        "endLine": 2,
+        "endChar": 16
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "195a90b9_46196825",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "planning?",
+      "range": {
+        "startLine": 8,
+        "startChar": 111,
+        "endLine": 8,
+        "endChar": 115
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e1021cd9_974e2c00",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 8,
+        "startChar": 143,
+        "endLine": 8,
+        "endChar": 144
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac10242d_27607d96",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "Maybe I\u0027d clarify here that we will distinguish between Agent and Application Agent tests, explaining what\u0027s the meaning of \"Agent\" and \"Application Agent\" in this context",
+      "range": {
+        "startLine": 10,
+        "startChar": 542,
+        "endLine": 10,
+        "endChar": 543
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd1dd59f_beceee12",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "introduction-to-the-red-hat-distributed-ci",
+      "range": {
+        "startLine": 10,
+        "startChar": 30,
+        "endLine": 10,
+        "endChar": 108
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87c46a30_c29727b5",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "baremetal?",
+      "range": {
+        "startLine": 10,
+        "startChar": 188,
+        "endLine": 10,
+        "endChar": 198
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c7c59037_b0e5f74c",
@@ -99,6 +254,236 @@
         "startChar": 389,
         "endLine": 28,
         "endChar": 466
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a48909b9_8e01fc51",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "preflight-integration-in-dci",
+      "range": {
+        "startLine": 28,
+        "startChar": 803,
+        "endLine": 28,
+        "endChar": 867
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "afac661c_8cb932e5",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "preflight-integration-in-dci",
+      "range": {
+        "startLine": 28,
+        "startChar": 989,
+        "endLine": 28,
+        "endChar": 1053
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1972e0f3_3e625ef2",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 32,
+        "startChar": 930,
+        "endLine": 32,
+        "endChar": 931
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15c87c65_bbb5a22f",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "preflight-integration-in-dci",
+      "range": {
+        "startLine": 36,
+        "startChar": 611,
+        "endLine": 36,
+        "endChar": 675
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e206b5e_96c41ed5",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "preflight-integration-in-dci",
+      "range": {
+        "startLine": 36,
+        "startChar": 916,
+        "endLine": 36,
+        "endChar": 980
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3dc48f07_aa85af9f",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "preflight-integration-in-dci",
+      "range": {
+        "startLine": 36,
+        "startChar": 776,
+        "endLine": 36,
+        "endChar": 840
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f4cd6fc_f7b98dbb",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "I\u0027m missing some context here, it\u0027s quite general. I\u0027d say instead: \"entails a set of CNFs test cases and the framework to build more\"",
+      "range": {
+        "startLine": 40,
+        "startChar": 129,
+        "endLine": 40,
+        "endChar": 180
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0413500_6fe06c71",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 40,
+        "startChar": 1032,
+        "endLine": 40,
+        "endChar": 1033
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70dff356_ea92f735",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "...\"using the [cnf-cert](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/cnf-cert) Ansible role, which activates the autodiscovery of workloads declared in the configuration provided to DCI. After running the CNF tests, DCI generates the test files that have to be submitted on a manual basis for certification in the [Red Hat Certification Partner Connect portal](https://rhcert.connect.redhat.com/)\"? (referencing to only d-o-a-a here could be quite general)",
+      "range": {
+        "startLine": 40,
+        "startChar": 743,
+        "endLine": 40,
+        "endChar": 744
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b55d0f4c_607f84f4",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T10:16:13Z",
+      "side": 1,
+      "message": "enough to say \"cnf-cert-suite-with-dci-openshift-app-agent\", as the blog post is in the same web page",
+      "range": {
+        "startLine": 40,
+        "startChar": 810,
+        "endLine": 40,
+        "endChar": 889
       },
       "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
