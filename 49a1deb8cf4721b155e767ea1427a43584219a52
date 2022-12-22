@@ -35,6 +35,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d0d4cea_7bc9cda7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T18:25:34Z",
+      "side": 1,
+      "message": "Thanks Tatiana for the feedback, will hold on the publishing until next year. Looking forward for your feedback on the second part.",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5be0963a_85446f5b",
@@ -100,6 +117,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "41b7ee6b_eb9a07ab",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T18:25:34Z",
+      "side": 1,
+      "message": "nice!",
+      "parentUuid": "8c6a3c56_c008cf01",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c321ff26_f842c8d5",
         "filename": "content/2022-12-22-acm-integration.md",
         "patchSetId": 6
@@ -111,6 +146,24 @@
       "writtenOn": "2022-12-22T17:34:39Z",
       "side": 1,
       "message": "I\u0027d change it to \"an easy method for deploying and managing\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3461b739_e5c27895",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T18:25:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c321ff26_f842c8d5",
       "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -132,6 +185,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9602c2be_497340a7",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T18:25:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9aec5f08_a491165a",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fbe863af_d62935e1",
@@ -145,6 +216,24 @@
       "writtenOn": "2022-12-22T17:34:39Z",
       "side": 1,
       "message": "\"to deploy a Hub and Spoke clusters\"\n-\u003e\n\"to deploy Hub and Spoke clusters\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ec107e2_816649af",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T18:25:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fbe863af_d62935e1",
       "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -166,6 +255,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "337d14cd_7343bec0",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T18:25:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6c760b7d_36c0b8a1",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "66654122_52d20037",
@@ -179,6 +286,24 @@
       "writtenOn": "2022-12-22T17:34:39Z",
       "side": 1,
       "message": "I\u0027d change it to \"These roles do not have any dependencies, as the only requirement for executing them is\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cabaacc6_bfa1388b",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T18:25:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "66654122_52d20037",
       "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -200,6 +325,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3fab12a_17acf1a9",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T18:25:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "190abe6b_65026bc9",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2bc23e96_a58926bf",
@@ -213,6 +356,24 @@
       "writtenOn": "2022-12-22T17:34:39Z",
       "side": 1,
       "message": "\"take a look to\"\n-\u003e\n\"take a look at\"\n\n\n\"fast overview\"\n-\u003e\n\"quick overview\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d6ad1e2_60358bb9",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2022-12-22T18:25:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2bc23e96_a58926bf",
       "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
