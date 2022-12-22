@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8fdfb7c_6c8c63ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T09:50:31Z",
+      "side": 1,
+      "message": "and again one last change. It\u0027s fine for me to have two blog posts.",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5be0963a_85446f5b",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T09:50:31Z",
+      "side": 1,
+      "message": "fix date here too",
+      "range": {
+        "startLine": 2,
+        "startChar": 14,
+        "endLine": 2,
+        "endChar": 16
+      },
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12c2500b_91a4eb76",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2022-12-22T09:50:31Z",
+      "side": 1,
+      "message": "fix date",
+      "range": {
+        "startLine": 2,
+        "startChar": 14,
+        "endLine": 2,
+        "endChar": 16
+      },
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
