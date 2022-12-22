@@ -52,6 +52,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fee0664_ccaa44cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Hi Beto and Ramon, \n\nthank you for the reviews, I started to address them and added the title image, but still continue to edit.",
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0014692b_6b41aceb",
@@ -65,6 +82,30 @@
       "writtenOn": "2022-12-22T10:16:13Z",
       "side": 1,
       "message": "update date properly",
+      "range": {
+        "startLine": 2,
+        "startChar": 14,
+        "endLine": 2,
+        "endChar": 16
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d6aa5bb_07809436",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0014692b_6b41aceb",
       "range": {
         "startLine": 2,
         "startChar": 14,
@@ -111,6 +152,54 @@
       "writtenOn": "2022-12-22T10:16:13Z",
       "side": 1,
       "message": "whitespace",
+      "range": {
+        "startLine": 8,
+        "startChar": 143,
+        "endLine": 8,
+        "endChar": 144
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11faaf1b_1f214607",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "I verified, the correct version is \"help you plan\": https://forum.wordreference.com/threads/helping-me-planning-plan.2513925/",
+      "parentUuid": "195a90b9_46196825",
+      "range": {
+        "startLine": 8,
+        "startChar": 111,
+        "endLine": 8,
+        "endChar": 115
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5c952be_7645126f",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e1021cd9_974e2c00",
       "range": {
         "startLine": 8,
         "startChar": 143,
@@ -190,6 +279,78 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2bbeb9e4_cb3c2833",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "87c46a30_c29727b5",
+      "range": {
+        "startLine": 10,
+        "startChar": 188,
+        "endLine": 10,
+        "endChar": 198
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bcd9d43_d477b81e",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac10242d_27607d96",
+      "range": {
+        "startLine": 10,
+        "startChar": 542,
+        "endLine": 10,
+        "endChar": 543
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07e7d94b_d804a74f",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd1dd59f_beceee12",
+      "range": {
+        "startLine": 10,
+        "startChar": 30,
+        "endLine": 10,
+        "endChar": 108
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c7c59037_b0e5f74c",
@@ -213,6 +374,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4ab306c_60fde9d4",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c7c59037_b0e5f74c",
+      "range": {
+        "startLine": 14,
+        "startChar": 2,
+        "endLine": 14,
+        "endChar": 33
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "94d530d2_9668251f",
@@ -226,6 +411,30 @@
       "writtenOn": "2022-12-21T23:37:51Z",
       "side": 1,
       "message": "Application Agent - Workload tests",
+      "range": {
+        "startLine": 24,
+        "startChar": 2,
+        "endLine": 24,
+        "endChar": 36
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14c58f88_827282bb",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "94d530d2_9668251f",
       "range": {
         "startLine": 24,
         "startChar": 2,
@@ -305,6 +514,78 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1458e2d_04630cd3",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "afac661c_8cb932e5",
+      "range": {
+        "startLine": 28,
+        "startChar": 989,
+        "endLine": 28,
+        "endChar": 1053
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a9a7141_ecef8113",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a48909b9_8e01fc51",
+      "range": {
+        "startLine": 28,
+        "startChar": 803,
+        "endLine": 28,
+        "endChar": 867
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74ac4cb6_adbfdbd0",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4d08ff6e_bd32da77",
+      "range": {
+        "startLine": 28,
+        "startChar": 389,
+        "endLine": 28,
+        "endChar": 466
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1972e0f3_3e625ef2",
@@ -318,6 +599,30 @@
       "writtenOn": "2022-12-22T10:16:13Z",
       "side": 1,
       "message": "whitespace",
+      "range": {
+        "startLine": 32,
+        "startChar": 930,
+        "endLine": 32,
+        "endChar": 931
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "682b83af_e89ec330",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1972e0f3_3e625ef2",
       "range": {
         "startLine": 32,
         "startChar": 930,
@@ -392,6 +697,78 @@
         "startChar": 776,
         "endLine": 36,
         "endChar": 840
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "195d8542_2450ad75",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3dc48f07_aa85af9f",
+      "range": {
+        "startLine": 36,
+        "startChar": 776,
+        "endLine": 36,
+        "endChar": 840
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a8d4343_23cac3fd",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e206b5e_96c41ed5",
+      "range": {
+        "startLine": 36,
+        "startChar": 916,
+        "endLine": 36,
+        "endChar": 980
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27452f11_aa5e5521",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "15c87c65_bbb5a22f",
+      "range": {
+        "startLine": 36,
+        "startChar": 611,
+        "endLine": 36,
+        "endChar": 675
       },
       "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
@@ -484,6 +861,54 @@
         "startChar": 810,
         "endLine": 40,
         "endChar": 889
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1f34c01_858e44be",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b55d0f4c_607f84f4",
+      "range": {
+        "startLine": 40,
+        "startChar": 810,
+        "endLine": 40,
+        "endChar": 889
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6e26375_43231d5e",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T11:04:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d0413500_6fe06c71",
+      "range": {
+        "startLine": 40,
+        "startChar": 1032,
+        "endLine": 40,
+        "endChar": 1033
       },
       "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
