@@ -912,6 +912,54 @@
       },
       "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7daf7f30_8fc78747",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T15:04:28Z",
+      "side": 1,
+      "message": "Thanks, added the second CNF and replaced the verb \"entail\" because \"entail\" \u003d \"involve something as a consequence\", it doesn\u0027t fit here.",
+      "parentUuid": "1f4cd6fc_f7b98dbb",
+      "range": {
+        "startLine": 40,
+        "startChar": 129,
+        "endLine": 40,
+        "endChar": 180
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b79c0237_81218b30",
+        "filename": "content/2022-12-19-cert-suites-available-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T15:04:28Z",
+      "side": 1,
+      "message": "thanks, added!",
+      "parentUuid": "70dff356_ea92f735",
+      "range": {
+        "startLine": 40,
+        "startChar": 743,
+        "endLine": 40,
+        "endChar": 744
+      },
+      "revId": "171bf6d6ae523ee850d0ce364f6042b23fd98f9d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
