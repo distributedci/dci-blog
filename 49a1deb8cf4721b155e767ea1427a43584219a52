@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bce22ad_fa01483c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T17:34:39Z",
+      "side": 1,
+      "message": "Hi Beto, thanks for the great articles! I\u0027ve only reviewed one of them for the moment, but I\u0027ll check the other one tomorrow.",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5be0963a_85446f5b",
@@ -60,6 +77,142 @@
         "endLine": 2,
         "endChar": 16
       },
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c6a3c56_c008cf01",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T17:34:39Z",
+      "side": 1,
+      "message": "To link with the verb \"provides\":\n\n- the ability to deploy applications\n- the enforcement of policies across infrastructure platforms",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c321ff26_f842c8d5",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T17:34:39Z",
+      "side": 1,
+      "message": "I\u0027d change it to \"an easy method for deploying and managing\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9aec5f08_a491165a",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T17:34:39Z",
+      "side": 1,
+      "message": "To avoid \"creating\" / \"then create\":\n\"ACM is available in the Red Hat Catalog and can be installed by first creating a subscription and then a multi-cluster engine resource.\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fbe863af_d62935e1",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T17:34:39Z",
+      "side": 1,
+      "message": "\"to deploy a Hub and Spoke clusters\"\n-\u003e\n\"to deploy Hub and Spoke clusters\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c760b7d_36c0b8a1",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T17:34:39Z",
+      "side": 1,
+      "message": "I\u0027d merge it into one sentence:\n\n\"The ACM-setup role validates requirements, and then deploys and configures the ACM operator, which provides a graphical console for management.\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "66654122_52d20037",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T17:34:39Z",
+      "side": 1,
+      "message": "I\u0027d change it to \"These roles do not have any dependencies, as the only requirement for executing them is\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "190abe6b_65026bc9",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T17:34:39Z",
+      "side": 1,
+      "message": "The creation of the roles was the first stage. Later on, we included them as part of the skeleton of the DCI Agent to take advantage of the known benefits of using DCI to deploy and test OCP.",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2bc23e96_a58926bf",
+        "filename": "content/2022-12-22-acm-integration.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2022-12-22T17:34:39Z",
+      "side": 1,
+      "message": "\"take a look to\"\n-\u003e\n\"take a look at\"\n\n\n\"fast overview\"\n-\u003e\n\"quick overview\"",
       "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
