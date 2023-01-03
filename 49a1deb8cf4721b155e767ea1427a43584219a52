@@ -52,6 +52,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc70b7ed_28497da8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-03T08:49:58Z",
+      "side": 1,
+      "message": "Hi Beto, thank you for the great article! I identified a few minor issues.",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5be0963a_85446f5b",
@@ -95,6 +112,159 @@
         "endLine": 2,
         "endChar": 16
       },
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb735167_d88c69c5",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-03T08:49:58Z",
+      "side": 1,
+      "message": "\"to deploy and SNO\"\n--\u003e\n\"ACM is a tool that allows the deployment and management of OCP clusters and workloads on top of it. In this post, we will go through an example of how to use ACM to deploy an SNO instance in the DCI way.\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c15c5826_c2bf7b21",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-03T08:49:58Z",
+      "side": 1,
+      "message": "1/ To use the slug should be enough: [previous post](acm-int-dci)\n2/ \"Now is the time to have some hands-on to install\" \n-\u003e \nit seems like the word \"experience\" is missing: \" \"Now is the time to get some hands-on experience installing an SNO instance in the DCI way.\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ccce3860_abb0783c",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-03T08:49:58Z",
+      "side": 1,
+      "message": "\"the method is by using pipelines\"\n-\u003e\n\"the method is using pipelines\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "712f9423_9880d752",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-03T08:49:58Z",
+      "side": 1,
+      "message": "\"The below pipeline definition\"\n-\u003e\n\"The following pipeline definition\"\n\nThe present requires present:\n\"it is mandatory that the previous stage was of type\"\n-\u003e\n\"It is mandatory that the previous stage is of type\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ca54635_71ad5480",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-03T08:49:58Z",
+      "side": 1,
+      "message": "do we need to add the \"configuration\" field here? \nhttps://github.com/dci-labs/dallas-pipelines/pull/625/files",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64458744_edddcde6",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-03T08:49:58Z",
+      "side": 1,
+      "message": "we could maybe continue to use nouns: \"The installation of operators is completed as the final step.\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d7d2cce_c27cca41",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-03T08:49:58Z",
+      "side": 1,
+      "message": "\"Once\" should go first: \n\"Once the Hub installation is complete, setting\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab4ede32_a1be4b13",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-03T08:49:58Z",
+      "side": 1,
+      "message": "we could use the shorter version:\n\"please run the following commands to help identify issues\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "42cbe448_1d1a44be",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-03T08:49:58Z",
+      "side": 1,
+      "message": "Feeling overwhelmed with all the requirements to install OCP using UPI/IPI? Need something easy to manage your distributed fleet of OCP clusters? Then give [ACM](https://www.redhat.com/en/technologies/management/advanced-cluster-management) a try.",
       "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
