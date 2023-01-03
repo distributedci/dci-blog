@@ -1,0 +1,274 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0bf7c7d2_e4ee3a06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "thanks Tatiana for starting this :) adding some feedback from my side, mainly regarding styling",
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68de7226_3b56f562",
+        "filename": "content/2023-01-02-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "we should recommend here to use a github repository, but using a local directory in this blog post for the sake of completeness",
+      "range": {
+        "startLine": 95,
+        "startChar": 98,
+        "endLine": 95,
+        "endChar": 113
+      },
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a69bd4a3_101c0f2e",
+        "filename": "content/2023-01-02-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "include default home file path here",
+      "range": {
+        "startLine": 95,
+        "startChar": 152,
+        "endLine": 95,
+        "endChar": 156
+      },
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8608bca6_39709729",
+        "filename": "content/2023-01-02-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "1. embed it into `...`\n2. I\u0027d move this to Create Virtual Cluster \u003e YAML configuration section, where you talk about the dci-openshift-agent home for the first time",
+      "range": {
+        "startLine": 318,
+        "startChar": 99,
+        "endLine": 318,
+        "endChar": 127
+      },
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c63d2322_e0d3bcc5",
+        "filename": "content/2023-01-02-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "embed it into `...`",
+      "range": {
+        "startLine": 318,
+        "startChar": 16,
+        "endLine": 318,
+        "endChar": 35
+      },
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6f915b7_7abe3b68",
+        "filename": "content/2023-01-02-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "again, recommend to use github repo but using here local directory for this example",
+      "range": {
+        "startLine": 322,
+        "startChar": 16,
+        "endLine": 322,
+        "endChar": 31
+      },
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d8931dc_caf5e4a8",
+        "filename": "content/2023-01-02-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 338,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 338,
+        "startChar": 96,
+        "endLine": 338,
+        "endChar": 97
+      },
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36bb1526_d81ff805",
+        "filename": "content/2023-01-02-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 338,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "embed it into `...`",
+      "range": {
+        "startLine": 338,
+        "startChar": 47,
+        "endLine": 338,
+        "endChar": 59
+      },
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1139b2a4_5d6eceb2",
+        "filename": "content/2023-01-02-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 340,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "- remove whitespace at the end\n- include full path as we\u0027re doing a `cd` in the previous step to another location",
+      "range": {
+        "startLine": 340,
+        "startChar": 14,
+        "endLine": 340,
+        "endChar": 38
+      },
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ca7cc8d_693ec00f",
+        "filename": "content/2023-01-02-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "embed it into `...`",
+      "range": {
+        "startLine": 372,
+        "startChar": 108,
+        "endLine": 372,
+        "endChar": 128
+      },
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "879ab6da_fdfc0908",
+        "filename": "content/2023-01-02-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 372,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "I\u0027d remove \"the\"",
+      "range": {
+        "startLine": 372,
+        "startChar": 104,
+        "endLine": 372,
+        "endChar": 107
+      },
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a8a432a_d6eadac4",
+        "filename": "content/2023-01-02-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 377,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-03T10:27:01Z",
+      "side": 1,
+      "message": "Should we add a couple of sentences at the end to conclude the blog post?",
+      "range": {
+        "startLine": 377,
+        "startChar": 33,
+        "endLine": 377,
+        "endChar": 34
+      },
+      "revId": "c939c8d65f3c8077a6c4bce8a9096cc2d51eba7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
