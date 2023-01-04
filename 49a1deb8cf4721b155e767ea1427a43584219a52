@@ -325,6 +325,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4678b981_56f2bb4d",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-04T08:54:37Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "64458744_edddcde6",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5d7d2cce_c27cca41",
