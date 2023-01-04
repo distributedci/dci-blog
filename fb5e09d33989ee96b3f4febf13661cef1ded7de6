@@ -60,6 +60,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8372ce07_44cdbab5",
+        "filename": "content/2023-01-05-acm-deploy-sno.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-04T09:05:52Z",
+      "side": 1,
+      "message": "this may not be needed, by the way, as Tatiana pointed me in https://softwarefactory-project.io/r/c/dci-blog/+/27084",
+      "parentUuid": "698b5873_8daeaf7b",
+      "range": {
+        "startLine": 13,
+        "startChar": 33,
+        "endLine": 13,
+        "endChar": 34
+      },
+      "revId": "fb5e09d33989ee96b3f4febf13661cef1ded7de6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b3b5e4cd_f07c4057",
         "filename": "content/2023-01-05-acm-deploy-sno.md",
         "patchSetId": 7
