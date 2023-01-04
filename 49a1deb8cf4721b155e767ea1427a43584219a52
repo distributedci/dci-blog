@@ -133,6 +133,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "06f6e1dd_63294299",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-01-04T00:05:31Z",
+      "side": 1,
+      "message": "nice",
+      "parentUuid": "cb735167_d88c69c5",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c15c5826_c2bf7b21",
@@ -146,6 +164,24 @@
       "writtenOn": "2023-01-03T08:49:58Z",
       "side": 1,
       "message": "1/ To use the slug should be enough: [previous post](acm-int-dci)\n2/ \"Now is the time to have some hands-on to install\" \n-\u003e \nit seems like the word \"experience\" is missing: \" \"Now is the time to get some hands-on experience installing an SNO instance in the DCI way.\"",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3883414_81f09137",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-01-04T00:05:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c15c5826_c2bf7b21",
       "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -167,6 +203,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c80f544_f289e7e6",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-01-04T00:05:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ccce3860_abb0783c",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "712f9423_9880d752",
@@ -184,6 +238,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f06cadd_eb747f12",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-01-04T00:05:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "712f9423_9880d752",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ca54635_71ad5480",
@@ -197,6 +269,24 @@
       "writtenOn": "2023-01-03T08:49:58Z",
       "side": 1,
       "message": "do we need to add the \"configuration\" field here? \nhttps://github.com/dci-labs/dallas-pipelines/pull/625/files",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f23ee02e_0ac838aa",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-01-04T00:05:31Z",
+      "side": 1,
+      "message": "Yeah, that will be merged soon. This is a moving target. Thanks!",
+      "parentUuid": "0ca54635_71ad5480",
       "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -235,6 +325,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb6c22a5_ad892753",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-01-04T00:05:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d7d2cce_c27cca41",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ab4ede32_a1be4b13",
@@ -252,6 +360,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c177da6a_f64a19a1",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-01-04T00:05:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab4ede32_a1be4b13",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "42cbe448_1d1a44be",
@@ -265,6 +391,24 @@
       "writtenOn": "2023-01-03T08:49:58Z",
       "side": 1,
       "message": "Feeling overwhelmed with all the requirements to install OCP using UPI/IPI? Need something easy to manage your distributed fleet of OCP clusters? Then give [ACM](https://www.redhat.com/en/technologies/management/advanced-cluster-management) a try.",
+      "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7cfa3e2_a849e2d8",
+        "filename": "content/2022-12-22-acm-deploy-sno.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-01-04T00:05:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42cbe448_1d1a44be",
       "revId": "49a1deb8cf4721b155e767ea1427a43584219a52",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
