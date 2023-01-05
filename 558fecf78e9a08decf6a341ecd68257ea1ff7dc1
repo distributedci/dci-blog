@@ -16,6 +16,24 @@
       "message": "LGTM",
       "revId": "558fecf78e9a08decf6a341ecd68257ea1ff7dc1",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e63ccfaa_abd3ebc0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-05T10:46:29Z",
+      "side": 1,
+      "message": "thx Tania for the review :) I\u0027ll merge it after merging CR27099!",
+      "parentUuid": "3f898a43_438d2e41",
+      "revId": "558fecf78e9a08decf6a341ecd68257ea1ff7dc1",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
