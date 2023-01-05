@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b229507_47e21724",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-05T12:11:06Z",
+      "side": 1,
+      "message": "Hi Manny, thank you for the feedback, applied it! ",
+      "revId": "cf9524cc66be20e0b86139a1c1627bf82e64ca22",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1e281140_db9d27de",
@@ -64,6 +81,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6165bd08_12b2bf1a",
+        "filename": "content/2023-01-09-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-05T12:11:06Z",
+      "side": 1,
+      "message": "nice catch, thanks!",
+      "parentUuid": "1e281140_db9d27de",
+      "range": {
+        "startLine": 8,
+        "startChar": 103,
+        "endLine": 8,
+        "endChar": 126
+      },
+      "revId": "cf9524cc66be20e0b86139a1c1627bf82e64ca22",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "353a01ef_bd727544",
+        "filename": "content/2023-01-09-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-05T12:11:06Z",
+      "side": 1,
+      "message": "yes, thanks, changed to \"libvirt KVM driver\" following the official documentation: https://libvirt.org/drvqemu.html",
+      "parentUuid": "7992b9db_063b8623",
+      "range": {
+        "startLine": 8,
+        "startChar": 234,
+        "endLine": 8,
+        "endChar": 248
+      },
+      "revId": "cf9524cc66be20e0b86139a1c1627bf82e64ca22",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "958b6da9_f1a04915",
@@ -87,6 +152,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "16b6e513_c85ccc68",
+        "filename": "content/2023-01-09-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-05T12:11:06Z",
+      "side": 1,
+      "message": "thanks, that sounds much better!",
+      "parentUuid": "958b6da9_f1a04915",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 107
+      },
+      "revId": "cf9524cc66be20e0b86139a1c1627bf82e64ca22",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dbddf420_650edaba",
@@ -100,6 +189,30 @@
       "writtenOn": "2023-01-05T00:56:21Z",
       "side": 1,
       "message": "I think we can use the word \"entitlements\" instead of \"licenses\".",
+      "range": {
+        "startLine": 49,
+        "startChar": 346,
+        "endLine": 49,
+        "endChar": 354
+      },
+      "revId": "cf9524cc66be20e0b86139a1c1627bf82e64ca22",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f80af4c_3fa61064",
+        "filename": "content/2023-01-09-install-ocp-on-baremetal-using-dci.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-05T12:11:06Z",
+      "side": 1,
+      "message": "ehm, ok, why not",
+      "parentUuid": "dbddf420_650edaba",
       "range": {
         "startLine": 49,
         "startChar": 346,
