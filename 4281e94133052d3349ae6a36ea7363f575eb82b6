@@ -16,6 +16,23 @@
       "message": "Thanks Beto for taking my changes into consideration, let\u0027s merge it!",
       "revId": "4281e94133052d3349ae6a36ea7363f575eb82b6",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aeff9ad3_ef58fdb0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-01-05T15:04:40Z",
+      "side": 1,
+      "message": "Thanks Beto, minimalist and clear :)",
+      "revId": "4281e94133052d3349ae6a36ea7363f575eb82b6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
