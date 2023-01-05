@@ -129,6 +129,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "da734800_69e7da54",
+        "filename": "content/2023-01-05-acm-deploy-sno.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-05T09:37:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b3b5e4cd_f07c4057",
+      "range": {
+        "startLine": 47,
+        "startChar": 188,
+        "endLine": 47,
+        "endChar": 198
+      },
+      "revId": "fb5e09d33989ee96b3f4febf13661cef1ded7de6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "68be39a4_f1a13cdc",
@@ -198,6 +222,78 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5dc01500_c58c7e58",
+        "filename": "content/2023-01-05-acm-deploy-sno.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-05T09:37:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "433e26cf_354c1a77",
+      "range": {
+        "startLine": 83,
+        "startChar": 313,
+        "endLine": 83,
+        "endChar": 339
+      },
+      "revId": "fb5e09d33989ee96b3f4febf13661cef1ded7de6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30c04b47_0dd62fbc",
+        "filename": "content/2023-01-05-acm-deploy-sno.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-05T09:37:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "572e542b_d1aa6d75",
+      "range": {
+        "startLine": 83,
+        "startChar": 43,
+        "endLine": 83,
+        "endChar": 55
+      },
+      "revId": "fb5e09d33989ee96b3f4febf13661cef1ded7de6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcf9fabd_92300cc0",
+        "filename": "content/2023-01-05-acm-deploy-sno.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-05T09:37:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "68be39a4_f1a13cdc",
+      "range": {
+        "startLine": 83,
+        "startChar": 130,
+        "endLine": 83,
+        "endChar": 139
+      },
+      "revId": "fb5e09d33989ee96b3f4febf13661cef1ded7de6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "32261df8_f18e1832",
@@ -211,6 +307,30 @@
       "writtenOn": "2023-01-04T08:54:37Z",
       "side": 1,
       "message": "embed it within `...`",
+      "range": {
+        "startLine": 134,
+        "startChar": 106,
+        "endLine": 134,
+        "endChar": 120
+      },
+      "revId": "fb5e09d33989ee96b3f4febf13661cef1ded7de6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4e3c5cc_ec3a229e",
+        "filename": "content/2023-01-05-acm-deploy-sno.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-05T09:37:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "32261df8_f18e1832",
       "range": {
         "startLine": 134,
         "startChar": 106,
@@ -244,6 +364,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "53ec9c38_531e7546",
+        "filename": "content/2023-01-05-acm-integration.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-05T09:37:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e45fe0bb_4a3ffb76",
+      "range": {
+        "startLine": 14,
+        "startChar": 159,
+        "endLine": 14,
+        "endChar": 168
+      },
+      "revId": "fb5e09d33989ee96b3f4febf13661cef1ded7de6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ca7b0c31_bd27ffeb",
@@ -267,6 +411,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b490624_3d909aad",
+        "filename": "content/2023-01-05-acm-integration.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-05T09:37:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca7b0c31_bd27ffeb",
+      "range": {
+        "startLine": 42,
+        "startChar": 4,
+        "endLine": 42,
+        "endChar": 24
+      },
+      "revId": "fb5e09d33989ee96b3f4febf13661cef1ded7de6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b1790288_a0655d7a",
@@ -280,6 +448,30 @@
       "writtenOn": "2023-01-04T08:54:37Z",
       "side": 1,
       "message": "OpenShift",
+      "range": {
+        "startLine": 53,
+        "startChar": 169,
+        "endLine": 53,
+        "endChar": 178
+      },
+      "revId": "fb5e09d33989ee96b3f4febf13661cef1ded7de6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8fd61892_fbc66c5b",
+        "filename": "content/2023-01-05-acm-integration.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-05T09:37:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b1790288_a0655d7a",
       "range": {
         "startLine": 53,
         "startChar": 169,
