@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be89c009_628eef61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-01-06T07:54:20Z",
+      "side": 1,
+      "message": "Hi Ramon and Manny, could you please approve? I\u0027d like to publish the article next week.",
+      "revId": "085b838f56b8118098ce7c8ac92bdc0b9fa7a7c1",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
