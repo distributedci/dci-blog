@@ -1,12 +1,14 @@
 Title: Using DCI components in partner hooks
 Date: 2022-11-15 10:00
-Modified: 2022-12-14 10:00
+Modified: 2023-01-05 10:00
 Category: how-to
 Tags: dci-components, partner-hooks, cnf-cert-suite, dci-openshift-app-agent, certification, partners
 Slug: using-dci-components-in-partner-hooks
 Author: Ramon Perez
 Github: ramperher
 Summary: DCI components are really useful for establishing efficient CI workflows with partner workloads. This blog post will cover the full workflow that a partner should follow, from creating the components to deploying DCI jobs using these components.
+
+[TOC]
 
 ## Introduction
 

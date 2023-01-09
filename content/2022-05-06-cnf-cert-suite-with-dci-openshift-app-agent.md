@@ -1,6 +1,6 @@
 Title: Running CNF Cert Suite certification with dci-openshift-app-agent
 Date: 2022-05-06 10:00
-Modified: 2022-12-01 10:00
+Modified: 2023-01-05 10:00
 Category: how-to
 Tags: cnf-cert-suite, dci-openshift-app-agent, certification, partners
 Slug: cnf-cert-suite-with-dci-openshift-app-agent
@@ -8,6 +8,9 @@ Author: Ramon Perez
 Github: ramperher
 Summary: The dci-openshift-app-agent enables Cloud-Native Applications and Operators in OpenShift using the Red Hat Distributed CI service. It also includes the possibility of running a set of certification tools over the workloads deployed by this agent, including the CNF Cert Suite, which allows CNF Developers to test their CNFs readiness for certification. This blog post summarizes the main points to have in mind when running CNF Cert Suite with the dci-openshift-app-agent, also providing an example.
 
+[TOC]
+
+## Introduction
 
 The [dci-openshift-app-agent](https://github.com/redhat-cip/dci-openshift-app-agent) supports the execution of multiple test suites to validate containers, virtual functions, Helm charts, and operators. These suites are built as Ansible roles, helping the partners on getting prepared for the Red Hat certifications or actually running the certification process on the workloads deployed via DCI.
 
@@ -83,11 +86,9 @@ The main variables to have in mind, whose default values are [these](https://git
         - `operators_regexp`<sup>1</sup> (optional): a regular expresion (regex) to select operators to be tested by the CNF Cert Suite.
         - `exclude_connectivity_regexp`<sup>1</sup> (optional): a regex to exclude containers from the connectivity test.
     - `accepted_kernel_taints`: allow-list for tainted modules. It must be composed of a list of elements called `module: "<module_name>"`.
-    - `tnf_non_intrusive_only`: skip intrusive tests which may disrupt cluster operations.
-    - `tnf_run_cfd_test`: run the test suites from [openshift-kni/cnf-feature-deploy](https://github.com/openshift-kni/cnf-features-deploy) prior to the actual CNF certification test execution. The results are incorporated in the same claim.
-    - `tnf_log_level`: log level in the CNF Cert Suite.
     - `tnf_postrun_delete_resources`: boolean variable, to whether or not keep resources after the CNF Cert Suite execution. Used for debugging purposes.
     - `tnf_certified_container_info`: (optional) list of container images to be tested by `affiliated-certification` test suite.
+    - `tnf_env_vars`: dictionary that allows to define environment variables used during CNF Cert Suite execution (such as `TNF_LOG_LEVEL`). It is empty by default and must be filled by the user. The cnf-cert role README includes an [example](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/cnf-cert#example-of-tnf_env_vars-variable) about how to define this variable.
 
     <sup>1</sup> The logic for these settings requires an implementation. See examples in the following section.
 
