@@ -1,6 +1,6 @@
 Title: Running CNF Cert Suite certification with dci-openshift-app-agent
 Date: 2022-05-06 10:00
-Modified: 2023-01-05 10:00
+Modified: 2023-01-16 10:00
 Category: how-to
 Tags: cnf-cert-suite, dci-openshift-app-agent, certification, partners
 Slug: cnf-cert-suite-with-dci-openshift-app-agent
@@ -54,7 +54,7 @@ After deploying the workloads to be tested by CNF Cert Suite, in the DCI Red Hat
     - The created configuration file.
     - The generated `claim.json` file by the CNF Cert Suite.
     - The XML file containing the test results in JUnit format.
-    - A file called `execution.log`, containing the standard output and standard error from the execution of the certification suite.
+    - A file called `dci-tnf-execution.log`, containing the standard output and standard error from the execution of the certification suite.
 
 Then, after finishing the tests, in the DCI `post-run` phase, the environment is cleaned in the following way:
 
@@ -141,14 +141,14 @@ When running a job launching CNF Cert Suite, you need to confirm that:
 - Job is green.
     - If the job is not green, then fix the errors displayed by DCI in order to make it green.
 - Test results are displayed.
-    - If they are not displayed (and probably, you will not see the log files in Files section, excepting `execution.log`) - something has happened during tnf execution. Check `execution.log` file and see what happened.
-        - And what if `execution.log` file is not provided? Then, something external to `dci-openshift-app-agent` configuration is happening; e.g. running `dci-openshift-app-agent-ctl` with a script that is wrongly using the variables to be provided to the agent. Check these kind of steps beforehand.
+    - If they are not displayed (and probably, you will not see the log files in Files section, excepting `dci-tnf-execution.log`) - something has happened during tnf execution. Check `dci-tnf-execution.log` file and see what happened.
+        - And what if `dci-tnf-execution.log` file is not provided? Then, something external to `dci-openshift-app-agent` configuration is happening; e.g. running `dci-openshift-app-agent-ctl` with a script that is wrongly using the variables to be provided to the agent. Check these kind of steps beforehand.
 - In Files section, you should see the following logs:
     - `cnf-certification-tests_junit.xml`:
         - It contains the results of the tnf execution.
         - You’ll see the passed, skipped and failed tests like this (better to see them on DCI GUI rather than in the XML file).
         - On each test, regardless of the result, if you check for more details, you will see the output, error messages, etc. to troubleshoot afterwards.
-    - `execution.log`:
+    - `dci-tnf-execution.log`:
         - It provides the output of tnf execution, really useful to deeply troubleshoot the execution in case of problems.
         - We can tune the log level with `tnf_log_level` variable.
         - In the first lines, we can see general information like the tnf version used, the suites to be tested, etc., which is important to confirm that we are using the correct version and basic configuration.
@@ -219,7 +219,7 @@ In order to execute an example of a DCI job, managed by `dci-openshift-app-agent
 Finally, you should have a DCI job like [this one](https://www.distributed-ci.io/jobs/04d8713d-9480-4741-8f10-deabc13d746c/jobStates?sort=date), which was done in a connected environment. There, you can observe the results obtained. Mainly, you have to take care of the following:
 
 - In the Tests section, you will see the results of the CNF Cert Suite execution, in JUnit format, clearly viewing the tests that have passed, failed, or been skipped.
-- In the Files section, you can see the logs generated during the execution, including `execution.log` or `claim.json` files, useful for troubleshooting purposes.
+- In the Files section, you can see the logs generated during the execution, including `dci-tnf-execution.log` or `claim.json` files, useful for troubleshooting purposes.
 
 Note that, for this example, we have not modified the default values of variables like `test_network_function_version` or `tnf_labels`, so that we are using the latest stable version of CNF Cert Suite and running all the tests defined.
 
