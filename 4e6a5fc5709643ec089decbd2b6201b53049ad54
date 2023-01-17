@@ -16,6 +16,23 @@
       "message": "Hi guys, can someone of you take a quick look to this to merge it? it\u0027s quick I promise :) thank you all and sorry for the noise!",
       "revId": "4e6a5fc5709643ec089decbd2b6201b53049ad54",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0970aa0d_0da92ac1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-01-17T14:57:18Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "4e6a5fc5709643ec089decbd2b6201b53049ad54",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
