@@ -16,6 +16,24 @@
       "message": "Hello Ramon and Beto, could you please check an image for the CNF cert? I\u0027m not sure about the flow. Thanks!",
       "revId": "4d72a46fed8f09bae0e0bcf778f9c6541be6c1e0",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82006e02_13cc35a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-18T07:50:23Z",
+      "side": 1,
+      "message": "I think the workflow is fine. Most important thing is to remark that DCI is not taking care of submitting the results, it has to be done manually.",
+      "parentUuid": "cfdce7d9_8494af72",
+      "revId": "4d72a46fed8f09bae0e0bcf778f9c6541be6c1e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
