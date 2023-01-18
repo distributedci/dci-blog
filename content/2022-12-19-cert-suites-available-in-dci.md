@@ -33,6 +33,8 @@ To become certification-ready, your container must pass all the test suites prov
 
 ## Helm Chart Verifier
 
+![helm_cert](images/cert-suites-integrated-in-dci/helm_cert.png)
+
 [Chart Verifier](https://github.com/redhat-certification/chart-verifier) allows you to validate the Helm chart against a configurable list of checks. The tool ensures that the Helm chart includes the associated metadata and formatting, and is distribution ready. The ultimate goal of Helm chart certification is to get your chart merged into the [OpenShift Helm Repository](https://github.com/openshift-helm-charts), and DCI can offer you a [full service](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/chart-verifier) by running all the required tests and even automatically opening a pull request. Please note that not all Helm chart workloads can be certified; for example, the "certification-green" Helm chart [must not contain any CRDs](https://github.com/redhat-certification/chart-verifier/blob/main/docs/helm-chart-troubleshooting.md#not-contains-crds-v10). CRDs should be defined using operators.
 
 ## All Operators: Preflight Certification
