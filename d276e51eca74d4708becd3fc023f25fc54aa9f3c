@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2f36c4c_2395b88e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-01-19T23:09:45Z",
+      "side": 1,
+      "message": "Excellent, some minor comments below: ",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "443bbb07_091dfaf8",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-01-19T23:09:45Z",
+      "side": 1,
+      "message": "Indentation: when the page is rendered in a browser, this line and the next are not indented under the line above.",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e80022ab_417aeb93",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-01-19T23:09:45Z",
+      "side": 1,
+      "message": "Indentation; the three lines under this main point are listed at the same level of indentation and do not look",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f3363f7_96f18870",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-01-19T23:09:45Z",
+      "side": 1,
+      "message": "Indentation: same here",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0102eda6_22c45b01",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-01-19T23:09:45Z",
+      "side": 1,
+      "message": "I wonder if you could add a concrete example of these hints, to see it in action.",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf6260d8_598da0d3",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-01-19T23:09:45Z",
+      "side": 1,
+      "message": "I was thinking if you can take some of the items you listed in (https://softwarefactory-project.io/r/c/dci-blog/+/27226/1/content/2023-01-20-mastering-dci-check-change.md#23) and add a recommendation, like when to vote or when not, when to use the complex hints, etc. You developed those points already, so just a quick summary",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
