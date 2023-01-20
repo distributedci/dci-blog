@@ -58,6 +58,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "36846c08_b2e61412",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "cc242580_1cb1fc22",
+      "range": {
+        "startLine": 8,
+        "startChar": 125,
+        "endLine": 8,
+        "endChar": 157
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5705e919_8a7ef6df",
@@ -81,6 +105,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7ccc50e_0b874506",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5705e919_8a7ef6df",
+      "range": {
+        "startLine": 18,
+        "startChar": 223,
+        "endLine": 18,
+        "endChar": 234
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "db4e59e2_cb6e7f64",
@@ -94,6 +142,30 @@
       "writtenOn": "2023-01-20T00:29:51Z",
       "side": 1,
       "message": "\"you will only be able to merge your change once fixing that\"\n\nChanging to positive",
+      "range": {
+        "startLine": 19,
+        "startChar": 219,
+        "endLine": 19,
+        "endChar": 278
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf552680_2c79c30d",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "db4e59e2_cb6e7f64",
       "range": {
         "startLine": 19,
         "startChar": 219,
@@ -150,6 +222,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fb62c49_9b3c3249",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7d8c1530_54ba92c1",
+      "range": {
+        "startLine": 27,
+        "startChar": 81,
+        "endLine": 27,
+        "endChar": 88
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "826067df_33e87e6b",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "6080cff4_9739a948",
+      "range": {
+        "startLine": 27,
+        "startChar": 98,
+        "endLine": 27,
+        "endChar": 101
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "74b64854_d6f513d7",
@@ -163,6 +283,30 @@
       "writtenOn": "2023-01-20T00:29:51Z",
       "side": 1,
       "message": "maybe remove it, it sound a bit redundant",
+      "range": {
+        "startLine": 28,
+        "startChar": 64,
+        "endLine": 28,
+        "endChar": 67
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6bb53c8_7519a785",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "74b64854_d6f513d7",
       "range": {
         "startLine": 28,
         "startChar": 64,
@@ -196,6 +340,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d4697bc_b48831a8",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b20df3ec_519500db",
+      "range": {
+        "startLine": 37,
+        "startChar": 80,
+        "endLine": 37,
+        "endChar": 87
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "443bbb07_091dfaf8",
@@ -209,6 +377,24 @@
       "writtenOn": "2023-01-19T23:09:45Z",
       "side": 1,
       "message": "Indentation: when the page is rendered in a browser, this line and the next are not indented under the line above.",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49a6b4b4_a1fb7838",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "arg, I always forget about this, now all the indentation issues should be fixed",
+      "parentUuid": "443bbb07_091dfaf8",
       "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -305,6 +491,102 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "357a49ac_2882c56c",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "18979fa0_558c3b10",
+      "range": {
+        "startLine": 48,
+        "startChar": 371,
+        "endLine": 48,
+        "endChar": 381
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7710393_ab925cd6",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "504d9897_207c11fd",
+      "range": {
+        "startLine": 48,
+        "startChar": 28,
+        "endLine": 48,
+        "endChar": 34
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ec535b5_c2fddb7c",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "80a9af8f_529aca56",
+      "range": {
+        "startLine": 48,
+        "startChar": 246,
+        "endLine": 48,
+        "endChar": 252
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cfcd6f31_61500f73",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "96843f06_605ebc16",
+      "range": {
+        "startLine": 48,
+        "startChar": 38,
+        "endLine": 48,
+        "endChar": 42
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e80022ab_417aeb93",
@@ -318,6 +600,24 @@
       "writtenOn": "2023-01-19T23:09:45Z",
       "side": 1,
       "message": "Indentation; the three lines under this main point are listed at the same level of indentation and do not look",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75d8f404_55a7e96a",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e80022ab_417aeb93",
       "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -345,6 +645,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe837e02_3a272f8e",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "620194e4_a83d11ca",
+      "range": {
+        "startLine": 53,
+        "startChar": 343,
+        "endLine": 53,
+        "endChar": 348
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9f3363f7_96f18870",
@@ -362,6 +686,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8bd40348_39d4964a",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "9f3363f7_96f18870",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4fdaf1fc_89438db4",
@@ -375,6 +717,30 @@
       "writtenOn": "2023-01-20T00:29:51Z",
       "side": 1,
       "message": "dictionaries",
+      "range": {
+        "startLine": 57,
+        "startChar": 77,
+        "endLine": 57,
+        "endChar": 82
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c86215f3_42966f0a",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "4fdaf1fc_89438db4",
       "range": {
         "startLine": 57,
         "startChar": 77,
@@ -410,6 +776,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "d8fcabbb_7353a320",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "0ec949bb_62e8da9f",
+      "range": {
+        "startLine": 58,
+        "startChar": 172,
+        "endLine": 58,
+        "endChar": 180
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "0102eda6_22c45b01",
         "filename": "content/2023-01-20-mastering-dci-check-change.md",
         "patchSetId": 1
@@ -421,6 +811,24 @@
       "writtenOn": "2023-01-19T23:09:45Z",
       "side": 1,
       "message": "I wonder if you could add a concrete example of these hints, to see it in action.",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba3c36a0_9d6a27de",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "I\u0027ll add some examples of changes in gerrit making use of most of them!",
+      "parentUuid": "0102eda6_22c45b01",
       "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -438,6 +846,30 @@
       "writtenOn": "2023-01-20T00:29:51Z",
       "side": 1,
       "message": "so we recommend the usage of",
+      "range": {
+        "startLine": 66,
+        "startChar": 283,
+        "endLine": 66,
+        "endChar": 317
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc7dbf69_b1b6c33f",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "3aa7f6de_17148476",
       "range": {
         "startLine": 66,
         "startChar": 283,
@@ -473,6 +905,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "c149aa77_4ce7abb5",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d4c8ff4c_839b7b67",
+      "range": {
+        "startLine": 76,
+        "startChar": 244,
+        "endLine": 76,
+        "endChar": 245
+      },
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "cf6260d8_598da0d3",
         "filename": "content/2023-01-20-mastering-dci-check-change.md",
         "patchSetId": 1
@@ -484,6 +940,24 @@
       "writtenOn": "2023-01-19T23:09:45Z",
       "side": 1,
       "message": "I was thinking if you can take some of the items you listed in (https://softwarefactory-project.io/r/c/dci-blog/+/27226/1/content/2023-01-20-mastering-dci-check-change.md#23) and add a recommendation, like when to vote or when not, when to use the complex hints, etc. You developed those points already, so just a quick summary",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49e94c6f_94a95ae8",
+        "filename": "content/2023-01-20-mastering-dci-check-change.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:48:42Z",
+      "side": 1,
+      "message": "sure!",
+      "parentUuid": "cf6260d8_598da0d3",
       "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
