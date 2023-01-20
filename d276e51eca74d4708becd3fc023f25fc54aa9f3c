@@ -35,6 +35,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c43acb44_f0e3bf63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-20T07:58:02Z",
+      "side": 1,
+      "message": "Thank you guys! I\u0027ve addressed all your comments, submitting a new patcshet",
+      "revId": "d276e51eca74d4708becd3fc023f25fc54aa9f3c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cc242580_1cb1fc22",
