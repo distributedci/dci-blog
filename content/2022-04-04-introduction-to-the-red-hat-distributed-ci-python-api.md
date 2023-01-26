@@ -85,7 +85,7 @@ You need to connect to the [DCI web board](https://distributed-ci.io), go to the
 Then, look for your remoteci and click on the blue button in the Authentication column (see image below).
 A popup will display the cont
 
-![screen capture showing the output.](images//home/hguemar/dist-git/dci/dci-blog/content/images/blog4_credentials-dci.png)
+![screen capture showing the output.](images/blog4_credentials-dci.png)
 
 
 ### Installing Python DCI libraries
