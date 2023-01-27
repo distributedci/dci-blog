@@ -16,6 +16,23 @@
       "message": "LGTM",
       "revId": "80882fda2ea971901459318242c681ec3839cf0b",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65a359a0_b2648978",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T09:52:22Z",
+      "side": 1,
+      "message": "LGTM, I\u0027ll set a workflow now to trigger the merge",
+      "revId": "80882fda2ea971901459318242c681ec3839cf0b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
