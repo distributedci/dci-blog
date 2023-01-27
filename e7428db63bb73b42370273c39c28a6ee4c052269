@@ -41,6 +41,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "351dba09_60cb740e",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1d329504_ebb1f4e9",
+      "range": {
+        "startLine": 8,
+        "startChar": 59,
+        "endLine": 8,
+        "endChar": 62
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1791225c_a269add8",
@@ -54,6 +78,30 @@
       "writtenOn": "2023-01-27T11:24:12Z",
       "side": 1,
       "message": "OpenShift",
+      "range": {
+        "startLine": 14,
+        "startChar": 103,
+        "endLine": 14,
+        "endChar": 112
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "98717a6b_40cb2c65",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1791225c_a269add8",
       "range": {
         "startLine": 14,
         "startChar": 103,
@@ -87,6 +135,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9910669a_002ad0d0",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d25aaffd_a244a3d0",
+      "range": {
+        "startLine": 22,
+        "startChar": 75,
+        "endLine": 22,
+        "endChar": 84
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dd7534b1_ce3a7486",
@@ -100,6 +172,30 @@
       "writtenOn": "2023-01-27T11:24:12Z",
       "side": 1,
       "message": "OpenShift",
+      "range": {
+        "startLine": 27,
+        "startChar": 9,
+        "endLine": 27,
+        "endChar": 18
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "adc8a85f_967ef95c",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd7534b1_ce3a7486",
       "range": {
         "startLine": 27,
         "startChar": 9,
@@ -133,6 +229,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "431f1bd5_806df88d",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "16a8b182_273dac18",
+      "range": {
+        "startLine": 34,
+        "startChar": 20,
+        "endLine": 34,
+        "endChar": 51
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "33229db0_808fb937",
@@ -146,6 +266,30 @@
       "writtenOn": "2023-01-27T11:24:12Z",
       "side": 1,
       "message": "RHEL",
+      "range": {
+        "startLine": 41,
+        "startChar": 49,
+        "endLine": 41,
+        "endChar": 53
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8680db2a_560f76a7",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "33229db0_808fb937",
       "range": {
         "startLine": 41,
         "startChar": 49,
@@ -179,6 +323,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "25670323_3c52358e",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "15845afa_36bd9894",
+      "range": {
+        "startLine": 73,
+        "startChar": 38,
+        "endLine": 73,
+        "endChar": 42
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "23ebbbc6_c27bac42",
@@ -192,6 +360,30 @@
       "writtenOn": "2023-01-27T11:24:12Z",
       "side": 1,
       "message": "these famous files are composed",
+      "range": {
+        "startLine": 77,
+        "startChar": 13,
+        "endLine": 77,
+        "endChar": 43
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c54b2fe_46a9532b",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "23ebbbc6_c27bac42",
       "range": {
         "startLine": 77,
         "startChar": 13,
@@ -225,6 +417,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "712a7e87_eb7892bb",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bf4c6688_b22a1d6b",
+      "range": {
+        "startLine": 92,
+        "startChar": 30,
+        "endLine": 92,
+        "endChar": 33
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eac91cb2_37ebd7f3",
@@ -238,6 +454,30 @@
       "writtenOn": "2023-01-27T11:24:12Z",
       "side": 1,
       "message": "OpenShift",
+      "range": {
+        "startLine": 96,
+        "startChar": 70,
+        "endLine": 96,
+        "endChar": 79
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5b23265_96a1ee4b",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eac91cb2_37ebd7f3",
       "range": {
         "startLine": 96,
         "startChar": 70,
@@ -294,6 +534,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "70147a36_af5b8526",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "69e5c6c6_276e14a9",
+      "range": {
+        "startLine": 98,
+        "startChar": 41,
+        "endLine": 98,
+        "endChar": 45
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f4d6c41_fe207b88",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "85b4dfd2_8d168db9",
+      "range": {
+        "startLine": 98,
+        "startChar": 21,
+        "endLine": 98,
+        "endChar": 24
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "25046be0_776c6ac2",
@@ -307,6 +595,30 @@
       "writtenOn": "2023-01-27T11:24:12Z",
       "side": 1,
       "message": "may we include a comment or a pointer to some references regarding how to select components based on version, name, etc., remarking that, in this way, we\u0027re always selecting the latest available?",
+      "range": {
+        "startLine": 110,
+        "startChar": 14,
+        "endLine": 110,
+        "endChar": 17
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac41811d_715a8b24",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "That is a good idea, it will be definitely include in a second dci-pipeline post 😊",
+      "parentUuid": "25046be0_776c6ac2",
       "range": {
         "startLine": 110,
         "startChar": 14,
@@ -340,6 +652,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "88765346_616d4776",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d9cef11_4195fb54",
+      "range": {
+        "startLine": 112,
+        "startChar": 50,
+        "endLine": 112,
+        "endChar": 54
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6df0355b_fed59cf4",
@@ -353,6 +689,30 @@
       "writtenOn": "2023-01-27T11:24:12Z",
       "side": 1,
       "message": "OpenShift",
+      "range": {
+        "startLine": 154,
+        "startChar": 26,
+        "endLine": 154,
+        "endChar": 35
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8fc67dde_31639230",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6df0355b_fed59cf4",
       "range": {
         "startLine": 154,
         "startChar": 26,
@@ -409,6 +769,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb81a91c_be2474e4",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ff4d9d35_f66c20fc",
+      "range": {
+        "startLine": 161,
+        "startChar": 65,
+        "endLine": 161,
+        "endChar": 76
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c0dfd88_1920617f",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a3f44a87_2ec2046e",
+      "range": {
+        "startLine": 161,
+        "startChar": 29,
+        "endLine": 161,
+        "endChar": 37
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ca3d1784_b217f006",
@@ -432,6 +840,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7e4ddd2_47b9cdfa",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca3d1784_b217f006",
+      "range": {
+        "startLine": 177,
+        "startChar": 43,
+        "endLine": 177,
+        "endChar": 54
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1d9dc5a_d6b23948",
@@ -445,6 +877,30 @@
       "writtenOn": "2023-01-27T11:24:12Z",
       "side": 1,
       "message": "OpenShift",
+      "range": {
+        "startLine": 184,
+        "startChar": 69,
+        "endLine": 184,
+        "endChar": 78
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83851289_692d8886",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-27T15:24:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1d9dc5a_d6b23948",
       "range": {
         "startLine": 184,
         "startChar": 69,
