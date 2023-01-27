@@ -1,0 +1,458 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25117d48_3aa09c18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "Thanks Pierre! Some comments here",
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1d329504_ebb1f4e9",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "DCI",
+      "range": {
+        "startLine": 8,
+        "startChar": 59,
+        "endLine": 8,
+        "endChar": 62
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1791225c_a269add8",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "OpenShift",
+      "range": {
+        "startLine": 14,
+        "startChar": 103,
+        "endLine": 14,
+        "endChar": 112
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d25aaffd_a244a3d0",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "OpenShift",
+      "range": {
+        "startLine": 22,
+        "startChar": 75,
+        "endLine": 22,
+        "endChar": 84
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd7534b1_ce3a7486",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "OpenShift",
+      "range": {
+        "startLine": 27,
+        "startChar": 9,
+        "endLine": 27,
+        "endChar": 18
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16a8b182_273dac18",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "you can get rid of this",
+      "range": {
+        "startLine": 34,
+        "startChar": 20,
+        "endLine": 34,
+        "endChar": 51
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33229db0_808fb937",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "RHEL",
+      "range": {
+        "startLine": 41,
+        "startChar": 49,
+        "endLine": 41,
+        "endChar": 53
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15845afa_36bd9894",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "YAML",
+      "range": {
+        "startLine": 73,
+        "startChar": 38,
+        "endLine": 73,
+        "endChar": 42
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "23ebbbc6_c27bac42",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "these famous files are composed",
+      "range": {
+        "startLine": 77,
+        "startChar": 13,
+        "endLine": 77,
+        "endChar": 43
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf4c6688_b22a1d6b",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "DCI",
+      "range": {
+        "startLine": 92,
+        "startChar": 30,
+        "endLine": 92,
+        "endChar": 33
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eac91cb2_37ebd7f3",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "OpenShift",
+      "range": {
+        "startLine": 96,
+        "startChar": 70,
+        "endLine": 96,
+        "endChar": 79
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "69e5c6c6_276e14a9",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "files",
+      "range": {
+        "startLine": 98,
+        "startChar": 41,
+        "endLine": 98,
+        "endChar": 45
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85b4dfd2_8d168db9",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "your",
+      "range": {
+        "startLine": 98,
+        "startChar": 21,
+        "endLine": 98,
+        "endChar": 24
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25046be0_776c6ac2",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "may we include a comment or a pointer to some references regarding how to select components based on version, name, etc., remarking that, in this way, we\u0027re always selecting the latest available?",
+      "range": {
+        "startLine": 110,
+        "startChar": 14,
+        "endLine": 110,
+        "endChar": 17
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d9cef11_4195fb54",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "these",
+      "range": {
+        "startLine": 112,
+        "startChar": 50,
+        "endLine": 112,
+        "endChar": 54
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6df0355b_fed59cf4",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "OpenShift",
+      "range": {
+        "startLine": 154,
+        "startChar": 26,
+        "endLine": 154,
+        "endChar": 35
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a3f44a87_2ec2046e",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "workload",
+      "range": {
+        "startLine": 161,
+        "startChar": 29,
+        "endLine": 161,
+        "endChar": 37
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff4d9d35_f66c20fc",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "`prev_stages`",
+      "range": {
+        "startLine": 161,
+        "startChar": 65,
+        "endLine": 161,
+        "endChar": 76
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca3d1784_b217f006",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "`prev_stages`",
+      "range": {
+        "startLine": 177,
+        "startChar": 43,
+        "endLine": 177,
+        "endChar": 54
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1d9dc5a_d6b23948",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-27T11:24:12Z",
+      "side": 1,
+      "message": "OpenShift",
+      "range": {
+        "startLine": 184,
+        "startChar": 69,
+        "endLine": 184,
+        "endChar": 78
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
