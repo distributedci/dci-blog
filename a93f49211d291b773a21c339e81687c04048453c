@@ -56,6 +56,30 @@
       },
       "revId": "a93f49211d291b773a21c339e81687c04048453c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2adb45fb_1e1cd4f6",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-01-30T14:04:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e3f89285_e2825105",
+      "range": {
+        "startLine": 112,
+        "startChar": 50,
+        "endLine": 112,
+        "endChar": 55
+      },
+      "revId": "a93f49211d291b773a21c339e81687c04048453c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
