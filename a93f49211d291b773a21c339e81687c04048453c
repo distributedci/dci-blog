@@ -16,6 +16,46 @@
       "message": "Wonderful, thanks Ramon for your review !",
       "revId": "a93f49211d291b773a21c339e81687c04048453c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00b00cc0_ad44a87a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-30T08:37:24Z",
+      "side": 1,
+      "message": "thanks for taking care of my review! just one minor pending change",
+      "revId": "a93f49211d291b773a21c339e81687c04048453c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e3f89285_e2825105",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-30T08:37:24Z",
+      "side": 1,
+      "message": "still needing \"these\" here",
+      "range": {
+        "startLine": 112,
+        "startChar": 50,
+        "endLine": 112,
+        "endChar": 55
+      },
+      "revId": "a93f49211d291b773a21c339e81687c04048453c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
