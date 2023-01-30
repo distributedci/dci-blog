@@ -631,6 +631,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4a005063_93fe4aec",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-30T14:38:26Z",
+      "side": 1,
+      "message": "\u003e That is a good idea, it will be definitely include in a second dci-pipeline post 😊\n\nOkey!",
+      "parentUuid": "ac41811d_715a8b24",
+      "range": {
+        "startLine": 110,
+        "startChar": 14,
+        "endLine": 110,
+        "endChar": 17
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5d9cef11_4195fb54",
         "filename": "content/2023-01-26-using-dci-pipeline.md",
         "patchSetId": 9
