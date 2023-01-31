@@ -16,6 +16,23 @@
       "message": "I\u0027ll leave my +2 here and wait for some more reviews before merging.",
       "revId": "ea4a2e50f52128f9dd0056c39ccb43f3024ebb72",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "321e7622_6aa4e665",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-31T06:38:41Z",
+      "side": 1,
+      "message": "I think it\u0027s safe to merge this one, because I need to work in new blog posts that depend on this one, thanks Pierre!",
+      "revId": "ea4a2e50f52128f9dd0056c39ccb43f3024ebb72",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }

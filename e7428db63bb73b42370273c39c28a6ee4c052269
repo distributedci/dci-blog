@@ -653,6 +653,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9a881d4_9d49dfb7",
+        "filename": "content/2023-01-26-using-dci-pipeline.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-01-31T06:38:41Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "4a005063_93fe4aec",
+      "range": {
+        "startLine": 110,
+        "startChar": 14,
+        "endLine": 110,
+        "endChar": 17
+      },
+      "revId": "e7428db63bb73b42370273c39c28a6ee4c052269",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5d9cef11_4195fb54",
