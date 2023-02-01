@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc5592cc_dbfbb7fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Thanks a lot Beto for your reviews!",
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "96754a26_7b2eb064",
@@ -31,6 +48,30 @@
       "writtenOn": "2023-01-31T19:56:19Z",
       "side": 1,
       "message": "It can be seen as an example of resilience testing that can be done with DCI on a cluster.",
+      "range": {
+        "startLine": 8,
+        "startChar": 138,
+        "endLine": 8,
+        "endChar": 220
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ff426c0_20868d8f",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "96754a26_7b2eb064",
       "range": {
         "startLine": 8,
         "startChar": 138,
@@ -87,6 +128,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7726cdc4_c9f352bf",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "020aea07_6727f8b1",
+      "range": {
+        "startLine": 14,
+        "startChar": 95,
+        "endLine": 14,
+        "endChar": 130
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed9aef21_4b322363",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "096e70a0_116fb8dc",
+      "range": {
+        "startLine": 14,
+        "startChar": 28,
+        "endLine": 14,
+        "endChar": 40
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ef7b471f_2686ef63",
@@ -100,6 +189,30 @@
       "writtenOn": "2023-01-31T19:56:19Z",
       "side": 1,
       "message": "to",
+      "range": {
+        "startLine": 16,
+        "startChar": 333,
+        "endLine": 16,
+        "endChar": 344
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1438200e_ad61fb7e",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef7b471f_2686ef63",
       "range": {
         "startLine": 16,
         "startChar": 333,
@@ -156,6 +269,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "13094086_b19ab225",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "arg, my grammar checker prefers set up in two words ^^",
+      "parentUuid": "1346ba7a_23873353",
+      "range": {
+        "startLine": 18,
+        "startChar": 143,
+        "endLine": 18,
+        "endChar": 149
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "609424c0_0b6a793e",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4a4fb44c_9787eff5",
+      "range": {
+        "startLine": 18,
+        "startChar": 22,
+        "endLine": 18,
+        "endChar": 34
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "47febdd3_9b59426d",
@@ -197,6 +358,54 @@
         "startChar": 344,
         "endLine": 22,
         "endChar": 355
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36b12ae6_1c928ae6",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8c8ea391_26fa9fa5",
+      "range": {
+        "startLine": 22,
+        "startChar": 344,
+        "endLine": 22,
+        "endChar": 355
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f7f6ef08_5c49c8ca",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "47febdd3_9b59426d",
+      "range": {
+        "startLine": 22,
+        "startChar": 168,
+        "endLine": 22,
+        "endChar": 178
       },
       "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
@@ -248,6 +457,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1fa53ef4_c2120427",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "83c7e279_977315ca",
+      "range": {
+        "startLine": 30,
+        "startChar": 18,
+        "endLine": 30,
+        "endChar": 22
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "71959b90_a82a831a",
@@ -261,6 +494,30 @@
       "writtenOn": "2023-01-31T19:56:19Z",
       "side": 1,
       "message": "storage",
+      "range": {
+        "startLine": 35,
+        "startChar": 85,
+        "endLine": 35,
+        "endChar": 93
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fb2fe4b_5c45000f",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "71959b90_a82a831a",
       "range": {
         "startLine": 35,
         "startChar": 85,
@@ -294,6 +551,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5aca7f4_1f85a638",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c052fc11_1ccf31be",
+      "range": {
+        "startLine": 37,
+        "startChar": 22,
+        "endLine": 37,
+        "endChar": 24
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a7add346_04df24cb",
@@ -307,6 +588,30 @@
       "writtenOn": "2023-01-31T19:56:19Z",
       "side": 1,
       "message": "of the",
+      "range": {
+        "startLine": 39,
+        "startChar": 155,
+        "endLine": 39,
+        "endChar": 158
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65647cf2_30b208f2",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a7add346_04df24cb",
       "range": {
         "startLine": 39,
         "startChar": 155,
@@ -340,6 +645,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "32352c4d_ab045fb3",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1150768b_d8bca537",
+      "range": {
+        "startLine": 54,
+        "startChar": 82,
+        "endLine": 54,
+        "endChar": 86
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "05e3ae9d_d7375bd7",
@@ -353,6 +682,30 @@
       "writtenOn": "2023-01-31T19:56:19Z",
       "side": 1,
       "message": "each one corresponding to a different scenario using a specific binding method:",
+      "range": {
+        "startLine": 67,
+        "startChar": 48,
+        "endLine": 67,
+        "endChar": 129
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89478e69_e63b9b00",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05e3ae9d_d7375bd7",
       "range": {
         "startLine": 67,
         "startChar": 48,
@@ -386,6 +739,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b775542_f6299855",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e3a25071_e8c94490",
+      "range": {
+        "startLine": 68,
+        "startChar": 33,
+        "endLine": 68,
+        "endChar": 40
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e4ca51d2_d59e0e9e",
@@ -409,6 +786,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "42314668_805e6bfd",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e4ca51d2_d59e0e9e",
+      "range": {
+        "startLine": 69,
+        "startChar": 76,
+        "endLine": 69,
+        "endChar": 80
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dbc2cdd3_b54b8f85",
@@ -422,6 +823,30 @@
       "writtenOn": "2023-01-31T19:56:19Z",
       "side": 1,
       "message": "ongoing",
+      "range": {
+        "startLine": 76,
+        "startChar": 56,
+        "endLine": 76,
+        "endChar": 64
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bda2ad03_7a0c06ac",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dbc2cdd3_b54b8f85",
       "range": {
         "startLine": 76,
         "startChar": 56,
@@ -478,6 +903,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "776cfa5c_396593e7",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7c9325a6_3242d95d",
+      "range": {
+        "startLine": 80,
+        "startChar": 418,
+        "endLine": 80,
+        "endChar": 427
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da095604_f205c735",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "16e815f4_d7889883",
+      "range": {
+        "startLine": 80,
+        "startChar": 68,
+        "endLine": 80,
+        "endChar": 83
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7bcf6bc0_5de49602",
@@ -491,6 +964,30 @@
       "writtenOn": "2023-01-31T19:56:19Z",
       "side": 1,
       "message": "performance profiles",
+      "range": {
+        "startLine": 85,
+        "startChar": 363,
+        "endLine": 85,
+        "endChar": 382
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b065c94c_a82e9c4c",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T08:18:23Z",
+      "side": 1,
+      "message": "I prefer to keep this syntax to highlight the k8s object",
+      "parentUuid": "7bcf6bc0_5de49602",
       "range": {
         "startLine": 85,
         "startChar": 363,
