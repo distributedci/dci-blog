@@ -481,6 +481,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd602b31_1236475a",
+        "filename": "content/2023-01-30-storage-tester-role.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-02-01T14:28:46Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d5784edd_07c80a82",
+      "range": {
+        "startLine": 30,
+        "startChar": 56,
+        "endLine": 30,
+        "endChar": 57
+      },
+      "revId": "2a9401bd8f607437c3d9659735530aba65e0b30b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "71959b90_a82a831a",
