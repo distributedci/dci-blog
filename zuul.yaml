@@ -11,6 +11,7 @@
           label: dci-centos-8
 
 - project:
+    queue: dci
     name: dci-blog
     check:
       jobs:
@@ -21,7 +22,6 @@
       jobs:
         - dci-rpm-build-el8
     dci-post:
-      queue: dci
       jobs:
         - dci-rpm-build-el8
         - dci-rpm-publish:
