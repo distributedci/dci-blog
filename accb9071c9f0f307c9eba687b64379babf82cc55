@@ -1,0 +1,113 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a77f7ca6_820c8ee0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-02-23T12:21:03Z",
+      "side": 1,
+      "message": "I really like the current content Tatiana, I don\u0027t know if you\u0027re expecting reviews as it\u0027s WIP and I guess you have to complete some parts, but the current content looks really fine.\nJust warning you about some whitespaces to be deleted in your next patchset.",
+      "revId": "accb9071c9f0f307c9eba687b64379babf82cc55",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5cf5c598_3db4457e",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-02-23T12:21:03Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 1,
+        "startChar": 89,
+        "endLine": 1,
+        "endChar": 90
+      },
+      "revId": "accb9071c9f0f307c9eba687b64379babf82cc55",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f10e5a9_160241fb",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-02-23T12:21:03Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 50,
+        "startChar": 115,
+        "endLine": 50,
+        "endChar": 116
+      },
+      "revId": "accb9071c9f0f307c9eba687b64379babf82cc55",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10ef36ee_02fff806",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-02-23T12:21:03Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 82,
+        "startChar": 75,
+        "endLine": 82,
+        "endChar": 76
+      },
+      "revId": "accb9071c9f0f307c9eba687b64379babf82cc55",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9476a2b_fdbf6b03",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-02-23T12:21:03Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 96,
+        "startChar": 53,
+        "endLine": 96,
+        "endChar": 55
+      },
+      "revId": "accb9071c9f0f307c9eba687b64379babf82cc55",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
