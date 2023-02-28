@@ -1,0 +1,182 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86338dd4_787563da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-02-28T01:57:18Z",
+      "side": 1,
+      "message": "Tatian, Thanks for the blog post. ",
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21276b54_0b55ea6e",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-02-28T01:57:18Z",
+      "side": 1,
+      "message": "a metadata API called `apirequestcounts` that tracks the requests made to an API.\n\nhttps://docs.openshift.com/container-platform/4.8/rest_api/metadata_apis/apirequestcount-apiserver-openshift-io-v1.html",
+      "range": {
+        "startLine": 50,
+        "startChar": 19,
+        "endLine": 50,
+        "endChar": 102
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ee2f8bb_9ee65268",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-02-28T01:57:18Z",
+      "side": 1,
+      "message": "distinguishing",
+      "range": {
+        "startLine": 128,
+        "startChar": 280,
+        "endLine": 128,
+        "endChar": 294
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e34b383b_45472b9f",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-02-28T01:57:18Z",
+      "side": 1,
+      "message": "containerized",
+      "range": {
+        "startLine": 128,
+        "startChar": 712,
+        "endLine": 128,
+        "endChar": 726
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33371377_164d1efd",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-02-28T01:57:18Z",
+      "side": 1,
+      "message": "whose",
+      "range": {
+        "startLine": 128,
+        "startChar": 372,
+        "endLine": 128,
+        "endChar": 377
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c6a3a0e_1c9f1bea",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-02-28T01:57:18Z",
+      "side": 1,
+      "message": "file with the following fields:\n* API: API\u0027s URI\n* REQUESTCOUNT: The number of times that the API has been used by a workload.\n* REMOVEDINRELEASE: The OCP release where the API will be removed.\n* USERAGENTS: Reference to the application or workload that performed the API requests.\n* USERNAMES: The Service Account or usernames used to perform the API requests.\n\nHere you have an output for the example workload containerized TRex application:",
+      "range": {
+        "startLine": 128,
+        "startChar": 573,
+        "endLine": 128,
+        "endChar": 745
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4dafb42_3e916c5f",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-02-28T01:57:18Z",
+      "side": 1,
+      "message": "coordinate",
+      "range": {
+        "startLine": 141,
+        "startChar": 80,
+        "endLine": 141,
+        "endChar": 92
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d7b3c326_83f6c7fa",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-02-28T01:57:18Z",
+      "side": 1,
+      "message": "manage",
+      "range": {
+        "startLine": 141,
+        "startChar": 67,
+        "endLine": 141,
+        "endChar": 75
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
