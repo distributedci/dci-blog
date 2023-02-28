@@ -16,6 +16,57 @@
       "message": "Hi Beto and Ramon, thank you for the reviews! You both rock and I appreciate your help!",
       "revId": "f2fdb9f65e5de81ed25cf4d1101330f7fc2cdbf1",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d916a2f_08524950",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-02-28T14:43:34Z",
+      "side": 1,
+      "message": "Looks good to me, just minor suggestions if you want to update",
+      "revId": "f2fdb9f65e5de81ed25cf4d1101330f7fc2cdbf1",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a1df3f0_5e6380d6",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-02-28T14:43:34Z",
+      "side": 1,
+      "message": "Suggestion: change \"install OpenShift on baremetal\" to \"deploy OCP clusters with multiple installers\".",
+      "revId": "f2fdb9f65e5de81ed25cf4d1101330f7fc2cdbf1",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb2e5f2b_24080dcb",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-02-28T14:43:34Z",
+      "side": 1,
+      "message": "Suggestions:\n1. Change \"please check out this great post\" to \"please check out this interesting post\" since you already wrote \"It is a great CI tool\" above. Just to change a little from the word \"great\" :)\n2. Change \"to pipeline OCP installation, workload installation and tests.\" Maybe to \"to run OCP installation, workload installation, and tests in a pipeline.\"",
+      "revId": "f2fdb9f65e5de81ed25cf4d1101330f7fc2cdbf1",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
