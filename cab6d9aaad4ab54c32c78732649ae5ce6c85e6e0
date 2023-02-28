@@ -41,6 +41,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7246b6e4_ffb7c5d2",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-02-28T09:09:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "21276b54_0b55ea6e",
+      "range": {
+        "startLine": 50,
+        "startChar": 19,
+        "endLine": 50,
+        "endChar": 102
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ee2f8bb_9ee65268",
@@ -133,6 +157,102 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7bda710_36938633",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-02-28T09:09:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0ee2f8bb_9ee65268",
+      "range": {
+        "startLine": 128,
+        "startChar": 280,
+        "endLine": 128,
+        "endChar": 294
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "900e4cdb_062b819d",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-02-28T09:09:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0c6a3a0e_1c9f1bea",
+      "range": {
+        "startLine": 128,
+        "startChar": 573,
+        "endLine": 128,
+        "endChar": 745
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "277ca614_5eb990b1",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-02-28T09:09:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e34b383b_45472b9f",
+      "range": {
+        "startLine": 128,
+        "startChar": 712,
+        "endLine": 128,
+        "endChar": 726
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fd633da_09b2322b",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-02-28T09:09:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "33371377_164d1efd",
+      "range": {
+        "startLine": 128,
+        "startChar": 372,
+        "endLine": 128,
+        "endChar": 377
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f4dafb42_3e916c5f",
@@ -169,6 +289,54 @@
       "writtenOn": "2023-02-28T01:57:18Z",
       "side": 1,
       "message": "manage",
+      "range": {
+        "startLine": 141,
+        "startChar": 67,
+        "endLine": 141,
+        "endChar": 75
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef807228_8dd77bcb",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-02-28T09:09:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f4dafb42_3e916c5f",
+      "range": {
+        "startLine": 141,
+        "startChar": 80,
+        "endLine": 141,
+        "endChar": 92
+      },
+      "revId": "cab6d9aaad4ab54c32c78732649ae5ce6c85e6e0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9e6102c_31a02dc6",
+        "filename": "content/2023-02-25-deprecated-api-in-ocp-4-12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-02-28T09:09:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d7b3c326_83f6c7fa",
       "range": {
         "startLine": 141,
         "startChar": 67,
