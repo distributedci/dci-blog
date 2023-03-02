@@ -107,7 +107,7 @@ The second one, cluster-libvirt-resources.yml, is a YAML description of Fig. 1 f
 
         $ cat cluster/cluster-libvirt-resources.yml
         all:
-        vars:
+          vars:
             prov_nic: eth0
             pub_nic: eth1
             provisionhost_user: dci
@@ -126,7 +126,7 @@ The second one, cluster-libvirt-resources.yml, is a YAML description of Fig. 1 f
             # save VM storage in a different place than /var/lib/libvirt/images (root space)
             libvirt_image_path: /home
             networks:
-            - name: baremetal
+              - name: baremetal
                 ip: 192.168.10.1
                 dhcp_start: 192.168.10.100
                 dhcp_end: 192.168.10.150
@@ -135,26 +135,26 @@ The second one, cluster-libvirt-resources.yml, is a YAML description of Fig. 1 f
                 forward_mode: nat
                 dns:
                 forwarders:
-                    - domain: "apps.{{ cluster_domain }}"
+                  - domain: "apps.{{ cluster_domain }}"
                     addr: 127.0.0.1
                 hosts:
-                    - ip: 192.168.10.5
+                  - ip: 192.168.10.5
                     hostnames:
-                        - api
-            - name: provisioning
+                      - api
+              - name: provisioning
                 bridge: provisioning
             hosts:
-            - name: provisionhost
+              - name: provisionhost
                 domain: "{{ cluster_domain }}"
                 users:
-                - name: "{{ provisionhost_user }}"
+                  - name: "{{ provisionhost_user }}"
                     gecos: Admin User
                     groups: wheel
                     sudo: ALL=(ALL) NOPASSWD:ALL
                     lock_passwd: false
                 run_commands:
-                - "sudo -u {{ provisionhost_user }} ssh-keygen -t rsa -b 4096 -f ~{{ provisionhost_user }}/.ssh/id_rsa -N ''"
-                - dnf install epel-release -y
+                  - "sudo -u {{ provisionhost_user }} ssh-keygen -t rsa -b 4096 -f ~{{ provisionhost_user }}/.ssh/id_rsa -N ''"
+                  - dnf install epel-release -y
                 driver: kvm
                 memory: 16384
                 vcpus: 8
@@ -166,10 +166,10 @@ The second one, cluster-libvirt-resources.yml, is a YAML description of Fig. 1 f
                 disk_cache: unsafe
                 disk_bus: virtio_scsi
                 networks:
-                - name: provisioning
-                - name: baremetal
+                  - name: provisioning
+                  - name: baremetal
                     mac: "52:54:00:00:02:00"
-            - name: dciokd-master-0
+              - name: dciokd-master-0
                 domain: "{{ cluster_domain }}"
                 users: []
                 run_commands: []
@@ -184,10 +184,10 @@ The second one, cluster-libvirt-resources.yml, is a YAML description of Fig. 1 f
                 disk_cache: unsafe
                 disk_bus: virtio_scsi
                 networks:
-                - name: provisioning
-                - name: baremetal
+                  - name: provisioning
+                  - name: baremetal
                     mac: "52:54:00:00:02:01"
-            - name: dciokd-master-1
+              - name: dciokd-master-1
                 domain: "{{ cluster_domain }}"
                 users: []
                 run_commands: []
@@ -202,10 +202,10 @@ The second one, cluster-libvirt-resources.yml, is a YAML description of Fig. 1 f
                 disk_cache: unsafe
                 disk_bus: virtio_scsi
                 networks:
-                - name: provisioning
-                - name: baremetal
+                  - name: provisioning
+                  - name: baremetal
                     mac: "52:54:00:00:02:02"
-            - name: dciokd-master-2
+              - name: dciokd-master-2
                 domain: "{{ cluster_domain }}"
                 users: []
                 run_commands: []
@@ -220,10 +220,10 @@ The second one, cluster-libvirt-resources.yml, is a YAML description of Fig. 1 f
                 disk_cache: unsafe
                 disk_bus: virtio_scsi
                 networks:
-                - name: provisioning
-                - name: baremetal
+                  - name: provisioning
+                  - name: baremetal
                     mac: "52:54:00:00:02:03"
-            - name: dciokd-worker-0
+              - name: dciokd-worker-0
                 domain: "{{ cluster_domain }}"
                 users: []
                 run_commands: []
@@ -238,10 +238,10 @@ The second one, cluster-libvirt-resources.yml, is a YAML description of Fig. 1 f
                 disk_cache: unsafe
                 disk_bus: virtio_scsi
                 networks:
-                - name: provisioning
-                - name: baremetal
+                  - name: provisioning
+                  - name: baremetal
                     mac: "52:54:00:00:02:04"
-            - name: dciokd-worker-1
+              - name: dciokd-worker-1
                 domain: "{{ cluster_domain }}"
                 users: []
                 run_commands: []
@@ -256,8 +256,8 @@ The second one, cluster-libvirt-resources.yml, is a YAML description of Fig. 1 f
                 disk_cache: unsafe
                 disk_bus: virtio_scsi
                 networks:
-                - name: provisioning
-                - name: baremetal
+                  - name: provisioning
+                  - name: baremetal
                     mac: "52:54:00:00:02:05"
 
 ## VMs and Networks
