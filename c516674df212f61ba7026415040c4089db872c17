@@ -16,6 +16,132 @@
       "message": "Hey Manny, I\u0027ll add you as reviewer and also as a contributor to the blog post, since it\u0027s based on the RH Networking Summit presentation :)",
       "revId": "c516674df212f61ba7026415040c4089db872c17",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bce90b97_99c5f842",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-03-14T19:45:25Z",
+      "side": 1,
+      "message": "Thanks Ramón for writting about this",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "edded783_bd7a2414",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-03-14T19:45:25Z",
+      "side": 1,
+      "message": "I know this was the Title of your presentation, but maybe we can shorten it a bit here, wdyt?\n\nNetworking Considerations for Distributed Deployment of Libvirt/KVM Clusters",
+      "range": {
+        "startLine": 1,
+        "startChar": 33,
+        "endLine": 1,
+        "endChar": 46
+      },
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e131760a_4c8929df",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-03-14T19:45:25Z",
+      "side": 1,
+      "message": "KVM",
+      "range": {
+        "startLine": 8,
+        "startChar": 221,
+        "endLine": 8,
+        "endChar": 228
+      },
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25d5f7c7_3a72c143",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-03-14T19:45:25Z",
+      "side": 1,
+      "message": "KVM",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad1dfb53_3b41d154",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-03-14T19:45:25Z",
+      "side": 1,
+      "message": "It will be interesting to read about what drive you to create this solution. Something like: Recently we received 10 brand new, nice, and powerful servers where it was decided to integrate them as part of our CI jobs. That will allow us to have parallel deployments, dedicated server for troubleshooting, and testing, etc. \n\nSome of the challenges were:\n - Defined the network layout in a flat network\n - Allow connectivity between all clusters\n - Setting up shared network services (DHCP, DNS)\n - Having a single point to manage all cluster deployments\n\netc. Just some ideas... but feel free to ignore them if do not make sense 😊\nMaybe concentrating all the background stuff here.",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 326
+      },
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29e84106_2d6367ad",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-03-14T19:45:25Z",
+      "side": 1,
+      "message": "Maybe a reference to the sample inventory of the ocp_on_libvirt?",
+      "range": {
+        "startLine": 147,
+        "startChar": 0,
+        "endLine": 147,
+        "endChar": 3
+      },
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
