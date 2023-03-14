@@ -35,6 +35,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6df0047_ca4e70c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-03-14T21:21:11Z",
+      "side": 1,
+      "message": "Good work Ramon, minor comments below. Thanks.",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "edded783_bd7a2414",
@@ -100,6 +117,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2c3b92e8_b7d8ff46",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-03-14T21:21:11Z",
+      "side": 1,
+      "message": "suggestion: what about changing the expression \"make you learn\"? maybe changing the sentence to: What would you lean after reading this blog post?",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ad1dfb53_3b41d154",
         "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
         "patchSetId": 1
@@ -123,6 +157,64 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3f2423f8_dd0aafc5",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-03-14T21:21:11Z",
+      "side": 1,
+      "message": "During the presentation, right after the agenda, I explained orally in one sentence what motivated us to do this. And I see Ramon mentioned it in the next section below (Key points) but with other words and he also includes the challenges. Then maybe we do not need this section (Content of this work) or we can replace it with our story of low speed to integrate changes because we only had one server and how we replace it with 10, wdyt?",
+      "parentUuid": "ad1dfb53_3b41d154",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 326
+      },
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8990fceb_e49f70c1",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-03-14T21:21:11Z",
+      "side": 1,
+      "message": "suggestion: replace \"will no longer be run\" to \"will no longer run in the ...\" or something like \"No dnsmasq service will continue to run in the ...\"",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a364f802_74bcc721",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-03-14T21:21:11Z",
+      "side": 1,
+      "message": "suggestion: replace word \"hardcode\" to \"explicitly define\" :)",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "29e84106_2d6367ad",
         "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
         "patchSetId": 1
@@ -140,6 +232,64 @@
         "endLine": 147,
         "endChar": 3
       },
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5386f9b_4e1226c8",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-03-14T21:21:11Z",
+      "side": 1,
+      "message": "+1, maybe a URL will be simpler? besides currently the blog post is not rendering this part correctly, it does not see it as a block code, it needs more indentation.",
+      "parentUuid": "29e84106_2d6367ad",
+      "range": {
+        "startLine": 147,
+        "startChar": 0,
+        "endLine": 147,
+        "endChar": 3
+      },
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb4e3be4_f498aafa",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 325,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-03-14T21:21:11Z",
+      "side": 1,
+      "message": "Same here about the indentation, needs more spaces to render properly in the blog post.",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "882eb64c_138d980a",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-03-14T21:21:11Z",
+      "side": 1,
+      "message": "suggestion, plural: replace \"but depending on the number of IP address that ...\" to \"but depending on the number of IP addresses that\" or \"depending of the subnet size that you have available ...\"",
       "revId": "c516674df212f61ba7026415040c4089db872c17",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
