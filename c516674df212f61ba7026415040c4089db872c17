@@ -52,6 +52,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e312e7f_db90c9fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-15T13:15:55Z",
+      "side": 1,
+      "message": "thank you all for your feedback! I\u0027ll submit now the patchset with the modifications!",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "edded783_bd7a2414",
@@ -65,6 +82,30 @@
       "writtenOn": "2023-03-14T19:45:25Z",
       "side": 1,
       "message": "I know this was the Title of your presentation, but maybe we can shorten it a bit here, wdyt?\n\nNetworking Considerations for Distributed Deployment of Libvirt/KVM Clusters",
+      "range": {
+        "startLine": 1,
+        "startChar": 33,
+        "endLine": 1,
+        "endChar": 46
+      },
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0029bfd_3976478b",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-15T13:15:55Z",
+      "side": 1,
+      "message": "Yes, in fact, after including it in the first patchset, I thought about this and we can definitely change the name to shorten it. I\u0027ll add OCP to your proposal.",
+      "parentUuid": "edded783_bd7a2414",
       "range": {
         "startLine": 1,
         "startChar": 33,
@@ -98,6 +139,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b021a58e_631600d4",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-15T13:15:55Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e131760a_4c8929df",
+      "range": {
+        "startLine": 8,
+        "startChar": 221,
+        "endLine": 8,
+        "endChar": 228
+      },
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "25d5f7c7_3a72c143",
@@ -115,6 +180,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d2b13bc_2634cd1b",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-15T13:15:55Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "25d5f7c7_3a72c143",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2c3b92e8_b7d8ff46",
@@ -128,6 +211,24 @@
       "writtenOn": "2023-03-14T21:21:11Z",
       "side": 1,
       "message": "suggestion: what about changing the expression \"make you learn\"? maybe changing the sentence to: What would you lean after reading this blog post?",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cf6d173_1becfe20",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-15T13:15:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c3b92e8_b7d8ff46",
       "revId": "c516674df212f61ba7026415040c4089db872c17",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -179,6 +280,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8c825f1_a306c205",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-15T13:15:55Z",
+      "side": 1,
+      "message": "Yes, in fact, the section called \"Why Libvirt-based OCP clusters?\" is the one that intends to explain the reason why we are proposing this solution, mainly including what Manuel commented in the presentation.\n\nBut I think Beto\u0027s overview could fit quite fine here, and also, following Manuel\u0027s advices, I\u0027ll try to refactor the current structure we have to make it clearer.\n\nThese context and key points, maybe I\u0027ll move them to the conclusions, just to wrap-up",
+      "parentUuid": "3f2423f8_dd0aafc5",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 326
+      },
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8990fceb_e49f70c1",
@@ -196,6 +321,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7a640f9_67d0b013",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-15T13:15:55Z",
+      "side": 1,
+      "message": "that\u0027s true, following your first advice",
+      "parentUuid": "8990fceb_e49f70c1",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a364f802_74bcc721",
@@ -209,6 +352,24 @@
       "writtenOn": "2023-03-14T21:21:11Z",
       "side": 1,
       "message": "suggestion: replace word \"hardcode\" to \"explicitly define\" :)",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e19ad38_f301e235",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-15T13:15:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a364f802_74bcc721",
       "revId": "c516674df212f61ba7026415040c4089db872c17",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -260,6 +421,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e934531_2bd84dcc",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-15T13:15:55Z",
+      "side": 1,
+      "message": "Bad thing is that the ocp_on_libvirt example is not enough. This is an extension to the sample proposed in the public ocp_on_libvirt project that is saved in our private bos2-ci-config repo.\n\nWhat I\u0027m going to do is to include the reference to ocp_on_libvirt but remarking what it\u0027s different for this deployment, if you find it fine. I\u0027ll add the proper indentation too",
+      "parentUuid": "b5386f9b_4e1226c8",
+      "range": {
+        "startLine": 147,
+        "startChar": 0,
+        "endLine": 147,
+        "endChar": 3
+      },
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eb4e3be4_f498aafa",
@@ -277,6 +462,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2f37e8d_c3348f41",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 325,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-15T13:15:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eb4e3be4_f498aafa",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "882eb64c_138d980a",
@@ -290,6 +493,24 @@
       "writtenOn": "2023-03-14T21:21:11Z",
       "side": 1,
       "message": "suggestion, plural: replace \"but depending on the number of IP address that ...\" to \"but depending on the number of IP addresses that\" or \"depending of the subnet size that you have available ...\"",
+      "revId": "c516674df212f61ba7026415040c4089db872c17",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be72214e_3f5fcc16",
+        "filename": "content/2023-03-16-distributed-libvirt-clusters.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-15T13:15:55Z",
+      "side": 1,
+      "message": "subnet size looks clearer here, I\u0027ll include that",
+      "parentUuid": "882eb64c_138d980a",
       "revId": "c516674df212f61ba7026415040c4089db872c17",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
