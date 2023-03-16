@@ -97,7 +97,7 @@ Then, what do we need to do to move to a distributed deployment by using multipl
 
 The solution proposed is summarized in the next picture.
 
-![Multiple servers scenario](images/distributed-libvirt-clusters/multiple-server.png)
+![Multiple servers scenario](images/distributed-libvirt-clusters/multiple-servers.png)
 
 Essentially, we need to bear in mind the following distribution of servers:
 
