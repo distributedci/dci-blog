@@ -86,6 +86,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "84186a36_0e93aeb3",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-21T15:17:18Z",
+      "side": 1,
+      "message": "I\u0027ll switch to skeleton then, should be more clear",
+      "parentUuid": "73f35dd3_b72ecab9",
+      "revId": "5a4a724b10599cb2acdf3c3bbf470c94185dce46",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "5b23663c_6b45739f",
@@ -99,6 +117,24 @@
       "writtenOn": "2023-03-21T14:35:33Z",
       "side": 1,
       "message": "This starts to look like your signature I\u0027ve seen it in your last blog post :)",
+      "revId": "5a4a724b10599cb2acdf3c3bbf470c94185dce46",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59c8a881_626e4143",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-21T15:17:18Z",
+      "side": 1,
+      "message": "Do you think we should remove this part to avoid repeating it? :) \n\nIt feels like we need another blog-post \"what is DCI and how to start for dummies\" because the Yassine\u0027s blog-post is a bit too advanced. Maybe Pierre will write it at some point as a part of his pipeline series.",
+      "parentUuid": "5b23663c_6b45739f",
       "revId": "5a4a724b10599cb2acdf3c3bbf470c94185dce46",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
