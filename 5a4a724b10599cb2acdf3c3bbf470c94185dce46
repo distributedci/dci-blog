@@ -225,6 +225,24 @@
       "parentUuid": "5b23663c_6b45739f",
       "revId": "5a4a724b10599cb2acdf3c3bbf470c94185dce46",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45a69404_65db9ff8",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-03-21T18:08:24Z",
+      "side": 1,
+      "message": "I think it\u0027s fine, I agree that we might need a DCI 101 blog post :P",
+      "parentUuid": "59c8a881_626e4143",
+      "revId": "5a4a724b10599cb2acdf3c3bbf470c94185dce46",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }

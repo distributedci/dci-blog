@@ -102,6 +102,23 @@
       "message": "the tests",
       "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90465ba8_169802ba",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-03-21T18:08:24Z",
+      "side": 1,
+      "message": "I missed this part, also shows some odd red rectangles around the \":,{,},!\" characters. I think removing 4 spaces from the indentation should help too. Thanks!",
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
