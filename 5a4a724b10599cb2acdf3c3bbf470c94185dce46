@@ -54,6 +54,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b378087b_04caaa64",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-03-21T15:51:16Z",
+      "side": 1,
+      "message": "On the from, it is really good for me, your speech is illustrated by various examples, bravo!\n\nI have one concern regarding the audience of this article:\nFor QA engineers, filtering tests from a test suite means there is an issue with the tests suite because there should not be \u0027acceptable failure\u0027. I am assuming that the article is targeting integration teams who don\u0027t have a deep knowledge on what the tests are doing but execute them anyway and gather the results to report to another team afterward. \nAll this to say it should be nice to enhance the introduction of the article by giving some context about the target audience.",
+      "revId": "5a4a724b10599cb2acdf3c3bbf470c94185dce46",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4395d044_e468163f",
         "filename": "content/2023-03-17-verify-tests.md",
         "patchSetId": 4
