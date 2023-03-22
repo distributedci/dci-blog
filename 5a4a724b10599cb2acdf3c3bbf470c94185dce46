@@ -71,6 +71,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "88f2bf68_adbccf9e",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-22T11:18:12Z",
+      "side": 1,
+      "message": "Just to provide another example; in our case, with tnf, we use this in order to mark tests that we know in advance that will be failing, considering that the rest of test have to pass. If any of these tests that have to pass are failing, then the job will fail in the tests-to-verify stage, so that it\u0027s a kind of alarm for us to know when we are having unexpected results.\nI agree with Charles that we can add these kind of context in the introduction to really show readers what\u0027s the scope of this work and what to have in mind when using it.",
+      "parentUuid": "b378087b_04caaa64",
+      "revId": "5a4a724b10599cb2acdf3c3bbf470c94185dce46",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4395d044_e468163f",
         "filename": "content/2023-03-17-verify-tests.md",
         "patchSetId": 4

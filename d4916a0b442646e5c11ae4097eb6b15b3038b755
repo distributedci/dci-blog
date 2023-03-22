@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9aad0ae5_e95722ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-22T11:18:12Z",
+      "side": 1,
+      "message": "Really nice blog post, and really complete! Congratulations for this great work 😊\nSome comments from my side. I\u0027m not sure about the links to other blog posts ,just leaving this there in case it\u0027s needed to be changed. At least I do this in the blog posts I\u0027ve written",
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2ee6a635_a964e438",
@@ -89,6 +106,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a909c547_12dabaa0",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-22T11:18:12Z",
+      "side": 1,
+      "message": "I think this block needs a bit more indentation, same than other block codes",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 40
+      },
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9db3aaa6_290b0fc9",
         "filename": "content/2023-03-17-verify-tests.md",
         "patchSetId": 5
@@ -106,6 +146,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a5785078_97805deb",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-22T11:18:12Z",
+      "side": 1,
+      "message": "I think we need to put here .html to refer to the other blog post?",
+      "range": {
+        "startLine": 227,
+        "startChar": 122,
+        "endLine": 227,
+        "endChar": 123
+      },
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34beccde_2050da2a",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-22T11:18:12Z",
+      "side": 1,
+      "message": "same than for dci blog post, .html at the end?",
+      "range": {
+        "startLine": 228,
+        "startChar": 120,
+        "endLine": 228,
+        "endChar": 121
+      },
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "90465ba8_169802ba",
         "filename": "content/2023-03-17-verify-tests.md",
         "patchSetId": 5
@@ -117,6 +203,29 @@
       "writtenOn": "2023-03-21T18:08:24Z",
       "side": 1,
       "message": "I missed this part, also shows some odd red rectangles around the \":,{,},!\" characters. I think removing 4 spaces from the indentation should help too. Thanks!",
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4138a849_c1f568ae",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-22T11:18:12Z",
+      "side": 1,
+      "message": "same as commented before with the links to other blog posts",
+      "range": {
+        "startLine": 283,
+        "startChar": 20,
+        "endLine": 283,
+        "endChar": 27
+      },
       "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
