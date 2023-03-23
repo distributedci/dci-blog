@@ -87,6 +87,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa042df2_8a43de47",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-23T14:28:21Z",
+      "side": 1,
+      "message": "thanks, addressed it",
+      "parentUuid": "88f2bf68_adbccf9e",
+      "revId": "5a4a724b10599cb2acdf3c3bbf470c94185dce46",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4395d044_e468163f",
