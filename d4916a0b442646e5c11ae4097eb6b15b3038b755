@@ -35,6 +35,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0141e073_4f862d5c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-23T13:21:29Z",
+      "side": 1,
+      "message": "Kudos to everyone for the review, uploading the first batch of fixes.",
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2ee6a635_a964e438",
@@ -48,6 +65,30 @@
       "writtenOn": "2023-03-21T17:31:34Z",
       "side": 1,
       "message": "tests\u0027",
+      "range": {
+        "startLine": 64,
+        "startChar": 149,
+        "endLine": 64,
+        "endChar": 154
+      },
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ead9d8b_cd66477b",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-23T13:21:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2ee6a635_a964e438",
       "range": {
         "startLine": 64,
         "startChar": 149,
@@ -81,6 +122,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad337229_94113cfb",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-23T13:21:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c2fbef4_2bb6b6ab",
+      "range": {
+        "startLine": 74,
+        "startChar": 94,
+        "endLine": 74,
+        "endChar": 99
+      },
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "adbfd900_44459eac",
@@ -94,6 +159,30 @@
       "writtenOn": "2023-03-21T17:31:34Z",
       "side": 1,
       "message": "filters",
+      "range": {
+        "startLine": 76,
+        "startChar": 184,
+        "endLine": 76,
+        "endChar": 190
+      },
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5373f4f0_453e5284",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-23T13:21:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "adbfd900_44459eac",
       "range": {
         "startLine": 76,
         "startChar": 184,
@@ -175,6 +264,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4f68f0f_7195586a",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-23T13:21:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bd9f748e_89b2d631",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 88,
+        "endChar": 40
+      },
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9db3aaa6_290b0fc9",
@@ -215,6 +328,48 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b6e35c7_82cdb117",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-23T13:21:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9db3aaa6_290b0fc9",
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a4ef04c_42f01a38",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-23T13:21:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a5785078_97805deb",
+      "range": {
+        "startLine": 227,
+        "startChar": 122,
+        "endLine": 227,
+        "endChar": 123
+      },
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "34beccde_2050da2a",
@@ -228,6 +383,30 @@
       "writtenOn": "2023-03-22T11:18:12Z",
       "side": 1,
       "message": "same than for dci blog post, .html at the end?",
+      "range": {
+        "startLine": 228,
+        "startChar": 120,
+        "endLine": 228,
+        "endChar": 121
+      },
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf730bbe_1291244c",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-23T13:21:29Z",
+      "side": 1,
+      "message": "it actually works fine by a slug, there is no need in .html",
+      "parentUuid": "34beccde_2050da2a",
       "range": {
         "startLine": 228,
         "startChar": 120,
@@ -255,6 +434,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "24c7ed3e_2d7352fe",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 270,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-23T13:21:29Z",
+      "side": 1,
+      "message": "well, don\u0027t why but it didn\u0027t fix the issue. Did it anyway :)",
+      "parentUuid": "90465ba8_169802ba",
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4138a849_c1f568ae",
@@ -268,6 +465,30 @@
       "writtenOn": "2023-03-22T11:18:12Z",
       "side": 1,
       "message": "same as commented before with the links to other blog posts",
+      "range": {
+        "startLine": 283,
+        "startChar": 20,
+        "endLine": 283,
+        "endChar": 27
+      },
+      "revId": "d4916a0b442646e5c11ae4097eb6b15b3038b755",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "261d35d2_0c695343",
+        "filename": "content/2023-03-17-verify-tests.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2023-03-23T13:21:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4138a849_c1f568ae",
       "range": {
         "startLine": 283,
         "startChar": 20,
