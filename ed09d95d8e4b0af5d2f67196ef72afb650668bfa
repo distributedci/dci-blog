@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "28f29aed_0e531272",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-03-28T23:00:50Z",
+      "side": 1,
+      "message": "nice and concise post. Thanks!",
+      "revId": "ed09d95d8e4b0af5d2f67196ef72afb650668bfa",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b2c3e4af_3d0e914e",
@@ -48,6 +65,29 @@
       "writtenOn": "2023-03-28T19:10:16Z",
       "side": 1,
       "message": "\u003e All the infrastructure described so far, including the hosts, network setup and services must be provisioned in advance of starting using the DCI agents\n\nI like that you clarified this, but I think it is important to highlight that the infrastructure includes cache and registry services, and they need to be setup and ready for DCI to use.",
+      "revId": "ed09d95d8e4b0af5d2f67196ef72afb650668bfa",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d04dd38_d55d9a80",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2023-03-28T23:00:50Z",
+      "side": 1,
+      "message": "DCI also provides pullsecrets to access the required registries. The user can override them as you mention.",
+      "range": {
+        "startLine": 56,
+        "startChar": 184,
+        "endLine": 56,
+        "endChar": 185
+      },
       "revId": "ed09d95d8e4b0af5d2f67196ef72afb650668bfa",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
