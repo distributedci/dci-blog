@@ -1,0 +1,366 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41a29e1d_2c60b223",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "Some minor comments from my side but it looks nice in general, thanks Nacho!",
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "266bfba9_05c230aa",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "May we generalize this to other installers too?",
+      "range": {
+        "startLine": 12,
+        "startChar": 121,
+        "endLine": 12,
+        "endChar": 208
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "baa329d8_8ba8761a",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "Internet, upper case",
+      "range": {
+        "startLine": 12,
+        "startChar": 111,
+        "endLine": 12,
+        "endChar": 119
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db808932_e194cfd0",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "Internet, upper case",
+      "range": {
+        "startLine": 18,
+        "startChar": 199,
+        "endLine": 18,
+        "endChar": 207
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df7ea733_86d75a30",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "Internet, upper case",
+      "range": {
+        "startLine": 20,
+        "startChar": 125,
+        "endLine": 20,
+        "endChar": 133
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "56262842_265adae4",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "Internet, upper case",
+      "range": {
+        "startLine": 22,
+        "startChar": 242,
+        "endLine": 22,
+        "endChar": 250
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd8014a4_05483eec",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "should be \"boot-up\"? (it\u0027s a name)",
+      "range": {
+        "startLine": 36,
+        "startChar": 135,
+        "endLine": 36,
+        "endChar": 142
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9ac5757_fa3ad93c",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "Internet",
+      "range": {
+        "startLine": 40,
+        "startChar": 125,
+        "endLine": 40,
+        "endChar": 133
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c3f731b_da58c164",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "Ansible, upper case",
+      "range": {
+        "startLine": 52,
+        "startChar": 272,
+        "endLine": 52,
+        "endChar": 279
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf98a2fa_9470d8f8",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "I\u0027d `embed dci_components` and `true` between these quotes: ``, and not double quotes",
+      "range": {
+        "startLine": 54,
+        "startChar": 284,
+        "endLine": 54,
+        "endChar": 337
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8066f3c2_524fa03d",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "Previous title level was h2 (##), now h4 (####)",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 4
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "146c81e6_15521621",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "you\u0027ll probably need to add extra indentation here (4 spaces per indent), because if not, the blog post will not render this correctly",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 53
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96a486b4_70d502ca",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "same regarding indentation",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 22
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "481c3f72_09e3585a",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "Internet",
+      "range": {
+        "startLine": 131,
+        "startChar": 304,
+        "endLine": 131,
+        "endChar": 312
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd24311d_0cdb990d",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "Ansible",
+      "range": {
+        "startLine": 133,
+        "startChar": 219,
+        "endLine": 133,
+        "endChar": 226
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02ea9162_10cbf81b",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-29T12:40:33Z",
+      "side": 1,
+      "message": "Internet",
+      "range": {
+        "startLine": 133,
+        "startChar": 127,
+        "endLine": 133,
+        "endChar": 135
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
