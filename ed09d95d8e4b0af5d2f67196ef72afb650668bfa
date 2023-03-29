@@ -52,6 +52,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c746f3c2_cbb43dd5",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-29T10:55:21Z",
+      "side": 1,
+      "message": "It\u0027s \"An introduction\" :)\n\nI noticed it just after pushing the change. I have a pending push with this and other changes.",
+      "parentUuid": "b2c3e4af_3d0e914e",
+      "revId": "ed09d95d8e4b0af5d2f67196ef72afb650668bfa",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "db40a311_fc85f097",
@@ -65,6 +83,24 @@
       "writtenOn": "2023-03-28T19:10:16Z",
       "side": 1,
       "message": "\u003e All the infrastructure described so far, including the hosts, network setup and services must be provisioned in advance of starting using the DCI agents\n\nI like that you clarified this, but I think it is important to highlight that the infrastructure includes cache and registry services, and they need to be setup and ready for DCI to use.",
+      "revId": "ed09d95d8e4b0af5d2f67196ef72afb650668bfa",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0f55700_9b14f270",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-29T10:55:21Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "db40a311_fc85f097",
       "revId": "ed09d95d8e4b0af5d2f67196ef72afb650668bfa",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -111,6 +147,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "ba5b4000_1c8a0180",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-29T10:55:21Z",
+      "side": 1,
+      "message": "This falls in the scope of the following blog post. My plan was to provide a general overview of the solution first, and then get into the details.",
+      "parentUuid": "a1b956ce_138df6e6",
+      "revId": "ed09d95d8e4b0af5d2f67196ef72afb650668bfa",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "daa3edc3_b3c78cac",
         "filename": "content/2023-04-15-disconnected_environments_overview.md",
         "patchSetId": 1
@@ -128,6 +182,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "f769ba2f_5b8ac1cb",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-29T10:55:21Z",
+      "side": 1,
+      "message": "Please, check the new patchset.",
+      "parentUuid": "daa3edc3_b3c78cac",
+      "revId": "ed09d95d8e4b0af5d2f67196ef72afb650668bfa",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "288efe78_8bb1dc0e",
         "filename": "content/2023-04-15-disconnected_environments_overview.md",
         "patchSetId": 1
@@ -139,6 +211,24 @@
       "writtenOn": "2023-03-28T19:10:16Z",
       "side": 1,
       "message": "suggestion: Perhaps pasting an example of the spec of the CatalogSource can help to visualize? \n\u003e oc -n openshift-marketplace get CatalogSource mirrored-redhat-operators -o json | jq .spec",
+      "revId": "ed09d95d8e4b0af5d2f67196ef72afb650668bfa",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e41260a4_00bb08c2",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-29T10:55:21Z",
+      "side": 1,
+      "message": "Good suggestion. Thank you.",
+      "parentUuid": "288efe78_8bb1dc0e",
       "revId": "ed09d95d8e4b0af5d2f67196ef72afb650668bfa",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
