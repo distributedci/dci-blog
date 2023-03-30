@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "51e00c83_95cae659",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Thanks for the comments, Ramón!\n\nI\u0027ll push my changes right away.",
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "266bfba9_05c230aa",
@@ -64,6 +81,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ae0ceb2_519d68bf",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "266bfba9_05c230aa",
+      "range": {
+        "startLine": 12,
+        "startChar": 121,
+        "endLine": 12,
+        "endChar": 208
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b620e789_1022a43f",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa329d8_8ba8761a",
+      "range": {
+        "startLine": 12,
+        "startChar": 111,
+        "endLine": 12,
+        "endChar": 119
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "db808932_e194cfd0",
@@ -77,6 +142,30 @@
       "writtenOn": "2023-03-29T12:40:33Z",
       "side": 1,
       "message": "Internet, upper case",
+      "range": {
+        "startLine": 18,
+        "startChar": 199,
+        "endLine": 18,
+        "endChar": 207
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7363a861_651ec2e2",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "db808932_e194cfd0",
       "range": {
         "startLine": 18,
         "startChar": 199,
@@ -110,6 +199,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0ce3b27_daa806c0",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df7ea733_86d75a30",
+      "range": {
+        "startLine": 20,
+        "startChar": 125,
+        "endLine": 20,
+        "endChar": 133
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "56262842_265adae4",
@@ -123,6 +236,30 @@
       "writtenOn": "2023-03-29T12:40:33Z",
       "side": 1,
       "message": "Internet, upper case",
+      "range": {
+        "startLine": 22,
+        "startChar": 242,
+        "endLine": 22,
+        "endChar": 250
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8724b3d6_583e5e14",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "56262842_265adae4",
       "range": {
         "startLine": 22,
         "startChar": 242,
@@ -156,6 +293,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7224ed81_3a16a93b",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd8014a4_05483eec",
+      "range": {
+        "startLine": 36,
+        "startChar": 135,
+        "endLine": 36,
+        "endChar": 142
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b9ac5757_fa3ad93c",
@@ -169,6 +330,30 @@
       "writtenOn": "2023-03-29T12:40:33Z",
       "side": 1,
       "message": "Internet",
+      "range": {
+        "startLine": 40,
+        "startChar": 125,
+        "endLine": 40,
+        "endChar": 133
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d594d02_33942a97",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b9ac5757_fa3ad93c",
       "range": {
         "startLine": 40,
         "startChar": 125,
@@ -202,6 +387,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b97b9717_c2efe64f",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6c3f731b_da58c164",
+      "range": {
+        "startLine": 52,
+        "startChar": 272,
+        "endLine": 52,
+        "endChar": 279
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cf98a2fa_9470d8f8",
@@ -215,6 +424,30 @@
       "writtenOn": "2023-03-29T12:40:33Z",
       "side": 1,
       "message": "I\u0027d `embed dci_components` and `true` between these quotes: ``, and not double quotes",
+      "range": {
+        "startLine": 54,
+        "startChar": 284,
+        "endLine": 54,
+        "endChar": 337
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a40ac690_1ce0552b",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cf98a2fa_9470d8f8",
       "range": {
         "startLine": 54,
         "startChar": 284,
@@ -248,6 +481,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7751c40_732ed76f",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8066f3c2_524fa03d",
+      "range": {
+        "startLine": 58,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 4
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "146c81e6_15521621",
@@ -261,6 +518,30 @@
       "writtenOn": "2023-03-29T12:40:33Z",
       "side": 1,
       "message": "you\u0027ll probably need to add extra indentation here (4 spaces per indent), because if not, the blog post will not render this correctly",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 53
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3710adae_81d56873",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "146c81e6_15521621",
       "range": {
         "startLine": 87,
         "startChar": 0,
@@ -294,6 +575,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a23f6cc_fbeb1ab9",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "96a486b4_70d502ca",
+      "range": {
+        "startLine": 118,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 22
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "481c3f72_09e3585a",
@@ -307,6 +612,30 @@
       "writtenOn": "2023-03-29T12:40:33Z",
       "side": 1,
       "message": "Internet",
+      "range": {
+        "startLine": 131,
+        "startChar": 304,
+        "endLine": 131,
+        "endChar": 312
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "137d5eae_c811f4c8",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "481c3f72_09e3585a",
       "range": {
         "startLine": 131,
         "startChar": 304,
@@ -353,6 +682,54 @@
       "writtenOn": "2023-03-29T12:40:33Z",
       "side": 1,
       "message": "Internet",
+      "range": {
+        "startLine": 133,
+        "startChar": 127,
+        "endLine": 133,
+        "endChar": 135
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cfc9f36b_93de922c",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd24311d_0cdb990d",
+      "range": {
+        "startLine": 133,
+        "startChar": 219,
+        "endLine": 133,
+        "endChar": 226
+      },
+      "revId": "04074bd7701f0bafad9dda6b3892ab4333107533",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef6b4d64_796943a4",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-03-30T11:08:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02ea9162_10cbf81b",
       "range": {
         "startLine": 133,
         "startChar": 127,
