@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "571e2f3e_f198cf50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-30T12:41:23Z",
+      "side": 1,
+      "message": "a super minor one, it\u0027s almost ready :)",
+      "revId": "0c7ae73ca3baa1499924093264703bd9e88e96e6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a8d3b987_8b2c2c52",
+        "filename": "content/2023-04-15-disconnected_environments_overview.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-03-30T12:41:23Z",
+      "side": 1,
+      "message": "a missed \"Internet\" that was not updated",
+      "range": {
+        "startLine": 22,
+        "startChar": 242,
+        "endLine": 22,
+        "endChar": 250
+      },
+      "revId": "0c7ae73ca3baa1499924093264703bd9e88e96e6",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
