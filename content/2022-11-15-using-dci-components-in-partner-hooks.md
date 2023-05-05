@@ -1,6 +1,6 @@
 Title: Using DCI components in partner hooks
 Date: 2022-11-15 10:00
-Modified: 2023-01-05 10:00
+Modified: 2023-05-08 10:00
 Category: how-to
 Tags: dci-components, partner-hooks, cnf-cert-suite, dci-openshift-app-agent, certification, partners
 Slug: using-dci-components-in-partner-hooks
@@ -181,13 +181,13 @@ Firstly, we need to reference the component in the configuration file we use to 
             tnf_config:
               - namespace: "test-cnf"
                 targetpodlabels: [environment=test]
+                targetoperatorlabels: [operators.coreos.com/mongodb-enterprise.test-cnf=]
                 target_crds: ["crdexamples.test-network-function.com"]
-                operators_regexp: "simple-demo-operator"
                 exclude_connectivity_regexp: ""
               - namespace: "production-cnf"
                 targetpodlabels: [environment=production]
+                targetoperatorlabels: []
                 target_crds: ["crdexamples.test-network-function.com"]
-                operators_regexp: ""
                 exclude_connectivity_regexp: ""
             ...
 
@@ -201,13 +201,13 @@ Firstly, we need to reference the component in the configuration file we use to 
             tnf_config:
               - namespace: "test-cnf"
                 targetpodlabels: [environment=test]
+                targetoperatorlabels: [operators.coreos.com/mongodb-enterprise.test-cnf=]
                 target_crds: ["crdexamples.test-network-function.com"]
-                operators_regexp: "mongodb-enterprise"
                 exclude_connectivity_regexp: ""
               - namespace: "production-cnf"
                 targetpodlabels: [environment=production]
+                targetoperatorlabels: []
                 target_crds: ["crdexamples.test-network-function.com"]
-                operators_regexp: ""
                 exclude_connectivity_regexp: ""
             ...
 
