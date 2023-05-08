@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbc4f194_ff469be2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-05-08T19:01:24Z",
+      "side": 1,
+      "message": "LGTM, just minor clarification below. Thanks.",
+      "revId": "68c8bc6b73f9773c86ae69351aad200de188ee91",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83780941_9af9ac7e",
+        "filename": "content/2022-05-06-cnf-cert-suite-with-dci-openshift-app-agent.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-05-08T19:01:24Z",
+      "side": 1,
+      "message": "clarification: \"Note that this presentation is based on CNF Cert Suite v4.2.4\" Do you mean \"this blog post\" instead of \"this presentation\"? the presentation is based on v3.0.0 when I click on the recording :)",
+      "revId": "68c8bc6b73f9773c86ae69351aad200de188ee91",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
