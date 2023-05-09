@@ -33,6 +33,24 @@
       "message": "clarification: \"Note that this presentation is based on CNF Cert Suite v4.2.4\" Do you mean \"this blog post\" instead of \"this presentation\"? the presentation is based on v3.0.0 when I click on the recording :)",
       "revId": "68c8bc6b73f9773c86ae69351aad200de188ee91",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a658358c_362f4345",
+        "filename": "content/2022-05-06-cnf-cert-suite-with-dci-openshift-app-agent.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-05-09T09:22:05Z",
+      "side": 1,
+      "message": "oh yes, that\u0027s true! that\u0027s a typo, I\u0027ll update. It should be \"blog post\". Thanks!!",
+      "parentUuid": "83780941_9af9ac7e",
+      "revId": "68c8bc6b73f9773c86ae69351aad200de188ee91",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
