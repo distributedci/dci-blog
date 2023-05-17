@@ -1,6 +1,6 @@
 Title: Running CNF Cert Suite certification with dci-openshift-app-agent
 Date: 2022-05-06 10:00
-Modified: 2023-05-08 10:00
+Modified: 2023-05-18 10:00
 Category: how-to
 Tags: cnf-cert-suite, dci-openshift-app-agent, certification, partners
 Slug: cnf-cert-suite-with-dci-openshift-app-agent
@@ -178,6 +178,11 @@ Up to this point, what happens if...
 
 - ...tests are displayed but the workloads tested were not the expected ones? Then, read `tnf_config.yml` file and confirm you are testing what you want. If not, recheck `tnf_config` variable and change it accordingly.
 - ...tests are displayed but we have failed unit tests? Follow the log messages and troubleshoot.
+- ...the job is still running and it is stuck on CNF Cert Suite execution? In this case, we would not be able to see the log files generated during the execution, as they are created just after finishing the execution (e.g. `dci-tnf-execution.log` file is created by redirecting the output of CNF Cert Suite execution to that file). In this case, you will have to navigate to the source path where these files are created and then check them. This can be done in the following way:
+    - Firstly, locate the temporary folder created in the job that contains the `cnf-certification-test` cloned repository. This can be found in [this task](https://www.distributed-ci.io/jobs/a4fbc0df-dc57-4d64-9f4e-cfe62886eb91/jobStates?sort=date&task=9e6a87d2-b5c7-4e1d-bf7c-4c60629a1a91) from your `dci-openshift-app-agent` job. In this case, the folder is `/tmp/ansible.q7ofnrge`, and it is saved in the jumphost.
+    - Move to that folder and access to `cnf-certification-test` repo. In this example, this would be: `$ cd /tmp/ansible.q7ofnrge/cnf-certification-test`.
+    - Under that path, you should find `dci-tnf-execution.log` file, which is updated during the CNF Cert execution (so list it with `$ tail dci-tnf-execution.log`), and also the `tnf_config.yml` file.
+    - Remember that this temporary folder is deleted when the job finishes, but after that, the files are present in the Files section of the job, as explained before.
 
 ### Example of a correct DCI job running tnf_test_example with CNF Cert Suite
 
