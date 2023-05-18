@@ -33,6 +33,24 @@
       "message": "I believe the correct task is https://www.distributed-ci.io/jobs/a4fbc0df-dc57-4d64-9f4e-cfe62886eb91/jobStates?sort\u003ddate\u0026task\u003dc922fcdb-dab0-48c2-9277-580a021a8b86 And the dir name is usually /tmp/dci_logs.* For example I got this from a running job:\n\n\u003e [dciteam@jumphost ~]$ ls /tmp/dci_logs.j6j8pgig/ | grep tnf\n\u003e dci-tnf-execution.log\n\u003e tnf_config.yml\n\nAlso, now I realize maybe not everybody is able to see this job, so I wonder if we should also add the screenshot. or something like this: wdyt?\n\n\u003e TASK [Job logs path] ****************************************************\n\u003e task path: /usr/share/dci-openshift-app-agent/plays/log-dir.yml:8\n\u003e ok: [jumphost] \u003d\u003e {\n\u003e    \"msg\": \"/tmp/dci_logs.6kl6f373\"",
       "revId": "1ead65c51ebd4411bc33ac46fe58901444d9ca8c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "912a4157_66b59a8c",
+        "filename": "content/2022-05-06-cnf-cert-suite-with-dci-openshift-app-agent.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-05-18T15:54:10Z",
+      "side": 1,
+      "message": "Hi Manuel! Sure, let me explain this, because I arrived later to yesterday\u0027s meeting and I was not able to check everything with detail.\n\nThe correct task to look at is the one I\u0027ve put, because, if you see where tnf is executed:     chdir: \"{{ tnf_git_dir.path }}/{{ test_network_function_project_name }}\", it is under `\"{{ tnf_git_dir.path }}/{{ test_network_function_project_name }}\"`, and in cnf-certification-test folder within it (I forgot to put that, I\u0027ll update now the change), is where we locate all the files that, later on, we copy to \"{{ job_logs.path }}\". That\u0027s why the correct location to check is the one I was saying.\n\nThe problem with the dci_logs folder is that the files will be there but only as long as tnf has finished the execution. But if you check while tnf is running, you have to check in the ansible tmp one.\n\nI agree with your comment, I will put there the output of the task, but referrencing to the ansible one.",
+      "parentUuid": "9528afe9_6ff7e72b",
+      "revId": "1ead65c51ebd4411bc33ac46fe58901444d9ca8c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
