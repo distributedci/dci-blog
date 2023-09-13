@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "112ec37f_dcc01fb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-13T19:51:48Z",
+      "side": 1,
+      "message": "LVGTM",
+      "revId": "33f132445ab738c81af8c5e86ba4474b972bec46",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77e043f4_7a9409e9",
+        "filename": "content/2023-09-14-expand-dci-pipeline-knowledge.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-13T19:51:48Z",
+      "side": 1,
+      "message": ":)",
+      "range": {
+        "startLine": 55,
+        "startChar": 264,
+        "endLine": 55,
+        "endChar": 265
+      },
+      "revId": "33f132445ab738c81af8c5e86ba4474b972bec46",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "468aed43_998e7867",
+        "filename": "content/2023-09-14-expand-dci-pipeline-knowledge.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-13T19:51:48Z",
+      "side": 1,
+      "message": "😊",
+      "range": {
+        "startLine": 148,
+        "startChar": 129,
+        "endLine": 148,
+        "endChar": 130
+      },
+      "revId": "33f132445ab738c81af8c5e86ba4474b972bec46",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
