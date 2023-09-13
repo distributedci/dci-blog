@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d50684e7_5cea5436",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-09-13T21:20:20Z",
+      "side": 1,
+      "message": "Nice post, just one minor thing, I see some links point to https://github.com/redhat-cip/dci-pipeline/* and others to https://doc.distributed-ci.io/dci-pipeline/* then I wonder if we should keep an standard and use the later. Thanks",
+      "revId": "33f132445ab738c81af8c5e86ba4474b972bec46",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "77e043f4_7a9409e9",
