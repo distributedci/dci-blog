@@ -75,6 +75,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "39bb9547_41014de5",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-18T14:03:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b741bc47_54b47de0",
+      "range": {
+        "startLine": 1,
+        "startChar": 13,
+        "endLine": 1,
+        "endChar": 32
+      },
+      "revId": "98fcdeb806957e83d31a8534848bb8f60cf1c7c0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9985dcda_d495955e",
@@ -92,6 +116,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e141da9_25b46a23",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-18T14:03:55Z",
+      "side": 1,
+      "message": "good idea 😊",
+      "parentUuid": "9985dcda_d495955e",
+      "revId": "98fcdeb806957e83d31a8534848bb8f60cf1c7c0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "68884398_b9b97528",
@@ -105,6 +147,30 @@
       "writtenOn": "2023-09-18T09:45:01Z",
       "side": 1,
       "message": "I\u0027d try to use DCI in upper case, this applies to other cases that are right now in the blog post",
+      "range": {
+        "startLine": 5,
+        "startChar": 56,
+        "endLine": 5,
+        "endChar": 59
+      },
+      "revId": "98fcdeb806957e83d31a8534848bb8f60cf1c7c0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72d0e34d_c7813155",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-18T14:03:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "68884398_b9b97528",
       "range": {
         "startLine": 5,
         "startChar": 56,
@@ -138,6 +204,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "08cc2ac7_756138f3",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-18T14:03:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4a6e2476_e1e66ae4",
+      "range": {
+        "startLine": 11,
+        "startChar": 53,
+        "endLine": 11,
+        "endChar": 62
+      },
+      "revId": "98fcdeb806957e83d31a8534848bb8f60cf1c7c0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9fdd6025_2a53601f",
@@ -151,6 +241,30 @@
       "writtenOn": "2023-09-18T09:45:01Z",
       "side": 1,
       "message": "Sometimes Podman appears in upper case, others in lower case, I\u0027d harmonize that",
+      "range": {
+        "startLine": 13,
+        "startChar": 36,
+        "endLine": 13,
+        "endChar": 42
+      },
+      "revId": "98fcdeb806957e83d31a8534848bb8f60cf1c7c0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c11aadd2_f22f9e22",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-18T14:03:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9fdd6025_2a53601f",
       "range": {
         "startLine": 13,
         "startChar": 36,
@@ -184,6 +298,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c25ddd3_07592cef",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-18T14:03:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cea51b8c_80f0ddf0",
+      "range": {
+        "startLine": 30,
+        "startChar": 29,
+        "endLine": 30,
+        "endChar": 41
+      },
+      "revId": "98fcdeb806957e83d31a8534848bb8f60cf1c7c0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "120f1183_7f80511e",
@@ -197,6 +335,30 @@
       "writtenOn": "2023-09-18T09:45:01Z",
       "side": 1,
       "message": "Ansible, upper case",
+      "range": {
+        "startLine": 40,
+        "startChar": 26,
+        "endLine": 40,
+        "endChar": 33
+      },
+      "revId": "98fcdeb806957e83d31a8534848bb8f60cf1c7c0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba5f4a1b_42cc7266",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-18T14:03:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "120f1183_7f80511e",
       "range": {
         "startLine": 40,
         "startChar": 26,
@@ -248,6 +410,54 @@
         "startChar": 69,
         "endLine": 80,
         "endChar": 78
+      },
+      "revId": "98fcdeb806957e83d31a8534848bb8f60cf1c7c0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35e08bea_2a901420",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-18T14:03:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "932f7ce0_f8de85f5",
+      "range": {
+        "startLine": 80,
+        "startChar": 69,
+        "endLine": 80,
+        "endChar": 78
+      },
+      "revId": "98fcdeb806957e83d31a8534848bb8f60cf1c7c0",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0ca78d5_731ddf92",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-18T14:03:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "71f2043c_76c2aa33",
+      "range": {
+        "startLine": 80,
+        "startChar": 41,
+        "endLine": 80,
+        "endChar": 45
       },
       "revId": "98fcdeb806957e83d31a8534848bb8f60cf1c7c0",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
