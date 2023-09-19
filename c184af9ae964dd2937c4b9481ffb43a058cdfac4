@@ -75,6 +75,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2fc98ebb_c040309f",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-19T14:35:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2d4d1caa_bf2e4252",
+      "range": {
+        "startLine": 13,
+        "startChar": 28,
+        "endLine": 13,
+        "endChar": 31
+      },
+      "revId": "c184af9ae964dd2937c4b9481ffb43a058cdfac4",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "289475df_31ce67a3",
@@ -98,6 +122,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6b7a741_58232dfd",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-19T14:35:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "289475df_31ce67a3",
+      "range": {
+        "startLine": 16,
+        "startChar": 55,
+        "endLine": 16,
+        "endChar": 58
+      },
+      "revId": "c184af9ae964dd2937c4b9481ffb43a058cdfac4",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "331e6399_83ee15d8",
@@ -111,6 +159,30 @@
       "writtenOn": "2023-09-19T13:16:44Z",
       "side": 1,
       "message": "RPM",
+      "range": {
+        "startLine": 32,
+        "startChar": 7,
+        "endLine": 32,
+        "endChar": 10
+      },
+      "revId": "c184af9ae964dd2937c4b9481ffb43a058cdfac4",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0efe0fe4_0f6d4485",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2023-09-19T14:35:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "331e6399_83ee15d8",
       "range": {
         "startLine": 32,
         "startChar": 7,
