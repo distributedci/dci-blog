@@ -1,0 +1,8 @@
+Workflow+1: Pierre Blanc <pblanc@redhat.com>
+Code-Review+2: Manuel Rodriguez <manuel.rodriguez@redhat.com>
+Verified+2: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-by: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-at: Wed, 20 Sep 2023 14:43:46 +0000
+Reviewed-on: https://softwarefactory-project.io/r/c/dci-blog/+/29486
+Project: dci-blog
+Branch: refs/heads/master
