@@ -1,0 +1,987 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "520b16e7_3eb87e3a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "Hi Charles, thanks for the blog post! Here you have some comments from my side, most of them are cosmetic ones and are repeated, don\u0027t be scared about the number of reviews",
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02432f9c_003057b5",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "gives",
+      "range": {
+        "startLine": 7,
+        "startChar": 19,
+        "endLine": 7,
+        "endChar": 23
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee67ff99_bdd9f800",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "Sometimes you use \"Performance Profile\", and in other cases, \"PerformanceProfile\", I\u0027d harmonize that",
+      "range": {
+        "startLine": 7,
+        "startChar": 89,
+        "endLine": 7,
+        "endChar": 108
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06461e7b_d4ea52f8",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "comma between apply and using",
+      "range": {
+        "startLine": 7,
+        "startChar": 47,
+        "endLine": 7,
+        "endChar": 57
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5db5605_6e1788a3",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "(remove)",
+      "range": {
+        "startLine": 7,
+        "startChar": 38,
+        "endLine": 7,
+        "endChar": 39
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "224b234b_52ca6c61",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "DCI",
+      "range": {
+        "startLine": 7,
+        "startChar": 63,
+        "endLine": 7,
+        "endChar": 66
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "19c0f6a6_6595c2a4",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "Operator",
+      "range": {
+        "startLine": 14,
+        "startChar": 386,
+        "endLine": 14,
+        "endChar": 394
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "635a8443_ee352508",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 14,
+        "startChar": 682,
+        "endLine": 14,
+        "endChar": 683
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d66bd7f8_0861b014",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "OpenShift",
+      "range": {
+        "startLine": 14,
+        "startChar": 432,
+        "endLine": 14,
+        "endChar": 441
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26a55a93_bdeaa77c",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "profiles, plural",
+      "range": {
+        "startLine": 15,
+        "startChar": 165,
+        "endLine": 15,
+        "endChar": 172
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd18edf0_a2b434e8",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "I\u0027d say dci-openshift-agent and put a link to the docs of that project",
+      "range": {
+        "startLine": 15,
+        "startChar": 203,
+        "endLine": 15,
+        "endChar": 222
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d4491cb4_873b3daa",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "I think you can remove this comma",
+      "range": {
+        "startLine": 15,
+        "startChar": 201,
+        "endLine": 15,
+        "endChar": 202
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f73e1bad_66363a2e",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "Addon Operator",
+      "range": {
+        "startLine": 16,
+        "startChar": 67,
+        "endLine": 16,
+        "endChar": 72
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee771d06_02a323c0",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "dci-openshift-agent",
+      "range": {
+        "startLine": 18,
+        "startChar": 28,
+        "endLine": 18,
+        "endChar": 47
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e9f900a_e10a5e98",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 1
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eead4c1c_9b5d1d67",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "what\u0027s OPC?",
+      "range": {
+        "startLine": 20,
+        "startChar": 205,
+        "endLine": 20,
+        "endChar": 208
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bbccd23e_3a8afd29",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "use `` for this",
+      "range": {
+        "startLine": 20,
+        "startChar": 401,
+        "endLine": 20,
+        "endChar": 423
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71d3a6a8_de690c60",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 20,
+        "startChar": 424,
+        "endLine": 20,
+        "endChar": 425
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce3c58e6_3fd4c846",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "OpenShift",
+      "range": {
+        "startLine": 20,
+        "startChar": 13,
+        "endLine": 20,
+        "endChar": 22
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5477e625_818029b4",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "I\u0027d remove these two words, maybe",
+      "range": {
+        "startLine": 20,
+        "startChar": 4,
+        "endLine": 20,
+        "endChar": 12
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "149e7deb_98d29f9f",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "I think this dot can be removed",
+      "range": {
+        "startLine": 20,
+        "startChar": 215,
+        "endLine": 20,
+        "endChar": 216
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6af50529_03e3e8be",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "dci-openshift-agent",
+      "range": {
+        "startLine": 21,
+        "startChar": 80,
+        "endLine": 21,
+        "endChar": 99
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2911f3c5_34938913",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "use `` for this",
+      "range": {
+        "startLine": 21,
+        "startChar": 586,
+        "endLine": 21,
+        "endChar": 608
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5564182_c925145b",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "OpenShift",
+      "range": {
+        "startLine": 21,
+        "startChar": 16,
+        "endLine": 21,
+        "endChar": 25
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d0ab7b4_e97df402",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "use `` for this",
+      "range": {
+        "startLine": 21,
+        "startChar": 239,
+        "endLine": 21,
+        "endChar": 256
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35338857_df64ac04",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "Addon",
+      "range": {
+        "startLine": 21,
+        "startChar": 304,
+        "endLine": 21,
+        "endChar": 309
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e94e4296_a7e33269",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "Performance Profile",
+      "range": {
+        "startLine": 23,
+        "startChar": 298,
+        "endLine": 23,
+        "endChar": 309
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a712907f_2f12d464",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "use `` for this",
+      "range": {
+        "startLine": 27,
+        "startChar": 342,
+        "endLine": 27,
+        "endChar": 371
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "59ce7b6c_8dfb5a4f",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "maybe to say low-latency-oriented?",
+      "range": {
+        "startLine": 27,
+        "startChar": 4,
+        "endLine": 27,
+        "endChar": 25
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0735b498_93a246e1",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "Linux",
+      "range": {
+        "startLine": 27,
+        "startChar": 456,
+        "endLine": 27,
+        "endChar": 461
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36ca3504_5fe8b18a",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "CPUs\u0027",
+      "range": {
+        "startLine": 28,
+        "startChar": 64,
+        "endLine": 28,
+        "endChar": 68
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b1c6c439_ba429674",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "use `` for this",
+      "range": {
+        "startLine": 35,
+        "startChar": 141,
+        "endLine": 35,
+        "endChar": 150
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4fd4cd8b_39635439",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "use `` for this",
+      "range": {
+        "startLine": 35,
+        "startChar": 57,
+        "endLine": 35,
+        "endChar": 67
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abff5a5f_70704952",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "use `` for this",
+      "range": {
+        "startLine": 36,
+        "startChar": 376,
+        "endLine": 36,
+        "endChar": 383
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10b4c542_285ca1fe",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 38,
+        "startChar": 9,
+        "endLine": 38,
+        "endChar": 10
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d879cd9d_8e8d9b95",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 1
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d40dbf42_4290e7ad",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "link?",
+      "range": {
+        "startLine": 43,
+        "startChar": 645,
+        "endLine": 43,
+        "endChar": 658
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d3218ba_eb20a46b",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "OpenShift",
+      "range": {
+        "startLine": 43,
+        "startChar": 635,
+        "endLine": 43,
+        "endChar": 644
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7ffc620_429ab8d1",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 43,
+        "startChar": 659,
+        "endLine": 43,
+        "endChar": 660
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ceea96e0_2864d24a",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "Operator",
+      "range": {
+        "startLine": 43,
+        "startChar": 568,
+        "endLine": 43,
+        "endChar": 576
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd44023f_0e6bc68a",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "Can you quickly describe the composition of this Performance Profile? e.g. the hugepages that are configured, what does it mean, etc.",
+      "range": {
+        "startLine": 44,
+        "startChar": 11,
+        "endLine": 44,
+        "endChar": 18
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e0b6489_1b31cc00",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "I\u0027d add here a Conclusions/Recap section and include there this paragraph",
+      "range": {
+        "startLine": 81,
+        "startChar": 0,
+        "endLine": 81,
+        "endChar": 2
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e50e2ad6_ea2a47b5",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-09-22T14:57:35Z",
+      "side": 1,
+      "message": "OpenShift",
+      "range": {
+        "startLine": 81,
+        "startChar": 133,
+        "endLine": 81,
+        "endChar": 142
+      },
+      "revId": "495df56ebec01b3b119b4e58390b41a4deb3fcb9",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
