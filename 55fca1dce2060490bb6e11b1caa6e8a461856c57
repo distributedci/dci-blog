@@ -41,6 +41,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3eaf31d_45dd65bd",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-09-25T12:10:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1f87dd_4dce6aab",
+      "range": {
+        "startLine": 7,
+        "startChar": 63,
+        "endLine": 7,
+        "endChar": 66
+      },
+      "revId": "55fca1dce2060490bb6e11b1caa6e8a461856c57",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4e983d7f_424ca87b",
@@ -54,6 +78,30 @@
       "writtenOn": "2023-09-25T09:40:07Z",
       "side": 1,
       "message": "You can use here \"DCI agent\" or \"dci-openshift-agent\"",
+      "range": {
+        "startLine": 20,
+        "startChar": 197,
+        "endLine": 20,
+        "endChar": 206
+      },
+      "revId": "55fca1dce2060490bb6e11b1caa6e8a461856c57",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b9e8960_38dfdd50",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-09-25T12:10:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e983d7f_424ca87b",
       "range": {
         "startLine": 20,
         "startChar": 197,
@@ -87,6 +135,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "af7b3daf_8501b297",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-09-25T12:10:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0930e806_83d7fe7c",
+      "range": {
+        "startLine": 36,
+        "startChar": 376,
+        "endLine": 36,
+        "endChar": 383
+      },
+      "revId": "55fca1dce2060490bb6e11b1caa6e8a461856c57",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "56e382cc_6db07971",
@@ -100,6 +172,30 @@
       "writtenOn": "2023-09-25T09:40:07Z",
       "side": 1,
       "message": "I\u0027d add before the paragraph the \"# Conclusions\" section, maybe",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 81,
+        "endChar": 2
+      },
+      "revId": "55fca1dce2060490bb6e11b1caa6e8a461856c57",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff45a4ad_1d7d0e6a",
+        "filename": "content/2023-08-21-performance-profile-with-dci.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 673
+      },
+      "writtenOn": "2023-09-25T12:10:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "56e382cc_6db07971",
       "range": {
         "startLine": 80,
         "startChar": 0,
