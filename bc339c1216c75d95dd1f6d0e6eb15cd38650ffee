@@ -24,6 +24,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4217c569_664486fa",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f58a113_ca211e3e",
+      "range": {
+        "startLine": 10,
+        "startChar": 74,
+        "endLine": 10,
+        "endChar": 75
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "408883d6_4a932ad8",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-09-29T10:06:12Z",
       "side": 1,
       "message": "Internet, upper case",
+      "range": {
+        "startLine": 20,
+        "startChar": 58,
+        "endLine": 20,
+        "endChar": 67
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f506f2d1_017d1245",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "408883d6_4a932ad8",
       "range": {
         "startLine": 20,
         "startChar": 58,
@@ -70,6 +118,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a68512d_f6d8e4bf",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "8f281bba_b48d7764",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 0
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8fa7252b_defbded9",
@@ -83,6 +155,30 @@
       "writtenOn": "2023-09-29T10:06:12Z",
       "side": 1,
       "message": "PostgreSQL",
+      "range": {
+        "startLine": 126,
+        "startChar": 5,
+        "endLine": 126,
+        "endChar": 15
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cd6d5a8_397c538f",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8fa7252b_defbded9",
       "range": {
         "startLine": 126,
         "startChar": 5,
@@ -116,6 +212,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0b86a65_b3adeeb4",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ce6d8205_29469fe0",
+      "range": {
+        "startLine": 134,
+        "startChar": 12,
+        "endLine": 134,
+        "endChar": 22
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bc6548eb_f49797a3",
@@ -129,6 +249,30 @@
       "writtenOn": "2023-09-29T10:06:12Z",
       "side": 1,
       "message": "PostgreSQL",
+      "range": {
+        "startLine": 172,
+        "startChar": 14,
+        "endLine": 172,
+        "endChar": 24
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b07e026_dfbcf19f",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc6548eb_f49797a3",
       "range": {
         "startLine": 172,
         "startChar": 14,
@@ -162,6 +306,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab962bac_99069c7f",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd997b59_fce64501",
+      "range": {
+        "startLine": 204,
+        "startChar": 80,
+        "endLine": 204,
+        "endChar": 90
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cdee3d81_0ce9b79c",
@@ -175,6 +343,30 @@
       "writtenOn": "2023-09-29T10:06:12Z",
       "side": 1,
       "message": "All this blog being indented may be interpreted as code, I\u0027d remove the indentation",
+      "range": {
+        "startLine": 200,
+        "startChar": 0,
+        "endLine": 207,
+        "endChar": 75
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f7c63e8a_16419dab",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cdee3d81_0ce9b79c",
       "range": {
         "startLine": 200,
         "startChar": 0,
@@ -208,6 +400,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "07ceb1f4_74e30ed5",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "89fb699e_b263232e",
+      "range": {
+        "startLine": 213,
+        "startChar": 27,
+        "endLine": 213,
+        "endChar": 28
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "aa34f25c_3ad57f01",
@@ -221,6 +437,30 @@
       "writtenOn": "2023-09-29T10:06:12Z",
       "side": 1,
       "message": "whitespace",
+      "range": {
+        "startLine": 337,
+        "startChar": 53,
+        "endLine": 337,
+        "endChar": 54
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00f5ddc5_5629d111",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 337,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa34f25c_3ad57f01",
       "range": {
         "startLine": 337,
         "startChar": 53,
@@ -254,6 +494,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8bc9ead2_c3272454",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 379,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bb075e07_308774dd",
+      "range": {
+        "startLine": 379,
+        "startChar": 0,
+        "endLine": 379,
+        "endChar": 1
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a26377c7_88cb80f8",
@@ -267,6 +531,30 @@
       "writtenOn": "2023-09-29T10:06:12Z",
       "side": 1,
       "message": "Personally, I\u0027d add a Conclusions section at the end of the blog post, wrapping up the content provided",
+      "range": {
+        "startLine": 442,
+        "startChar": 2,
+        "endLine": 442,
+        "endChar": 3
+      },
+      "revId": "bc339c1216c75d95dd1f6d0e6eb15cd38650ffee",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a64d4ce0_9da99ded",
+        "filename": "content/2023-07-15-disconnected_environments_procedure.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 442,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a26377c7_88cb80f8",
       "range": {
         "startLine": 442,
         "startChar": 2,

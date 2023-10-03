@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "386d2e5c_855fde4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-03T10:13:22Z",
+      "side": 1,
+      "message": "Thanks for all your comments, Ramón.\n\nAs always, they\u0027re most appreciated and useful.\n\nI applied all of them, including writing the conclusion that was missing.\n\nI hope it looks OK now.",
+      "revId": "56f27b225da1921e20473538223cdc96b78d87e2",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
