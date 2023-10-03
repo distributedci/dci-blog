@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d4e9d14_a3551c0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-03T16:23:16Z",
+      "side": 1,
+      "message": "Thanks Nacho, some formatting observations below:",
+      "revId": "0b4d67780a86fad9acaf1e4065087bcc39800213",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c697695a_18e1e1e2",
+        "filename": "content/2023-10-06-disconnected_environments_procedure.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-03T16:23:16Z",
+      "side": 1,
+      "message": "The last five lines of the block code below are highlighted with a red line when rendering in a browser, so I suggest to split the step 3 in two parts, so here we can add only:\n\u003e 3. Create the Redis service system unit:",
+      "revId": "0b4d67780a86fad9acaf1e4065087bcc39800213",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a89f92a1_01a1696d",
+        "filename": "content/2023-10-06-disconnected_environments_procedure.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-03T16:23:16Z",
+      "side": 1,
+      "message": "Let\u0027s remove these whites spaces, and include a new line, then step 4 like this:\n\n\u003e 4. Enable and start the Redis service system unit:",
+      "revId": "0b4d67780a86fad9acaf1e4065087bcc39800213",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e4963cd_a59013c7",
+        "filename": "content/2023-10-06-disconnected_environments_procedure.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-03T16:23:16Z",
+      "side": 1,
+      "message": "you\u0027ll have to rename this step from 4 to 5, or actually you can name all steps with a \"1.\" and when the page is rendered it will add consecutive numbers.",
+      "revId": "0b4d67780a86fad9acaf1e4065087bcc39800213",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db0644d5_3cf3c793",
+        "filename": "content/2023-10-06-disconnected_environments_procedure.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-03T16:23:16Z",
+      "side": 1,
+      "message": "Same advice as the one above split the task in two, to avoid the the last file lines get rendered oddly, also here it should read PostgreSQL, not Redis.",
+      "revId": "0b4d67780a86fad9acaf1e4065087bcc39800213",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "721ca11e_428d33a0",
+        "filename": "content/2023-10-06-disconnected_environments_procedure.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-03T16:23:16Z",
+      "side": 1,
+      "message": "same as above for Redis part.",
+      "revId": "0b4d67780a86fad9acaf1e4065087bcc39800213",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e2f5334_fe5a2dd8",
+        "filename": "content/2023-10-06-disconnected_environments_procedure.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 311,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-03T16:23:16Z",
+      "side": 1,
+      "message": "same advice as Redis and PostgreSQL, split in two this step/block",
+      "revId": "0b4d67780a86fad9acaf1e4065087bcc39800213",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8a7ab80d_d1fcdd2a",
+        "filename": "content/2023-10-06-disconnected_environments_procedure.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 333,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-03T16:23:16Z",
+      "side": 1,
+      "message": "same, as Redis and PostgreSQL",
+      "revId": "0b4d67780a86fad9acaf1e4065087bcc39800213",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
