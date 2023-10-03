@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fb3734d_51bbc391",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-03T13:49:14Z",
+      "side": 1,
+      "message": "Thanks, just a couple of things from my side",
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d42b3640_3beff725",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-03T13:49:14Z",
+      "side": 1,
+      "message": "typo: replace \"command tou will\" with \"command you will\"",
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "927cf9d3_86f98f06",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-03T13:49:14Z",
+      "side": 1,
+      "message": "I know it\u0027s implied, but I think it would be fine if you add a note about providing the respective creds to login to the registry.",
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
