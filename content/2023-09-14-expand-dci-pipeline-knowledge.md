@@ -4,7 +4,7 @@ Category: divulgation
 Tags: dci, dci-pipeline, testing
 Slug: expand-dci-pipeline-knowledge
 Author: Ramon Perez, Pierre Blanc
-Github: ramperher, pierreblanc
+Github: ramperher
 Summary: This blog post continues the overview of dci-pipeline and related testing tools, focusing on some useful features that can really help you when addressing testing and troubleshooting with DCI jobs.
 
 [TOC]
