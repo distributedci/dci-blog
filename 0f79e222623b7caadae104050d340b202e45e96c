@@ -18,6 +18,69 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0086f9c5_c9543d18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-10-04T13:17:48Z",
+      "side": 1,
+      "message": "Really interesting blog post Nacho, thanks! Some comments from my side, mostly minor ones",
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "11b14a29_b90c7c08",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-10-04T13:17:48Z",
+      "side": 1,
+      "message": "step-by-step",
+      "range": {
+        "startLine": 7,
+        "startChar": 11,
+        "endLine": 7,
+        "endChar": 23
+      },
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "537b2f98_9e96689c",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-10-04T13:17:48Z",
+      "side": 1,
+      "message": "sometimes",
+      "range": {
+        "startLine": 13,
+        "startChar": 9,
+        "endLine": 13,
+        "endChar": 19
+      },
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d42b3640_3beff725",
@@ -48,6 +111,52 @@
       "writtenOn": "2023-10-03T13:49:14Z",
       "side": 1,
       "message": "I know it\u0027s implied, but I think it would be fine if you add a note about providing the respective creds to login to the registry.",
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02f5b94e_44c0fa0b",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-10-04T13:17:48Z",
+      "side": 1,
+      "message": "IP plan -\u003e Install Plan? (IP is already Install Plan)",
+      "range": {
+        "startLine": 71,
+        "startChar": 99,
+        "endLine": 71,
+        "endChar": 107
+      },
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6049318_e9782ced",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-10-04T13:17:48Z",
+      "side": 1,
+      "message": "same, IP plan -\u003e Install Plan",
+      "range": {
+        "startLine": 176,
+        "startChar": 99,
+        "endLine": 176,
+        "endChar": 106
+      },
       "revId": "0f79e222623b7caadae104050d340b202e45e96c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
