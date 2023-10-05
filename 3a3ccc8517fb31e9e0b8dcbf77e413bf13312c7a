@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1c77edf_292b5847",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-10-05T09:46:50Z",
+      "side": 1,
+      "message": "Hi team, could you take a look to the content of the blog post to check if it\u0027s correct or not? I\u0027d really appreciate that",
+      "revId": "3a3ccc8517fb31e9e0b8dcbf77e413bf13312c7a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
