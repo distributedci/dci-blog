@@ -16,6 +16,57 @@
       "message": "Hi team, could you take a look to the content of the blog post to check if it\u0027s correct or not? I\u0027d really appreciate that",
       "revId": "3a3ccc8517fb31e9e0b8dcbf77e413bf13312c7a",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92193e8b_d543f8bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-05T20:41:36Z",
+      "side": 1,
+      "message": "LGTM, just two minor observations",
+      "revId": "3a3ccc8517fb31e9e0b8dcbf77e413bf13312c7a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4de766b_5142b778",
+        "filename": "content/2023-10-06-dci-pipeline-testing.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-05T20:41:36Z",
+      "side": 1,
+      "message": "I know these are just output examples, but I see clusters listed as resources in the queue, but nothing in the Available or Executing, so just wonder if you should add them there too to make it look more real :)",
+      "revId": "3a3ccc8517fb31e9e0b8dcbf77e413bf13312c7a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "163fdffc_e5ca7049",
+        "filename": "content/2023-10-06-dci-pipeline-testing.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-05T20:41:36Z",
+      "side": 1,
+      "message": "I wonder if you can rephrase \"when dealing with OCP troubleshooting with `dci-pipeline`\" to something like \"when testing and troubleshooting changes on OCP deployments using `dci-pipeline`\"",
+      "revId": "3a3ccc8517fb31e9e0b8dcbf77e413bf13312c7a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
