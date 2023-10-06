@@ -54,6 +54,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "337d3997_79823b3e",
+        "filename": "content/2023-10-06-dci-pipeline-testing.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-10-06T07:44:39Z",
+      "side": 1,
+      "message": "Sure :)",
+      "parentUuid": "c4de766b_5142b778",
+      "revId": "3a3ccc8517fb31e9e0b8dcbf77e413bf13312c7a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "163fdffc_e5ca7049",
         "filename": "content/2023-10-06-dci-pipeline-testing.md",
         "patchSetId": 2
@@ -65,6 +83,24 @@
       "writtenOn": "2023-10-05T20:41:36Z",
       "side": 1,
       "message": "I wonder if you can rephrase \"when dealing with OCP troubleshooting with `dci-pipeline`\" to something like \"when testing and troubleshooting changes on OCP deployments using `dci-pipeline`\"",
+      "revId": "3a3ccc8517fb31e9e0b8dcbf77e413bf13312c7a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e12b7115_87bb69b1",
+        "filename": "content/2023-10-06-dci-pipeline-testing.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-10-06T07:44:39Z",
+      "side": 1,
+      "message": "Sure, done",
+      "parentUuid": "163fdffc_e5ca7049",
       "revId": "3a3ccc8517fb31e9e0b8dcbf77e413bf13312c7a",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
