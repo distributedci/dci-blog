@@ -33,6 +33,23 @@
       "message": "Thanks for considering the suggestions",
       "revId": "fcf6e8d91ac46a9057f2f193b708ad96a17fdf7b",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94e318fa_cffa54a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-10-06T13:15:41Z",
+      "side": 1,
+      "message": "I will merge, I think the content is ready, thanks Manuel for the review!",
+      "revId": "fcf6e8d91ac46a9057f2f193b708ad96a17fdf7b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
