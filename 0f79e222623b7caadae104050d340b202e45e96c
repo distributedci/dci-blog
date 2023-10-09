@@ -35,6 +35,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a02df104_61391ebb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-09T09:00:15Z",
+      "side": 1,
+      "message": "Thanks for all the comments.\n\nPushing a new patchset.",
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "11b14a29_b90c7c08",
@@ -48,6 +65,30 @@
       "writtenOn": "2023-10-04T13:17:48Z",
       "side": 1,
       "message": "step-by-step",
+      "range": {
+        "startLine": 7,
+        "startChar": 11,
+        "endLine": 7,
+        "endChar": 23
+      },
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36b638f2_c63bef63",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-09T09:00:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "11b14a29_b90c7c08",
       "range": {
         "startLine": 7,
         "startChar": 11,
@@ -81,6 +122,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "94c0c5e7_0e082cf0",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-09T09:00:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "537b2f98_9e96689c",
+      "range": {
+        "startLine": 13,
+        "startChar": 9,
+        "endLine": 13,
+        "endChar": 19
+      },
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d42b3640_3beff725",
@@ -98,6 +163,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "71a2d9fb_a39978cd",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-09T09:00:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d42b3640_3beff725",
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "927cf9d3_86f98f06",
@@ -111,6 +194,24 @@
       "writtenOn": "2023-10-03T13:49:14Z",
       "side": 1,
       "message": "I know it\u0027s implied, but I think it would be fine if you add a note about providing the respective creds to login to the registry.",
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d725e1f_6eb91303",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-09T09:00:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "927cf9d3_86f98f06",
       "revId": "0f79e222623b7caadae104050d340b202e45e96c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -138,6 +239,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "251f2df6_a64ff8d0",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-09T09:00:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02f5b94e_44c0fa0b",
+      "range": {
+        "startLine": 71,
+        "startChar": 99,
+        "endLine": 71,
+        "endChar": 107
+      },
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e6049318_e9782ced",
@@ -151,6 +276,30 @@
       "writtenOn": "2023-10-04T13:17:48Z",
       "side": 1,
       "message": "same, IP plan -\u003e Install Plan",
+      "range": {
+        "startLine": 176,
+        "startChar": 99,
+        "endLine": 176,
+        "endChar": 106
+      },
+      "revId": "0f79e222623b7caadae104050d340b202e45e96c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6aa6b97b_1324a7b1",
+        "filename": "content/2023-10-04-creating-custom-catalog-images.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2023-10-09T09:00:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e6049318_e9782ced",
       "range": {
         "startLine": 176,
         "startChar": 99,
