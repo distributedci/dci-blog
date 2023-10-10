@@ -1,0 +1,8 @@
+Verified+2: Zuul CI <zuul@softwarefactory-project.io>
+Code-Review+2: Ramon Perez <raperez@redhat.com>
+Workflow+1: Nacho Silla <nsilla@redhat.com>
+Submitted-by: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-at: Tue, 10 Oct 2023 10:51:03 +0000
+Reviewed-on: https://softwarefactory-project.io/r/c/dci-blog/+/29644
+Project: dci-blog
+Branch: refs/heads/master
