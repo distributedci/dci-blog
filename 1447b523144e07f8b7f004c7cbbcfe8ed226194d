@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ffc4359_1625fa57",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-11T14:55:50Z",
+      "side": 1,
+      "message": "Thanks Nacho, two minor things, if you want to change them feel free",
+      "revId": "1447b523144e07f8b7f004c7cbbcfe8ed226194d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43a6ae10_03db04f1",
+        "filename": "content/2023-10-06-disconnected_environments_procedure.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-11T14:55:50Z",
+      "side": 1,
+      "message": "Maybe change the date for something this week :)",
+      "revId": "1447b523144e07f8b7f004c7cbbcfe8ed226194d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0866d587_d544c4b9",
+        "filename": "content/2023-10-06-disconnected_environments_procedure.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2023-10-11T14:55:50Z",
+      "side": 1,
+      "message": "Still we have these extra white spaces",
+      "revId": "1447b523144e07f8b7f004c7cbbcfe8ed226194d",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
