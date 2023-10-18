@@ -46,6 +46,30 @@
       },
       "revId": "f6417e9d7e42e1e04c4eff04561a048c66061368",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51955e5e_7618f03f",
+        "filename": "content/2023-10-18-disconnected_environments_procedure.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-10-18T09:07:10Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ef0e45dd_19e5a18e",
+      "range": {
+        "startLine": 2,
+        "startChar": 14,
+        "endLine": 2,
+        "endChar": 16
+      },
+      "revId": "f6417e9d7e42e1e04c4eff04561a048c66061368",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
