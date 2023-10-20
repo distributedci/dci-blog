@@ -158,8 +158,8 @@ Please run the following commands to help identify issues during a cluster deplo
 
 For more information about the variables used in the examples, please read the ACM's roles and DCI documentation.
 
-* [acm-setup/readme](https://github.com/redhat-cip/dci-openshift-agent/blob/master/roles/acm-setup/README.md)
-* [acm-sno/readme](https://github.com/redhat-cip/dci-openshift-agent/blob/master/roles/acm-setup/README.md)
+* [acm-setup/readme](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/acm_setup/README.md)
+* [acm-sno/readme](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/acm_sno/README.md)
 * [dci-openshift-agent/readme](https://github.com/redhat-cip/dci-openshift-agent/blob/master/README.md)
 
 ## Wrap up

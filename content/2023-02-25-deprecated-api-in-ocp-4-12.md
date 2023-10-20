@@ -154,6 +154,6 @@ Hopefully, this automatically generated information could help you manage and co
 
 - [How to Start with DCI by Using DCI Pipelines](dci-pipeline).
 
-- [DCI Source Code to Compute Soon-To-Be-Deprecated APIs](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/deprecated-api).
+- [DCI Source Code to Compute Soon-To-Be-Deprecated APIs](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/deprecated_api).
 
 - [Using DCI to Easily Install an OpenShift Libvirt Cluster on a Single Baremetal Server](install-openshift-on-baremetal-using-dci).

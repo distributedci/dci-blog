@@ -63,7 +63,7 @@ We assume that the OCP cluster is already up and running and the dci-openshift-a
         $ export KUBECONFIG=/var/lib/dci-openshift-app-agent/kubeconfig
 
 
-2. Modify [settings.yml](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/preflight) file in /etc/dci-openshift-app-agent/settings.yml by providing all the information about your certification projects. Let’s consider two standard scenarios here.
+2. Modify [settings.yml](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/preflight) file in /etc/dci-openshift-app-agent/settings.yml by providing all the information about your certification projects. Let’s consider two standard scenarios here.
 
     a. If you have a connected environment with a private external registry.
 
@@ -239,7 +239,7 @@ Once all requested information is here, click the publish button to add the cont
 *Fig. 12. Click the publish button to display the container in the catalog.*
 
 ## End-to-end certification of operators with DCI
-Once all containers are certified and the `check operator` is green, you might want to submit the results in the certification UI. Unlike the container certification, there is an additional step to open a pull request in the [certified-operators](https://github.com/redhat-openshift-ecosystem/certified-operators/pulls) repository, and below, we use options `create_pr: true` and `merge_pr: true` to do it automatically with DCI. Do not forget [to generate a github token](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/create-certification-project#github-token) before proceeding futher.
+Once all containers are certified and the `check operator` is green, you might want to submit the results in the certification UI. Unlike the container certification, there is an additional step to open a pull request in the [certified-operators](https://github.com/redhat-openshift-ecosystem/certified-operators/pulls) repository, and below, we use options `create_pr: true` and `merge_pr: true` to do it automatically with DCI. Do not forget [to generate a github token](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/create_certification_project#github-token) before proceeding futher.
 
 DCI provides two options: automatically create a certification project or reuse the existing one.
 

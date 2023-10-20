@@ -39,7 +39,7 @@ For Baremetal SNO the main requirements are the following:
 
 ### Virtual SNO main aspects
 
-A full detailed description of the steps to deploy can be found [here](https://github.com/redhat-cip/dci-openshift-agent/blob/master/samples/sno_on_libvirt/README.md). And an [example](https://github.com/redhat-cip/dci-openshift-agent/blob/master/roles/sno-node-prep/tests/inventory-libvirt) of the inventory is provided in the DCI OpenShift Agent. Because it is a virtual deployment, predefined values are configured by default, and the cluster will only be accessible from the provisioner node (the host server). What happens during the installation is the following:
+A full detailed description of the steps to deploy can be found [here](https://github.com/redhat-cip/dci-openshift-agent/blob/master/samples/sno_on_libvirt/README.md). And an [example](https://github.com/redhat-cip/dci-openshift-agent/blob/master/samples/sno_on_libvirt/examples/hosts-libvirt) of the inventory is provided in the DCI OpenShift Agent. Because it is a virtual deployment, predefined values are configured by default, and the cluster will only be accessible from the provisioner node (the host server). What happens during the installation is the following:
 
 - Provisioner node is setup (libvirt storage, network) and cleanup phases are executed.
 - Images from the release in question are downloaded, mainly the Live image to generate the final Discovery ISO.
@@ -52,8 +52,8 @@ In summary, the initial steps listed above are what the SNO documentation provid
 
 ### Baremetal SNO main aspects
 
-Also, a full picture of the variables, components, and installation requirements are described [here](https://github.com/redhat-cip/dci-openshift-agent/blob/master/roles/sno-installer/README.md). Similarly to the virtual deployment, the important parts are the variables defined in the inventory.
-An inventory [example](https://github.com/redhat-cip/dci-openshift-agent/blob/master/roles/sno-node-prep/tests/inventory-baremetal) is provided in the DCI OpenShift Agent as reference.
+Also, a full picture of the variables, components, and installation requirements are described [here](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/sno_installer/README.md). Similarly to the virtual deployment, the important parts are the variables defined in the inventory.
+An inventory [example](https://github.com/redhat-cip/dci-openshift-agent/blob/master/samples/sno_on_libvirt/examples/hosts-baremetal) is provided in the DCI OpenShift Agent as reference.
 
 The Baremetal deployment through DCI at first glance looks very different compared to the official documentation and the virtual installation, but what is important is that it uses the same bits. This means that instead of pulling the Live image and building a discovery ISO with an embedded ignition, the DCI agent will pull the kernel, ramdisk, and rootfs which usually come inside the Live image, and generate a grub configuration to boot via iPXE, the grub file will make reference to the images which are stored in the TFTP service in the provisioner node, and the ignition file is stored in a cache (HTTP) service. 
 

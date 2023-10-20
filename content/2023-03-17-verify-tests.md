@@ -61,7 +61,7 @@ Now that we have technically defined our task by identifying a configuration fil
 
 ## Implementation Steps
 
-[Our Ansible implementation](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/roles/verify-tests/tasks/parse_junit_file.yml) of the tests' validation is pretty straightforward. The idea is to iterate over the config with expected results and do the following steps for every file:
+[Our Ansible implementation](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/verify_tests/tasks/parse_junit_file.yml) of the tests' validation is pretty straightforward. The idea is to iterate over the config with expected results and do the following steps for every file:
 
 - Check if the required file is present and fail if not.
 
@@ -112,9 +112,9 @@ The filter could also take several variables as input, allowing quite flexible d
 
 Back to the implementation logic, we use filter-plugins twice:
 
-- First, [to retrieve the actual test results](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/roles/verify-tests/filter_plugins/junit2dict.py) using junitparser Python package to parse JUnit file and convert it into suitable JSON.
+- First, [to retrieve the actual test results](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/verify_tests/filter_plugins/junit2dict.py) using junitparser Python package to parse JUnit file and convert it into suitable JSON.
 
-- Second, to [compare them to the expected results](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/roles/verify-tests/filter_plugins/regex_diff.py) in a nested loop that would be cumbersome in Ansible but looks pretty standard in Python.
+- Second, to [compare them to the expected results](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/verify_tests/filter_plugins/regex_diff.py) in a nested loop that would be cumbersome in Ansible but looks pretty standard in Python.
 
 # Standalone Usage
 

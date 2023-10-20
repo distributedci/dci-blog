@@ -41,9 +41,9 @@ We will use the following ACM terminology to refer to the two kinds of clusters:
 
 The `dci-openshift-agent` uses two roles to deploy Hub and Spoke clusters.
 
-- The [acm-setup](https://github.com/redhat-cip/dci-openshift-agent/blob/master/roles/acm-setup/README.md) validates requirements, and then deploys and configures the ACM operator, which provides a graphical console for management.
+- The [acm-setup](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/acm_setup/README.md) validates requirements, and then deploys and configures the ACM operator, which provides a graphical console for management.
 
-- The [acm-sno](https://github.com/redhat-cip/dci-openshift-agent/blob/master/roles/acm-sno/README.md) role interacts with the Hub to request and deploy an SNO instance, from installation to importing the resource into the ACM console.
+- The [acm-sno](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/acm_sno/README.md) role interacts with the Hub to request and deploy an SNO instance, from installation to importing the resource into the ACM console.
 
 
 ![acm_arch](images/acm-integration/acm-console.png)

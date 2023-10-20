@@ -18,15 +18,15 @@ One of the test suites included on `dci-openshift-app-agent` is the CNF Cert Sui
 
 This blog post is useful for people getting familiar with  the usage of CNF Cert Suite using `dci-openshift-app-agent` as a tool to automate the whole process. We are going to focus mainly in 3 areas:
 
-1. The code structure of the `dci-openshift-app-agent`, in terms of the integration of the CNF Cert Suite, will be reviewed, focusing on the [cnf-cert](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/cnf-cert) role.
+1. The code structure of the `dci-openshift-app-agent`, in terms of the integration of the CNF Cert Suite, will be reviewed, focusing on the [cnf_cert](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/cnf_cert) role.
 2. A practical example already defined on `dci-openshift-app-agent`, called [tnf_test_example](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples/tnf_test_example), will be presented, in order to see how to define a workload, based on containers and operators, that will be deployed on a running OpenShift cluster with DCI in order to be tested by CNF Cert Suite.
 3. We will review the configuration needed to deploy the `tnf_test_example` and have it tested using the CNF Cert Suite all via the `dci-openshift-app-agent`.
 
 The targeted audience for this blog post is people that are used to using CNF Cert Suite and `dci-openshift-app-agent`. For a more general overview, please see the [following presentation](https://drive.google.com/file/d/1k_UUOb4tAeWOR5YBYEDQI-531C5L-IVx/view) (based on CNF Cert Suite v3.2.0). Also, please refer to the documentation for tools like dci-openshift-app-agent, CNF Cert Suite, etc. to get more particular details about them.
 
-Note that this blog post is based on CNF Cert Suite v4.2.4. Please check regularly the `cnf-cert` role documentation to see what's new for the latest CNF Cert Suite stable release, because the information you will see in this blog post may be different for different releases than v4.2.4.
+Note that this blog post is based on CNF Cert Suite v4.2.4. Please check regularly the `cnf_cert` role documentation to see what's new for the latest CNF Cert Suite stable release, because the information you will see in this blog post may be different for different releases than v4.2.4.
 
-## Code structure: the cnf-cert role
+## Code structure: the cnf_cert role
 
 This Ansible role, included on `dci-openshift-app-agent`, encapsulates the logic for the CNF Cert Suite, based on the following assumptions regarding the certification suite:
 
@@ -35,7 +35,7 @@ This Ansible role, included on `dci-openshift-app-agent`, encapsulates the logic
 
 ### Tasks executed
 
-After deploying the workloads to be tested by CNF Cert Suite, in the DCI Red Hat `tests` phase, the main `cnf-cert` role is executed, following these steps sequentially on different stages:
+After deploying the workloads to be tested by CNF Cert Suite, in the DCI Red Hat `tests` phase, the main `cnf_cert` role is executed, following these steps sequentially on different stages:
 
 - `pre-run` stage:
     - Save images related to CNF Cert Suite execution in a provided local registry if we are in a disconnected environment.
@@ -70,11 +70,11 @@ After deploying the workloads to be tested by CNF Cert Suite, in the DCI Red Hat
 
 ### Variables to have in mind
 
-The tasks executed on the `cnf-cert` role rely on variables that allow DCI users to provide the configuration needed by `dci-openshift-app-agent` to run the CNF Cert Suite properly.
+The tasks executed on the `cnf_cert` role rely on variables that allow DCI users to provide the configuration needed by `dci-openshift-app-agent` to run the CNF Cert Suite properly.
 
 The configuration does not include the deployment of the workloads (containers, operators, etc.), those steps are done in the `dci-openshift-app-agent` hooks. Then, these configurations for the CNF Cert Suite act on top of the  workloads deployed in the hooks.
 
-The main variables to have in mind, whose default values are [these](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/group_vars/all) for some generic variables, and [these](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/roles/cnf-cert/defaults/main.yml) for some specific variables related to the certification suite, are the following:
+The main variables to have in mind, whose default values are [these](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/group_vars/all) for some generic variables, and [these](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/cnf_cert/defaults/main.yml) for some specific variables related to the certification suite, are the following:
 
 - Generic:
     - `do_cnf_cert`: boolean variable that activates or not the execution of the CNF Cert Suite.
@@ -94,7 +94,7 @@ The main variables to have in mind, whose default values are [these](https://git
     - `accepted_kernel_taints`: allow-list for tainted modules. It must be composed of a list of elements called `module: "<module_name>"`.
     - `tnf_postrun_delete_resources`: boolean variable, to whether or not keep resources after the CNF Cert Suite execution. Used for debugging purposes.
     - `tnf_certified_container_info`: (optional) list of container images to be tested by `affiliated-certification` test suite.
-    - `tnf_env_vars`: dictionary that allows to define environment variables used during CNF Cert Suite execution (such as `TNF_LOG_LEVEL`). It is empty by default and must be filled by the user. The cnf-cert role README includes an [example](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/cnf-cert#example-of-tnf_env_vars-variable) about how to define this variable.
+    - `tnf_env_vars`: dictionary that allows to define environment variables used during CNF Cert Suite execution (such as `TNF_LOG_LEVEL`). It is empty by default and must be filled by the user. The cnf_cert role README includes an [example](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/cnf_cert#example-of-tnf_env_vars-variable) about how to define this variable.
 
     <sup>1</sup> The logic for this requires an implementation. See examples in the following section.
 
@@ -141,7 +141,7 @@ In this section, we will cover an example of execution of a DCI job launching `t
 
 There are two main parts to be configured:
 
-- The settings to be provided to `dci-openshift-app-agent` (using pipelines or directly modifying the `settings.yml` file if using `dci-openshift-app-agent-ctl`). For this, mainly, you need to check the `cnf-cert` role variables that you may want to modify, especially focusing on `tnf_suites` variable.
+- The settings to be provided to `dci-openshift-app-agent` (using pipelines or directly modifying the `settings.yml` file if using `dci-openshift-app-agent-ctl`). For this, mainly, you need to check the `cnf_cert` role variables that you may want to modify, especially focusing on `tnf_suites` variable.
 - The correct labelling of the workloads (deployed manually or through hooks) to be tested by CNF Cert Suite (both pods and operators). In `tnf_test_example`, you have a good example where you can see how these labels are defined in the workloads under test.
 
 ### Job checklist
@@ -259,7 +259,7 @@ Note that, for this example, we have not modified the default values of variable
 
 This blog post has summarized the details to keep in mind when automating the CNF Cert Suite through the `dci-openshift-app-agent` on top of an OpenShift cluster.
 
-For this purpose, we provide a full definition of the `cnf-cert` role with the help of a workload composed by a deployment created in two different namespaces and an operator running in one of the testing namespaces.
+For this purpose, we provide a full definition of the `cnf_cert` role with the help of a workload composed by a deployment created in two different namespaces and an operator running in one of the testing namespaces.
 
 Finally, the work finishes with an example of a DCI job that executes the certification over the workload, showing the main aspects to consider when checking the logs and the job status.
 
