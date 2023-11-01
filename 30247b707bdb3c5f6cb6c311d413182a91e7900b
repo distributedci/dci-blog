@@ -64,6 +64,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5dfcaf55_9b4d83bd",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "558670a7_b325fe21",
+      "range": {
+        "startLine": 8,
+        "startChar": 65,
+        "endLine": 8,
+        "endChar": 71
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f1b1299_38b62be1",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac1eadad_a9bc0770",
+      "range": {
+        "startLine": 8,
+        "startChar": 46,
+        "endLine": 8,
+        "endChar": 55
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "02559498_5749802d",
@@ -77,6 +125,30 @@
       "writtenOn": "2023-10-26T10:47:22Z",
       "side": 1,
       "message": "Assisted Installer, upper case",
+      "range": {
+        "startLine": 19,
+        "startChar": 4,
+        "endLine": 19,
+        "endChar": 22
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03966769_a82fa349",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02559498_5749802d",
       "range": {
         "startLine": 19,
         "startChar": 4,
@@ -110,6 +182,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "db3ffba4_ed5b0cd2",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f090761c_45fcac82",
+      "range": {
+        "startLine": 21,
+        "startChar": 41,
+        "endLine": 21,
+        "endChar": 59
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1406fd1c_1b37c5a3",
@@ -123,6 +219,24 @@
       "writtenOn": "2023-10-25T19:10:13Z",
       "side": 1,
       "message": "do you mention auto attach here? if not, then you also need attaching the system to a policy",
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22b507e6_545ffc97",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1406fd1c_1b37c5a3",
       "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -144,6 +258,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e59f87af_9c23cf56",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "92f6c341_f4efb54c",
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f6caa692_a3b9ede8",
@@ -157,6 +289,30 @@
       "writtenOn": "2023-10-26T10:47:22Z",
       "side": 1,
       "message": "I\u0027d use \\`dci-openshift-agent\\`, with \\`\\`",
+      "range": {
+        "startLine": 41,
+        "startChar": 65,
+        "endLine": 41,
+        "endChar": 84
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1396f8e_8921da38",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f6caa692_a3b9ede8",
       "range": {
         "startLine": 41,
         "startChar": 65,
@@ -236,6 +392,78 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "738c762c_9ca4d975",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "53bf1b56_f196271f",
+      "range": {
+        "startLine": 42,
+        "startChar": 23,
+        "endLine": 42,
+        "endChar": 42
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d092191_037c6489",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f42a4e2f_f544f7cb",
+      "range": {
+        "startLine": 42,
+        "startChar": 104,
+        "endLine": 42,
+        "endChar": 107
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2ea5614_0241521f",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec1430fa_ef26c763",
+      "range": {
+        "startLine": 42,
+        "startChar": 43,
+        "endLine": 42,
+        "endChar": 46
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2680df8e_9cfc308a",
@@ -259,6 +487,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7efe636d_3d2dd467",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2680df8e_9cfc308a",
+      "range": {
+        "startLine": 43,
+        "startChar": 22,
+        "endLine": 43,
+        "endChar": 25
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2394bae2_b08a59ec",
@@ -272,6 +524,24 @@
       "writtenOn": "2023-10-25T19:10:13Z",
       "side": 1,
       "message": "sudo passwd, otherwise you can\u0027t change other user\u0027s password without the old password",
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4140ff91_750da3ec",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2394bae2_b08a59ec",
       "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -312,6 +582,54 @@
       "writtenOn": "2023-10-26T10:47:22Z",
       "side": 1,
       "message": "SSH",
+      "range": {
+        "startLine": 58,
+        "startChar": 78,
+        "endLine": 58,
+        "endChar": 81
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36e51d76_65055daf",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "55c63b28_d5de0ce7",
+      "range": {
+        "startLine": 58,
+        "startChar": 17,
+        "endLine": 58,
+        "endChar": 24
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f83fae63_aef42701",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c4ae0155_c63c2191",
       "range": {
         "startLine": 58,
         "startChar": 78,
@@ -364,6 +682,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ad25776d_a0700b37",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "It will prompt for both user passwords here.  I don\u0027t think I need to call it out.",
+      "parentUuid": "4f649ed5_7a62d6d5",
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "edff828e_43868b63",
         "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
         "patchSetId": 1
@@ -375,6 +711,30 @@
       "writtenOn": "2023-10-26T10:47:22Z",
       "side": 1,
       "message": "Assisted Installer, upper case",
+      "range": {
+        "startLine": 67,
+        "startChar": 5,
+        "endLine": 67,
+        "endChar": 21
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f7183a0c_5eada0bc",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "edff828e_43868b63",
       "range": {
         "startLine": 67,
         "startChar": 5,
@@ -408,6 +768,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a47cbe4f_73c4bf46",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9451de1f_038fa7e6",
+      "range": {
+        "startLine": 78,
+        "startChar": 43,
+        "endLine": 78,
+        "endChar": 73
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e9e7711c_5e5b3368",
@@ -421,6 +805,30 @@
       "writtenOn": "2023-10-26T10:47:22Z",
       "side": 1,
       "message": "NTP",
+      "range": {
+        "startLine": 80,
+        "startChar": 5,
+        "endLine": 80,
+        "endChar": 8
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "adecf751_5ab5728c",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e9e7711c_5e5b3368",
       "range": {
         "startLine": 80,
         "startChar": 5,
@@ -454,6 +862,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7790a245_3a445338",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6b951f34_2e18ad3c",
+      "range": {
+        "startLine": 82,
+        "startChar": 13,
+        "endLine": 82,
+        "endChar": 17
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6bcce462_293776db",
@@ -467,6 +899,30 @@
       "writtenOn": "2023-10-26T10:47:22Z",
       "side": 1,
       "message": "use \\`images_dir\\` instead, with \\`\\`",
+      "range": {
+        "startLine": 84,
+        "startChar": 81,
+        "endLine": 84,
+        "endChar": 93
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85364627_f07c418c",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6bcce462_293776db",
       "range": {
         "startLine": 84,
         "startChar": 81,
@@ -517,6 +973,48 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e770fdb_c4761293",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a1449e9c_6ba30f28",
+      "range": {
+        "startLine": 85,
+        "startChar": 79,
+        "endLine": 85,
+        "endChar": 103
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6638e69_8d374999",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "99fa3d3e_7414e229",
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7e311a54_47043370",
@@ -530,6 +1028,30 @@
       "writtenOn": "2023-10-26T10:47:22Z",
       "side": 1,
       "message": "Do you want to keep using agent-ctl? In our case, right now, we\u0027re promoting dci-pipeline in all our blog posts and documentation, and in fact we\u0027ve already tested assisted with dci-pipeline. Don\u0027t know if should be fine to use a pipeline instead of a settings file here.",
+      "range": {
+        "startLine": 130,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 47
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2bc16c9d_506ce5ba",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "For now yes.",
+      "parentUuid": "7e311a54_47043370",
       "range": {
         "startLine": 130,
         "startChar": 0,
@@ -557,6 +1079,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbe2b76e_8fee6eee",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "659d45ea_6c550aa9",
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "02375d74_8897bc8b",
@@ -570,6 +1110,30 @@
       "writtenOn": "2023-10-26T10:47:22Z",
       "side": 1,
       "message": "DCI OCP agent",
+      "range": {
+        "startLine": 140,
+        "startChar": 4,
+        "endLine": 140,
+        "endChar": 17
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab17d16a_18592cb0",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02375d74_8897bc8b",
       "range": {
         "startLine": 140,
         "startChar": 4,
@@ -626,6 +1190,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2abf939_225764d4",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e2ee1cb_b03e140f",
+      "range": {
+        "startLine": 147,
+        "startChar": 97,
+        "endLine": 147,
+        "endChar": 100
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "528fc813_22397699",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8f185778_971e5ef4",
+      "range": {
+        "startLine": 147,
+        "startChar": 0,
+        "endLine": 147,
+        "endChar": 1
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "75fdc32c_a22a7412",
@@ -639,6 +1251,30 @@
       "writtenOn": "2023-10-26T10:47:22Z",
       "side": 1,
       "message": "RemoteCI",
+      "range": {
+        "startLine": 148,
+        "startChar": 0,
+        "endLine": 148,
+        "endChar": 8
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43ed9dce_9b30522d",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "75fdc32c_a22a7412",
       "range": {
         "startLine": 148,
         "startChar": 0,
@@ -672,6 +1308,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c56ae1e_5501d3c0",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "547a0b7f_bcb16b34",
+      "range": {
+        "startLine": 150,
+        "startChar": 41,
+        "endLine": 150,
+        "endChar": 74
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d727827d_c4bdf324",
@@ -685,6 +1345,30 @@
       "writtenOn": "2023-10-26T10:47:22Z",
       "side": 1,
       "message": "Same than before, shouldn\u0027t we use pipelines here, as we\u0027re promoting it to avoid using agent-ctl if possible as it\u0027s deprecated?",
+      "range": {
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 159,
+        "endChar": 16
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28d6ff0e_9957d4ad",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:01:18Z",
+      "side": 1,
+      "message": "Pipeline still needs work to integrate better.  If it\u0027s the default then it should be a dependency on the dci-openshift-agent rpm.  Who deprecated the agent-ctl?",
+      "parentUuid": "d727827d_c4bdf324",
       "range": {
         "startLine": 159,
         "startChar": 0,
