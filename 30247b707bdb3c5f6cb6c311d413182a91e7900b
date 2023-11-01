@@ -663,6 +663,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "26b0582c_29c1645d",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:02:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d002a7cb_b609f76c",
+      "range": {
+        "startLine": 59,
+        "startChar": 19,
+        "endLine": 59,
+        "endChar": 72
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4f649ed5_7a62d6d5",
@@ -1392,6 +1416,30 @@
       "writtenOn": "2023-10-26T10:47:22Z",
       "side": 1,
       "message": "OCP",
+      "range": {
+        "startLine": 162,
+        "startChar": 10,
+        "endLine": 162,
+        "endChar": 13
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e9440ac_fc5a17b8",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 606
+      },
+      "writtenOn": "2023-11-01T14:02:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bd26cb08_93c92f08",
       "range": {
         "startLine": 162,
         "startChar": 10,
