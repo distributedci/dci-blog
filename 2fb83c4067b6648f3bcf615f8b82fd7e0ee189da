@@ -1,0 +1,8 @@
+Workflow+1: Bill Peck <bill@pecknet.com>
+Verified+2: Zuul CI <zuul@softwarefactory-project.io>
+Code-Review+2: Bill Peck <bill@pecknet.com>
+Submitted-by: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-at: Thu, 02 Nov 2023 13:01:53 +0000
+Reviewed-on: https://softwarefactory-project.io/r/c/dci-blog/+/29906
+Project: dci-blog
+Branch: refs/heads/master
