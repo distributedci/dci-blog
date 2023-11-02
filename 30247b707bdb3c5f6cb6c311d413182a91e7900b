@@ -1086,6 +1086,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b32c6aca_dd727848",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-11-02T11:48:45Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2bc16c9d_506ce5ba",
+      "range": {
+        "startLine": 130,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 47
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "659d45ea_6c550aa9",
@@ -1393,6 +1417,30 @@
       "side": 1,
       "message": "Pipeline still needs work to integrate better.  If it\u0027s the default then it should be a dependency on the dci-openshift-agent rpm.  Who deprecated the agent-ctl?",
       "parentUuid": "d727827d_c4bdf324",
+      "range": {
+        "startLine": 159,
+        "startChar": 0,
+        "endLine": 159,
+        "endChar": 16
+      },
+      "revId": "30247b707bdb3c5f6cb6c311d413182a91e7900b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59dffff3_17e9c675",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-11-02T11:48:45Z",
+      "side": 1,
+      "message": "It\u0027s not officially deprecated, but in our team, we\u0027re trying to use dci-pipeline as much as possible, trying to avoid agent-ctl. Maybe we should have a sync between both DCI and Telco CI regarding this to have it clear. For the moment, let\u0027s go ahead with this current way.",
+      "parentUuid": "28d6ff0e_9957d4ad",
       "range": {
         "startLine": 159,
         "startChar": 0,

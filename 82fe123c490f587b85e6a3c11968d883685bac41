@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "731033da_280a44c8",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-11-02T11:48:45Z",
+      "side": 1,
+      "message": "Needs to be reviewed again, it should be \"libvirt\"",
+      "range": {
+        "startLine": 8,
+        "startChar": 69,
+        "endLine": 8,
+        "endChar": 75
+      },
+      "revId": "82fe123c490f587b85e6a3c11968d883685bac41",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c303ba78_e5dc7e0e",
+        "filename": "content/2023-10-25-assisted-ocp-libvirt.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2023-11-02T11:48:45Z",
+      "side": 1,
+      "message": "For all the cases including \u0027\u0027 in this patchset, it should be this character instead: \\`\\`, this way it\u0027s correctly formatted. This applies to all cases, just commenting it here.",
+      "range": {
+        "startLine": 41,
+        "startChar": 65,
+        "endLine": 41,
+        "endChar": 86
+      },
+      "revId": "82fe123c490f587b85e6a3c11968d883685bac41",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
