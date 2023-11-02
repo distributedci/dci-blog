@@ -16,6 +16,24 @@
       "message": "I think something got mixed up, I see the post in this change is about DOA/DOAA hooks and not IDMS, the images are fine though! 😄",
       "revId": "779b8e0f38440eae8e523bafdf069cd16b063e77",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07b42d77_e6bdb1b4",
+        "filename": "content/2023-11-30-openshift-agent-hooks.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 667
+      },
+      "writtenOn": "2023-11-02T20:46:16Z",
+      "side": 1,
+      "message": "added the wrong one, thanks, fixing that now",
+      "parentUuid": "1c507c33_6841c72e",
+      "revId": "779b8e0f38440eae8e523bafdf069cd16b063e77",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
