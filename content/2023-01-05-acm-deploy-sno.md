@@ -23,12 +23,12 @@ The YAML file contains information about the SNO instance, the target hosts, and
 `inventory.yml`
 
     all:
-    hosts:
-        jumphost:
-        ansible_connection: local
-        provisioner:
-        ansible_connection: local
-        ansible_user: dciteam
+        hosts:
+            jumphost:
+                ansible_connection: local
+            provisioner:
+                ansible_connection: local
+                ansible_user: dciteam
     vars:
         cluster: serverX-sno
         dci_disconnected: true
