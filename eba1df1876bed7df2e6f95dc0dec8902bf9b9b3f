@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c14afec_b45eebfc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-01-15T14:37:02Z",
+      "side": 1,
+      "message": "Hi Beto,\n\nI was reviewing your blog post in order to learn how DCI/ACM worked and found this inventory sample that seems not to be correctly indexed.\n\nPlease, consider approving the CR if you agree with me.",
+      "revId": "eba1df1876bed7df2e6f95dc0dec8902bf9b9b3f",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
