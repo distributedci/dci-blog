@@ -33,6 +33,23 @@
       "message": "Thanks Nacho!",
       "revId": "eba1df1876bed7df2e6f95dc0dec8902bf9b9b3f",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36f40475_8f0554f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-01-18T11:14:03Z",
+      "side": 1,
+      "message": "Thanks for the review.",
+      "revId": "eba1df1876bed7df2e6f95dc0dec8902bf9b9b3f",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
