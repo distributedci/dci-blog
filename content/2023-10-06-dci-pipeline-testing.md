@@ -1,5 +1,6 @@
 Title: Practical examples of dci-pipeline usage to speed up your OCP cluster testing
 Date: 2023-10-06 10:00
+Modified: 2024-02-06 10:00
 Category: divulgation
 Tags: dci, dci-pipeline, testing
 Slug: dci-pipeline-testing
@@ -147,13 +148,9 @@ Here, we're providing a new extravars for the `ocp-vanilla` pipeline, and overri
 
 Imagine you already have an up-and-running OCP cluster (e.g. with OCP 4.13), and you only want to run a CNF job (e.g. `cnf1`) in that cluster (e.g. `cluster2`). You can do it!
 
-        $ DCI_QUEUE_RESOURCE=cluster2 dci-pipeline-schedule cnf1 first-cnf:ansible_extravars=kubeconfig_path:/path/to/cluster2/kubeconfig first-cnf:topic=OCP-4.13
+        $ DCI_QUEUE_RESOURCE=cluster2 dci-pipeline-schedule cnf1
 
-For this case, you need to provide three variables:
-
-- The cluster you want to use (remember to reserve it).
-- The correct `kubeconfig_path`, pointing to the kubeconfig from the cluster you have up and running.
-- The OCP topic related to the OCP version you're launching.
+For this case, you just need to provide the cluster you want to use (remember to reserve it). The `dci-pipeline-schedule` command will retrieve the `kubeconfig_path` from your pipeline or your inventory file (so don't forget to define it in any of these files), and will infer the OCP topic based on the OCP version running in the cluster.
 
 ## Scheduling a job in a resource from a different queue
 
