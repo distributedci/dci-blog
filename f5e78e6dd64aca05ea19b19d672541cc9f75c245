@@ -33,6 +33,483 @@
       "message": "Thanks for your review Manny! I will hold on this change until Friday, to see if there are more reviews, then I will merge.",
       "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57156e2c_d2ff894d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "Thanks Ramon, just some suggestions. Cheers!",
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc376dc6_6bf7e9bb",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "Maybe: \"on locating the resources provided by our DCI agents (dci-openshift-agent, dci-openshift-app-agent, and dci-pipeline) on the server used to launch these agents\"",
+      "range": {
+        "startLine": 8,
+        "startChar": 48,
+        "endLine": 8,
+        "endChar": 216
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a04a48c_d33e672c",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "Some DCI users may not clearly understand how",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 63
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b98b1278_f568be39",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "Currently, the README documentation",
+      "range": {
+        "startLine": 16,
+        "startChar": 1,
+        "endLine": 16,
+        "endChar": 52
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a92081b_74142cd5",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "and their roles in the execution process",
+      "range": {
+        "startLine": 16,
+        "startChar": 268,
+        "endLine": 16,
+        "endChar": 314
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e0065f6_12f9435d",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "If you look at the GitHub repositories mentioned earlier",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 51
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2cc68074_c9a59df7",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "are beyond the scope",
+      "range": {
+        "startLine": 32,
+        "startChar": 208,
+        "endLine": 32,
+        "endChar": 232
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04d9e551_96392562",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "In addition to placing",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 10
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea4664c7_d4e98c3f",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "and identifying their location",
+      "range": {
+        "startLine": 34,
+        "startChar": 125,
+        "endLine": 34,
+        "endChar": 173
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ffb8679_c9b107e2",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "let\u0027s delve into the",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 34,
+        "endChar": 20
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "321ab785_f514bc2e",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "on",
+      "range": {
+        "startLine": 34,
+        "startChar": 199,
+        "endLine": 34,
+        "endChar": 201
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a8f3dae1_14f79cb0",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "This directory contains configuration files placed by the RPM, primarily templates.",
+      "range": {
+        "startLine": 40,
+        "startChar": 30,
+        "endLine": 40,
+        "endChar": 110
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b8dd93ea_bc52a70e",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "Is a directory that acts as a placeholder",
+      "range": {
+        "startLine": 42,
+        "startChar": 14,
+        "endLine": 42,
+        "endChar": 20
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "41c9f1ae_752df667",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "artifacts",
+      "range": {
+        "startLine": 49,
+        "startChar": 24,
+        "endLine": 49,
+        "endChar": 33
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84d44e14_abbee593",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "Under the samples directory,",
+      "range": {
+        "startLine": 50,
+        "startChar": 34,
+        "endLine": 50,
+        "endChar": 66
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d743ec75_0628adf2",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "I think you can remove \"Again\"",
+      "range": {
+        "startLine": 54,
+        "startChar": 215,
+        "endLine": 54,
+        "endChar": 221
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea03e52a_3e99a555",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "it focuses",
+      "range": {
+        "startLine": 54,
+        "startChar": 97,
+        "endLine": 54,
+        "endChar": 117
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e65a6a83_70919e29",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "Here, you will find the presence of dcirc.sh.dist or settings.yml",
+      "range": {
+        "startLine": 56,
+        "startChar": 128,
+        "endLine": 56,
+        "endChar": 184
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad9eb436_4f74ffcb",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "I think \"Again\" is not necessary.",
+      "range": {
+        "startLine": 57,
+        "startChar": 41,
+        "endLine": 57,
+        "endChar": 46
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e428e24_c883255c",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": "it differs from the agents as",
+      "range": {
+        "startLine": 62,
+        "startChar": 27,
+        "endLine": 62,
+        "endChar": 52
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4c8b8025_16cd1e39",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-06-05T20:46:39Z",
+      "side": 1,
+      "message": ", also with `podman` flavour,",
+      "range": {
+        "startLine": 65,
+        "startChar": 114,
+        "endLine": 65,
+        "endChar": 144
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
