@@ -16,6 +16,23 @@
       "message": "LGTM",
       "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "809b1f74_f33caa8a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-05T06:49:20Z",
+      "side": 1,
+      "message": "Thanks for your review Manny! I will hold on this change until Friday, to see if there are more reviews, then I will merge.",
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
