@@ -52,6 +52,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0bff07eb_bca3eaba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Thanks Beto for your review! I\u0027ve applied all your feedback and updated the publication date to align with the file name.",
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cc376dc6_6bf7e9bb",
@@ -75,6 +92,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3824fd7c_01deaf8e",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "cc376dc6_6bf7e9bb",
+      "range": {
+        "startLine": 8,
+        "startChar": 48,
+        "endLine": 8,
+        "endChar": 216
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4a04a48c_d33e672c",
@@ -88,6 +129,30 @@
       "writtenOn": "2024-06-05T20:46:39Z",
       "side": 1,
       "message": "Some DCI users may not clearly understand how",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 63
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49ff1d50_4e559a4a",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "4a04a48c_d33e672c",
       "range": {
         "startLine": 14,
         "startChar": 0,
@@ -144,6 +209,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d95a4bc_a0d804fd",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5a92081b_74142cd5",
+      "range": {
+        "startLine": 16,
+        "startChar": 268,
+        "endLine": 16,
+        "endChar": 314
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f6f2529_1790ab82",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b98b1278_f568be39",
+      "range": {
+        "startLine": 16,
+        "startChar": 1,
+        "endLine": 16,
+        "endChar": 52
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3e0065f6_12f9435d",
@@ -157,6 +270,30 @@
       "writtenOn": "2024-06-05T20:46:39Z",
       "side": 1,
       "message": "If you look at the GitHub repositories mentioned earlier",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 51
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02b7da68_4e43201f",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "3e0065f6_12f9435d",
       "range": {
         "startLine": 26,
         "startChar": 0,
@@ -208,6 +345,54 @@
         "startChar": 0,
         "endLine": 32,
         "endChar": 10
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "744d403f_13bbefcf",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "04d9e551_96392562",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 10
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08e0fb03_a67d88c1",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2cc68074_c9a59df7",
+      "range": {
+        "startLine": 32,
+        "startChar": 208,
+        "endLine": 32,
+        "endChar": 232
       },
       "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
@@ -282,6 +467,78 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d5c003a_e65ac8ec",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7ffb8679_c9b107e2",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 34,
+        "endChar": 20
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4503845c_a00e462e",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "321ab785_f514bc2e",
+      "range": {
+        "startLine": 34,
+        "startChar": 199,
+        "endLine": 34,
+        "endChar": 201
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cb4ffe6_b8c8c6a2",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ea4664c7_d4e98c3f",
+      "range": {
+        "startLine": 34,
+        "startChar": 125,
+        "endLine": 34,
+        "endChar": 173
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a8f3dae1_14f79cb0",
@@ -295,6 +552,30 @@
       "writtenOn": "2024-06-05T20:46:39Z",
       "side": 1,
       "message": "This directory contains configuration files placed by the RPM, primarily templates.",
+      "range": {
+        "startLine": 40,
+        "startChar": 30,
+        "endLine": 40,
+        "endChar": 110
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9325ee10_213f5a85",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a8f3dae1_14f79cb0",
       "range": {
         "startLine": 40,
         "startChar": 30,
@@ -328,6 +609,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "82cbedba_18a759c3",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b8dd93ea_bc52a70e",
+      "range": {
+        "startLine": 42,
+        "startChar": 14,
+        "endLine": 42,
+        "endChar": 20
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "41c9f1ae_752df667",
@@ -351,6 +656,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bf5d0d6_58fb2282",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "41c9f1ae_752df667",
+      "range": {
+        "startLine": 49,
+        "startChar": 24,
+        "endLine": 49,
+        "endChar": 33
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "84d44e14_abbee593",
@@ -364,6 +693,30 @@
       "writtenOn": "2024-06-05T20:46:39Z",
       "side": 1,
       "message": "Under the samples directory,",
+      "range": {
+        "startLine": 50,
+        "startChar": 34,
+        "endLine": 50,
+        "endChar": 66
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1fe40205_3c6faed5",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "84d44e14_abbee593",
       "range": {
         "startLine": 50,
         "startChar": 34,
@@ -420,6 +773,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4d5a088_7c31f950",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ea03e52a_3e99a555",
+      "range": {
+        "startLine": 54,
+        "startChar": 97,
+        "endLine": 54,
+        "endChar": 117
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73374971_a3329fa6",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d743ec75_0628adf2",
+      "range": {
+        "startLine": 54,
+        "startChar": 215,
+        "endLine": 54,
+        "endChar": 221
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e65a6a83_70919e29",
@@ -433,6 +834,30 @@
       "writtenOn": "2024-06-05T20:46:39Z",
       "side": 1,
       "message": "Here, you will find the presence of dcirc.sh.dist or settings.yml",
+      "range": {
+        "startLine": 56,
+        "startChar": 128,
+        "endLine": 56,
+        "endChar": 184
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1f33c7b_b4b23dc1",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e65a6a83_70919e29",
       "range": {
         "startLine": 56,
         "startChar": 128,
@@ -466,6 +891,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3694b742_202db75b",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "ad9eb436_4f74ffcb",
+      "range": {
+        "startLine": 57,
+        "startChar": 41,
+        "endLine": 57,
+        "endChar": 46
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e428e24_c883255c",
@@ -489,6 +938,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b153565b_4e1ca5cf",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5e428e24_c883255c",
+      "range": {
+        "startLine": 62,
+        "startChar": 27,
+        "endLine": 62,
+        "endChar": 52
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4c8b8025_16cd1e39",
@@ -502,6 +975,30 @@
       "writtenOn": "2024-06-05T20:46:39Z",
       "side": 1,
       "message": ", also with `podman` flavour,",
+      "range": {
+        "startLine": 65,
+        "startChar": 114,
+        "endLine": 65,
+        "endChar": 144
+      },
+      "revId": "f5e78e6dd64aca05ea19b19d672541cc9f75c245",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f24a9dc9_5695bba6",
+        "filename": "content/2024-06-04-directory-structure-dci-agents.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-06T08:48:32Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "4c8b8025_16cd1e39",
       "range": {
         "startLine": 65,
         "startChar": 114,
