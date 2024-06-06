@@ -1,0 +1,8 @@
+Code-Review+2: Beto Rodríguez <josearod@redhat.com>
+Verified+2: Zuul CI <zuul@softwarefactory-project.io>
+Workflow+1: Ramon Perez <raperez@redhat.com>
+Submitted-by: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-at: Thu, 06 Jun 2024 14:34:05 +0000
+Reviewed-on: https://softwarefactory-project.io/r/c/dci-blog/+/31619
+Project: dci-blog
+Branch: refs/heads/master
