@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "491792b1_7e311b32",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-24T11:29:14Z",
+      "side": 1,
+      "message": "just a minor review to correct some minor things, rest looks fine since we\u0027ve already reviewed it in Google Docs.",
+      "revId": "fe45dcc88ca3cc983663af14ddc89b3dcfddde87",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "464c5df0_2896f0b9",
+        "filename": "content/2024-07-26-from-ipi-to-abi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-24T11:29:14Z",
+      "side": 1,
+      "message": "2024-06-26",
+      "range": {
+        "startLine": 2,
+        "startChar": 11,
+        "endLine": 2,
+        "endChar": 13
+      },
+      "revId": "fe45dcc88ca3cc983663af14ddc89b3dcfddde87",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df35eff3_3e54abfb",
+        "filename": "content/2024-07-26-from-ipi-to-abi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-24T11:29:14Z",
+      "side": 1,
+      "message": "You can put you first Tania, you did most of the work here, don\u0027t hesitate :)",
+      "revId": "fe45dcc88ca3cc983663af14ddc89b3dcfddde87",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27c7fa3e_83c94e8d",
+        "filename": "content/2024-07-26-from-ipi-to-abi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-24T11:29:14Z",
+      "side": 1,
+      "message": "may we add some extra line breaks between each paragraph on this subsection?",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 288
+      },
+      "revId": "fe45dcc88ca3cc983663af14ddc89b3dcfddde87",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf9545f2_ec942ed6",
+        "filename": "content/2024-07-26-from-ipi-to-abi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-24T11:29:14Z",
+      "side": 1,
+      "message": "some white spaces here to be removed",
+      "range": {
+        "startLine": 97,
+        "startChar": 86,
+        "endLine": 97,
+        "endChar": 87
+      },
+      "revId": "fe45dcc88ca3cc983663af14ddc89b3dcfddde87",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
