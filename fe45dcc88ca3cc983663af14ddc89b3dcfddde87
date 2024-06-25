@@ -124,6 +124,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "482b3782_0915ffe4",
+        "filename": "content/2024-07-26-from-ipi-to-abi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-06-25T10:35:10Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "04c352f1_322500d9",
+      "revId": "fe45dcc88ca3cc983663af14ddc89b3dcfddde87",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "27c7fa3e_83c94e8d",
