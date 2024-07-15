@@ -1,0 +1,279 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f62f778e_d075bb98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "Some minor comments from my side, but the blog post looks mostly good",
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e450feed_bef1cf2f",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "space here to separate \"jumpbox\" and \"a\" ? so, on a jimpbox - a RHEL...",
+      "range": {
+        "startLine": 20,
+        "startChar": 53,
+        "endLine": 20,
+        "endChar": 54
+      },
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df605a88_9da833ea",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "Should you also redirect to DCI documentation regarding how to properly install and configure DCI agents, dci-pipeline, dci-queue, etc.?",
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8271509a_399b672c",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "\\`preflight_containers_to_certify\\`, use quotes to remark that it is a variable",
+      "range": {
+        "startLine": 28,
+        "startChar": 195,
+        "endLine": 28,
+        "endChar": 226
+      },
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "976ac2a0_5b925863",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 28,
+        "startChar": 392,
+        "endLine": 28,
+        "endChar": 406
+      },
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d91df2e0_84e232bc",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 28,
+        "startChar": 315,
+        "endLine": 28,
+        "endChar": 325
+      },
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7cbe86b1_a991d8d8",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 28,
+        "startChar": 330,
+        "endLine": 28,
+        "endChar": 350
+      },
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a45c382e_f7569f6e",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 28,
+        "startChar": 256,
+        "endLine": 28,
+        "endChar": 286
+      },
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0597d9bf_3e9b36fb",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "preflight_containers_to_certify, lower case",
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ebde2c9a_9a0746af",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "preflight_operators_to_certify, lower case",
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9414468c_e5967301",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 74,
+        "startChar": 94,
+        "endLine": 74,
+        "endChar": 124
+      },
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5117dfd_e1aa9752",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 74,
+        "startChar": 53,
+        "endLine": 74,
+        "endChar": 84
+      },
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5c71aab_384aa4db",
+        "filename": "content/2024-07-17-certification-with-dci-on-rosa.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-07-15T12:12:47Z",
+      "side": 1,
+      "message": "cnf_to_certify, lower case",
+      "range": {
+        "startLine": 98,
+        "startChar": 4,
+        "endLine": 98,
+        "endChar": 18
+      },
+      "revId": "f63963c018996a11fa7780342a0c2518d44699c8",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
