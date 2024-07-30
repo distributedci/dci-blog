@@ -1,5 +1,6 @@
 Title: Mastering dci-check-change
 Date: 2023-01-20 10:00
+Modified: 2024-31-07 10:00
 Category: how-to
 Tags: dci-openshift-agent, dci-openshift-app-agent, developers, dci-check-change, prefixes
 Slug: mastering-dci-check-change
@@ -50,7 +51,7 @@ You already know that hints allow tunning the execution of the debug job that is
 - Deployment-related hints:
     - `Test-Hints`: this allows you to select a specific deployment to be run by `dci-openshift-agent`. By default, it will run a virtualized IPI deployment (`libvirt` type), but you can select many others, as you can see in the docs: `sno`, `assisted`, etc., or you can even omit the run of a check with `no-check`. This [Gerrit change example](https://softwarefactory-project.io/r/c/dci-openshift-agent/+/25624) runs a change with an `assisted` deployment, for instance.
     - `Test-Upgrade-Hint`: if activated, it runs an upgrade job after your base deployment, like in this [case](https://softwarefactory-project.io/r/c/dci-openshift-agent/+/26403).
-    - `Test-App-Hints`: this allows you to select a specific deployment to be run by `dci-openshift-app-agent`, among the ones saved in its [samples folder](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples). By default, it runs `control_plane_example`, but you can also select `tnf_test_example` if you want to run a deployment that also performs [CNF Cert Suite](cnf-cert-suite-with-dci-openshift-app-agent) over the workloads deployed. Here we have an [example](https://softwarefactory-project.io/r/c/dci-openshift-app-agent/+/27139) running this deployment, with extra arguments.
+    - `Test-App-Hints`: this allows you to select a specific deployment to be run by `dci-openshift-app-agent`, among the ones saved in its [samples folder](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples). By default, it runs `control_plane_example`, but you can also select `tnf_test_example` if you want to run a deployment that also performs [Red Hat Best Practices for Kubernetes test suite](cnf-cert-suite-with-dci-openshift-app-agent) over the workloads deployed. Here we have an [example](https://softwarefactory-project.io/r/c/dci-openshift-app-agent/+/27139) running this deployment, with extra arguments.
 - Argument-related hints (in the examples provided above for deployment-related hints, you can see they combine them with the argument-related hints presented above):
     - These two hints, `Test-Args-Hints` and `Test-App-Args-Hints`, allow to provide extra variables to the jobs that are running with `dci-openshift-agent` and `dci-openshift-app-agent` respectively. These can be provided in two ways ([this change](https://softwarefactory-project.io/r/c/dci-openshift-app-agent/+/27139) previously commented has examples for both cases):
         - `-e <variable name>=<value>` for simple variables.

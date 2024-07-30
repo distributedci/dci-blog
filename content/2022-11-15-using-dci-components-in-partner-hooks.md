@@ -1,6 +1,6 @@
 Title: Using DCI components in partner hooks
 Date: 2022-11-15 10:00
-Modified: 2023-05-08 10:00
+Modified: 2024-31-07 10:00
 Category: how-to
 Tags: dci-components, partner-hooks, cnf-cert-suite, dci-openshift-app-agent, certification, partners
 Slug: using-dci-components-in-partner-hooks
@@ -19,7 +19,7 @@ DCI components are really useful for establishing efficient CI workflows with pa
 3. Use the components data in partner hooks.
 4. Launch a DCI job using components.
 
-To show this workflow, we will follow the [tnf_test_example](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples/tnf_test_example) from `dci-openshift-app-agent`, which is a good example that contains all the configuration needed to run components in DCI jobs, then retrieving the data needed from the component and using it in the hooks to run CNF Cert Suite over the deployed workloads.
+To show this workflow, we will follow the [tnf_test_example](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples/tnf_test_example) from `dci-openshift-app-agent`, which is a good example that contains all the configuration needed to run components in DCI jobs, then retrieving the data needed from the component and using it in the hooks to run Red Hat Best Practices for Kubernetes test suite over the deployed workloads.
 
 Some other examples will be shown to see the different ways we can use DCI components.
 
@@ -178,7 +178,7 @@ Firstly, we need to reference the component in the configuration file we use to 
             dci_config_dir: "/var/lib/dci-openshift-app-agent/samples/tnf_test_example"
             dci_components_by_query: ["type:tnf_test_example,name:v0.0.1"]
             do_cnf_cert: true
-            tnf_config:
+            kbpc_test_config:
               - namespace: "test-cnf"
                 targetpodlabels: [environment=test]
                 targetoperatorlabels: [operators.coreos.com/mongodb-enterprise.test-cnf=]
@@ -198,7 +198,7 @@ Firstly, we need to reference the component in the configuration file we use to 
             dci_config_dir: "/var/lib/dci-openshift-app-agent/samples/tnf_test_example"
             dci_components_by_query: ["type:tnf_test_example"]
             do_cnf_cert: true
-            tnf_config:
+            kbpc_test_config:
               - namespace: "test-cnf"
                 targetpodlabels: [environment=test]
                 targetoperatorlabels: [operators.coreos.com/mongodb-enterprise.test-cnf=]
@@ -217,7 +217,7 @@ Both `dci-openshift-agent` and `dci-openshift-app-agent` use `job_info` variable
 
 For example, in `tnf_test_example`, that variable is used to retrieve the data contained in the component:
 
-        - name: Get tnf variables from tnf_test_example component
+        - name: Get variables from tnf_test_example component
           set_fact:
             tnf_app_image: "{{ item['data']['tnf_app_image'] }}"
             tnf_operator_to_install: "{{ item['data']['tnf_operator_to_install'] }}"
@@ -233,8 +233,8 @@ With all this done, you are now ready to run your DCI jobs using components!
 
 Let's suppose the following examples of DCI jobs that come from `tnf_test_example` component, which show why we need two versions for this particular component:
 
-1. We started using `v0.0.1`, our super-first release of our component, to be tested with CNF Cert Suite. But the job [failed](https://www.distributed-ci.io/jobs/048fbffb-e2dc-4f49-9d62-ae438d7446f7/jobStates?sort=date), the results from certification suite were not the expected ones! Note that, in the job, you can see the component under the Components list as `Tnf_test_example v0.0.1`
-2. After troubleshooting, it was discovered that the operator used was not certified by Red Hat, so the development team released `v0.0.2`, using a certified operator. We relaunched the job by just changing the component version (or directly using the latest, without specifying version), and now… it [worked](https://www.distributed-ci.io/jobs/04d8713d-9480-4741-8f10-deabc13d746c/jobStates?sort=date)! Again, you can see that `Tnf_test_example v0.0.2` component is present under the Components list, and that a success fix is calculated for the CNF Cert Suite tests (because there is now one test that is passing and it was not passing in the previous component version) as the same component type is used for the same OCP topic.
+1. We started using `v0.0.1`, our super-first release of our component, to be tested with Red Hat Best Practices for Kubernetes test suite. But the job [failed](https://www.distributed-ci.io/jobs/048fbffb-e2dc-4f49-9d62-ae438d7446f7/jobStates?sort=date), the results from certification suite were not the expected ones! Note that, in the job, you can see the component under the Components list as `Tnf_test_example v0.0.1`
+2. After troubleshooting, it was discovered that the operator used was not certified by Red Hat, so the development team released `v0.0.2`, using a certified operator. We relaunched the job by just changing the component version (or directly using the latest, without specifying version), and now… it [worked](https://www.distributed-ci.io/jobs/04d8713d-9480-4741-8f10-deabc13d746c/jobStates?sort=date)! Again, you can see that `Tnf_test_example v0.0.2` component is present under the Components list, and that a success fix is calculated for the Red Hat Best Practices for Kubernetes test suite tests (because there is now one test that is passing and it was not passing in the previous component version) as the same component type is used for the same OCP topic.
 
 And if we go to DCI GUI and return again to the component view, we will be able to see some statistics:
 
@@ -318,6 +318,6 @@ Please check the following documentation as references that supports this work:
 - Blog posts:
     - [How to automate DCI components creation](automate-dci-components.html).
     - [Customizable Ansible pipelines for Telco partners using DCI](customizable-ansible-hooks.html).
-    - [Running CNF Cert Suite certification with dci-openshift-app-agent](cnf-cert-suite-with-dci-openshift-app-agent.html).
+    - [Running Red Hat Best Practices for Kubernetes test suite with dci-openshift-app-agent](cnf-cert-suite-with-dci-openshift-app-agent.html).
 
 ---
