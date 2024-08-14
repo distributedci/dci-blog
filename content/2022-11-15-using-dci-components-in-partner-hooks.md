@@ -1,6 +1,6 @@
 Title: Using DCI components in partner hooks
 Date: 2022-11-15 10:00
-Modified: 2024-31-07 10:00
+Modified: 2024-08-14 10:00
 Category: how-to
 Tags: dci-components, partner-hooks, cnf-cert-suite, dci-openshift-app-agent, certification, partners
 Slug: using-dci-components-in-partner-hooks
@@ -56,7 +56,7 @@ For the case of `tnf_test_example`, let's see what we have to do to meet the fol
 - Data to be used in `v0.0.1` (in JSON format):
 
         {
-          "tnf_app_image": "registry.dfwt5g.lab:4443/testnetworkfunction/cnf-test-partner:latest",
+          "tnf_app_image": "registry.dfwt5g.lab:4443/redhat-best-practices-for-k8s/cnf-test-partner:latest",
           "tnf_helm_chart_to_install": {
             "app_version": "1-42",
             "chart_url": "https://github.com/openshift-helm-charts/charts/releases/download/fredco-samplechart-0.1.3/fredco-samplechart-0.1.3.tgz",
@@ -72,7 +72,7 @@ For the case of `tnf_test_example`, let's see what we have to do to meet the fol
 - Data to be used in `v0.0.2` (in JSON format):
 
         {
-          "tnf_app_image": "registry.dfwt5g.lab:4443/testnetworkfunction/cnf-test-partner:latest",
+          "tnf_app_image": "registry.dfwt5g.lab:4443/redhat-best-practices-for-k8s/cnf-test-partner:latest",
           "tnf_helm_chart_to_install": {
             "app_version": "1-42",
             "chart_url": "https://github.com/openshift-helm-charts/charts/releases/download/fredco-samplechart-0.1.3/fredco-samplechart-0.1.3.tgz",
@@ -182,12 +182,12 @@ Firstly, we need to reference the component in the configuration file we use to 
               - namespace: "test-cnf"
                 targetpodlabels: [environment=test]
                 targetoperatorlabels: [operators.coreos.com/mongodb-enterprise.test-cnf=]
-                target_crds: ["crdexamples.test-network-function.com"]
+                target_crds: ["crdexamples.redhat-best-practices-for-k8s.com"]
                 exclude_connectivity_regexp: ""
               - namespace: "production-cnf"
                 targetpodlabels: [environment=production]
                 targetoperatorlabels: []
-                target_crds: ["crdexamples.test-network-function.com"]
+                target_crds: ["crdexamples.redhat-best-practices-for-k8s.com"]
                 exclude_connectivity_regexp: ""
             ...
 
@@ -202,12 +202,12 @@ Firstly, we need to reference the component in the configuration file we use to 
               - namespace: "test-cnf"
                 targetpodlabels: [environment=test]
                 targetoperatorlabels: [operators.coreos.com/mongodb-enterprise.test-cnf=]
-                target_crds: ["crdexamples.test-network-function.com"]
+                target_crds: ["crdexamples.redhat-best-practices-for-k8s.com"]
                 exclude_connectivity_regexp: ""
               - namespace: "production-cnf"
                 targetpodlabels: [environment=production]
                 targetoperatorlabels: []
-                target_crds: ["crdexamples.test-network-function.com"]
+                target_crds: ["crdexamples.redhat-best-practices-for-k8s.com"]
                 exclude_connectivity_regexp: ""
             ...
 
