@@ -1,6 +1,6 @@
 Title: Running Red Hat Best Practices for Kubernetes test suite with dci-openshift-app-agent
 Date: 2022-05-06 10:00
-Modified: 2024-07-31 10:00
+Modified: 2024-08-14 10:00
 Category: how-to
 Tags: cnf-cert-suite, certsuite, k8s_best_practices_certsuite, dci-openshift-app-agent, certification, partners
 Slug: cnf-cert-suite-with-dci-openshift-app-agent
@@ -14,7 +14,7 @@ Summary: The dci-openshift-app-agent enables Cloud-Native Applications and Opera
 
 The [dci-openshift-app-agent](https://github.com/redhat-cip/dci-openshift-app-agent) supports the execution of multiple test suites to validate containers, virtual functions, Helm charts, and operators. These suites are built as Ansible roles, helping the partners on getting prepared for the Red Hat certifications or actually running the certification process on the workloads deployed via DCI.
 
-One of the test suites included on `dci-openshift-app-agent` is the [Red Hat Best Practices for Kubernetes test suite](https://github.com/test-network-function/cnf-certification-test) (also called certsuite), to simplify this set of testing tools. Thanks to this integration, it is possible to run the certification tools on a daily basis with the automation capabilities provided by DCI, validating that the tested workloads are ready for certification.
+One of the test suites included on `dci-openshift-app-agent` is the [Red Hat Best Practices for Kubernetes test suite](https://github.com/redhat-best-practices-for-k8s/certsuite) (also called certsuite), to simplify this set of testing tools. Thanks to this integration, it is possible to run the certification tools on a daily basis with the automation capabilities provided by DCI, validating that the tested workloads are ready for certification.
 
 This blog post is useful for people getting familiar with  the usage of the certsuite using `dci-openshift-app-agent` as a tool to automate the whole process. We are going to focus mainly in 3 areas:
 
@@ -38,9 +38,9 @@ This Ansible role, included on `dci-openshift-app-agent`, encapsulates the logic
 After deploying the workloads to be tested by the certsuite, in the DCI Red Hat `tests` phase, the main `k8s_best_practices_certsuite` role is executed if `do_certsuite` flag is set to `true`, following these steps sequentially on different stages:
 
 - `pre-run` stage:
-    - Detect if we are testing a pull request from cnf-certification-test repository or a stable branch, to select the proper certsuite container image.
+    - Detect if we are testing a pull request from certsuite repository or a stable branch, to select the proper certsuite container image.
         - If testing a pull request, the container image is built, based on the code included in the pull request. A customized DCI component is also created based on the latest commit SHA hash in the pull request.
-        - If testing a stable branch, the container image is downloaded from Quay and the `cnf-certification-test` repo is cloned in a temporary folder.
+        - If testing a stable branch, the container image is downloaded from Quay and the `certsuite` repo is cloned in a temporary folder.
     - Save images related to the certsuite execution in a provided local registry if we are in a disconnected environment.
 - `tests` stage:
     - Generate the configuration file, based on a template, which takes care of filling the following fields (which are the ones currently supported on `k8s_best_practices_certsuite` role):
@@ -58,7 +58,7 @@ After deploying the workloads to be tested by the certsuite, in the DCI Red Hat 
         - The XML file containing the test results in JUnit format.
         - Log files containing the standard output and standard error from the execution of the certification suite.
         - A tar.gz file containing the summary of the execution, including the HTML web page with the report of the execution, also embedding the feedback provided by the partner if it exists.
-    - If we are testing a stable branch, it confirms if what we have executed corresponds to what we have cloned from `cnf-certification-test` repository. This is useful to determine if, when testing HEAD branch, the latest changes are really present in Quay.
+    - If we are testing a stable branch, it confirms if what we have executed corresponds to what we have cloned from `certsuite` repository. This is useful to determine if, when testing HEAD branch, the latest changes are really present in Quay.
 - `teardown` stage:
     - The environment is cleaned in the following way:
         - Clean the certsuite resources if desired (e.g. default namespaces, daemonsets, etc. created during the execution).
@@ -105,7 +105,7 @@ Before executing the certsuite, it is needed to deploy the workloads and to labe
 
 This example deploys a couple of pods in two different namespaces, to be used with the CNF Test Suite in a multi-namespace scenario. It also allows the possibility of deploying an operator and a Helm chart to also test them with the certsuite.
 
-The Deployment specification of this pod, obtained from [this repository](https://github.com/test-network-function/cnf-certification-test-partner/blob/main/test-target/local-pod-under-test.yaml), is a suitable one for passing all the test suites from the certsuite.
+The Deployment specification of this pod, obtained from [this repository](https://github.com/redhat-best-practices-for-k8s/certsuite-sample-workload/blob/main/test-target/local-pod-under-test.yaml), is a suitable one for passing all the test suites from the certsuite.
 
 ### Hooks implemented
 
@@ -155,7 +155,7 @@ When running a job launching the certsuite, you need to confirm that:
 - Test results are displayed.
     - If they are not displayed (and probably, you will not see the log files in Files section, excepting `certsuite.log` and `certsuite-stdout.log`) - something has happened during the certsuite execution. Check these log files and see what happened.
 - In Files section, you should see the following logs:
-    - `cnf-certification-tests_junit.xml`:
+    - `certsuites_junit.xml`:
         - It contains the results of the certsuite execution.
         - You’ll see the passed, skipped and failed tests like this (better to see them on DCI GUI rather than in the XML file).
         - On each test, regardless of the result, if you check for more details, you will see the output, error messages, etc. to troubleshoot afterwards.
@@ -182,7 +182,7 @@ Up to this point, what happens if...
 - ...tests are displayed but the workloads tested were not the expected ones? Then, read `tnf_config.yml` file and confirm you are testing what you want. If not, recheck `kbpc_test_config` variable and change it accordingly.
 - ...tests are displayed but we have failed unit tests? Follow the log messages and troubleshoot.
 - ...the job is still running and it is stuck on the certsuite execution? In this case, we would not be able to see the log files generated during the execution, as they are created just after finishing the execution (e.g. `certsuite-stdout.log` file is created by redirecting the output of the certsuite execution to that file). In this case, you will have to navigate to the source path where these files are created and then check them. This can be done in the following way:
-    - Firstly, locate the temporary folder created in the job that contains the `cnf-certification-test` cloned repository. This can be found in [this task](https://www.distributed-ci.io/jobs/409a51bc-54e2-43d5-b2d3-30100a7ef7d4/jobStates?sort=date&task=fb97a616-8c4b-4d7a-8b76-8a0cddc1823f) from your `dci-openshift-app-agent` job. In this case, the folder is `/tmp/ansible.gvrzgvoa`, and it is saved in the jumphost. The output of the task should be something like this:
+    - Firstly, locate the temporary folder created in the job that contains the `certsuite` cloned repository. This can be found in [this task](https://www.distributed-ci.io/jobs/409a51bc-54e2-43d5-b2d3-30100a7ef7d4/jobStates?sort=date&task=fb97a616-8c4b-4d7a-8b76-8a0cddc1823f) from your `dci-openshift-app-agent` job. In this case, the folder is `/tmp/ansible.gvrzgvoa`, and it is saved in the jumphost. The output of the task should be something like this:
 
                 TASK [redhatci.ocp.k8s_best_practices_certsuite : Create temporary directory for certsuite repository]
                 task path: /usr/share/ansible/collections/ansible_collections/redhatci/ocp/roles/k8s_best_practices_certsuite/tasks/pre-run.yml:114
@@ -242,14 +242,14 @@ In order to execute an example of a DCI job, managed by `dci-openshift-app-agent
                         targetpodlabels: [environment=test]
                         targetoperatorlabels: [operators.coreos.com/mongodb-enterprise.test-cnf=]
                         target_crds:
-                            -   nameSuffix: "crdexamples.test-network-function.com"
+                            -   nameSuffix: "crdexamples.redhat-best-practices-for-k8s.com"
                                 scalable: false
                         exclude_connectivity_regexp: ""
                     -   namespace: "production-cnf"
                         targetpodlabels: [environment=production]
                         targetoperatorlabels: []
                         target_crds:
-                            -   nameSuffix: "crdexamples.test-network-function.com"
+                            -   nameSuffix: "crdexamples.redhat-best-practices-for-k8s.com"
                                 scalable: false
                         exclude_connectivity_regexp: ""
                 kbpc_non_intrusive_only: false

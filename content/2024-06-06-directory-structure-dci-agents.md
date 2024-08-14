@@ -1,5 +1,6 @@
 Title: Directory structure built on OCP DCI agents
 Date: 2024-06-06 10:00
+Modified: 2024-08-14 10:00
 Category: divulgation
 Tags: dci, dci-openshift-agent, dci-openshift-app-agent, dci-pipeline, directory-structure
 Slug: directory-structure-dci-agents
@@ -55,7 +56,7 @@ The structure of `dci-openshift-app-agent` is quite similar to `dci-openshift-ag
 
 - `/etc/dci-openshift-app-agent`: serves as a directory to place the required configuration files for this agent. Here, you will find the presence of `dcirc.sh.dist` or `settings.yml` files and `hooks` folder, with the same meaning than in `dci-openshift-agent`, but here we can also fild a `hosts.yml` file, which is typically used as-is when running `dci-openshift-app-agent`, since the hosts file points to `localhost` and the agent relies on the cluster's kubeconfig file to interact with the cluster resources. You can place here a `config` file to define environment variables to be consumed by the agent.
 - `/usr/share/dci-openshift-app-agent/`: it holds the Ansible configuration and playbooks, having `ansible.cfg` file for the Ansible configuration, `dci-openshift-app-agent.yml` main playbook, `group_vars` folder for defining default values to variables, and `plays` folder containing the playbooks that are used in the agent. Then, similarly to `dci-openshift-agent`, there is an `utilities` folder to place some utils, such as an [internal registry](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/utilities/internal-registry).
-- `/var/lib/dci-openshift-app-agent`: it provides a `samples` folder with examples of workloads that you can launch with this agent; for example, `control_plane_example`, a [very simple workload](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples/control_plane_example) based on a webserver deployment, or `tnf_test_example`, a [set of resources](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples/tnf_test_example) that are suitable for CNF Certification using the [Red Hat Best Practices Test Suite for Kubernetes](https://github.com/test-network-function/cnf-certification-test).
+- `/var/lib/dci-openshift-app-agent`: it provides a `samples` folder with examples of workloads that you can launch with this agent; for example, `control_plane_example`, a [very simple workload](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples/control_plane_example) based on a webserver deployment, or `tnf_test_example`, a [set of resources](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples/tnf_test_example) that are suitable for CNF Certification using the [Red Hat Best Practices Test Suite for Kubernetes](https://github.com/redhat-best-practices-for-k8s/certsuite).
 
 # dci-pipeline
 
