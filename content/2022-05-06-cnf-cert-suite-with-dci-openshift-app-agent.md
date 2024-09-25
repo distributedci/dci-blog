@@ -155,7 +155,7 @@ When running a job launching the certsuite, you need to confirm that:
 - Test results are displayed.
     - If they are not displayed (and probably, you will not see the log files in Files section, excepting `certsuite.log` and `certsuite-stdout.log`) - something has happened during the certsuite execution. Check these log files and see what happened.
 - In Files section, you should see the following logs:
-    - `cnf-certification-tests_junit.xml`:
+    - `certsuite-tests_junit.xml`:
         - It contains the results of the certsuite execution.
         - You’ll see the passed, skipped and failed tests like this (better to see them on DCI GUI rather than in the XML file).
         - On each test, regardless of the result, if you check for more details, you will see the output, error messages, etc. to troubleshoot afterwards.
