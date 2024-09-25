@@ -18,6 +18,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "73c3c9ea_edded679",
+        "filename": "content/2024-09-25-detecting-to-be-removed-apis-with-cnf.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2024-09-25T09:28:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "63cff893_326eaa15",
+      "revId": "8accc99898f703d34770e6b36a06a1a975cd0664",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "587bafff_db55f6ed",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-09-24T21:51:47Z",
       "side": 1,
       "message": "Just wondering if it is expected to leave the () empty to not include the URL or we are missing the link of the presentation: https://pretalx.com/devconf-cz-2024/talk/review/UAHGESHZNM7BPSZ9UUQUYABDZWRNRLJF",
+      "revId": "8accc99898f703d34770e6b36a06a1a975cd0664",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8ae94ae_007a0632",
+        "filename": "content/2024-09-25-detecting-to-be-removed-apis-with-cnf.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 938
+      },
+      "writtenOn": "2024-09-25T09:28:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "587bafff_db55f6ed",
       "revId": "8accc99898f703d34770e6b36a06a1a975cd0664",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
