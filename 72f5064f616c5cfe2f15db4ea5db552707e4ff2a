@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d30fd3f_72dd042b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 166
+      },
+      "writtenOn": "2024-10-14T17:02:39Z",
+      "side": 1,
+      "message": "Good, it\u0027d be nice to have some sort of conclusion, maybe an excerpt of the output or the screenshot of the run, so readers have a an example of what to expect at the end.",
+      "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
