@@ -16,6 +16,115 @@
       "message": "Good, it\u0027d be nice to have some sort of conclusion, maybe an excerpt of the output or the screenshot of the run, so readers have a an example of what to expect at the end.",
       "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "faa999e3_74125a9d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-10-15T00:20:09Z",
+      "side": 1,
+      "message": "Nice!, just few recommendations.",
+      "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fce7cddf_8dc68333",
+        "filename": "content/2024-10-16-gitops-ztp-with_dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-10-15T00:20:09Z",
+      "side": 1,
+      "message": "by leveraging -\u003e through",
+      "range": {
+        "startLine": 20,
+        "startChar": 77,
+        "endLine": 20,
+        "endChar": 95
+      },
+      "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52e616ce_5b9adf60",
+        "filename": "content/2024-10-16-gitops-ztp-with_dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-10-15T00:20:09Z",
+      "side": 1,
+      "message": "containing the ZTP manifests that describe the",
+      "range": {
+        "startLine": 32,
+        "startChar": 58,
+        "endLine": 32,
+        "endChar": 96
+      },
+      "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "558fbd36_23d9b264",
+        "filename": "content/2024-10-16-gitops-ztp-with_dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-10-15T00:20:09Z",
+      "side": 1,
+      "message": "so feel free -\u003e it is recommended",
+      "range": {
+        "startLine": 32,
+        "startChar": 240,
+        "endLine": 32,
+        "endChar": 252
+      },
+      "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0291110e_66e11099",
+        "filename": "content/2024-10-16-gitops-ztp-with_dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-10-15T00:20:09Z",
+      "side": 1,
+      "message": "will begin to increase and eventually reach 100%.",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 104
+      },
+      "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
