@@ -35,6 +35,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4be939e_aeaecfb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-10-17T10:45:16Z",
+      "side": 1,
+      "message": "Thanks for all the comments. I\u0027ll be submitting a new patchset right away including your recommendations.",
+      "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fce7cddf_8dc68333",
@@ -48,6 +65,30 @@
       "writtenOn": "2024-10-15T00:20:09Z",
       "side": 1,
       "message": "by leveraging -\u003e through",
+      "range": {
+        "startLine": 20,
+        "startChar": 77,
+        "endLine": 20,
+        "endChar": 95
+      },
+      "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb6c7740_8239f1fb",
+        "filename": "content/2024-10-16-gitops-ztp-with_dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-10-17T10:45:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fce7cddf_8dc68333",
       "range": {
         "startLine": 20,
         "startChar": 77,
@@ -104,6 +145,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "372ad62a_44b3f728",
+        "filename": "content/2024-10-16-gitops-ztp-with_dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-10-17T10:45:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "52e616ce_5b9adf60",
+      "range": {
+        "startLine": 32,
+        "startChar": 58,
+        "endLine": 32,
+        "endChar": 96
+      },
+      "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0de005d9_91f7d848",
+        "filename": "content/2024-10-16-gitops-ztp-with_dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-10-17T10:45:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "558fbd36_23d9b264",
+      "range": {
+        "startLine": 32,
+        "startChar": 240,
+        "endLine": 32,
+        "endChar": 252
+      },
+      "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0291110e_66e11099",
@@ -117,6 +206,30 @@
       "writtenOn": "2024-10-15T00:20:09Z",
       "side": 1,
       "message": "will begin to increase and eventually reach 100%.",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 104
+      },
+      "revId": "72f5064f616c5cfe2f15db4ea5db552707e4ff2a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14ed9a2a_c3370bc1",
+        "filename": "content/2024-10-16-gitops-ztp-with_dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-10-17T10:45:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0291110e_66e11099",
       "range": {
         "startLine": 60,
         "startChar": 0,
