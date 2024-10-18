@@ -1,0 +1,124 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7b14aee_cf7b655b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-10-18T11:27:18Z",
+      "side": 1,
+      "message": "Some comments from my side",
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7bb3eb2_05f14a5f",
+        "filename": "content/2024-10-23-gitops-ztp-with_dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-10-18T11:27:18Z",
+      "side": 1,
+      "message": "are we exposing something here? should we omit this?",
+      "range": {
+        "startLine": 129,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 34
+      },
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8965a05_46cdc85a",
+        "filename": "content/2024-10-23-gitops-ztp-with_dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-10-18T11:27:18Z",
+      "side": 1,
+      "message": "this",
+      "range": {
+        "startLine": 209,
+        "startChar": 4,
+        "endLine": 209,
+        "endChar": 7
+      },
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5cbe6a8e_3d35a698",
+        "filename": "content/2024-10-23-gitops-ztp-with_dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-10-18T11:27:18Z",
+      "side": 1,
+      "message": "then, we should say at the beginning of the blog post that this blog post only covers the connected environment case",
+      "range": {
+        "startLine": 211,
+        "startChar": 130,
+        "endLine": 211,
+        "endChar": 142
+      },
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b570add_3753e3b2",
+        "filename": "content/images/2024-10-23-gitops-ztp-with_dci/Screenshot from 2024-06-25 15-25-44.png",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-10-18T11:27:18Z",
+      "side": 1,
+      "message": "There are several screenshots named as \"Screenshot from ...\", and looks like they\u0027re not used in the blog post. Can we delete them? Or if they\u0027re used, can they be renamed to a more suitable name?",
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac9d26b5_f69171ee",
+        "filename": "content/images/2024-10-23-gitops-ztp-with_dci/inspecting.svg",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-10-18T11:27:18Z",
+      "side": 1,
+      "message": "Is this file needed?",
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
