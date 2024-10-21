@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ab938dc_ab1a28a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-10-21T12:56:32Z",
+      "side": 1,
+      "message": "Thanks for the comments, Ramón.\n\nI\u0027ll submit a patchset right away.",
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b7bb3eb2_05f14a5f",
@@ -31,6 +48,30 @@
       "writtenOn": "2024-10-18T11:27:18Z",
       "side": 1,
       "message": "are we exposing something here? should we omit this?",
+      "range": {
+        "startLine": 129,
+        "startChar": 0,
+        "endLine": 130,
+        "endChar": 34
+      },
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44b443cd_f7f62b29",
+        "filename": "content/2024-10-23-gitops-ztp-with_dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-10-21T12:56:32Z",
+      "side": 1,
+      "message": "Not really exposing anything.\nThe values are base64 for \"username\" and \"password\" just to exemplify the values must be in base64.",
+      "parentUuid": "b7bb3eb2_05f14a5f",
       "range": {
         "startLine": 129,
         "startChar": 0,
@@ -64,6 +105,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b846c56_b5f5cd00",
+        "filename": "content/2024-10-23-gitops-ztp-with_dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-10-21T12:56:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f8965a05_46cdc85a",
+      "range": {
+        "startLine": 209,
+        "startChar": 4,
+        "endLine": 209,
+        "endChar": 7
+      },
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5cbe6a8e_3d35a698",
@@ -77,6 +142,30 @@
       "writtenOn": "2024-10-18T11:27:18Z",
       "side": 1,
       "message": "then, we should say at the beginning of the blog post that this blog post only covers the connected environment case",
+      "range": {
+        "startLine": 211,
+        "startChar": 130,
+        "endLine": 211,
+        "endChar": 142
+      },
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7d7c709_776b7f69",
+        "filename": "content/2024-10-23-gitops-ztp-with_dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-10-21T12:56:32Z",
+      "side": 1,
+      "message": "Added a comment in the introduction and a specific requirement to have Internet access from all the systems involved.",
+      "parentUuid": "5cbe6a8e_3d35a698",
       "range": {
         "startLine": 211,
         "startChar": 130,
@@ -104,6 +193,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a57c1afa_050ac073",
+        "filename": "content/images/2024-10-23-gitops-ztp-with_dci/Screenshot from 2024-06-25 15-25-44.png",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-10-21T12:56:32Z",
+      "side": 1,
+      "message": "You\u0027re right as well.",
+      "parentUuid": "0b570add_3753e3b2",
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ac9d26b5_f69171ee",
@@ -117,6 +224,24 @@
       "writtenOn": "2024-10-18T11:27:18Z",
       "side": 1,
       "message": "Is this file needed?",
+      "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b592c81_d27ea313",
+        "filename": "content/images/2024-10-23-gitops-ztp-with_dci/inspecting.svg",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2024-10-21T12:56:32Z",
+      "side": 1,
+      "message": "No, the SVG file should not be needed. Thanks.",
+      "parentUuid": "ac9d26b5_f69171ee",
       "revId": "bcc65f9703c552bb581984fdcdd9fe82d1a12bd3",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
