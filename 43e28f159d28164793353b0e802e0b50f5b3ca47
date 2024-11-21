@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "09ab3031_a03ffad1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Thanks Beto for all your feedback, I\u0027ve applied your suggestions in a new patchset",
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d99b5698_05f97e78",
@@ -14,6 +31,30 @@
       "writtenOn": "2024-11-21T00:13:52Z",
       "side": 1,
       "message": "s/deployment/environment",
+      "range": {
+        "startLine": 8,
+        "startChar": 81,
+        "endLine": 8,
+        "endChar": 91
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32ad71ec_329aec91",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d99b5698_05f97e78",
       "range": {
         "startLine": 8,
         "startChar": 81,
@@ -47,6 +88,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1a60dc4_b966a363",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df3d4e53_998a92dd",
+      "range": {
+        "startLine": 14,
+        "startChar": 213,
+        "endLine": 14,
+        "endChar": 221
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fde96cde_cdb7707e",
@@ -60,6 +125,30 @@
       "writtenOn": "2024-11-21T00:13:52Z",
       "side": 1,
       "message": "have to have in mind for having a smooth transition / may consider for a smooth transition.",
+      "range": {
+        "startLine": 16,
+        "startChar": 325,
+        "endLine": 16,
+        "endChar": 377
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "159712e7_73264760",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fde96cde_cdb7707e",
       "range": {
         "startLine": 16,
         "startChar": 325,
@@ -116,6 +205,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8639ba1e_3eafca8a",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7827982f_6e4e1e6b",
+      "range": {
+        "startLine": 18,
+        "startChar": 263,
+        "endLine": 18,
+        "endChar": 524
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2b4ed8c_593e93a8",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bb827578_88027a2a",
+      "range": {
+        "startLine": 18,
+        "startChar": 215,
+        "endLine": 18,
+        "endChar": 219
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9ab6e52c_3f0f673a",
@@ -129,6 +266,30 @@
       "writtenOn": "2024-11-21T00:13:52Z",
       "side": 1,
       "message": "The target VMs must have a BMC emulator available, such as sushy-tools or fakefish",
+      "range": {
+        "startLine": 24,
+        "startChar": 2,
+        "endLine": 24,
+        "endChar": 83
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8722b36_214f8c82",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ab6e52c_3f0f673a",
       "range": {
         "startLine": 24,
         "startChar": 2,
@@ -162,6 +323,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fee6299_69afe84c",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c8c14984_9c25eef3",
+      "range": {
+        "startLine": 25,
+        "startChar": 14,
+        "endLine": 25,
+        "endChar": 22
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ef2754c7_8d092342",
@@ -185,6 +370,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7775993_06b19e1f",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef2754c7_8d092342",
+      "range": {
+        "startLine": 27,
+        "startChar": 42,
+        "endLine": 27,
+        "endChar": 46
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9cdd371c_f326f883",
@@ -198,6 +407,30 @@
       "writtenOn": "2024-11-21T00:13:52Z",
       "side": 1,
       "message": "topic/item or requirement?",
+      "range": {
+        "startLine": 29,
+        "startChar": 17,
+        "endLine": 29,
+        "endChar": 22
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3cd9f8ec_4569ed9d",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9cdd371c_f326f883",
       "range": {
         "startLine": 29,
         "startChar": 17,
@@ -254,6 +487,54 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a56d4c0_761918b3",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dfb61117_e9274ef3",
+      "range": {
+        "startLine": 33,
+        "startChar": 243,
+        "endLine": 33,
+        "endChar": 271
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19623909_f56ef398",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "83355334_eafa78be",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 78
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "18510441_82513c2d",
@@ -267,6 +548,30 @@
       "writtenOn": "2024-11-21T00:13:52Z",
       "side": 1,
       "message": "However, this approach cannot be directly applied to virtual machines created with KVM, as Redfish is not implemented on them.",
+      "range": {
+        "startLine": 37,
+        "startChar": 57,
+        "endLine": 37,
+        "endChar": 74
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99403732_07946c7e",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "18510441_82513c2d",
       "range": {
         "startLine": 37,
         "startChar": 57,
@@ -300,6 +605,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb1c124a_4f4dd71d",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c90f7c1e_9a1742b0",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 16
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f7d9438e_c9b70a4a",
@@ -313,6 +642,30 @@
       "writtenOn": "2024-11-21T00:13:52Z",
       "side": 1,
       "message": "maybe remove \"at the end\"",
+      "range": {
+        "startLine": 52,
+        "startChar": 81,
+        "endLine": 52,
+        "endChar": 92
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e19f855_3bdf8f22",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f7d9438e_c9b70a4a",
       "range": {
         "startLine": 52,
         "startChar": 81,
@@ -346,6 +699,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "61dd41de_8bb91078",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4245ee00_70d035f7",
+      "range": {
+        "startLine": 56,
+        "startChar": 172,
+        "endLine": 56,
+        "endChar": 177
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "75261329_a89860ae",
@@ -359,6 +736,30 @@
       "writtenOn": "2024-11-21T00:13:52Z",
       "side": 1,
       "message": "remove \"for example\"\n\nwe deploy in our -\u003e deployed in the environment\n\nso that the virtual machines can achieve a specific IP address that is always reachable in the internal network. -\u003e This ensures that the virtual machines can obtain a specific IP address that remains consistently reachable within the internal network.",
+      "range": {
+        "startLine": 80,
+        "startChar": 12,
+        "endLine": 80,
+        "endChar": 25
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad0671a1_6424085e",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "75261329_a89860ae",
       "range": {
         "startLine": 80,
         "startChar": 12,
@@ -392,6 +793,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "09bad8a5_a09b1065",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "I forgot to close the sentence, I\u0027ll fix that",
+      "parentUuid": "be78eead_3dbbade0",
+      "range": {
+        "startLine": 97,
+        "startChar": 102,
+        "endLine": 97,
+        "endChar": 193
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bcf5e3f1_c7747631",
@@ -405,6 +830,30 @@
       "writtenOn": "2024-11-21T00:13:52Z",
       "side": 1,
       "message": "Each time a virtual machine is configured as a spoke cluster, some boot entries are added and can affect to their performance in case you want to redeploy the spoke cluster, since the VM may have problems when trying to reboot and shut it down. --\u003e\n\nThe boot entries added during the OCP installation may cause issues in cases where the VM needs to be redeployed. Issues like trying to boot from a previous installation, not booting from the proper device, etc.  The recommendation is to clean up \u003cnext paragraph\u003e",
+      "range": {
+        "startLine": 106,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 244
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5c61880_eaf6134e",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-21T10:49:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bcf5e3f1_c7747631",
       "range": {
         "startLine": 106,
         "startChar": 0,
