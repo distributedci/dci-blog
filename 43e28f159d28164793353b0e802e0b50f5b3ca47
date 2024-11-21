@@ -1,0 +1,418 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d99b5698_05f97e78",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "s/deployment/environment",
+      "range": {
+        "startLine": 8,
+        "startChar": 81,
+        "endLine": 8,
+        "endChar": 91
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df3d4e53_998a92dd",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "(set of)/ a set off.\nI do not think that the parenthesis are needed.",
+      "range": {
+        "startLine": 14,
+        "startChar": 213,
+        "endLine": 14,
+        "endChar": 221
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fde96cde_cdb7707e",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "have to have in mind for having a smooth transition / may consider for a smooth transition.",
+      "range": {
+        "startLine": 16,
+        "startChar": 325,
+        "endLine": 16,
+        "endChar": 377
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7827982f_6e4e1e6b",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "Interesting use cases for this kind of deployments would be, for example, to test some specific workflows on a CI, daily basis, avoiding such a big resource consumption, so that, with just one server, you can deploy the whole infrastructure without any problem. -\u003e An interesting use case for such deployments is the ability to test specific workflows in a CI pipeline. Minimizing resource consumption, enabling the deployment of an entire infrastructure seamlessly on just a single server.",
+      "range": {
+        "startLine": 18,
+        "startChar": 263,
+        "endLine": 18,
+        "endChar": 524
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb827578_88027a2a",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "so that relying in VMs / so relying in VMs",
+      "range": {
+        "startLine": 18,
+        "startChar": 215,
+        "endLine": 18,
+        "endChar": 219
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ab6e52c_3f0f673a",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "The target VMs must have a BMC emulator available, such as sushy-tools or fakefish",
+      "range": {
+        "startLine": 24,
+        "startChar": 2,
+        "endLine": 24,
+        "endChar": 83
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c8c14984_9c25eef3",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "retrieve/identify",
+      "range": {
+        "startLine": 25,
+        "startChar": 14,
+        "endLine": 25,
+        "endChar": 22
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef2754c7_8d092342",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "make/have",
+      "range": {
+        "startLine": 27,
+        "startChar": 42,
+        "endLine": 27,
+        "endChar": 46
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9cdd371c_f326f883",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "topic/item or requirement?",
+      "range": {
+        "startLine": 29,
+        "startChar": 17,
+        "endLine": 29,
+        "endChar": 22
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83355334_eafa78be",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "The BMC\u0027s address is not the same as the server address. \n\nTypically, a physical server is associated with a physical BMC IP address, which, when combined with the appropriate credentials, can be used to perform out-of-band operations.",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 78
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfb61117_e9274ef3",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "using the iDRAC and Redfish / using the Redfish implementation for Dell Server\u0027s BMCs.",
+      "range": {
+        "startLine": 33,
+        "startChar": 243,
+        "endLine": 33,
+        "endChar": 271
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18510441_82513c2d",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "However, this approach cannot be directly applied to virtual machines created with KVM, as Redfish is not implemented on them.",
+      "range": {
+        "startLine": 37,
+        "startChar": 57,
+        "endLine": 37,
+        "endChar": 74
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c90f7c1e_9a1742b0",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "Sushy-tools provides a Redfish endpoint (\u003chost-ip\u003e:\u003chost-port\u003e) for each hosted VM, which, when combined with the VM\u0027s UUID, can be used to construct the full path to the system.",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 16
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7d9438e_c9b70a4a",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "maybe remove \"at the end\"",
+      "range": {
+        "startLine": 52,
+        "startChar": 81,
+        "endLine": 52,
+        "endChar": 92
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4245ee00_70d035f7",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "again/ also from\n\nJust map the PCI address definition to the path of the target storage device as shown below.",
+      "range": {
+        "startLine": 56,
+        "startChar": 172,
+        "endLine": 56,
+        "endChar": 177
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75261329_a89860ae",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "remove \"for example\"\n\nwe deploy in our -\u003e deployed in the environment\n\nso that the virtual machines can achieve a specific IP address that is always reachable in the internal network. -\u003e This ensures that the virtual machines can obtain a specific IP address that remains consistently reachable within the internal network.",
+      "range": {
+        "startLine": 80,
+        "startChar": 12,
+        "endLine": 80,
+        "endChar": 25
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "be78eead_3dbbade0",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "I am not understanding this sentences. If having that config? what is the consequence?",
+      "range": {
+        "startLine": 97,
+        "startChar": 102,
+        "endLine": 97,
+        "endChar": 193
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bcf5e3f1_c7747631",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-21T00:13:52Z",
+      "side": 1,
+      "message": "Each time a virtual machine is configured as a spoke cluster, some boot entries are added and can affect to their performance in case you want to redeploy the spoke cluster, since the VM may have problems when trying to reboot and shut it down. --\u003e\n\nThe boot entries added during the OCP installation may cause issues in cases where the VM needs to be redeployed. Issues like trying to boot from a previous installation, not booting from the proper device, etc.  The recommendation is to clean up \u003cnext paragraph\u003e",
+      "range": {
+        "startLine": 106,
+        "startChar": 0,
+        "endLine": 106,
+        "endChar": 244
+      },
+      "revId": "43e28f159d28164793353b0e802e0b50f5b3ca47",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
