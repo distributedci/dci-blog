@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "146d0353_8e4fab60",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-22T14:55:14Z",
+      "side": 1,
+      "message": "Thanks Nacho! Addressed all your comments.",
+      "revId": "0cd30dc6df19ed16654bca901b1f9aa965ed07bc",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "690b3021_dc536cce",
@@ -31,6 +48,30 @@
       "writtenOn": "2024-11-22T14:49:12Z",
       "side": 1,
       "message": "how about \"we were assuming the spoke cluster was composed by one or more baremetal servers\"?",
+      "range": {
+        "startLine": 14,
+        "startChar": 168,
+        "endLine": 14,
+        "endChar": 239
+      },
+      "revId": "0cd30dc6df19ed16654bca901b1f9aa965ed07bc",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ef9e271_fc0b2583",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-22T14:55:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "690b3021_dc536cce",
       "range": {
         "startLine": 14,
         "startChar": 168,
@@ -64,6 +105,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c65afb3_888056e1",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-22T14:55:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b7086418_a2ee4b2c",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 38
+      },
+      "revId": "0cd30dc6df19ed16654bca901b1f9aa965ed07bc",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "372e2291_dbaaa8f6",
@@ -77,6 +142,30 @@
       "writtenOn": "2024-11-22T14:49:12Z",
       "side": 1,
       "message": "I guess it\u0027s possible to have dedicated IP:port pairs for each hosted VM but, at least in the test I did, the IP:port pair is common to all the virtual BMCs in the same hypervisor, so you rely on the UUID to identify the specific VM BMC you want to address.",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 180
+      },
+      "revId": "0cd30dc6df19ed16654bca901b1f9aa965ed07bc",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "467f8fb1_13d055f6",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2024-11-22T14:55:14Z",
+      "side": 1,
+      "message": "Let me add this consideration as a note below this paragraph, just in case.",
+      "parentUuid": "372e2291_dbaaa8f6",
       "range": {
         "startLine": 39,
         "startChar": 0,
