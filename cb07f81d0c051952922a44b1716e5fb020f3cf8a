@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b3b9c937_522871ce",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-22T15:11:22Z",
+      "side": 1,
+      "message": "[in this blog post] -\u003e in [GitOps ZT with DCI]\n\nHowever, in that case, -\u003e However in that scenario, that assumption is that the spoke cluster is made up of baremetal server(s).",
+      "range": {
+        "startLine": 14,
+        "startChar": 99,
+        "endLine": 14,
+        "endChar": 116
+      },
+      "revId": "cb07f81d0c051952922a44b1716e5fb020f3cf8a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0b73210_3c99e0be",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-22T15:11:22Z",
+      "side": 1,
+      "message": "aiming to provide",
+      "range": {
+        "startLine": 16,
+        "startChar": 45,
+        "endLine": 16,
+        "endChar": 65
+      },
+      "revId": "cb07f81d0c051952922a44b1716e5fb020f3cf8a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea0d293b_7e4d7161",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-22T15:11:22Z",
+      "side": 1,
+      "message": "The boot",
+      "range": {
+        "startLine": 29,
+        "startChar": 2,
+        "endLine": 29,
+        "endChar": 6
+      },
+      "revId": "cb07f81d0c051952922a44b1716e5fb020f3cf8a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fed0ee90_6d92e0aa",
+        "filename": "content/2024-11-22-ztp-vms.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2024-11-22T15:11:22Z",
+      "side": 1,
+      "message": "performance of the workflow - re-deployment of the lab?",
+      "range": {
+        "startLine": 29,
+        "startChar": 64,
+        "endLine": 29,
+        "endChar": 75
+      },
+      "revId": "cb07f81d0c051952922a44b1716e5fb020f3cf8a",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
