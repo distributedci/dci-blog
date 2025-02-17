@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "717e315f_1cc5ebb6",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2025-02-17T21:48:12Z",
+      "side": 1,
+      "message": "please let\u0027s replace: \"installed with RPM\" with \"installed with RPM packages\"",
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "559bc0ad_a23757d7",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2025-02-17T21:48:12Z",
+      "side": 1,
+      "message": "Let\u0027s take advantage of your change and remove that empty space at the end of this line please",
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c46aa864_5b4e6608",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 548,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2025-02-17T21:48:12Z",
+      "side": 1,
+      "message": "Let\u0027s remove all these empty space, same for lines 552, and 554.",
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0557b7f2_f1ad66ee",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 565,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2025-02-17T21:48:12Z",
+      "side": 1,
+      "message": "finally remove this empty space at the end of the line, you didn\u0027t introduce it, but now that you are updating the doc, let\u0027s clean it :)",
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
