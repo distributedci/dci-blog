@@ -20,6 +20,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b15651d2_19a1ccb8",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-02-18T10:51:44Z",
+      "side": 1,
+      "message": "refer to dci-pipeline instead of dci-queue, dci-queue is included in dci-pipeline",
+      "range": {
+        "startLine": 59,
+        "startChar": 93,
+        "endLine": 59,
+        "endChar": 102
+      },
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "559bc0ad_a23757d7",
         "filename": "content/2022-09-01-preflight-integration-in-dci.md",
         "patchSetId": 1
@@ -31,6 +54,29 @@
       "writtenOn": "2025-02-17T21:48:12Z",
       "side": 1,
       "message": "Let\u0027s take advantage of your change and remove that empty space at the end of this line please",
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7bec79c5_57b4889e",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 547,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-02-18T10:51:44Z",
+      "side": 1,
+      "message": "Maybe it\u0027s better to say \"Call dci-openshift-app-agent from dci-pipeline\"",
+      "range": {
+        "startLine": 547,
+        "startChar": 7,
+        "endLine": 547,
+        "endChar": 30
+      },
       "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
