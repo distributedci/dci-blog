@@ -41,6 +41,48 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "90f06131_214cba62",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-18T15:13:25Z",
+      "side": 1,
+      "message": "ack. Good catch. Thanks.",
+      "parentUuid": "b15651d2_19a1ccb8",
+      "range": {
+        "startLine": 59,
+        "startChar": 93,
+        "endLine": 59,
+        "endChar": 102
+      },
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b5dedb9_fe67f8fa",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-18T15:13:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "717e315f_1cc5ebb6",
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "559bc0ad_a23757d7",
@@ -54,6 +96,24 @@
       "writtenOn": "2025-02-17T21:48:12Z",
       "side": 1,
       "message": "Let\u0027s take advantage of your change and remove that empty space at the end of this line please",
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a20e2c4_cd4cecec",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-18T15:13:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "559bc0ad_a23757d7",
       "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -83,6 +143,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f46643cf_37813a6c",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 547,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-18T15:13:25Z",
+      "side": 1,
+      "message": "Run dci-openshift-app-agent --\u003e Call dci-openshift-app-agent from dci-pipeline? it does not sound right. \nor \nRun dci-openshift-app-agent from dci-pipeline\n\nAny final suggestion, I take it. Thanks.",
+      "parentUuid": "7bec79c5_57b4889e",
+      "range": {
+        "startLine": 547,
+        "startChar": 7,
+        "endLine": 547,
+        "endChar": 30
+      },
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c46aa864_5b4e6608",
         "filename": "content/2022-09-01-preflight-integration-in-dci.md",
         "patchSetId": 1
@@ -94,6 +178,24 @@
       "writtenOn": "2025-02-17T21:48:12Z",
       "side": 1,
       "message": "Let\u0027s remove all these empty space, same for lines 552, and 554.",
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "556742b5_112ec456",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 548,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-18T15:13:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "c46aa864_5b4e6608",
       "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -111,6 +213,24 @@
       "writtenOn": "2025-02-17T21:48:12Z",
       "side": 1,
       "message": "finally remove this empty space at the end of the line, you didn\u0027t introduce it, but now that you are updating the doc, let\u0027s clean it :)",
+      "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3aa14112_f80a6609",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 565,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-18T15:13:25Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "0557b7f2_f1ad66ee",
       "revId": "26051b044ad50d89c178e02fc41b1335ab854bdb",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
