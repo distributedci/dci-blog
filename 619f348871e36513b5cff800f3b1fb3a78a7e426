@@ -35,6 +35,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed31f43c_89136b3f",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-19T16:24:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "7d4536ce_fbd8ef25",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c3aebe47_2abef990",
@@ -48,6 +66,24 @@
       "writtenOn": "2025-02-19T10:44:02Z",
       "side": 1,
       "message": "whitespace to be removed",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae951770_aba061b2",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-19T16:24:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "c3aebe47_2abef990",
       "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -69,6 +105,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "14c8d3f9_b4038982",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 443,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-19T16:24:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "96e31f49_09eeac7e",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3f72ed21_f59845a5",
@@ -82,6 +136,24 @@
       "writtenOn": "2025-02-19T10:44:02Z",
       "side": 1,
       "message": "whitespace to be removed",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2bff3543_cdb08215",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 461,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-19T16:24:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "3f72ed21_f59845a5",
       "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -103,6 +175,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d915ec53_0ad328ca",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-19T16:24:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a5fd5fda_ad6cb515",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b8dcf91d_af5534d5",
@@ -116,6 +206,24 @@
       "writtenOn": "2025-02-19T10:44:02Z",
       "side": 1,
       "message": "here\u0027s still some whitespaces to be removed",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa8a91b6_13d694ba",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 536,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-19T16:24:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "b8dcf91d_af5534d5",
       "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
