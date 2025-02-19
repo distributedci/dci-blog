@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07380919_3dd06547",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-02-19T10:44:02Z",
+      "side": 1,
+      "message": "Content looks good, now let\u0027s delete some other whitespaces I\u0027ve found in the blog post",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d4536ce_fbd8ef25",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-02-19T10:44:02Z",
+      "side": 1,
+      "message": "whitespace to be removed",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3aebe47_2abef990",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-02-19T10:44:02Z",
+      "side": 1,
+      "message": "whitespace to be removed",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96e31f49_09eeac7e",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 443,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-02-19T10:44:02Z",
+      "side": 1,
+      "message": "whitespace to be removed",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f72ed21_f59845a5",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 461,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-02-19T10:44:02Z",
+      "side": 1,
+      "message": "whitespace to be removed",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5fd5fda_ad6cb515",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-02-19T10:44:02Z",
+      "side": 1,
+      "message": "whitespace to be removed",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b8dcf91d_af5534d5",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 536,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-02-19T10:44:02Z",
+      "side": 1,
+      "message": "here\u0027s still some whitespaces to be removed",
+      "revId": "619f348871e36513b5cff800f3b1fb3a78a7e426",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
