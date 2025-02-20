@@ -22,6 +22,30 @@
       },
       "revId": "75f29e82c6a87ccde4f949236b2b1565243f3bac",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9410e4e0_2fdcb98c",
+        "filename": "content/2022-09-01-preflight-integration-in-dci.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 536,
+      "author": {
+        "id": 1441
+      },
+      "writtenOn": "2025-02-20T15:43:15Z",
+      "side": 1,
+      "message": "Sorry! I turned on Whitespace Render from vscode, but still did not catch this one. my bad!!",
+      "parentUuid": "0fe748b4_52a37993",
+      "range": {
+        "startLine": 536,
+        "startChar": 0,
+        "endLine": 536,
+        "endChar": 16
+      },
+      "revId": "75f29e82c6a87ccde4f949236b2b1565243f3bac",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
