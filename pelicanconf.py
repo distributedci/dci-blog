@@ -9,7 +9,7 @@ TIMEZONE = "EST"
 DEFAULT_LANG = "en"
 
 FEED_DOMAIN = SITEURL
-CATEGORY_FEED_RSS = 'feeds/{slug}.rss.xml'
+CATEGORY_FEED_RSS = "feeds/{slug}.rss.xml"
 FEED_RSS = "feeds/all.rss.xml"
 FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
@@ -22,6 +22,8 @@ SOCIAL = ()
 
 DEFAULT_PAGINATION = False
 
+STATIC_PATHS = ("images", "examples",)
+
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
@@ -33,6 +35,8 @@ MARKDOWN = {
         "markdown.extensions.admonition": {},
         "markdown.extensions.toc": {},
         "markdown.extensions.tables": {},
-        "markdown.extensions.codehilite": {"css_class": "highlight"},
+        "markdown.extensions.codehilite": {"css_class": "code"},
     }
 }
+
+PYGMENTS_RST_OPTIONS = {"cssclass": "code"}  # match markdown's codehilite
