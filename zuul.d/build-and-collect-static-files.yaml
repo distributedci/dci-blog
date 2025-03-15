@@ -10,8 +10,9 @@
     - name: Build from source
       shell: |
         set -ex
-        virtualenv .venv
-        . .venv/bin/activate
+        python3 -m venv .venv
+        source .venv/bin/activate
+        pip install -U pip
         pip install -r requirements.txt
         sed -i -e 's@SITEURL = ""@SITEURL = "https://softwarefactory-project.io/logs/{{ zuul_log_path }}/artifacts/"@' pelicanconf.py
         make html
