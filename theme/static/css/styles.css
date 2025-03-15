@@ -179,3 +179,54 @@ h5 {
   margin-bottom: 3rem;
   display: block;
 }
+
+.admonition {
+    background-color: whitesmoke;
+    border-left: 5px solid #dbdbdb;
+    padding: 1.25em 1.5em;
+    margin: 1em;
+}
+
+.admonition-title {
+    font-weight: bolder;
+}
+
+.admonition-title::before {
+    margin-right: 0.5em;
+}
+
+.note .admonition-title::before {
+    content: '🗒️';
+}
+
+.tip .admonition-title::before {
+    content: '💡';
+}
+
+.hint .admonition-title::before {
+    content: '💡';
+}
+
+.attention .admonition-title::before {
+    content: '❕';
+}
+
+.important .admonition-title::before {
+    content: '❗';
+}
+
+.caution .admonition-title::before {
+    content: '🟡';
+}
+
+.warning .admonition-title::before {
+    content: '⚠️';
+}
+
+.danger .admonition-title::before {
+    content: '🧨';
+}
+
+.error .admonition-title::before {
+    content: '🛑';
+}
