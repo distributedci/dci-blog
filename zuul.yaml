@@ -8,7 +8,7 @@
     nodeset:
       nodes:
         - name: testrunner
-          label: dci-centos-8
+          label: cloud-rhel-8-10
 
 - project:
     queue: dci
