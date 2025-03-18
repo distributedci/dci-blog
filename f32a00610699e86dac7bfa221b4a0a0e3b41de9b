@@ -16,6 +16,23 @@
       "message": "Nothing really to say here, I found the blog post in a perfect shape, great work Jorge!\nJust for curiosity, is this the new format (.rst) we should follow for next blog posts?",
       "revId": "f32a00610699e86dac7bfa221b4a0a0e3b41de9b",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "127688ec_f1d9347b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1440
+      },
+      "writtenOn": "2025-03-18T13:18:29Z",
+      "side": 1,
+      "message": "Hello Jorge,\n\nI liked the new highlight bloc. \n\nYou changed the pygment css variables. It breaks the ui for the code blocks. I don\u0027t like the new look (Hard to distinguish between background and code bloc for example, or all black /o\\). We may want to copy the code block from connect.redhat.com.\n\nI saw that you use .rst instead of .md. It breaks the consistency with the other posts. Is is for the file inclusion ? File inclusion add line numbers. It breaks the copy paste functionality because it adds the line numbers in the code block.\n\nIs it possible to create a folder content/2025-03-11-abi-on-libvirt/ and move the blog post and the examples there? or doing the same as we do in the images folder\nexample/2025-03-11-abi-on-libvirt/xxx.yml. It will be easier to maintain the blog or for any migration.\n\nThanks",
+      "revId": "f32a00610699e86dac7bfa221b4a0a0e3b41de9b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
