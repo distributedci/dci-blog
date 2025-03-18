@@ -33,6 +33,42 @@
       "message": "Hello Jorge,\n\nI liked the new highlight bloc. \n\nYou changed the pygment css variables. It breaks the ui for the code blocks. I don\u0027t like the new look (Hard to distinguish between background and code bloc for example, or all black /o\\). We may want to copy the code block from connect.redhat.com.\n\nI saw that you use .rst instead of .md. It breaks the consistency with the other posts. Is is for the file inclusion ? File inclusion add line numbers. It breaks the copy paste functionality because it adds the line numbers in the code block.\n\nIs it possible to create a folder content/2025-03-11-abi-on-libvirt/ and move the blog post and the examples there? or doing the same as we do in the images folder\nexample/2025-03-11-abi-on-libvirt/xxx.yml. It will be easier to maintain the blog or for any migration.\n\nThanks",
       "revId": "f32a00610699e86dac7bfa221b4a0a0e3b41de9b",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "678bfb49_52bab676",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2025-03-18T15:27:43Z",
+      "side": 1,
+      "message": "Thank you Ramon, no I am not changing the format, Pelican can handle both markdown or reST files out of the box I am just using .rst for some features.",
+      "parentUuid": "692f849e_62d1c2dd",
+      "revId": "f32a00610699e86dac7bfa221b4a0a0e3b41de9b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "24299a57_6d936ea9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2025-03-18T15:27:43Z",
+      "side": 1,
+      "message": "Hi Guillaume,\n\nCan you point me where the UI breaks? my goal was to fix them, compare the existing (production) example here https://blog.distributed-ci.io/gitops-ztp-with-dci.html#the-pipeline-file vs the produced file here https://softwarefactory-project.io/logs/82/33282/6/check/dci-blog-preview/4aa08c2/artifacts/gitops-ztp-with-dci.html#the-pipeline-file or https://blog.distributed-ci.io/disconnected-environments-quick-start.html vs https://softwarefactory-project.io/logs/82/33282/6/check/dci-blog-preview/4aa08c2/artifacts/disconnected-environments-quick-start.html because when you inspect the code blocks in production, they inherit from `.code` not from `.highlight`: Markdown can produce 2 different types of pre-formatted blocks one with .highlight and one with .code (why? no idea) so I\u0027m just trying to unify them with this line `\"markdown.extensions.codehilite\": {\"css_class\": \"code\"}` in `pelicanconf.py`. I can remove that CSS change, just be aware that most of the code blocks in production with actual highlighting (not just pre-formatted blocks) aren\u0027t consistent.\n\nPelican can handle either .rst or .md with no problems, and yes I use .rst for file inclusion (and frankly because .rst offers more features and has an actual standard), this doesn\u0027t add line numbers by default, I am adding them, the code blocks in my blog are not for copy pasting but to explain different parts of the downloadable file.\n\nNot sure if the post can be in a folder, I\u0027ll look into it.",
+      "parentUuid": "127688ec_f1d9347b",
+      "revId": "f32a00610699e86dac7bfa221b4a0a0e3b41de9b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
