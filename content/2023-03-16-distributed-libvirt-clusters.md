@@ -31,11 +31,11 @@ So, imagine you have several powerful physical servers to build a single cluster
 
 If we split the cluster and dedicate each physical server to deploy a virtualized OCP cluster, using Libvirt-based virtual machines, we would eventually benefit from the advantages of Cloud Computing, maximizing the usage of the underlying physical resources and also allowing the parallelization of your development work, as you can dedicate different OCP clusters for each to-do task.
 
-We can summarize this process with the following picture, where the Latin expression *"divide et vinces"* appears in its full splendor.
+We can summarize this process with the following picture, where the Latin expression _"divide et vinces"_ appears in its full splendor.
 
-![From single to multiple clusters](images/distributed-libvirt-clusters/why-libvirt.png)
+![From single to multiple clusters]({static}/images/2023-03-16-distributed-libvirt-clusters/why-libvirt.png)
 
-Of course, this is not an *easy* work, but it is not impossible. The case that we will analyze in this blog post, which is already in place in Telco Partner CI team’s testing environment, might inspire you to adopt this kind of environments.
+Of course, this is not an _easy_ work, but it is not impossible. The case that we will analyze in this blog post, which is already in place in Telco Partner CI team’s testing environment, might inspire you to adopt this kind of environments.
 
 In our particular case, recently we received 10 brand new, nice, and powerful servers, and we decided to integrate them as part of our CI jobs. Previously, we only had one dedicated server for this purpose, so we had a lack of resources sometimes when dealing with multiple changes being tested at the same time, as this server was a bottleneck.
 
@@ -63,16 +63,16 @@ So, in the end, it's a platform prepared to do this kind of integrations on a CI
 Mainly, you would need to meet the following requirements, which are mainly estimations based on the work we have done in our own labs:
 
 - Enough compute resources to deploy as many VMs you want to deploy.
-    - 1 VM as provisionhost. At least 16 GB RAM @ 8 vCPU.
-    - 1 VM for each worker/master node to be used (SNO would only need 1 VM).
-        - SNO: at least 8 GB RAM @ 6 vCPU, but more recommended to install operators and workloads.
-        - Multi-node cluster: at least 16 GB RAM @ 8 vCPU per node (x2 in workers).
+  - 1 VM as provisionhost. At least 16 GB RAM @ 8 vCPU.
+  - 1 VM for each worker/master node to be used (SNO would only need 1 VM).
+    - SNO: at least 8 GB RAM @ 6 vCPU, but more recommended to install operators and workloads.
+    - Multi-node cluster: at least 16 GB RAM @ 8 vCPU per node (x2 in workers).
 - At least RHEL 8 OS.
-    - + RHEL subscription for the Host servers.
+  - - RHEL subscription for the Host servers.
 - Install DCI agent packages.
 - Enable nested KVM.
 - 1 Network Interface with access to the Internet.
-    - Need to plan the IP addressing in advance.
+  - Need to plan the IP addressing in advance.
 
 ## Network setup
 
@@ -80,7 +80,7 @@ Mainly, you would need to meet the following requirements, which are mainly esti
 
 If we check the scenarios deployed in the blog posts referenced above, we will see that we only have one server, which holds the OCP clusters and acts as a jumphost to access to the nodes.
 
-![Single server scenario](images/distributed-libvirt-clusters/single-server.png)
+![Single server scenario]({static}/images/2023-03-16-distributed-libvirt-clusters/single-server.png)
 
 In that case, VMs are connected with an internal network for provisioning, and a NATted network is used as baremetal network, allowing the virtual machines to have connectivity towards Internet (in the case of a connected cluster like this). This is managed by a virtual router created by libvirt, which has its own dnsmasq process to provide DHCP and DNS configuration to the VMs connected to that network.
 
@@ -97,23 +97,23 @@ Then, what do we need to do to move to a distributed deployment by using multipl
 
 The solution proposed is summarized in the next picture.
 
-![Multiple servers scenario](images/distributed-libvirt-clusters/multiple-servers.png)
+![Multiple servers scenario]({static}/images/2023-03-16-distributed-libvirt-clusters/multiple-servers.png)
 
 Essentially, we need to bear in mind the following distribution of servers:
 
 - One server will act as jumphost to access all VMs, including all the network configuration required (dnsmasq, DHCP, etc.).
-    - The dnsmasq configuration will no longer run in the server that deploys the virtual machines; it will be delegated in the physical server acting as jumphost.
+  - The dnsmasq configuration will no longer run in the server that deploys the virtual machines; it will be delegated in the physical server acting as jumphost.
 - Other servers deploy the Libvirt VMs to create the OCP clusters.
-    - But here, it’s not enough to use NATted networks in the baremetal network, because they can only manage outbound traffic, but not inbound.
-    - In this case, a bridged network is required instead, forcing the VMs to ask for IP configuration to the jumphost (e.g. based on MAC address).
+  - But here, it’s not enough to use NATted networks in the baremetal network, because they can only manage outbound traffic, but not inbound.
+  - In this case, a bridged network is required instead, forcing the VMs to ask for IP configuration to the jumphost (e.g. based on MAC address).
 
 Consequently, the key points of this solution are:
 
 - The usage of a Linux bridge on each server, mastering the physical network interface of the server that connects it with the jumphost, which will be the slave of this Linux bridge.
-    - This Linux bridge allows the layer-2 connectivity between all the virtual machines deployed in the server, but for layer-3 configuration, we need to go one step further.
+  - This Linux bridge allows the layer-2 connectivity between all the virtual machines deployed in the server, but for layer-3 configuration, we need to go one step further.
 - The centralized network configuration applied from the jumphost. All the VMs will receive configuration from the jumphost.
-    - Our approach is based on static IP-MAC assignment; so, if we explicitly define the MAC address to be used by each virtual machine in the virtual network that connects it to the Linux bridge, we can configure dnsmasq in the jumphost to provide a specific IP address to the virtual machine in that interface, then allowing the layer-3 connectivity.
-    - Of course, this jumphost would also apply the DNS resolution for all the VMs, not only being the point of the network from which we can SSH to the virtual machines, but also allowing the virtual machines to reach resources (e.g. registries) from outside.
+  - Our approach is based on static IP-MAC assignment; so, if we explicitly define the MAC address to be used by each virtual machine in the virtual network that connects it to the Linux bridge, we can configure dnsmasq in the jumphost to provide a specific IP address to the virtual machine in that interface, then allowing the layer-3 connectivity.
+  - Of course, this jumphost would also apply the DNS resolution for all the VMs, not only being the point of the network from which we can SSH to the virtual machines, but also allowing the virtual machines to reach resources (e.g. registries) from outside.
 
 ## Deployment and automation
 
@@ -124,7 +124,7 @@ You know that, with DCI, it is feasible to automate this kind of deployments. Fo
 - Use scripts to create and destroy VMs for clean setups.
 - Define stages for OCP pre-configuration, installation, and post-setup.
 
-However, this is true when acting over each phyisical server isolatedly. But what about achieving a real automation of the *whole* lab? Our recommended option is to apply the automation in the jumphost, so that you can rely on utilities packaged on DCI that we have already covered in several blog posts, such as [prefixes](using-prefixes.html), [dci-queue](dci-queue.html) or [dci-pipeline](dci-pipeline.html).
+However, this is true when acting over each phyisical server isolatedly. But what about achieving a real automation of the _whole_ lab? Our recommended option is to apply the automation in the jumphost, so that you can rely on utilities packaged on DCI that we have already covered in several blog posts, such as [prefixes](using-prefixes.html), [dci-queue](dci-queue.html) or [dci-pipeline](dci-pipeline.html).
 
 ### How to deploy at a high level
 
@@ -168,7 +168,6 @@ Let's check an example for IPI deployment. For this, you can take the [default i
 
 - You need to configure the MAC addresses provided to each VM in the baremetal network in the jumphost's dnsmasq to provide the proper IP address to the VMs. For example:
 
-
         dhcp-host=52:54:00:00:02:00,192.168.16.20,provisionhost.server.our.pretty.lab
         dhcp-host=52:54:00:00:02:01,192.168.16.21,dciokd-master-0.server.our.pretty.lab
         dhcp-host=52:54:00:00:02:02,192.168.16.22,dciokd-master-1.server.our.pretty.lab
@@ -176,7 +175,6 @@ Let's check an example for IPI deployment. For this, you can take the [default i
         dhcp-host=52:54:00:00:02:04,192.168.16.24,dciokd-worker-0.server.our.pretty.lab
         dhcp-host=52:54:00:00:02:05,192.168.16.25,dciokd-worker-1.server.our.pretty.lab
         dhcp-host=52:54:00:00:02:06,192.168.16.26,dciokd-worker-2.server.our.pretty.lab
-
 
 With this in mind, you would be ready, from the jumphost, to:
 

@@ -25,11 +25,11 @@ There are two primary ways Kubernetes APIs are invoked:
 
 - Static Invocation: Directly through manifest files, such as deployments, StatefulSets, or custom resource definitions.
 
-![static_invocation](images/2024-09-25-detecting-to-be-removed-apis-with-cnf/static_api_invocation.png)
+![static_invocation]({static}/images/2024-09-25-detecting-to-be-removed-apis-with-cnf/static_api_invocation.png)
 
 - Dynamic Invocation: Through Kubernetes client libraries or custom scripts that call Kubernetes APIs at runtime, such as custom resource controllers, CI/CD pipelines, or dynamic configuration management tools.
 
-![dynamic_invocation](images/2024-09-25-detecting-to-be-removed-apis-with-cnf/dynamic_api_invocation.png)
+![dynamic_invocation]({static}/images/2024-09-25-detecting-to-be-removed-apis-with-cnf/dynamic_api_invocation.png)
 
 While static invocations are relatively easy to track and analyze, dynamic API invocations pose a greater challenge because they only manifest at runtime. For example, custom controllers, automation scripts, or logging agents may call APIs that have been deprecated—these errors often surface as "Not Found" without clear details.
 
@@ -118,7 +118,7 @@ By default, if no “--output-dir” flag is provided (as in the previous exampl
 
 The parser web page (results.html) needs the claimjson.js file (which is just a JavaScript var with the whole claim.json content) and it can be used to check the results, the configuration, and the resources under test. It can be opened in any browser, and it looks like this:
 
-![html_results](images/2024-09-25-detecting-to-be-removed-apis-with-cnf/cnf_results_html.png)
+![html_results]({static}/images/2024-09-25-detecting-to-be-removed-apis-with-cnf/cnf_results_html.png)
 
 # Certsuite: Using APIRequestCounts to Detect Deprecated APIs
 
@@ -164,7 +164,7 @@ Now, assuming that the KUBECONFIG env var points the the cluster’s kubeconfig 
 
 The output will show all the test-cases being skipped except the “observability-compatibility-with-next-ocp-release” which shows as “failed”.
 
-![failed_tests](images/2024-09-25-detecting-to-be-removed-apis-with-cnf/cnf_failed_results.png)
+![failed_tests]({static}/images/2024-09-25-detecting-to-be-removed-apis-with-cnf/cnf_failed_results.png)
 
 The web parser is stored in the “tar.gz” in the results folder:
 
@@ -178,11 +178,11 @@ The web parser is stored in the “tar.gz” in the results folder:
 
 Then, we need to extract the “tar.gz” content and open the parser.html file with any browser. When clicking in the “Results” tab, you can see there’s only one test case that did run (and failed). The others are skipped.
 
-![observability_compatibility](images/2024-09-25-detecting-to-be-removed-apis-with-cnf/observability_compatibility_with_next_release.png)
+![observability_compatibility]({static}/images/2024-09-25-detecting-to-be-removed-apis-with-cnf/observability_compatibility_with_next_release.png)
 
 Then, expanding the check result, and scrolling down, we can see why it failed:
 
-![non_compliant_objects](images/2024-09-25-detecting-to-be-removed-apis-with-cnf/cnf_non_compliant_objects.png)
+![non_compliant_objects]({static}/images/2024-09-25-detecting-to-be-removed-apis-with-cnf/cnf_non_compliant_objects.png)
 
 As it can be seen in the column “Reason For Non Compliance”, there’s an application bound to the workload’s serviceaccount “sunsetapi-operator-service-account” that has made use of the API “flowschemas.v1beta2.flowcontrol.apiserver.k8s.io” that is deprecated in Kubernetes v1.29.
 Under the hood, the check “observability-compatibility-with-next-ocp-release” lists all the [APIRequestCount](#apirequestcounts-a-game-changer-for-dynamic-apis) cluster resources and looks for deprecated APIs that were used by any workload’s ServiceAccount. If the API is flagged to be removed in the next release, the test case fails.
@@ -198,6 +198,7 @@ While existing tools focus on static invocations, Red Hat Best Practices Certifi
 We encourage you to try [Red Hat Best Practices Certification for k8s](https://github.com/redhat-best-practices-for-k8s/certsuite) for your own Kubernetes upgrades. It’s open-source, easy to use, and provides invaluable insights into deprecated APIs. Share your feedback with us and help improve Kubernetes upgrade readiness across the community.
 
 # Links
+
 - DevConf 2024 video presentation and pptx: [Detecting To-Be-Removed APIs for Kubernetes Upgrade Readiness](https://pretalx.com/devconf-cz-2024/talk/review/UAHGESHZNM7BPSZ9UUQUYABDZWRNRLJF)
 - [Red Hat Best Practices Certification for k8s](https://github.com/redhat-best-practices-for-k8s/certsuite)
 - [APIRequestCount CRD](https://github.com/openshift/cluster-kube-apiserver-operator/blob/master/bindata/assets/kube-apiserver/apiserver.openshift.io_apirequestcount.yaml)

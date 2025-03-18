@@ -24,9 +24,8 @@ answering this a little bit, if you:
 Then feel free to continue reading :)
 
 !!! note
-    All examples throughout this blog post assume we're working with
-    RHEL/CentOS 8 Stream
-
+All examples throughout this blog post assume we're working with
+RHEL/CentOS 8 Stream
 
 ## What does it mean to have a development environment?
 
@@ -44,7 +43,6 @@ setup](https://docs.distributed-ci.io/dci-openshift-agent/docs/ocp_on_libvirt/)
 which means you have your entire cluster emulated in a single server. Your
 jumpbox, your SUT, your mirrors, all of it, it can be done in a single machine.
 
-
 ## What do you need to start?
 
 The requirements are simple, you need:
@@ -57,13 +55,11 @@ That's all. Of course there are fancier ways to work on this but I will show
 you the most basic ways to test your libvirt environment and then you can go
 and explore on your own.
 
-
 ## The process
 
 I am going to explain what the rough process to get a libvirt environment is,
-then at the very end I will point you in the direction of an *experimental* (at
+then at the very end I will point you in the direction of an _experimental_ (at
 the time of this post) script to automate it all
-
 
 ### The base operating system
 
@@ -139,7 +135,6 @@ The last step to configure DCI is to edit your
 `/etc/dci-openshift-agent/settings.yml` file to suit your needs e.g. changing
 the topic you want to test
 
-
 ### Creating your virtual SUT
 
 A SUT (System Under Test) in this case is composed of a provision host plus a
@@ -165,10 +160,9 @@ connected environment, you can edit this inventory to suit your needs e.g.
 creating a disconnected cluster and etc.
 
 !!! note
-    Along with the `libvirt_up.yml` playbook there is a second
-    `libvirt_destroy.yml` playbook which you can use to re-create your virtual
-    SUT, should you need to.
-
+Along with the `libvirt_up.yml` playbook there is a second
+`libvirt_destroy.yml` playbook which you can use to re-create your virtual
+SUT, should you need to.
 
 ## Running the agent
 
@@ -191,7 +185,6 @@ an editable place and then you can run your changes like this:
 
 And done, you can iterate as many times as you want now.
 
-
 ## Cheat code
 
 I have explained roughly the overall process to get you up and running, and you
@@ -204,11 +197,11 @@ experimental as of yet and prone to changes in the near future, but if you want
 to try your luck here's what you can do:
 
 1. Create a `~/.ocp-agent.yml` file containing the following variables:
-    * `dci_client_id`: use DCI_CLIENT_ID from your remote CI credentials
-    * `dci_api_secret`: use DCI_API_SECRET from your remote CI credentials
-    * `rhn_user`: If your lab is RHEL, you need this to automatically subscribe
-    * `rhn_pass`: If your lab is RHEL, you need this to automatically subscribe
-    * `github_user`: To add your public keys to the agent's authorized keys list
+   - `dci_client_id`: use DCI_CLIENT_ID from your remote CI credentials
+   - `dci_api_secret`: use DCI_API_SECRET from your remote CI credentials
+   - `rhn_user`: If your lab is RHEL, you need this to automatically subscribe
+   - `rhn_pass`: If your lab is RHEL, you need this to automatically subscribe
+   - `github_user`: To add your public keys to the agent's authorized keys list
 2. Create an inventory file (or edit the default `/etc/ansible/hosts`) and add
    an entry for your lab
 3. Execute the playbook. The playbook itself is executable thanks to the magic
@@ -217,7 +210,6 @@ to try your luck here's what you can do:
    the shebang to figure out the proper call to execute it.
 
 After this, you should end up with a system ready to execute the OCP agent.
-
 
 ## Closing thoughts
 

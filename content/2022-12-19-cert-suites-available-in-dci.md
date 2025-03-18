@@ -12,7 +12,7 @@ Red Hat Distributed CI ([DCI](introduction-to-the-red-hat-distributed-ci)) is a 
 
 [TOC]
 
-![cert_suites](images/cert-suites-integrated-in-dci/cert_suites.png)
+![cert_suites]({static}/images/2022-12-19-cert-suites-available-in-dci/cert_suites.png)
 
 # Agent - Infrastructure Tests
 
@@ -28,24 +28,24 @@ The Container Storage Interface ([CSI](https://redhat-connect.gitbook.io/openshi
 
 ## Containers' certification: Preflight and OSCAP-podman
 
-![preflight_check_container](images/cert-suites-integrated-in-dci/preflight_check_container.png)
+![preflight_check_container]({static}/images/2022-12-19-cert-suites-available-in-dci/preflight_check_container.png)
 
 To become certification-ready, your container must pass all the test suites provided by two tools: [Preflight for containers](https://github.com/redhat-openshift-ecosystem/openshift-preflight/blob/main/docs/RECIPES.md#container-policy) and [OSCAP-podman](https://www.redhat.com/sysadmin/container-vulnerabilities-openscap). Preflight for containers checks for basic best practices: "do not run as root", "base on UBI", "provide license", "limit layer count", etc. OSCAP-podman scans for vulnerabilities, running over a thousand biweekly-updated tests. To trigger these tests from DCI, you could customize [an example configuration](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/preflight#certification-of-standalone-containers) for your needs and use a [debug guideline](preflight-integration-in-dci.html#debug-test-results-using-dci-ui) in case of any failing tests. You can also opt for [end-to-end container certification](preflight-integration-in-dci.html#end-to-end-certification-of-container-images-with-dci) from DCI by requesting that DCI automatically create a certification project at [connect.redhat.com](https://connect.redhat.com) and push the test results in that project. This allows you to simply click the publish button to add the container to the [catalog](https://catalog.redhat.com/software).
 
 ## Helm Chart Verifier
 
-![helm_cert](images/cert-suites-integrated-in-dci/helm_cert.png)
+![helm_cert]({static}/images/2022-12-19-cert-suites-available-in-dci/helm_cert.png)
 
 [Chart Verifier](https://github.com/redhat-certification/chart-verifier) allows you to validate the Helm chart against a configurable list of checks. The tool ensures that the Helm chart includes the associated metadata and formatting, and is distribution ready. The ultimate goal of Helm chart certification is to get your chart merged into the [OpenShift Helm Repository](https://github.com/openshift-helm-charts), and DCI can offer you a [full service](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/chart_verifier) by running all the required tests and even automatically opening a pull request. Please note that not all Helm chart workloads can be certified; for example, the "certification-green" Helm chart [must not contain any CRDs](https://github.com/redhat-certification/chart-verifier/blob/main/docs/helm-chart-troubleshooting.md#not-contains-crds-v10). CRDs should be defined using operators.
 
 ## All Operators: Preflight Certification
 
-![preflight_check_operator](images/cert-suites-integrated-in-dci/preflight_check_operator.png)
+![preflight_check_operator]({static}/images/2022-12-19-cert-suites-available-in-dci/preflight_check_operator.png)
 
 General-purpose operators could be certified using the [Preflight check-operator](https://github.com/redhat-openshift-ecosystem/openshift-preflight/blob/main/docs/RECIPES.md#operator-policy) tool, that currently runs four tests. Three of these tests are basic formatting validations provided by the [operator-sdk](https://github.com/operator-framework/operator-sdk), and the fourth one, called `DeployableByOLM`, verifies if the operator could be deployed by OLM, having its Subscription and CustomServiceVersion up and running. Similarly to Preflight check-container, here are [several example configurations](preflight-integration-in-dci.html#how-to-run-certification-tests-with-dci) that you can customize for your needs, a [debug guideline](preflight-integration-in-dci.html#debug-test-results-using-dci-ui) and the possiblity to run an [end-to-end](preflight-integration-in-dci.html#end-to-end-certification-of-operators-with-dci) certification process, which tests and merges your operator into the [certified-operators repository](https://github.com/redhat-openshift-ecosystem/certified-operators).
 
 ## CNF Certification - Red Hat Best Practices Test Suite for Kubernetes
 
-![cnf_cert](images/cert-suites-integrated-in-dci/cnf_cert.png)
+![cnf_cert]({static}/images/2022-12-19-cert-suites-available-in-dci/cnf_cert.png)
 
 The ([Red Hat Best Practices Test Suite for Kubernetes](https://github.com/redhat-best-practices-for-k8s/certsuite)) certification suite (former CNF Cert Suite) is a set of CNF tests and a framework for building more. Its main goal is not to certify the workloads under test (which can be pods and operators), but rather to measure compliance with the good practices defined in [CNF Requirements document](https://connect.redhat.com/sites/default/files/2022-05/Cloud%20Native%20Network%20Function%20Requirements%201-3.pdf) published by Red Hat. This suite is run by the [dci-openshift-app-agent](https://github.com/redhat-cip/dci-openshift-app-agent), which uses DCI configuration to [autodiscover](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/k8s_best_practices_certsuite) the workloads. It then tests their interaction with OpenShift, and generates the report to be submitted to the [Red Hat Certification Partner Connect portal](https://rhcert.connect.redhat.com/). We have also created a [blog-post with an example configuration](cnf-cert-suite-with-dci-openshift-app-agent.html) and an [extended video presentation](https://drive.google.com/file/d/12Hyl5I_nm-1uF-ouCZgFVj9S7BPYleTF/view) if you would like to learn more.

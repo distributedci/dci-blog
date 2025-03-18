@@ -48,8 +48,6 @@ These two variables, called `ansible_inventory` and `ansible_cfg`, that allow yo
           ansible_inventory: /etc/dci-openshift-agent/hosts
           ansible_cfg: /usr/share/dci-openshift-agent/ansible.cfg
 
-
-
 ## dci-openshift-agent? dci-openshift-app-agent?
 
 Imagine you want to run a job with dci-openshift-agent to install an OCP cluster and also including a DCI component called a_component, and then, to run a workload on top of this cluster with dci-openshift-app-agent, referenced with a component called b_component. The way of naming these two components on each pipeline is exactly the same!
@@ -57,7 +55,6 @@ Imagine you want to run a job with dci-openshift-agent to install an OCP cluster
 The key benefit from using dci-pipeline is that you can use the same source of information (pipelines), with the same fields and variables, to run your jobs with dci-openshift-agent or with dci-openshift-app-agent, depending on your needs.
 
 Ultimately, utilizing dci-pipeline streamlines and simplifies your use cases and provides you with a straightforward means of reusing the utilized data.
-
 
 # Testing tools used under dci-pipeline scope
 

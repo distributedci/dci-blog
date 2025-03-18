@@ -9,8 +9,8 @@ Summary: This post is a tutorial on how to install a standard three-masters and 
 
 Here is the schema of the OpenShift cluster we are going to create on a baremetal server. We will do that by using Red Hat Distributed CI ([DCI](introduction-to-the-red-hat-distributed-ci)). DCI is a great CI tool written in Ansible that can help you install OpenShift on baremetal, automate the deployment of your plugins and workloads, and run various tests.
 
-![cluster](images/libvirt-on-baremetal/vms_and_networks.png)
-*Fig. 1. Virtual machines and networks.*
+![cluster]({static}/images/2023-01-09-install-ocp-on-baremetal-using-dci/vms_and_networks.png)
+_Fig. 1. Virtual machines and networks._
 
 [TOC]
 
@@ -19,7 +19,6 @@ Here is the schema of the OpenShift cluster we are going to create on a baremeta
 ## Hardware Resources and VMs
 
 First, estimate whether you have enough resources for the desired cluster. As a bare minimum, you will need resources for the jumphost, provisionhost, and three masters. Then, depending on the workload, reserve some vCPU, RAM and space for the workers. For example, the following resource distribution could work for an Intel 96 vCPU (Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz), 144GB total RAM, and 500GB disk space:
-
 
     | Machine                 | RAM          | vCPU         | disk space |
     | ----------------------- | ------------ | ------------ | ---------- |
@@ -315,27 +314,27 @@ The last step is to use the created virtual cluster to install OpenShift.
 
 To configure DCI, follow these steps:
 
-1. Login as the `dci-openshift-agent` user (note, that DCI installation configured its home to be at `/var/lib/dci-openshift-agent`):
+1.  Login as the `dci-openshift-agent` user (note, that DCI installation configured its home to be at `/var/lib/dci-openshift-agent`):
 
         $ sudo su - dci-openshift-agent
 
-2. Create a new folder to store the configuration for the OpenShift cluster:
+2.  Create a new folder to store the configuration for the OpenShift cluster:
 
         $ cd $HOME && mkdir dci-config
 
-3. Tell DCI the location of this folder by setting the path in the file `/etc/dci-openshift-agent/config`:
+3.  Tell DCI the location of this folder by setting the path in the file `/etc/dci-openshift-agent/config`:
 
         $ cat /etc/dci-openshift-agent/config
         CONFIG_DIR=/var/lib/dci-openshift-agent/dci-config
 
-4. During the creation of the VMs and networks, DCI `ocp_on_libvirt` already generated the hosts file describing your cluster resources. Copy that file into the configuration folder:
+4.  During the creation of the VMs and networks, DCI `ocp_on_libvirt` already generated the hosts file describing your cluster resources. Copy that file into the configuration folder:
 
         $ cd /var/lib/dci-openshift-agent/samples/ocp_on_libvirt
         $ cp hosts /var/lib/dci-openshift-agent/dci-config/hosts
 
-5. To unlock an automated OpenShift installation, copy the pull-secret file you got with your OpenShift subscription into `/var/lib/dci-openshift-agent/dci-config/pull-secret.txt`.
+5.  To unlock an automated OpenShift installation, copy the pull-secret file you got with your OpenShift subscription into `/var/lib/dci-openshift-agent/dci-config/pull-secret.txt`.
 
-6. To set an OpenShift version to install, add `settings.yml` file in the DCI configuration folder
+6.  To set an OpenShift version to install, add `settings.yml` file in the DCI configuration folder
 
         $ cat $HOME/dci-config/settings.yml
         ---
@@ -349,7 +348,7 @@ To configure DCI, follow these steps:
         # vms do not support redfish
         redfish_inspection: false
 
-7. To get the job displayed in the DCI UI, [create remote-ci credentials](https://www.distributed-ci.io/remotecis), and copy them into the file `dcirc.sh`, then source it:
+7.  To get the job displayed in the DCI UI, [create remote-ci credentials](https://www.distributed-ci.io/remotecis), and copy them into the file `dcirc.sh`, then source it:
 
         $ source /var/lib/dci-openshift-agent/dci-config/dcirc.sh
 

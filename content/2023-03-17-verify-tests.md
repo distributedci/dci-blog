@@ -152,7 +152,7 @@ In this section, we provide an example of standalone usage of our development, w
         </testsuite>
         </testsuites>
 
-1. Copy the `filter-plugins` directory from the [source](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/verify-tests) to the same folder as your playbook.
+1.  Copy the `filter-plugins` directory from the [source](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/roles/verify-tests) to the same folder as your playbook.
 
         $ tree
         .
@@ -164,7 +164,7 @@ In this section, we provide an example of standalone usage of our development, w
         |   └── multiple_testcases.xml
         └── my_nice_playbook.yml
 
-2. Write a simple playbook to define the expected results, retrieve the actual test results, and compare them.
+2.  Write a simple playbook to define the expected results, retrieve the actual test results, and compare them.
 
         $ cat my_nice_playbook.yml
         ---
@@ -191,7 +191,7 @@ In this section, we provide an example of standalone usage of our development, w
               when: expectation_failed | length > 0
         ...
 
-3. Check that the validation works.
+3.  Check that the validation works.
 
         $ ansible-playbook -i inventory my_nice_playbook.yml -v
 
@@ -249,23 +249,23 @@ Here, we are going to focus on how to validate the test results within the DCI j
 
 Please note that our implementation allows using any Python regex for the test case name. For the operator and its main image, we request everything to pass by using a regex. For the rbac-proxy, which is a scratch image, we only pin three tests. If everything was okay, we would have a green success job:
 
-![green_job](images/verify-tests/green_job.png)
-*Fig. 1. Green job - all test results as expected.*
+![green_job]({static}/images/2023-03-17-verify-tests/green_job.png)
+_Fig. 1. Green job - all test results as expected._
 
 If something went wrong during the tests and an expected test file was not generated, we would have a failed job complaining about that:
 
-![failed_job_no_file](images/verify-tests/failed_job_no_file.png)
-*Fig. 2. Failed job - an expected JUnit file not found.*
+![failed_job_no_file]({static}/images/2023-03-17-verify-tests/failed_job_no_file.png)
+_Fig. 2. Failed job - an expected JUnit file not found._
 
 If the file was generated but the results were not compliant with the expectations, the job fails as well:
 
-![failed_job_tests_ko](images/verify-tests/failed_job_tests_ko.png)
-*Fig. 3. Failed job - test results are not compliant with the expectations.*
+![failed_job_tests_ko]({static}/images/2023-03-17-verify-tests/failed_job_tests_ko.png)
+_Fig. 3. Failed job - test results are not compliant with the expectations._
 
 In such a case, the failed expectations would be listed the in the DCI UI logs:
 
-![failed_expectations](images/verify-tests/failed_expectations.png)
-*Fig. 4. Failed expectations listed.*
+![failed_expectations]({static}/images/2023-03-17-verify-tests/failed_expectations.png)
+_Fig. 4. Failed expectations listed._
 
     TASK [verify-tests : Fail if not all test results are as expected
     for preflight_operator_simple-demo-operator_0.0.6_results-junit.xml] 0s

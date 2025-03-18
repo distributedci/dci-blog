@@ -11,7 +11,7 @@ Summary: This post gives an example of how to apply, using the DCI automation, a
 ## Introduction
 
 With the emergence of Edge computing, new needs come and cloud technologies must provide a solid answer. As an example, in the Telco / 5G world, it translates to a drastic reduction of the latency, from 50 ms response time in the 4G world to less than 1ms.
-To answer this challenge, OpenShift Container Platform provides mechanisms to tune nodes and softwares running on OpenShift,  for real-time running and low latency options, like enabling a real time kernel. The low-level management of the nodes is achieved by the Performance Profile object which is managed by the Node Tuning Operator for OCP versions 4.11+ (and the Performance Addon Operator project for the previous versions of OpenShift). This profile allows the cluster admin to enable low level options on the nodes of the cluster, like disabling hyperthreading which minimize the latency, or even reserve CPU for the orchestrator's sake or isolate it to a specific workload.
+To answer this challenge, OpenShift Container Platform provides mechanisms to tune nodes and softwares running on OpenShift, for real-time running and low latency options, like enabling a real time kernel. The low-level management of the nodes is achieved by the Performance Profile object which is managed by the Node Tuning Operator for OCP versions 4.11+ (and the Performance Addon Operator project for the previous versions of OpenShift). This profile allows the cluster admin to enable low level options on the nodes of the cluster, like disabling hyperthreading which minimize the latency, or even reserve CPU for the orchestrator's sake or isolate it to a specific workload.
 In the context of running applications such as Cloud-native Network Functions (CNF) or Data Plane Development Kit (DPDK), the usage and the mastering of PerformanceProfile objects will be crucial. That is why [dci-openshift-agent](https://github.com/redhat-cip/dci-openshift-agent) handles this resource during the installation.
 As a disclaimer, starting from OCP-4.11 and above, the Performance Addon Operator project has been moved as a part of the Node Tuning Operator. It does not change the nature of the PerformanceProfile object that is still behaving the same way.
 
@@ -39,9 +39,8 @@ Another option that is widely used for low latency nodes is the disabling of hyp
         additionalKernelArgs:
             - nosmt
 
-
 There are plenty of other options available through the PerformanceProfile like the configuration of Huge Pages, the NUMA topology to be applied or all the fine tuning that can be done via the workload hints which combine power consumption and real-time settings. As the creation of the proper PerformanceProfile will largely depend on your needs and your hardware, finding the balance between performances, latency and power consumption requires some tries. Hopefully, there is a cmd-line tool, called Performance Profile Creator (PPC), provided with the Node Tuning Operator that can help you. For more details about the PPC see the [OpenShift Documentation](https://docs.openshift.com/container-platform/4.13/scalability_and_performance/cnf-create-performance-profiles.html).
-Here is an example of a real configuration that it is used in our Dallas datacenter lab for testing CNFs, on nodes with 40 CPUs, with  the hyperthreading enabled, huge pages are set for increasing kernel-level performance and with some low-level kernel options:
+Here is an example of a real configuration that it is used in our Dallas datacenter lab for testing CNFs, on nodes with 40 CPUs, with the hyperthreading enabled, huge pages are set for increasing kernel-level performance and with some low-level kernel options:
 
     kind: PerformanceProfile
     apiVersion: "performance.openshift.io/v2"

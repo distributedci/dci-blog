@@ -15,12 +15,12 @@ Summary: ACM is a tool that allows deploying, and managing OCP clusters and work
 
 ACM provides:
 
-* SNO and multi-node cluster deployments.
-* Built-in security policies.
-* The ability to deploy applications
-* The enforcement of policies across infrastructure platforms
-* Resources governance.
-* An easy-to-use console.
+- SNO and multi-node cluster deployments.
+- Built-in security policies.
+- The ability to deploy applications
+- The enforcement of policies across infrastructure platforms
+- Resources governance.
+- An easy-to-use console.
 
 ACM is an easy method for deploying and managing OCP clusters. Now DCI supports installing SNO instances using ACM.
 
@@ -33,9 +33,9 @@ We will use the following ACM terminology to refer to the two kinds of clusters:
 - Hub: The cluster running the ACM operator.
 - Spoke: The cluster(s) deployed/managed by the Hub.
 
-![acm_arch](images/acm-integration/acm-architecture.png)
+![acm_arch]({static}/images/2023-01-05-acm-integration/acm-architecture.png)
 
-*Fig. 1. ACM architecture.*
+_Fig. 1. ACM architecture._
 
 ## The ACM Ansible Roles
 
@@ -45,10 +45,9 @@ The `dci-openshift-agent` uses two roles to deploy Hub and Spoke clusters.
 
 - The [acm-sno](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/acm_sno/README.md) role interacts with the Hub to request and deploy an SNO instance, from installation to importing the resource into the ACM console.
 
+![acm_arch]({static}/images/2023-01-05-acm-integration/acm-console.png)
 
-![acm_arch](images/acm-integration/acm-console.png)
-
-*Fig. 2. ACM console.*
+_Fig. 2. ACM console._
 
 These roles do not have any dependencies, as the only requirement for executing them is to provide a KUBECONFIG file as input. This file will allow interaction with the OpenShift clusters. Some examples of how to use the roles for multiple scenarios are available on the corresponding role’s readme.
 
@@ -58,11 +57,11 @@ The creation of the roles was the first stage. Later on, we included them as par
 
 The DCI Agent takes care of the following tasks and generates some of the parameters passed to the ACM roles.
 
-* Performs the OCP release mirroring.
-* Downloads container images and ISOs for disconnected environments. In connected-mode, it identifies the asset's URL in public repositories.
-* Saves logging information and collects cluster information.
-* Deploys OLM operators.
+- Performs the OCP release mirroring.
+- Downloads container images and ISOs for disconnected environments. In connected-mode, it identifies the asset's URL in public repositories.
+- Saves logging information and collects cluster information.
+- Deploys OLM operators.
 
 ## What is next?
 
-We had a quick overview of the  ACM and some generalities about its integration with DCI. We are going to dedicate some blog posts on this matter, so if you have an interest in giving it a try, please take a look at [using ACM to deploy SNO](acm-deploy-sno).
+We had a quick overview of the ACM and some generalities about its integration with DCI. We are going to dedicate some blog posts on this matter, so if you have an interest in giving it a try, please take a look at [using ACM to deploy SNO](acm-deploy-sno).

@@ -11,19 +11,19 @@ Red Hat OpenShift Container Platform (OCP) is a leading Kubernetes distribution 
 
 A cluster in a disconnected environment or Air-gap; is a cluster with a restricted network, usually meaning no Internet access or limited access. Such environments require a registry to mirror and synchronize images between the public Internet and the restricted environment. The following diagram is an example of a disconnected cluster with restricted access to the Internet through a firewall.
 
-![Diagram of an OCP cluster with three nodes acting as the control-plane and three nodes as workers. All the nodes connect to two networks. On the top network, the one that goes to the Internet, is behind a firewall, limiting access to registries like quay.io. On the bottom network, the nodes are interconnected to a local registry. All the nodes include a reference to a Machine Config. The machine config comes from the IDMS and configures the nodes to the mirroring configuration. The workers contain a reference to a Pod]({static}/images/20231103-idms/disconnected_environment.jpg)
+![Diagram of an OCP cluster with three nodes acting as the control-plane and three nodes as workers. All the nodes connect to two networks. On the top network, the one that goes to the Internet, is behind a firewall, limiting access to registries like quay.io. On the bottom network, the nodes are interconnected to a local registry. All the nodes include a reference to a Machine Config. The machine config comes from the IDMS and configures the nodes to the mirroring configuration. The workers contain a reference to a Pod]({static}/images/2023-11-03-idms-support-in-dci-openshift-agents/disconnected_environment.jpg)
 
 ## ICSP and IDMS characteristics
 
 ICSP and IDMS hold cluster-wide information about how to handle registry mirror rules using digest pull specification. Both resource definitions look pretty similar, and they operate in a similar way, with only a couple of differences. The image below shows an example of them.
 
-![Example of an ImageContentSourcePolicy and an ImageDigestMirrorSet resource]({static}/images/20231103-idms/idms_icsp.jpg)
+![Example of an ImageContentSourcePolicy and an ImageDigestMirrorSet resource]({static}/images/2023-11-03-idms-support-in-dci-openshift-agents/idms_icsp.jpg)
 
 From the image above, both resources require a list of Digest Mirrors. Those mirrors include a source and a list of mirrors for the specified source. Both resources allow images referenced by image digests in pods to be pulled from the alternative mirrored repository locations. Any image specified using a tag **does not** use ICSP or IDMS.
 
 IDMS functionality brings two main differences compared to ICSP.
 
-1. If the image pull specification matches the repository of "source" in multiple *imagedigestmirrorset* objects. Then, only the objects that define the most specific namespace match are used.
+1. If the image pull specification matches the repository of "source" in multiple _imagedigestmirrorset_ objects. Then, only the objects that define the most specific namespace match are used.
 1. If the "mirrors" are not specified, the image will continue to be pulled from the specified repository in the pull spec.
 
 > NOTE: With the introduction of ITMS it will be possible to expand this constraint in the image pull specification to tags. At this point the DCI agents do not bring yet support to ITMS.
@@ -34,7 +34,7 @@ In a disconnected environment, it is common that some (if not all) of the images
 
 When a pod is scheduled, the images containing a Digest are compared against the IDMS sources, and then the mirrors are used to pull the image. Here is a simplified diagram showing when IDMS are used:
 
-![A Pod containing a container with an image using a pull specification by digest. An IDMS for that image using a mirror. A couple of arrows showing the case when an image is used by Tag, going to a public registry (quay.io) and when using a Digest that matches the IDMS, going to a local registry]({static}/images/20231103-idms/IDMS_flow.jpg)
+![A Pod containing a container with an image using a pull specification by digest. An IDMS for that image using a mirror. A couple of arrows showing the case when an image is used by Tag, going to a public registry (quay.io) and when using a Digest that matches the IDMS, going to a local registry]({static}/images/2023-11-03-idms-support-in-dci-openshift-agents/IDMS_flow.jpg)
 
 If the image contains a Digest, e.g. quay.io/example-by-digest@sha256:a1b2c3... And this pull specification matches a source in IDMS, then the mirror list is used to pull that image.
 

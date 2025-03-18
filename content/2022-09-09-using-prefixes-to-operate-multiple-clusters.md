@@ -15,7 +15,7 @@ Although most of the examples here deal with the dci-openshift-agent, other DCI 
 
 In the most basic use case, the DCI agents need the `hosts` and `settings.yml` files to exist in their configuration directory.
 
-![010-basic_scenario](images/2022-09-09/010-basic_scenario.svg)
+![010-basic_scenario]({static}/images/2022-09-09-using-prefixes-to-operate-multiple-clusters/010-basic_scenario.svg)
 
 The `hosts` file identifies the target systems the agent will operate when launched, along with those Ansible variables related to the infrastructure.
 
@@ -29,7 +29,7 @@ So... this being clarified, we were discussing the basic use case. In this scena
 
 With this simple command line, the agent assumes default values are used so it just goes in the configuration directory and makes sure the `hosts` and `settings.yml` files exist. If they don't the agent will just fail reporting the missing file, otherwise, the agent will launch the Ansible playbook setting the inventory to point to the `hosts` file, and including the `settings.yml` variables file.
 
-This is just an example of what the resulting *ansible-playbook* command would look like:
+This is just an example of what the resulting _ansible-playbook_ command would look like:
 
         $ ansible-playbook -e @/etc/dci-openshift-agent/settings.yml \
               -i /etc/dci-openshift-agent/hosts \
@@ -39,15 +39,15 @@ This is just an example of what the resulting *ansible-playbook* command would l
 
 Now, the basic use case is great when you just have one lab with a single OpenShift cluster and you don't even need to persist your settings. But you may be asking yourself:
 
-- *What if I have one lab with multiple OpenShift clusters?*
+- _What if I have one lab with multiple OpenShift clusters?_
 
-- *What if I have a fleet of labs?*
+- _What if I have a fleet of labs?_
 
-- *What if I just have one lab, with one cluster, but I want to run different deployment scenarios (IPI, UPI, upgrades...)?*
+- _What if I just have one lab, with one cluster, but I want to run different deployment scenarios (IPI, UPI, upgrades...)?_
 
-- *What if I have any combination of the above?*
+- _What if I have any combination of the above?_
 
-- *Do I need to keep editing the `hosts` and `settings.yml` files or swapping them for every testing scenario?*
+- _Do I need to keep editing the `hosts` and `settings.yml` files or swapping them for every testing scenario?_
 
 Here is where prefixes come in handy.
 
@@ -55,9 +55,9 @@ Here is where prefixes come in handy.
 
 Prefixes are just what their name imply: prefixes you may add to the `hosts` and `settings.yml` file name so you may manage multiple operation setups from the same config directory without having to edit any files and on an almost seamless fashion.
 
-So, let's say you have your lab, and in that lab you have two different clusters which, in a sheer effort of imagination, we'll call *cluster1* and *cluster2*.
+So, let's say you have your lab, and in that lab you have two different clusters which, in a sheer effort of imagination, we'll call _cluster1_ and _cluster2_.
 
-![020-multiple_clusters](images/2022-09-09/020-multiple_clusters.svg)
+![020-multiple_clusters]({static}/images/2022-09-09-using-prefixes-to-operate-multiple-clusters/020-multiple_clusters.svg)
 
 Each cluster has its own Provision Host and its own set of master and worker nodes with their individual addressess and BMC consoles.
 
@@ -75,7 +75,7 @@ Likewise, if each cluster is aimed at a different testing scope (target versions
         cluster1-settings.yml
         cluster2-settings.yml
 
-![030-multi_prefixes](images/2022-09-09/030-multi_prefixes.svg)
+![030-multi_prefixes]({static}/images/2022-09-09-using-prefixes-to-operate-multiple-clusters/030-multi_prefixes.svg)
 
 The next time we run the agent, we can provide it with a prefix by passing the parameter `-p` with the target cluster prefix. For instance:
 
@@ -109,7 +109,7 @@ The most straight scenario now would be that we have a lab with different cluste
 
 An exception to this would be that we had several clusters, forcing us to have dedicated inventory files per cluster, but the scope of the testing would be the same for each cluster. In this case, we could simply have the default `settings.yml` file defined in our configuration directory. This way, when running the agent, regardless of the cluster we indicate by the prefix, the agent will always default to the only settings file in the directory.
 
-![040-single_settings](images/2022-09-09/040-single_settings.svg)
+![040-single_settings]({static}/images/2022-09-09-using-prefixes-to-operate-multiple-clusters/040-single_settings.svg)
 
 Another scenario would be where we have a single cluster, and different scopes of the tests we want to run. In this case, we would only need the `hosts` file, but then we'd create several copies fo the settings file and name them after the different scopes. For instance:
 
@@ -144,11 +144,11 @@ Below we present you with some extra features that can be helpful in combination
 
 ### Changing the config directory path
 
-As we explained above, the config directory paths default, respectively, to */etc/dci-openshift-agent* and */etc/dci-openshift-app-agent*. This means these are the directories the DCI agents will look for the settings and hosts files (and the hooks as well, for that matter).
+As we explained above, the config directory paths default, respectively, to _/etc/dci-openshift-agent_ and _/etc/dci-openshift-app-agent_. This means these are the directories the DCI agents will look for the settings and hosts files (and the hooks as well, for that matter).
 
 This poses some inconveniences when, for instance, you plan on keeping your configuration resources in a git repository and you want to update your local copy with a system user different than root.
 
-To overcome this, the agents give you the option of storing the settings and hosts files on a different path. The only thing you need to do is creating the file */etc/dci-openshift-agent/config* and populating it with the variable:
+To overcome this, the agents give you the option of storing the settings and hosts files on a different path. The only thing you need to do is creating the file _/etc/dci-openshift-agent/config_ and populating it with the variable:
 
         CONFIG_DIR=/path/to/local/repository
 
@@ -156,19 +156,19 @@ Now you can have your configuration files (prefixed or not) stored on your alter
 
 ### Other commands that may use prefixes
 
-But the use of prefixes is not only limited to the *dci-openshit(-app)-agent* command.
+But the use of prefixes is not only limited to the _dci-openshit(-app)-agent_ command.
 
-The [*dci-check-change*](https://docs.distributed-ci.io/dci-openshift-agent/docs/development/#testing-a-change) command is used to create a temporary environment with copies of the code repositories you want to test at a given developement state.
+The [_dci-check-change_](https://docs.distributed-ci.io/dci-openshift-agent/docs/development/#testing-a-change) command is used to create a temporary environment with copies of the code repositories you want to test at a given developement state.
 
 In a standard execution, the command loads the settings defined in the `/etc/dci-openshift-agent/config` file, including the `CONFIG_DIR` variable.
 
 If, however, one of the changed repositories cloned is a config directory, the `CONFIG_DIR` variable is overridden to point to the cloned directory.
 
-Now, whether we use the system's configuration directory or a cloned one, *dci-check-change* may take not one, but two prefixes with format:
+Now, whether we use the system's configuration directory or a cloned one, _dci-check-change_ may take not one, but two prefixes with format:
 
         -p doa-prefix -p2 doaa-prefix
 
-This is so because, in order to test a workload, *dci-check-change* may need to deploy the cluster first, and this way you may provide the command with prefixes for both, the *dci-ocp-agent* (-p) and the *dci-ocp-app-agent* (-p2).
+This is so because, in order to test a workload, _dci-check-change_ may need to deploy the cluster first, and this way you may provide the command with prefixes for both, the _dci-ocp-agent_ (-p) and the _dci-ocp-app-agent_ (-p2).
 
 An example command would look like:
 
@@ -180,7 +180,7 @@ Which would set the DCI openshift agent to run with prefix `ocp2` and the app ag
 
 Finally, let's discuss how DCI queues may leverage and benefit from prefixes.
 
-When scheduling a job with [*dci-queue schedule*](https://docs.distributed-ci.io/dci-pipeline/#dci-queue-command) you place your job in a queue by providing the pool name in the command.
+When scheduling a job with [_dci-queue schedule_](https://docs.distributed-ci.io/dci-pipeline/#dci-queue-command) you place your job in a queue by providing the pool name in the command.
 
 A pool will contain one or more resources, which represent clusters available in your lab so, when your job gets to the top of the queue and one of the resources becomes available it'll get assigned to the cluster and will get started.
 
@@ -193,5 +193,3 @@ The only change needed would be editing (o creating) the file `/etc/dci-openshif
         USE_PREFIX=1
 
 If you then schedule a job and wait for it to start, you'll see the prefix arguments being added to the command line.
-
-

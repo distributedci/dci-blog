@@ -32,8 +32,8 @@ For the ABI deployment, we used Distributed-CI, following [the documentation to 
 We supported our deployment process with [the assisted_on_libvirt sample available in the dci-openshift-agent code](https://github.com/redhat-cip/dci-openshift-agent/tree/master/samples/assisted_on_libvirt), which automates the generation of the inventory required for the ABI installation. We generated a base inventory from this template and made modifications as needed.
 Our desired scenario included 3 control plane nodes, 2 data plane nodes, and a network to serve the running cluster.
 
-![desired_config](images/2024-06-25-from-ipi-to-abi/from-ipi-to-abi-desired-config.png)
-*Fig. 1. Desired Configuration.*
+![desired_config]({static}/images/2024-06-25-from-ipi-to-abi/from-ipi-to-abi-desired-config.png)
+_Fig. 1. Desired Configuration._
 
 To replicate this deployment in your environment, you can rely on the official documentation and [a helpful blog post](https://blog.distributed-ci.io/ocp-assisted-libirt-quick-start.html) that outlines the main prerequisites for running the Assisted Installer.
 

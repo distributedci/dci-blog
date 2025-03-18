@@ -29,7 +29,7 @@ This post will describe the setup and procedure to run a cluster deployment usin
 
 From a high level perspective, the procedure is as follows:
 
-![overview](images/2024-10-23-gitops-ztp-with_dci/overview.png)
+![overview]({static}/images/2024-10-23-gitops-ztp-with_dci/overview.png)
 
 We first have to create a Git repository with a directory containing the ZTP manifests that describe the target (spoke) cluster settings. The OpenShift GitOps Operator supports different methods of authentication for the repository, so we recommend making the repository private.
 
@@ -45,7 +45,7 @@ The DCI OpenShift Agent takes care of accessing the ACM hub cluster in order to:
 
 If this configuration is done properly, the operator should detect and parse the manifests in the repository and create the ACM resources.
 
-![overview](images/2024-10-23-gitops-ztp-with_dci/argocd_synced.png)
+![overview]({static}/images/2024-10-23-gitops-ztp-with_dci/argocd_synced.png)
 
 Among other objects, it will create a Managed cluster instance and the set of (Bare Metal) Hosts comprising the cluster.
 
@@ -53,19 +53,19 @@ The agent will then wait for the spoke cluster installation to start and will en
 
 If you monitor closely the installation progress described by the DCI log, it remains at 0% for some time. This is so because in the first stage of the installation the ACM must inspect the hosts which is a time consuming task. Therefore, during this time, the infrastructure hosts will show as "inspecting" in the ACM console.
 
-![inspecting](images/2024-10-23-gitops-ztp-with_dci/inspecting.png)
+![inspecting]({static}/images/2024-10-23-gitops-ztp-with_dci/inspecting.png)
 
 During this time, if you log into the ACM console you'll see that the Managed cluster appears in "draft" status because there are no hosts available for the cluster yet.
 
-![managed_cluster](images/2024-10-23-gitops-ztp-with_dci/managed_cluster.png)
+![managed_cluster]({static}/images/2024-10-23-gitops-ztp-with_dci/managed_cluster.png)
 
 Once the host inspection completes, will begin to increase and eventually reach 100%.
 
-![provisioning](images/2024-10-23-gitops-ztp-with_dci/provisioning.png)
+![provisioning]({static}/images/2024-10-23-gitops-ztp-with_dci/provisioning.png)
 
 The last actions taken by the agent will be extracting the spoke cluster credentials and placing them in your local host.
 
-![credentials](images/2024-10-23-gitops-ztp-with_dci/credentials.png)
+![credentials]({static}/images/2024-10-23-gitops-ztp-with_dci/credentials.png)
 
 If you're running the agent from a DCI pipeline, you may set it to output the kubeconfig file path so the next stage my directly operate the spoke cluster. In any case, set to leverage the GitOps methodology, the best way would be to operator the cluster by pushing and editing the Day 1 policies in the repository.
 
@@ -204,7 +204,7 @@ To use the DCI OpenShift Agent to deploy a ZTP spoke cluster just run the dci-pi
 
 Which will launch a DCI job you may monitor from the [DCI Control Server](https://distributed-ci.io) with a resulting log similar to the following excerpt.
 
-![full_process](images/2024-10-23-gitops-ztp-with_dci/full_process.png)
+![full_process]({static}/images/2024-10-23-gitops-ztp-with_dci/full_process.png)
 
 # Wrapping up
 

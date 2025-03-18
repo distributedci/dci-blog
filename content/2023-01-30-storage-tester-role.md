@@ -21,16 +21,16 @@ This article will use the case of the storage service behavior during the upgrad
 
 In OpenShift and k8s, storage is handled by volumes: pods are referencing a Persistent Volume Claim (or PVC) which is bound to a Persistent Volume (or PV). This is the high-level view for the developer of the application but under the hood, PV and PVC are managed by a Storage Class. It is responsible for deploying the plugin on the OCP nodes to communicate with the actual storage.
 
-![reminder](images/storage-tester-role/storage-reminder.png)
-*Fig. 1. How storage is managed in OCP*
-
+![reminder]({static}/images/2023-01-30-storage-tester-role/storage-reminder.png)
+_Fig. 1. How storage is managed in OCP_
 
 ## The approach
 
 To test the impact of an upgrade on the storage solution, an end-to-end approach will be used here, for several reasons:
- - It is more aligned with the final user experience. What we want to measure here is the downtime on the storage to see if it impacts the workload running on top of it.
- - It has a more flexible approach. Working on the user side requires less permission and will be easier to clean up afterward.
- - It is easier to implement. No need to modify the CSI driver or develop a specific operator, using regular pods and the built-in monitoring solution will be enough.
+
+- It is more aligned with the final user experience. What we want to measure here is the downtime on the storage to see if it impacts the workload running on top of it.
+- It has a more flexible approach. Working on the user side requires less permission and will be easier to clean up afterward.
+- It is easier to implement. No need to modify the CSI driver or develop a specific operator, using regular pods and the built-in monitoring solution will be enough.
 
 This method is translated in the cluster as a simulation of a workload that uses the storages in different scenarios.
 
@@ -48,30 +48,25 @@ As DCI is using Ansible playbooks, storage tester procedures should be shipped a
       vars:
         storage_class: "{{ tester_storage_class | default(omit) }}"
 
-
 Note that the `tester_storage_class` variable is optional and allows you to choose which storage class you want to test. By default, it is using the default storage class of the cluster.
 
 The test method is based on the usage of k8s CronJobs which work in a similar way to the Cron Job on a Linux system. Every minute, a CronJob will generate a k8s Job which will deploy some pods that use Persistent Volume provided by the storage class tested. Once the pods have finished their tasks, they are removed and the job is marked as completed and a new job will be created in the next minute. If the previous job is not finished when a new one is created, then the older one is marked as failed and all failed jobs are logged in the history of the CronJob object.
 
-![cron-job](images/storage-tester-role/cron-job.png)
-*Fig. 2. CronJob behavior.*
-
+![cron-job]({static}/images/2023-01-30-storage-tester-role/cron-job.png)
+_Fig. 2. CronJob behavior._
 
 As the CronJobs are launched before the upgrade, they will keep generating jobs during it and if the storage class is not available, jobs will fail and it will keep a trace of it.
-
-
-
 
 ## Three different scenarios
 
 For now, the role creates 3 different CronJobs, each one corresponding to a different scenario using a specific binding method:
- - ReadWriteOnce (RWO): A pod is bound to a new PersistentVolume and is doing a simple test of writing inside this volume. This is the simplest case that ensures that the basic functionalities are covered.
- - ReadManyOnly (ROX): Two pods are bound to the same PersistentVolume that has been prepared before the test. Pods are reading values written inside the Volume
- - ReadWriteMany(RWX): Two pods are bound to the same PersistentVolume and are simultaneously writing new files inside the volume.
 
+- ReadWriteOnce (RWO): A pod is bound to a new PersistentVolume and is doing a simple test of writing inside this volume. This is the simplest case that ensures that the basic functionalities are covered.
+- ReadManyOnly (ROX): Two pods are bound to the same PersistentVolume that has been prepared before the test. Pods are reading values written inside the Volume
+- ReadWriteMany(RWX): Two pods are bound to the same PersistentVolume and are simultaneously writing new files inside the volume.
 
-![test-cases](images/storage-tester-role/test-cases.png)
-*Fig. 3. Three different test cases.*
+![test-cases]({static}/images/2023-01-30-storage-tester-role/test-cases.png)
+_Fig. 3. Three different test cases._
 
 The three CronJobs will keep generating Jobs during the ongoing upgrade, as it was a regular workload running on the OCP platform. At the end of the upgrade process, the analysis of the output will give an estimation of the downtime from an end-user perspective.
 

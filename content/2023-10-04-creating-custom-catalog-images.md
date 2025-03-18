@@ -18,19 +18,19 @@ In this guide you'll learn how to create a custom catalog image referencing your
 
 ## Requirements
 
-* You must have the [operator-sdk](https://sdk.operatorframework.io/docs/building-operators/golang/installation/) tool installed and present in your system path.
+- You must have the [operator-sdk](https://sdk.operatorframework.io/docs/building-operators/golang/installation/) tool installed and present in your system path.
 
-* You must have the [OpenShift client (oc)](https://docs.openshift.com/container-platform/4.13/cli_reference/openshift_cli/getting-started-cli.html) installed and present in your system path.
+- You must have the [OpenShift client (oc)](https://docs.openshift.com/container-platform/4.13/cli_reference/openshift_cli/getting-started-cli.html) installed and present in your system path.
 
-* You must have a remote container image registry to push your resulting image to after building it, and pull it to create the catalog source.
+- You must have a remote container image registry to push your resulting image to after building it, and pull it to create the catalog source.
 
-* You must have a working set of credentials for connect.redhat.com
+- You must have a working set of credentials for connect.redhat.com
 
-* You must know the URL of your operator bundle image as served by the Red Hat registry. You can retrieve it from [this site](https://catalog.redhat.com/software/containers/search).
+- You must know the URL of your operator bundle image as served by the Red Hat registry. You can retrieve it from [this site](https://catalog.redhat.com/software/containers/search).
 
-* You must have an OCP cluster up and running to deploy the operator on.
+- You must have an OCP cluster up and running to deploy the operator on.
 
-* You must have access to the OCP cluster with the client tool, either by having the kubeconfig file placed in the default path or by setting the KUBECONFIG environment variable.
+- You must have access to the OCP cluster with the client tool, either by having the kubeconfig file placed in the default path or by setting the KUBECONFIG environment variable.
 
 ## Our Example scenario
 
@@ -48,7 +48,7 @@ Once the custom index image is created we'll push it to our Quay.io repository w
 
 Although this post is intended to show you how to create a custom catalog image and use it to install discontinued operators, it wouldn't be honest not to tell you there's a more direct way which under the hoods automates and runs the very same steps that will be described in the following sections.
 
-Using the ``operator-sdk run bundle`` command you will achieve the same result with just one single instruction.
+Using the `operator-sdk run bundle` command you will achieve the same result with just one single instruction.
 
 First, if needed, you have to log into the registry containing your bundle image.
 
@@ -66,9 +66,9 @@ Then you can run operator-sdk to create the catalog and deploy the operator with
 
 Where:
 
-* **-n nfd:** indicates the namespace where you want to have the operator installed.
+- **-n nfd:** indicates the namespace where you want to have the operator installed.
 
-* The last parameter is the URL to your discontinued operator bundle.
+- The last parameter is the URL to your discontinued operator bundle.
 
 After a few minutes you can verify the operator was installed.
 

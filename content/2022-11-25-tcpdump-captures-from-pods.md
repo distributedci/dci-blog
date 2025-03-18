@@ -7,7 +7,6 @@ Authors: Manuel Rodriguez
 Github: manurodriguez
 Summary: When a pod fails to contact another network resource, logs might provide some hints, but sometimes the ultimate evidence of what is happening can be seen from a tcpdump packet capture; however, not all pods have tcpdump tools or even a shell to interact with. This blog post demonstrates how to use certain tools available in OpenShift and GNU/Linux to overcome those challenges and use tcpdump to validate network traffic in pods deployed on top of OpenShift clusters.
 
-
 ## Problem Statement
 
 When you deploy a pod and the pod communicates with an internal or external network component, and for some reason, it fails, taking a look at the logs could help; however, sometimes you would like to see more details of the payload. If there is a TCP handshake, DNS resolution, or just to understand the network flow, then you think: "Can I run tcpdump to see where the traffic is going?". The next step is when you try to go into the pod and start running commands from a shell, but you find out that there is no shell at all, tools are not installed in the pod, or there are not enough privileges to do so. For example, the following commands illustrate the errors I mentioned:

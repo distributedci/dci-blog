@@ -122,8 +122,8 @@ Alternatively, you could use [DCI](introduction-to-the-red-hat-distributed-ci) t
 DCI stands for [Distributed CI](introduction-to-the-red-hat-distributed-ci). It is a great CI tool written in Ansible that can help you deploy OCP clusters with multiple installers, automate the deployment of your plugins and workloads, and run various tests.
 If you have never used DCI before, please check out this [top-notch post on how to start with DCI pipelines](dci-pipeline), to run OCP installation, workload installation, and tests in a pipeline. Here we are going to focus on the information about the deprecated APIs that DCI job for the workload installation could provide automatically, without any required actions on your side.
 
-![soon_to_be_deprecated](images/deprecated-api-in-ocp-4-12/deprecated_api_source.png)
-*Fig. 1. DCI dumps soon-to-be-deprecated APIs before and after workload.*
+![soon_to_be_deprecated]({static}/images/2023-02-25-deprecated-api-in-ocp-4-12/deprecated_api_source.png)
+_Fig. 1. DCI dumps soon-to-be-deprecated APIs before and after workload._
 
 The logic is to dump `oc get apirequestcount` for the soon-to-be deprecated APIs before and after the workload installation, creating two files: `apirequestcounts.before.json` and `apirequestcounts.after.json`. DCI uses these two files to compare the request count for every API, distinguishing OCP-related and workload-related to-be-deprecated APIs. DCI excludes the API whose request count did not change during the workload installation and tests. This approach is not always precise but helps to filter out some OCP-only APIs. DCI then generates the `removed_api.csv` file with the following fields:
 
@@ -143,8 +143,8 @@ Here you have an output for the example application which is containerized TRex:
         podsecuritypolicies.v1beta1.policy,134,OCP-4.12,"OpenAPI-Generator/11.0.0/python,kube-controller-manager/v1.23.12+8a6bfe4,trident-operator/v0.0.0","system:admin,system:kube-controller-manager,system:serviceaccount:trident:trident-operator"
         runtimeclasses.v1beta1.node.k8s.io,22,OCP-4.12,performance-operator/v0.0.0,system:serviceaccount:openshift-performance-addon-operator:performance-operator
 
-![api](images/deprecated-api-in-ocp-4-12/removed_api.png)
-*Fig. 2. Soon-to-be-deprecated APIs in the CSV format.*
+![api]({static}/images/2023-02-25-deprecated-api-in-ocp-4-12/removed_api.png)
+_Fig. 2. Soon-to-be-deprecated APIs in the CSV format._
 
 Hopefully, this automatically generated information could help you manage and coordinate the upcoming APIs deprecation on OCP-4.12 and later.
 
