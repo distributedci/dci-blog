@@ -15,11 +15,11 @@ In previous blog posts, we have learned about the OCP on Libvirt project and the
 
 If you remember, we started by commenting how to [set up a virtual development environment for OCP agent](libvirt-dev-env-for-ocp-agent.html), and then we continued by describing how to [use DCI to easily install an OCP cluster based on Libvirt in a single baremetal server](install-openshift-on-baremetal-using-dci.html).
 
-Both of those blog entries explained how to do IPI installs in a virtual environment.  This blog will cover using
+Both of those blog entries explained how to do IPI installs in a virtual environment. This blog will cover using
 the Assisted Installer in a virtual environment.
 
 One of the biggest benefits to using the Assisted Installer mode of the DCI OCP agent is that it makes mixing virtual
-and baremetal so easy.  You can define a virtual control plane (3 masters) and bridge that to your cluster network
+and baremetal so easy. You can define a virtual control plane (3 masters) and bridge that to your cluster network
 where you have 2 baremetal workers.
 
 The entire process that I am going to go over in the blog is also recorded here:
@@ -38,8 +38,8 @@ First step is installing RHEL-8 and subscribing it to RHN or Sattelite
     $ sudo dnf -y install https://packages.distributed-ci.io/dci-release.el8.noarch.rpm
     $ sudo dnf -y install dci-openshift-agent
 
-For the rest of the Instructions we will execute commands as the `dci-openshift-agent` user.  This user was created
-when you installed the `dci-openshift-agent` RPM.  Set a password for the user to make it easier to setup SSH keys
+For the rest of the Instructions we will execute commands as the `dci-openshift-agent` user. This user was created
+when you installed the `dci-openshift-agent` RPM. Set a password for the user to make it easier to setup SSH keys
 and also allow you to SSH in as that user instead of root.
 
     $ sudo passwd dci-openshift-agent
@@ -64,7 +64,7 @@ the public keys in `authorized_keys` for both `dci-openshift-agent` and `root`.
 
 ## Generate Inventory
 
-The [Assisted Install inventory is fully documented](https://github.com/redhat-partner-solutions/crucible/blob/main/docs/inventory.md) but we provide common templates and a playbook to generate one.  We are going to deploy just the
+The [Assisted Install inventory is fully documented](https://github.com/redhat-partner-solutions/crucible/blob/main/docs/inventory.md) but we provide common templates and a playbook to generate one. We are going to deploy just the
 control_plane in this example, so just 3 masters with no workers. We will review it in the next section.
 
     $ pwd
@@ -76,9 +76,9 @@ control_plane in this example, so just 3 masters with no workers. We will review
 ## Review /etc/dci-openshift-agent/hosts
 
 You will want to review the inventory file `/etc/dci-openshift-agent/hosts` and make sure it makes sense for your
-environment.  You will notice that the inventory gives you a great deal of flexibility on where different services
-like NTP, web server cache, virtual host server, etc..  can be hosted and/or managed too.
-In our example here everything is done on the Jumpbox.  But you could separate these especially if you plan to
+environment. You will notice that the inventory gives you a great deal of flexibility on where different services
+like NTP, web server cache, virtual host server, etc.. can be hosted and/or managed too.
+In our example here everything is done on the Jumpbox. But you could separate these especially if you plan to
 install more than one cluster and want to share resources.
 
 One area that we needed to change was where the virtual hosts disks were stored, `images_dir`.
@@ -130,8 +130,8 @@ Here is the section that actually defines the virtual masters that will be deplo
 ## Review /etc/dci-openshift-agent/settings.yml
 
 While the Inventory file describes what local resources to use the settings file describes what resources to consume
-from DCI.  This is where you will state which topic you are interested in.  Topics correlate to which major release
-of OCP, (4.11, 4.14, etc..).  You can then further narrow down which component you will get, nightly, rc, or even a
+from DCI. This is where you will state which topic you are interested in. Topics correlate to which major release
+of OCP, (4.11, 4.14, etc..). You can then further narrow down which component you will get, nightly, rc, or even a
 specific version.
 
     dci_topic: OCP-4.12
@@ -144,7 +144,7 @@ Installs by having the following in settings as well.
 
 ## Install RemoteCI
 
-A RemoteCI is what allows the agent to authenticate with the DCI control server.  You can create and get your
+A RemoteCI is what allows the agent to authenticate with the DCI control server. You can create and get your
 RemoteCI from the following url: [https://www.distributed-ci.io/remotecis](https://www.distributed-ci.io/remotecis)
 
 The contents of that should be placed in `/etc/dci-openshift-agent/dcirc.sh` and look similar to this
@@ -158,7 +158,7 @@ The contents of that should be placed in `/etc/dci-openshift-agent/dcirc.sh` and
 
 ## Run the DCI Agent
 
-Finally we are ready to run the agent.  If everything is configured properly the following command will result in
+Finally we are ready to run the agent. If everything is configured properly the following command will result in
 a working OCP cluster running 4.12.15.
 
     $ dci-openshift-agent-ctl -s -- -v
@@ -167,5 +167,4 @@ You can review your jobs on the DCI control server as well at the following link
 
 ## Adding Workers
 
-The next step would be to expand your Inventory and add baremetal workers.  Stay tuned for another blog entry covering that.
-
+The next step would be to expand your Inventory and add baremetal workers. Stay tuned for another blog entry covering that.

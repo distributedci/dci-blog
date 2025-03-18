@@ -9,7 +9,7 @@ Summary: Most, if not all of the Distributed CI repositories, including this blo
 
 ## Who is this post good for?
 
-For someone that is already familiar with the use of GitHub, but would like to collaborate on projects that use Gerrit to integrate changes. More specifically, someone interested in contributing to DCI projects. If you're not familiar yet with what DCI is please take a look at this post [Introduction to the Red Hat  Distributed CI](https://blog.distributed-ci.io/introduction-to-the-red-hat-distributed-ci.html)
+For someone that is already familiar with the use of GitHub, but would like to collaborate on projects that use Gerrit to integrate changes. More specifically, someone interested in contributing to DCI projects. If you're not familiar yet with what DCI is please take a look at this post [Introduction to the Red Hat Distributed CI](https://blog.distributed-ci.io/introduction-to-the-red-hat-distributed-ci.html)
 
 ## Gerrit
 
@@ -17,7 +17,7 @@ What is Gerrit?
 
 [Gerrit](https://gerrit.googlesource.com/gerrit) is a collaboration tool integrated with [Git](https://wikipedia.org/wiki/Git) (not [GitHub](https://wikipedia.org/wiki/GitHub)). It is used to ease the process of reviewing and integrating changes in a Git repository via a web browser. For someone familiar with GitHub, it could be considered as a tool that provides something quite similar to GitHub, i.e. a site where collaborating and reviewing/integrating changes are easy and sometimes fun!
 
-Why  Gerrit?
+Why Gerrit?
 
 There are many reasons why one would choose to use Gerrit. The most important is that Gerrit is [Open Source](https://gerrit.googlesource.com/gerrit/+/refs/heads/master#license).
 
@@ -38,7 +38,7 @@ A common flow goes like this:
 - Find an awesome GitHub repo (github.com/awesome/repo) you would like to contribute
 - Read the collaboration notes to adjust the steps as required, this could include, creating an issue first, running tests prior to submitting a pull request, lint your code, etc.
 - "Fork" the repo to your account (github.com/collaborator/repo)
-- Clone *your* forked repo locally (`git clone ...`)
+- Clone _your_ forked repo locally (`git clone ...`)
 - Create a branch (`git checkout -b my_fix ...`), this is optional but is highly encouraged
 - Make your changes, either in one commit or multiple commits (`git commit ...`)
 - Push your changes in your branch `my_fix` to your repo (`git push origin my_fix`)
@@ -72,16 +72,16 @@ Luckily, the instance we will be using in the example can use our GitHub account
 - Go to [Software Factory](https://softwarefactory-project.io) click "Login" on the top-right corner
 - Next, click "Log in with Github"
 
-  ![Button with "Log in with Github" in it]({static}/images/blog2_login-with-github.png)
+  ![Button with "Log in with Github" in it]({static}/images/2022-02-22-introduction-to-the-red-hat-distributed-ci/login-with-github.png)
 
-- The very first time we do this and once we're logged in to our GitHub account, it will request authorization from Software Factory to use our GitHub account, this provides *read-only* access to our *public ssh-keys* and our email-address
+- The very first time we do this and once we're logged in to our GitHub account, it will request authorization from Software Factory to use our GitHub account, this provides _read-only_ access to our _public ssh-keys_ and our email-address
 
-  ![Authorization form to allow Software Factory (redhat-cip GitHub organization) to access the GitHub account]({static}/images/blog2_authorize-software-factory.png)
+  ![Authorization form to allow Software Factory (redhat-cip GitHub organization) to access the GitHub account]({static}/images/2022-02-22-introduction-to-the-red-hat-distributed-ci/authorize-software-factory.png)
 
 - Once authorized we will be logged in to Software Factory
 - Next time you go to Software Factory you only will need to click "Log in with Github"
 
-Note: You may see a blank page with the word "Forbidden", if that's the case please [contact us](https://docs.distributed-ci.io/question_and_help/)  and we will get that fixed for you.
+Note: You may see a blank page with the word "Forbidden", if that's the case please [contact us](https://docs.distributed-ci.io/question_and_help/) and we will get that fixed for you.
 
 #### Configuration
 
@@ -117,7 +117,7 @@ Now that we have a high-level view of the workflow, let's get into the details u
 - This is the project we will use to clone: [dci-openshift-app-agent](https://softwarefactory-project.io/r/admin/repos/dci-openshift-app-agent)
 - In the link above we will find two ways to clone the repo, let's pick the first one "Clone with commit-msg hook"
 
-  ![Software Factory repository showing two different commands to clone the repository, one with the commit-msg hook and another without it]({static}/images/blog2_clone-repo.png)
+  ![Software Factory repository showing two different commands to clone the repository, one with the commit-msg hook and another without it]({static}/images/2022-02-22-introduction-to-the-red-hat-distributed-ci/clone-repo.png)
 
 Let's pause for a second and explain what's going on.
 
@@ -181,20 +181,20 @@ In GitHub, this is equivalent to having a PR with multiple commits and squashing
 
 Now that we have reviewed both workflows, let's put them side to side:
 
-| Gerrit | GitHub |
-|---| --- |
-| Find an awesome Gerrit repo you would like to contribute | Find an awesome GitHub repo you would like to contribute |
-| Read the collaboration notes, etc. | Read the collaboration notes, etc. |
-| Clone the repo locally, copying the hooks | "Fork" the repo to your account |
-|  | You clone *your* forked repo locally |
-| Create a branch | Create a branch |
-| Make your changes, in **one single commit** | Make your changes, either in one commit or multiple commits |
-| Use git-review to push your changes and create the change request | Push your changes in your branch to your repo |
-|  | Open a pull-request (PR) in the awesome GitHub repo you forked |
-| Wait patiently for feedback... | Wait patiently for feedback... |
+| Gerrit                                                                                                               | GitHub                                                                                                                               |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Find an awesome Gerrit repo you would like to contribute                                                             | Find an awesome GitHub repo you would like to contribute                                                                             |
+| Read the collaboration notes, etc.                                                                                   | Read the collaboration notes, etc.                                                                                                   |
+| Clone the repo locally, copying the hooks                                                                            | "Fork" the repo to your account                                                                                                      |
+|                                                                                                                      | You clone _your_ forked repo locally                                                                                                 |
+| Create a branch                                                                                                      | Create a branch                                                                                                                      |
+| Make your changes, in **one single commit**                                                                          | Make your changes, either in one commit or multiple commits                                                                          |
+| Use git-review to push your changes and create the change request                                                    | Push your changes in your branch to your repo                                                                                        |
+|                                                                                                                      | Open a pull-request (PR) in the awesome GitHub repo you forked                                                                       |
+| Wait patiently for feedback...                                                                                       | Wait patiently for feedback...                                                                                                       |
 | Modify your commit based on the feedback, sometimes you rebase, at the end, you amend the **single commit** and push | Create more commits based on the feedback, sometimes you rebase, or squash commits and keep pushing them to your branch in your repo |
-| Get approval and your changes are merged in the repository | Get approval and your changes are merged in the repository |
-| Profit! | Profit! |
+| Get approval and your changes are merged in the repository                                                           | Get approval and your changes are merged in the repository                                                                           |
+| Profit!                                                                                                              | Profit!                                                                                                                              |
 
 ## Summary
 

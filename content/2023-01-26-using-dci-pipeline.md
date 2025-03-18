@@ -21,7 +21,6 @@ We have been using it now for years, it is stable and offers definitely more fle
 
 > **That is why dci-pipeline is now the recommended way to deploy and test OpenShift with DCI.**
 
-
 With dci-pipeline you can easily :
 
 - Deploy OpenShift, as you did it with dci-openshift-agent.
@@ -42,10 +41,10 @@ To simplify access to the tools, rpm package for RHEL 7, 8 and 9 are also availa
 
 Always refer you to the [official documentation](https://doc.distributed-ci.io/dci-pipeline/) to know the updated way to install dci-pipeline.
 
-
 # Usage
 
 ## The command line
+
 Once installed, we can start to play with:
 
         $ dci-pipeline --help
@@ -66,7 +65,6 @@ It may be also wise to use the job name as the name of the file. Example:
         - name: deploy-ocp
 
 If you use multiple files to configure one job, you can ignore this advice.
-
 
 ## Pipeline files
 
@@ -89,7 +87,7 @@ Let’s see how these famous files are composed:
 - ² : Used to order jobs, will be explain below.
 - ³ : Playbook used, you can modify this parameter to use dci-openshift-app-agent playbook.
 - ⁴ : Inventory used.
-- ⁵ : Credential to access to DCI, it contents DCI_* and quay_* variables.
+- ⁵ : Credential to access to DCI, it contents DCI*\* and quay*\* variables.
 - ⁶ : OCP release used.
 - ⁷ : List of components needed.
 
@@ -115,7 +113,6 @@ Now, to execute this job, we just have to specify these two pipeline files:
 
 This feature can be very useful to avoid duplications of configuration.
 
-
 ## Override pipeline
 
 First, any part in the pipeline files can be overridden on the command line using the syntax <job name>:<field>=<value>. For example if you want to change the topic version in the openshift-vanilla job from the previous example, use:
@@ -137,7 +134,6 @@ Also we often need to customize variables of the playbook, in this case use the 
 
 In the [official documentation](https://doc.distributed-ci.io/dci-pipeline/) it also explains how to customize environment variables, use the variables files and more.
 
-
 ## Order your jobs
 
 To create an order on the execution of your jobs two configuration keys are used:
@@ -147,7 +143,7 @@ To create an order on the execution of your jobs two configuration keys are used
 
 Let's now go through an example of a common use case:
 
-![simple pipelinediagram](images/2023-01-26-simple-pipeline-diagram.png)
+![simple pipelinediagram]({static}/images/2023-01-26-using-dci-pipeline/2023-01-26-simple-pipeline-diagram.png)
 
 We shrunk the jobs by just showing the important part for the configuration
 
@@ -158,7 +154,7 @@ So, the first job deploys OpenShift.
           stage: ocp
           [...]
 
-This second job installs the workload on the infrastructure, the *prev_stages* value specifies what is the previous job.
+This second job installs the workload on the infrastructure, the _prev_stages_ value specifies what is the previous job.
 
         $ cat deploy-app1-pipeline.yaml
         - name: deploy-app1
@@ -174,7 +170,7 @@ The final job doing test of the workload.
           prev_stages: [ocp, workflow]
           [...]
 
-This job needs to be executed in the last, *prev_stages* contains all previous stages.
+This job needs to be executed in the last, _prev_stages_ contains all previous stages.
 
 <br/>
 Well, now maybe you want to pass variables between jobs. Perfect, a mechanism exists to share information between jobs with the output/input configuration keys, it is explainen in detail in [this section](https://doc.distributed-ci.io/dci-pipeline/#sharing-information-between-jobs).

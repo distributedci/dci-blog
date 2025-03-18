@@ -47,7 +47,7 @@ use it.
 that are transmitted to other tools like `dci-pipeline`,
 `dci-openshift-agent-ctl` or any other command line tools.
 
-To create a pool of resources named  `mypool`:
+To create a pool of resources named `mypool`:
 
     :::shell-session
     $ dci-queue add-pool mypool

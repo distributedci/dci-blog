@@ -12,7 +12,7 @@ Summary: Components are the artifacts used in a DCI job, these are the elements 
 
 A component is an artifact (file, package, URL, etc.) attached to a topic. An agent takes components in its workflow. Components are immutable and should be regularly created with newer versions of the artifact.
 
-In DCI, we have some basic components that are constantly created with new versions; this is part of the work made by the feeder. The feeder is a service that takes care of watching for newer versions/releases of different components.  For example, the versions of the OpenShift Container Platform (OCP), latest, release candidates, or nightly builds.
+In DCI, we have some basic components that are constantly created with new versions; this is part of the work made by the feeder. The feeder is a service that takes care of watching for newer versions/releases of different components. For example, the versions of the OpenShift Container Platform (OCP), latest, release candidates, or nightly builds.
 
 Components are not limited to the DCI creation through its feeder. Partners or individuals using DCI can create their components to represent that element/artifact they want to test in a job, so a job has context.
 
@@ -32,15 +32,15 @@ Here we have the same component version run in two different topics:
 
 - OCP-4.10
 
-    ![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath a list of jobs with their name, status, tags, duration, and time of creation]({static}/images/component_ocp-4.10-v029.png)
+  ![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath a list of jobs with their name, status, tags, duration, and time of creation]({static}/images/2022-04-29-automate-dci-components-creation/component_ocp-4.10-v029.png)
 
 - OCP-4.11
 
-    ![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath a list of jobs with their name, status, tags, duration, and time of creation]({static}/images/component_ocp-4.11-v029.png)
+  ![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath a list of jobs with their name, status, tags, duration, and time of creation]({static}/images/2022-04-29-automate-dci-components-creation/component_ocp-4.11-v029.png)
 
 Now, here we have the same component but of an older version and an older version of OCP
 
-![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath a list of jobs with their name, status, tags, duration, and time of the creation]({static}/images/component_ocp-4.7-v027.png)
+![Table with three sections: number of jobs, percentage of successful jobs, and the latest run. Underneath a list of jobs with their name, status, tags, duration, and time of the creation]({static}/images/2022-04-29-automate-dci-components-creation/component_ocp-4.7-v027.png)
 
 ## Why should I care about components?
 
@@ -70,17 +70,17 @@ Install package:
 
 1. Obtain the remoteCI from <https://www.distributed-ci.io/remotecis>, save its content, and source it
 
-    <pre>
-    source myremoteci.sh
-    </pre>
+<pre>
+source myremoteci.sh
+</pre>
 
 1. Create the component using `dci-create-component` tool:
 
-    <pre>
-    dci-create-component \
-      --format json \
-      OCP-4.11 "my awesome operator" v1.2.3 ga
-    </pre>
+<pre>
+dci-create-component \
+  --format json \
+  OCP-4.11 "my awesome operator" v1.2.3 ga
+</pre>
 
 ### Example
 
@@ -129,7 +129,7 @@ The documentation on how to use this particular GitHub Action is available in th
 
 Components are quite important as they represent a change or a version of an artifact being tested or validated. See this example, where the component selected is OCP. The graph shows the success rate for the different versions of that component.
 
-![Table showing multiple versions of OpenShift 4.11, with the tags used for each component, the percentage of successful jobs, the failures/successes in the last few weeks, and a link to the jobs of each component]({static}/images/ocp_4.11.png)
+![Table showing multiple versions of OpenShift 4.11, with the tags used for each component, the percentage of successful jobs, the failures/successes in the last few weeks, and a link to the jobs of each component]({static}/images/2022-04-29-automate-dci-components-creation/ocp_4.11.png)
 
 As a Red Hat partner, verifying that the upcoming product versions will work as expected is essential. DCI provides a way to verify the integration of the upcoming product and the partner's components.
 

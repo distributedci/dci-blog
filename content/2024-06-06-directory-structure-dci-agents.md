@@ -39,15 +39,15 @@ So, let's delve into the project structure of each agent, checking the meaning o
 From the [README](https://github.com/redhat-cip/dci-openshift-agent/?tab=readme-ov-file#folders-and-files-location), you will have some introductory information regarding the places where folders and files are located. Here, we will expand this information:
 
 - `/etc/dci-openshift-agent`: this directory contains configuration files placed by the RPM, primarily templates, but you can save here a `config` file to declare environment variables to be consumed by the agent. Templates you can find here are:
-    - `dcirc.sh.dist` file, which is a template of the `dcirc.sh` file you need to use to save your DCI credentials (based on your DCI's remote-ci) when running DCI jobs.
-    - `hooks` it is a directory that acts as a placeholder for partner hooks that you can use as base to build your own customized hooks.
-    - `settings.yml` file, with a standard setup to launch the agent with the legacy mode. If you still have some settings file and you want to transform them to `dci-pipeline`'s format, take a look below at [dci-pipeline](#dci-pipeline) section to see how to do this.
+  - `dcirc.sh.dist` file, which is a template of the `dcirc.sh` file you need to use to save your DCI credentials (based on your DCI's remote-ci) when running DCI jobs.
+  - `hooks` it is a directory that acts as a placeholder for partner hooks that you can use as base to build your own customized hooks.
+  - `settings.yml` file, with a standard setup to launch the agent with the legacy mode. If you still have some settings file and you want to transform them to `dci-pipeline`'s format, take a look below at [dci-pipeline](#dci-pipeline) section to see how to do this.
 - `/usr/share/dci-openshift-agent/`: this directory contains:
-    - The main Ansible logic that drives this agent, composed by:
-        - The `dci-openshift-agent.yml` playbook, which is the entry point to launch an OCP installation with DCI.
-        - All the playbooks used during the agent execution, saved in the `plays` folder. You will see there are no roles in this project, and it is because we are importing the [redhatci-ocp collection](https://github.com/redhatci/ansible-collection-redhatci-ocp).
-        - Files for the Ansible configuration (`ansible.cfg`) and the provision of default values for variables (`group_vars` folder).
-    - Other interesting artifacts, that you can find in the `utils` folder (e.g. [cleanup scripts](https://github.com/redhat-cip/dci-openshift-agent/tree/master/utils/cleanup-scripts)).
+  - The main Ansible logic that drives this agent, composed by:
+    - The `dci-openshift-agent.yml` playbook, which is the entry point to launch an OCP installation with DCI.
+    - All the playbooks used during the agent execution, saved in the `plays` folder. You will see there are no roles in this project, and it is because we are importing the [redhatci-ocp collection](https://github.com/redhatci/ansible-collection-redhatci-ocp).
+    - Files for the Ansible configuration (`ansible.cfg`) and the provision of default values for variables (`group_vars` folder).
+  - Other interesting artifacts, that you can find in the `utils` folder (e.g. [cleanup scripts](https://github.com/redhat-cip/dci-openshift-agent/tree/master/utils/cleanup-scripts)).
 - `/var/lib/dci-openshift-agent`: under the `samples` directory, you will find some examples that you can use in your labs, referring to useful deployments (such as [deploying Assisted on libvirt](https://github.com/redhat-cip/dci-openshift-agent/tree/master/samples/assisted_on_libvirt)) or extra utilities (like a [local registry deployment](https://github.com/redhat-cip/dci-openshift-agent/tree/master/samples/roles/local-registry)).
 
 # dci-openshift-app-agent
@@ -64,26 +64,26 @@ The case of `dci-pipeline` differs from the agents as it's not an "agent" at all
 
 - `/etc/dci-pipeline`: in this case, it just contains an empty `pipeline.yml` file to serve as a template. Typically you will create a folder in a separate repo to save your pipelines and use them from there. But also, this folder can be used to hold a `config` file with some interesting variables to be consumed by `dci-pipeline`, e.g. `PIPELINES_DIR` variable pointing to the location of the pipelines (extracted from [here](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-pipeline-schedule)).
 - `/usr/bin`: in this folder, you will find some executable files that serve as entry point for the main utilitie, (also with `podman` flavour, provided in this project. Some of these scripts come from `tools` folder, and others are generated from folders like `dciagent`, `dcipipeline` or `dciqueue`, and their podman flavours are located in `container` folder. These are:
-    - `dci-pipeline`: standard way of launching pipelines with DCI. More documentation can be found [here](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-pipeline-command).
-    - `dci-auto-launch`: this allows to automatically schedule pipelines based on strings in the description of Github's pull requests or Gerrit's reviews. It relies on a configuration file that can be found in `~/.config/dci-pipeline/auto.conf`. More details can be seen [here](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-auto-launch).
-    - `dci-pipeline-schedule`: [wrapper](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-pipeline-schedule) to call `dci-pipeline` without specifying the paths for the pipeline files and the inventories.
-    - `dci-pipeline-check`: [another wrapper](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-pipeline-check) to test a Github pull request or a Gerrit review with a specific pipeline.
-    - `dci-queue`: this [command](/https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-queue-command) allows you to execute commands consuming resources from pools, so that you can schedule calls to DCI pipeline that are eventually queued in a set of resources you have defined in advance.
-    - `dci-agent-ctl`: as defined in the [README](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-agent-ctl), it is a thin layer on top of `dci-pipeline` to consume regular agent settings transparently.
-    - `dci-rebuild-pipeline`: this command [rebuilds a pipeline](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#how-to-rebuild-a-pipeline) based on a given DCI job, using the components extracted from that job.
-    - `dci-settings2pipeline`: this allows you to run the parsing capabilities of `dci-agent-ctl` but without executing `dci-pipeline`, just outputing the pipeline file. More information [here](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-settings2pipeline).
-    - `dci-diff-pipeline`: this [compares two jobs](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#how-to-see-components-diff-between-two-pipelines) to check the differences in components between two jobs.
+  - `dci-pipeline`: standard way of launching pipelines with DCI. More documentation can be found [here](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-pipeline-command).
+  - `dci-auto-launch`: this allows to automatically schedule pipelines based on strings in the description of Github's pull requests or Gerrit's reviews. It relies on a configuration file that can be found in `~/.config/dci-pipeline/auto.conf`. More details can be seen [here](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-auto-launch).
+  - `dci-pipeline-schedule`: [wrapper](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-pipeline-schedule) to call `dci-pipeline` without specifying the paths for the pipeline files and the inventories.
+  - `dci-pipeline-check`: [another wrapper](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-pipeline-check) to test a Github pull request or a Gerrit review with a specific pipeline.
+  - `dci-queue`: this [command](/https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-queue-command) allows you to execute commands consuming resources from pools, so that you can schedule calls to DCI pipeline that are eventually queued in a set of resources you have defined in advance.
+  - `dci-agent-ctl`: as defined in the [README](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-agent-ctl), it is a thin layer on top of `dci-pipeline` to consume regular agent settings transparently.
+  - `dci-rebuild-pipeline`: this command [rebuilds a pipeline](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#how-to-rebuild-a-pipeline) based on a given DCI job, using the components extracted from that job.
+  - `dci-settings2pipeline`: this allows you to run the parsing capabilities of `dci-agent-ctl` but without executing `dci-pipeline`, just outputing the pipeline file. More information [here](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#dci-settings2pipeline).
+  - `dci-diff-pipeline`: this [compares two jobs](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#how-to-see-components-diff-between-two-pipelines) to check the differences in components between two jobs.
 - `/usr/share/dci-pipeline`: you will find here some scripts that are placed in the `tools` folder from the repo, that can be use in standalone mode or using `podman` flavour (meant to be run from a podman container). Some of them are used by the scripts placed in `/usr/bin`. They are:
-    - `alert`: send alerts to Google Chat and/or Slack from monitored repositories. This can be used, for example, to define webhooks which allows you to send alerts when a DCI job fails while testing PRs on specific repositories.
-    - `common`: import environment variables that may be defined in `~/.config/dci-pipeline` (folder that is created when installing `dci-pipeline`) and `/etc/dci-pipeline` folders.
-    - `dci-pipeline-helper`: called from `dci-pipeline-schedule` with the information from `dci-queue` to be able to expand the `@RESOURCE` and `@QUEUE` strings (more information about these two concepts can be found [here](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#link-between-dci-pipeline-and-dci-queue-queue-and-resource)) with the right information and then call `dci-pipeline` with the right arguments.
-    - `extract-dependencies`: this is used to extract the content from Github pull requests or Gerrit reviews that are included as dependencies of the change you are testing.
-    - `get-config-entry`: used from scripts that interacts with Github/Gerrit repos to extract some configuration such as tokens or extra config.
-    - `loop_until_failure` and `loop_until_success`: loops used by `dci-pipeline-check` logic.
-    - `send_status`: send messages to Github PRs and Gerrit reviews regarding some status of the DCI pipeline execution that needs to be reported.
-    - `send_comment`: send messages to Github PRs and Gerrit reviews to put a comment in the history of these PRs/reviews.
-    - `test-runner`: utility that is called by `dci-pipeline-check` to properly translate the configuration and variables to adapt to the changes that are about to be tested, then calling `dci-pipeline` with the proper arguments.
-    - `yaml2json`: transform a YAML input in JSON output.
+  - `alert`: send alerts to Google Chat and/or Slack from monitored repositories. This can be used, for example, to define webhooks which allows you to send alerts when a DCI job fails while testing PRs on specific repositories.
+  - `common`: import environment variables that may be defined in `~/.config/dci-pipeline` (folder that is created when installing `dci-pipeline`) and `/etc/dci-pipeline` folders.
+  - `dci-pipeline-helper`: called from `dci-pipeline-schedule` with the information from `dci-queue` to be able to expand the `@RESOURCE` and `@QUEUE` strings (more information about these two concepts can be found [here](https://github.com/redhat-cip/dci-pipeline/tree/master?tab=readme-ov-file#link-between-dci-pipeline-and-dci-queue-queue-and-resource)) with the right information and then call `dci-pipeline` with the right arguments.
+  - `extract-dependencies`: this is used to extract the content from Github pull requests or Gerrit reviews that are included as dependencies of the change you are testing.
+  - `get-config-entry`: used from scripts that interacts with Github/Gerrit repos to extract some configuration such as tokens or extra config.
+  - `loop_until_failure` and `loop_until_success`: loops used by `dci-pipeline-check` logic.
+  - `send_status`: send messages to Github PRs and Gerrit reviews regarding some status of the DCI pipeline execution that needs to be reported.
+  - `send_comment`: send messages to Github PRs and Gerrit reviews to put a comment in the history of these PRs/reviews.
+  - `test-runner`: utility that is called by `dci-pipeline-check` to properly translate the configuration and variables to adapt to the changes that are about to be tested, then calling `dci-pipeline` with the proper arguments.
+  - `yaml2json`: transform a YAML input in JSON output.
 
 # Conclusions
 

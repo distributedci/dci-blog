@@ -10,6 +10,7 @@ Summary: ACM is a tool that allows the deployment and management of OCP clusters
 [TOC]
 
 ## Using ACM to deploy SNO
+
 In the [previous post](acm-int-dci), we talked about the integration of ACM into DCI. Now is the time to get some hands-on experience installing an SNO instance in the DCI way.
 
 ## Running a deployment
@@ -80,7 +81,7 @@ The file provides parameters for DCI. It sets the target OCP version for the ACM
 
 ### 3. Create the SNO pipeline
 
-The following pipeline definition sets the `install_type` as ACM.  In this case, it is mandatory that the previous stage is of type `acm-hub`. It should not be an issue if you are sure that the cluster is already running ACM. The file sets the target version for the SNO. This also requires the installation of the `performance-addon-operator`.
+The following pipeline definition sets the `install_type` as ACM. In this case, it is mandatory that the previous stage is of type `acm-hub`. It should not be an issue if you are sure that the cluster is already running ACM. The file sets the target version for the SNO. This also requires the installation of the `performance-addon-operator`.
 
 `ocp-4.10-acm-sno-pipeline.yml`
 
@@ -121,10 +122,10 @@ The following pipeline definition sets the `install_type` as ACM.  In this case,
 
 Now that we have the required components, executing these two jobs will go through the following tasks:
 
-* Install OCP and the ACM operator on top. It generates a  KUBECONFIG file.
-* The second job uses the KUBECONFIG to interact with ACM and deploy the SNO instance.
-* The generation of a second KUBECONFIG happens, this time for the SNO instance.
-* The installation of operators is completed as the final step.
+- Install OCP and the ACM operator on top. It generates a KUBECONFIG file.
+- The second job uses the KUBECONFIG to interact with ACM and deploy the SNO instance.
+- The generation of a second KUBECONFIG happens, this time for the SNO instance.
+- The installation of operators is completed as the final step.
 
         #!bash
         $ dci-pipeline-schedule ocp-4.10-acm-hub ocp-4.10-acm-sno
@@ -141,10 +142,10 @@ It is not required to deploy an ACM Hub each time, it can be re-used to deploy m
 
 Please run the following commands to help identify issues during a cluster deployment like:
 
-* ACM being unable to pull the images.
-* The selected OCP release is wrong.
-* Unable to connect to the BMC.
-* Incorrect cluster settings.
+- ACM being unable to pull the images.
+- The selected OCP release is wrong.
+- Unable to connect to the BMC.
+- Incorrect cluster settings.
 
         #!bash
         $ oc logs -n multicluster-engine -l app=assisted-service
@@ -158,9 +159,9 @@ Please run the following commands to help identify issues during a cluster deplo
 
 For more information about the variables used in the examples, please read the ACM's roles and DCI documentation.
 
-* [acm-setup/readme](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/acm_setup/README.md)
-* [acm-sno/readme](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/acm_sno/README.md)
-* [dci-openshift-agent/readme](https://github.com/redhat-cip/dci-openshift-agent/blob/master/README.md)
+- [acm-setup/readme](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/acm_setup/README.md)
+- [acm-sno/readme](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/acm_sno/README.md)
+- [dci-openshift-agent/readme](https://github.com/redhat-cip/dci-openshift-agent/blob/master/README.md)
 
 ## Wrap up
 

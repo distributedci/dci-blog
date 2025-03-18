@@ -27,7 +27,7 @@ In the following section you have a diagram depicting the topology of such netwo
 
 ## Topology of the disconnected environment
 
-![Topology of the disconnected environment](images/2023-04-15/topology.png)
+![Topology of the disconnected environment]({static}/images/2023-04-15-disconnected_environments_overview/topology.png)
 
 In the diagram above we observe the main elements relevant to a disconnected environment.
 
@@ -134,6 +134,6 @@ For this to work, some preliminary steps are needed, like provisioning a web ser
 
 This article gave us a general overview on how we approach disconnected environments from the DCI stand point. In a future post, we'll guide you through the process of configuring and running your DCI jobs to deploy a cluster in a Disconnected Environment.
 
-## *References*
+## _References_
 
 - [1] [Installing a user-provisioned bare metal cluster on a restricted network](https://docs.openshift.com/container-platform/4.12/installing/installing_bare_metal/installing-restricted-networks-bare-metal.html)

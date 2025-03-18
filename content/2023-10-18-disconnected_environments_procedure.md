@@ -37,11 +37,11 @@ Depending on your environment, you may decide to run the HTTP store from a dedic
 
 Regardless of your target host, to set up the HTTP store:
 
-1. Create the local filesystem directory that will store the resources:
+1.  Create the local filesystem directory that will store the resources:
 
         $ mkdir /opt/cache
 
-1. Create the HTTP cache store pod
+1.  Create the HTTP cache store pod
 
         $ podman run -d --pod new:web_cache \
         --name container-web_cache \
@@ -50,13 +50,13 @@ Regardless of your target host, to set up the HTTP store:
         -v /opt/cache:/var/www/html:Z \
         --user root registry.access.redhat.com/ubi8/httpd-24
 
-1. Create, enable and start the service unit for the HTTP store
+1.  Create, enable and start the service unit for the HTTP store
 
         $ podman generate systemd --name web_cache --files
         $ systemctl enable pod-web-cache
         $ systemctl start pod-web_cache
 
-1. Open the required firewall ports
+1.  Open the required firewall ports
 
         $ firewall-cmd --zone=public --add-service=http --permanent
         $ firewall-cmd --zone=public --add-service=http
@@ -73,20 +73,20 @@ In this case, to have the registry up and running:
 
 #### Redis
 
-1. Log into the public Quay.io registry:
+1.  Log into the public Quay.io registry:
 
         $ podman login \
         -u "{{ rhn_user }}" \
         -p "{{ rhn_password }}" \
         --authfile=/tmp/authfile.json registry.redhat.io
 
-1. Pull the Redis container image:
+1.  Pull the Redis container image:
 
         $ podman pull \
         --authfile=/tmp/authfile.json \
         registry.redhat.io/rhel8/redis-6:latest
 
-1. Create the Redis service system unit:
+1.  Create the Redis service system unit:
 
         $ cat > /lib/systemd/system/quay-redis.service << EOF
         [Unit]
@@ -108,31 +108,30 @@ In this case, to have the registry up and running:
         WantedBy=local.target
         EOF
 
-1. Enable and start the Redis service system unit.:
+1.  Enable and start the Redis service system unit.:
 
         $ chmod 644 /lib/systemd/system/quay-redis.service
         $ systemctl daemon-reload
         $ systemctl enable quay-redis
         $ systemctl start quay-redis
 
-1. Verify the Redis container exists
+1.  Verify the Redis container exists
 
         $ podman container exists quay-redis
 
 #### PostgreSQL
 
-1. Create the database volume path:
+1.  Create the database volume path:
 
         $ sudo mkdir /var/lib/postgres-quay
 
-1. Pull the PostgreSQL image:
+1.  Pull the PostgreSQL image:
 
         $ podman pull \
         --authfile=/tmp/authfile.json \
         registry.redhat.io/rhel8/postgresql-10:1
 
-1. Create the PostgreSQL service system unit:
-
+1.  Create the PostgreSQL service system unit:
 
         $ cat > /lib/systemd/system/quay-postgresql.service << EOF
         [Unit]
@@ -157,39 +156,39 @@ In this case, to have the registry up and running:
         WantedBy=local.target
         EOF
 
-1. Enable and start the PostgreSQL service system unit:
+1.  Enable and start the PostgreSQL service system unit:
 
         $ chmod 644 /lib/systemd/system/quay-postgresql.service
         $ systemctl daemon-reload
         $ systemctl enable quay-postgresql
         $ systemctl start quay-postgresql
 
-1. Verify the PostgreSQL container exists:
+1.  Verify the PostgreSQL container exists:
 
         $ podman container exists quay-postgresql
 
-1. Create the pg-trgm extension if it does not exists:
+1.  Create the pg-trgm extension if it does not exists:
 
         $ podman exet -it quay-postgresql /bin/bash -c \
         'echo "CREATE EXTENSION IF NOT EXISTS pg_trgm" | psql -d quay -U postgres'
 
 #### Quay
 
-1. Create the container storage directory:
+1.  Create the container storage directory:
 
         $ mkdir /opt/quay-storage
 
-1. Create the config directory:
+1.  Create the config directory:
 
         $ mkdir /etc/dci-quay
 
-1. Create the settings file:
+1.  Create the settings file:
 
     In the following example, make sure to replace the place holders:
 
-    * **{{ redis_host }}:** the IP address or hostname of the host running Redis.
-    * **{{ postgresql_host }}:** the IP address or hostname of the host running PostgreSQL.
-    * **{{ quay_host }}:** The FQDN of the host running quay.
+    - **{{ redis_host }}:** the IP address or hostname of the host running Redis.
+    - **{{ postgresql_host }}:** the IP address or hostname of the host running PostgreSQL.
+    - **{{ quay_host }}:** The FQDN of the host running quay.
 
     In most of the cases all the three fields may be set to the same value.
 
@@ -296,23 +295,23 @@ In this case, to have the registry up and running:
         CREATE_PRIVATE_REPO_ON_PUSH: false
         EOF
 
-1. Set the name resolution for the Quay FQDN:
+1.  Set the name resolution for the Quay FQDN:
 
         $ echo {{ quay_host_ip }} {{ quay_hostname }} >> /etc/hosts
 
-1. Copy your Quay TLS certificate and private key into /etc/dci-quay
+1.  Copy your Quay TLS certificate and private key into /etc/dci-quay
 
-1. Copy your Quay TLS certificate into /etc/pki/ca-trust/source/anchors and update the list of trusted certificates:
+1.  Copy your Quay TLS certificate into /etc/pki/ca-trust/source/anchors and update the list of trusted certificates:
 
         $ update-ca-trust
 
-1. Pull the quay image:
+1.  Pull the quay image:
 
         $ podman pull \
         --authfile=/tmp/authfile.json \
         quay.io/projectquay/quay:latest
 
-1. Create the Quay service system unit
+1.  Create the Quay service system unit
 
         $ cat > /lib/systemd/system/dci-quay.service << EOF
         [Unit]
@@ -335,25 +334,24 @@ In this case, to have the registry up and running:
         WantedBy=local.target
         EOF
 
-1. Enable and start the Quay service system unit
+1.  Enable and start the Quay service system unit
 
         chmod 644 /lib/systemd/system/dci-quay.service
         systemctl daemon-reload
         systemctl enable dci-quay
         systemctl start dci-quay
 
-1. Verify the Quay container exists
+1.  Verify the Quay container exists
 
         $ podman container exists dci-quay
 
-1. Create the initial user:
+1.  Create the initial user:
 
         $ curl https://{{ quay_hostname }}/api/v1/user/initialize \
         --insecure \
         -X POST \
         -H "Content-Type: application/json" \
         -d '{"username": "quayadmin", "password": "quaypass123", "email": "quayadmin@example.com", "access_token": true}'
-
 
 ### Install the skopeo tool
 
@@ -367,35 +365,35 @@ The last step when working with disconnected environment will be adapting your i
 
 Below you have a complete list of the variables you have to add to your inventory with their description and examples of use.
 
-* **dci_disconnected:** the main variable that triggers the DCI agent actions specific to disconnected environments. It may be set in the settings, pipeline or inventory files.
+- **dci_disconnected:** the main variable that triggers the DCI agent actions specific to disconnected environments. It may be set in the settings, pipeline or inventory files.
 
         dci_disconnected=true
 
-* **webserver_url:** the URL to the HTTP cache store where the resources not served through a container registry are served.
+- **webserver_url:** the URL to the HTTP cache store where the resources not served through a container registry are served.
 
         webserver_url=http://jumpbox.dci.lab:8080
 
-* **local_registry_host:** FQDN or IP address of the server acting as mirror:
+- **local_registry_host:** FQDN or IP address of the server acting as mirror:
 
         local_registry_host=jumpbox.dci.lab
 
-* **local_registry_port:** Listening port for the registry server.
+- **local_registry_port:** Listening port for the registry server.
 
         local_registry_port=443
 
-* **provision_cache_store:** path to the directory where the HTTP cache store resources are kept.
+- **provision_cache_store:** path to the directory where the HTTP cache store resources are kept.
 
         provision_cache_store=/opt/cache
 
-* **disconnected_registry_auths_file:** path to the file containing the authentication tokens for the local registry.
+- **disconnected_registry_auths_file:** path to the file containing the authentication tokens for the local registry.
 
         disconnected_registry_auths_file=/etc/dci-openshift-agent/quay.json
 
-* **disconnected_registry_mirrors_file:** file that contains the addition trust bundle and image content sources for the local registry. The contents of this file will be appended to the install-config.yml file
+- **disconnected_registry_mirrors_file:** file that contains the addition trust bundle and image content sources for the local registry. The contents of this file will be appended to the install-config.yml file
 
         disconnected_registry_mirrors_file=/etc/dci-openshift-agent/trust-bundle.yml
 
-* **local_repo:** name of the repository to create in your registry.
+- **local_repo:** name of the repository to create in your registry.
 
         local_repo=ocp4/openshift4
 
@@ -407,4 +405,4 @@ If you have some experience running DCI in connected environments, you'll notice
 
 These are the tasks run to mirror resources from the Internet into your local web server and registry, as well as some configuration tasks needed on the OCP cluster, like setting the Image Content Source Policies to redirect the cluster to pull resources from your local registry.
 
-Besides this, the operation of the DCI tools remains exactly the same and you can start running your *dci-openshift-[app-]agent-ctl* or *dci-pipeline-schedule* as usual.
+Besides this, the operation of the DCI tools remains exactly the same and you can start running your _dci-openshift-[app-]agent-ctl_ or _dci-pipeline-schedule_ as usual.

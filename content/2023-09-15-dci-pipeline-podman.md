@@ -26,8 +26,8 @@ Indeed, the DCI image is continually updated; it's rebuilt whenever a dependency
 
 In the rest of the article, we'll see how to use this image and what its limitations are.
 
-
 # Usage
+
 To use the Podman version of dci-pipeline, you only need to install the RPM package `dci-pipeline-podman`.
 
 If the RPM registry for DCI is not installed, download the one you need on [packages.distributed-ci.io](https://packages.distributed-ci.io/).
@@ -49,7 +49,7 @@ The command dci-pipeline-podman always gets the latest available version of the 
 
 # Precaution
 
-There's something you need to be careful about.  The user's HOME directory is directly mounted into the `/var/lib/dci-openshift-agent/` directory within the container. This is how you can access the pipeline file.
+There's something you need to be careful about. The user's HOME directory is directly mounted into the `/var/lib/dci-openshift-agent/` directory within the container. This is how you can access the pipeline file.
 
 This means you need to adjust any file paths in your pipeline files. Let's look at an example:
 
@@ -75,10 +75,8 @@ Very important, dci-pipeline-podman only mounts the user's home, it is not possi
 
 As of today, all tests have been carried out in a connected environment. We encountered some challenges in an disconnected environment, in particular because of SElinux. We are currently working on it and will update this article when the disconnected mode is fully functional.
 
-
 # Conclusion
 
 As explained, dci-pipeline-podman is the easiest way to deploy and test OpenShift with DCI using Podman.
 
 In this blog post, we have seen how to adapt its pipeline files in order to use it with peace of mind as well as the current limitations of the tool.
-

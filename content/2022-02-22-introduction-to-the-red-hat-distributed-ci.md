@@ -25,7 +25,7 @@ Let’s explore how all these concepts are articulated !
 
 ## The DCI concepts
 
-![blog1_workflow_sneak_peak](images/blog1_workflow_sneak_peak.png)
+![blog1_workflow_sneak_peak]({static}/images/2022-02-22-introduction-to-the-red-hat-distributed-ci/workflow_sneak_peak.png)
 
 <center>***Workflow sneak peek***</center>
 
@@ -33,7 +33,7 @@ Let’s explore how all these concepts are articulated !
 
 As you saw above, we decided to centralize all the partner’s interactions in a unique place called the Control Server. It’s a multi-tenant RESTful API that provides the necessary resources to run the CI jobs. The dashboard is the main user interface for the partners to visualize their jobs results. Lets see what it looks like:
 
-![blog1_dashboard](images/blog1_dashboard.png)
+![blog1_dashboard]({static}/images/2022-02-22-introduction-to-the-red-hat-distributed-ci/dashboard.png)
 
 <center>***Dashboard jobs list***</center>
 
@@ -43,7 +43,7 @@ When partners are on-boarded, they are firstly invited to sign in with their Red
 
 Once the partner is attached to his team, the first thing he wants to do is to run a job of course ! But before doing so, they must create what we call a “remote ci”. A remote ci is how we identify a partner platform. In fact, when a job is created in the control server, the remote ci should clearly identify where it has been run, it's an important piece of information because a partner might have multiple platforms with different hardware configurations.
 
-![blog1_remotecis_list](images/blog1_remotecis_list.png)
+![blog1_remotecis_list]({static}/images/2022-02-22-introduction-to-the-red-hat-distributed-ci/remotecis_list.png)
 
 <center>***Remote CIs list***</center>
 
@@ -57,7 +57,7 @@ All agents are Ansible based and they drive their respective Red Hat’s install
 
 A job is the representation of the output of an agent through a given remote ci. It’s represented as below:
 
-![blog1_job_details](images/blog1_job_details.png)
+![blog1_job_details]({static}/images/2022-02-22-introduction-to-the-red-hat-distributed-ci/job_details.png)
 
 <center>***Job details***</center>
 
@@ -75,7 +75,7 @@ The benefits of having such a taxonomy is that it eases the post-mortem analysis
 
 A job always runs against something that we are interested in, for example in RHEL it could be an unreleased Compose, for Openshift it could be a nightly version, etc… All these kinds of artifacts are called Components. More specifically the Components represent everything that is related to the context of execution of a job and help to understand the job’s results.
 
-![blog1_components_list](images/blog1_components_list.png)
+![blog1_components_list]({static}/images/2022-02-22-introduction-to-the-red-hat-distributed-ci/components_list.png)
 
 <center>***Components list***</center>
 

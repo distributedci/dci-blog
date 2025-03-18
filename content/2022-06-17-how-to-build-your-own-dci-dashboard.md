@@ -43,7 +43,7 @@ The following process describes step by step how to quickly set up your spreadsh
    - Rename the current tab to “Data”
    - In this Data tab, set some values to prepare API call (B2 and B3 mandatories)
 
-   ![How to set data](images/2022-06-17/Howto_Dashboard_set_data.png)
+   ![How to set data]({static}/images/2022-06-17-how-to-build-your-own-dci-dashboard/Howto_Dashboard_set_data.png)
 
 5. Reload the spreadsheet to get new menu entry (Script Menu)
 6. In new Script Menu entry,
@@ -105,7 +105,7 @@ Prefer this way to analyze your data before building custom dashboards.
 
 Here is the result:
 
-![Chart sample](images/2022-06-17/Howto_Dashboard_chart_sample.png)
+![Chart sample]({static}/images/2022-06-17-how-to-build-your-own-dci-dashboard/Howto_Dashboard_chart_sample.png)
 
 ## Send my report by email
 

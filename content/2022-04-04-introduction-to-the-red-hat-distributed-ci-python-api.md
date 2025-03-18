@@ -7,7 +7,6 @@ Author: Haïkel Guémar
 Github: hguemar
 Summary: In a previous post, you have been introduced to Red Hat Distributed CI (DCI) infrastructure and how it enables Red Hat partners to integrate into Red Hat CI workflow. Now, we will be focusing on how to interact with DCI through the Python API.
 
-
 ## How to interact with DCI infrastructure
 
 DCI provides multiple ways to interact:
@@ -28,26 +27,24 @@ The [dciauth](https://pypi.org/project/dciauth/) makes it easy to generate heade
 
 You absolutely need to be authenticated and have proper permissions to access
 
-
 ## DCI Python API
 
 Please refer to the [introductory blog post to DCI](introduction-to-the-red-hat-distributed-ci.html) for higher level overview of our infrastructure as it is necessary to understand the following concepts.
 
 Before we get started, let's dive into some important API resources:
 
-### Products ###
+### Products
 
 A product is merely a Red Hat product that is distributed by DCI. (e.g: RHEL, RHOSP, OpenShift)
 
-### Topics ###
+### Topics
 
 A topic is a version/variant of a product. (e.g: RHEL8.7, RHEL8.1, RHEL7.9)
 
-### Components ###
+### Components
 
 A component is an artifact (e.g: file, url) attached to a topic.
 Artifacts can be downloaded through the [dci-downloader](https://github.com/redhat-cip/dci-downloader) utility by specifying the topic, some filters are available.
-
 
 ### Jobs
 
@@ -55,14 +52,13 @@ A job represent a run of an agent through a remoteci.
 
 A Job goes through various states:
 
-* pre-run: downloading required artifacts
-* running: deploying the product
-* running: running default and user-defined tests
-* post-run: uploading some logs and tests results
-* success, failure, error: final status
+- pre-run: downloading required artifacts
+- running: deploying the product
+- running: running default and user-defined tests
+- post-run: uploading some logs and tests results
+- success, failure, error: final status
 
-![Job states](images/blog4_dci-jobstates.drawio.png)
-
+![Job states]({static}/images/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api/dci-jobstates.drawio.png)
 
 ## Hands-on
 
@@ -78,18 +74,15 @@ First, you'll need your credentials in a dcirc.sh file which will look like this
 
 If needed, you can read the next paragraph to learn how to retrieve them, otherwise, you can skip it.
 
-
 ### Retrieving your credentials
 
 You need to connect to the [DCI web board](https://distributed-ci.io), go to the remotecis tab on the left side.
 Then, look for your remoteci and click on the blue button in the Authentication column (see image below).
 A popup will display the cont
 
-![screen capture showing the output.](images/blog4_credentials-dci.png)
-
+![screen capture showing the output.]({static}/images/2022-04-04-introduction-to-the-red-hat-distributed-ci-python-api/credentials-dci.png)
 
 ### Installing Python DCI libraries
-
 
 Recommended way to install Python DCI libraries either by RPM package or Python native package (Pypi).
 
@@ -103,13 +96,10 @@ RPM installation:
     $ yum -y install https://packages.distributed-ci.io/dci-release.el8.noarch.rpm
     $ yum install python-dciclient
 
-
-
 Python native package installation:
 
     :::bash
     $ pip install dciclient
-
 
 ### Authentication
 
@@ -123,7 +113,6 @@ Authentication context objects will authenticate your request, there are three t
 
 For this hands-on, we will be using signature types context.
 
-
     :::python
     import os
     from dciclient.v1.api import context
@@ -136,7 +125,6 @@ For this hands-on, we will be using signature types context.
     ctx = context.build_signature_context(dci_client_id, dci_api_secret)
 
 In the next paragraph, we will skip this part to keep examples shorts and readable.
-
 
 ### Our first API Calls
 
@@ -155,7 +143,6 @@ Two interesting values from the response object:
 
 - status_code: indicates the status of your request according [REST best practices](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status). e.g: '200' means success, '201' means a resource was created, '40X' indicate errors
 - content: the content of the response from the server in the form of a json document.
-
 
 But requests can also accepts filters:
 
@@ -309,6 +296,5 @@ It's just the tip of the iceberg, the DCI Python API is quite rich, and allows y
 For more insight on the Python, do not hesitate to ping us.
 
 ## Stay tuned !
-
 
 [Distributed CI documentation](https://docs.distributed-ci.io)
