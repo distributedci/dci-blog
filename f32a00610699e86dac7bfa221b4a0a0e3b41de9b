@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "692f849e_62d1c2dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-03-18T10:23:44Z",
+      "side": 1,
+      "message": "Nothing really to say here, I found the blog post in a perfect shape, great work Jorge!\nJust for curiosity, is this the new format (.rst) we should follow for next blog posts?",
+      "revId": "f32a00610699e86dac7bfa221b4a0a0e3b41de9b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
