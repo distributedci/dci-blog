@@ -1,19 +1,43 @@
-<article class="dci-article-summary">
-  {% include "article_info.html" %}
-  <a
-    href="{{ SITEURL }}/{{ article.url }}"
-    class="dci-article-summary__link"
-    title="Permalink to {{ article.title|striptags }}"
-  >
-    <div class="dci-article-summary__title">{{ article.title }}</div>
-    <div class="dci-article-summary__text">{{ article.summary }}</div>
-  </a>
-  <div class="dci-article-summary__readmore">
-    <a
-      href="{{ SITEURL }}/{{ article.url }}"
-      class="dci-article-summary__readmore-link"
-    >
-      Read more
-    </a>
+<div class="dci-container">
+  <div class="dci-main-content">
+    <article class="dci-article-summary">
+      <div class="dci-article-summary__info">
+        {% if article.github %}
+        <div>
+          <img
+            class="dci-article-summary__avatar"
+            src="https://github.com/{{ article.github }}.png?size=40"
+          />
+        </div>
+        {% endif %}
+        <div>
+          <p class="dci-article-summary__author">{{ article.author }}</p>
+          <p
+            class="dci-article-summary__date"
+            title="{{ article.date.isoformat() }}"
+          >
+            <time datetime="{{ article.date.isoformat() }}"
+              >{{ article.locale_date }}</time
+            >
+          </p>
+        </div>
+      </div>
+      <a
+        href="{{ SITEURL }}/{{ article.url }}"
+        class="dci-article-summary__link"
+        title="Permalink to {{ article.title|striptags }}"
+      >
+        <div class="dci-article-summary__title">{{ article.title }}</div>
+        <div class="dci-article-summary__text">{{ article.summary }}</div>
+      </a>
+      <div class="dci-article-summary__readmore">
+        <a
+          href="{{ SITEURL }}/{{ article.url }}"
+          class="dci-article-summary__readmore-link"
+        >
+          Read more
+        </a>
+      </div>
+    </article>
   </div>
-</article>
+</div>

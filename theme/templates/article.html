@@ -1,16 +1,47 @@
 {% extends "base.html" %}
 {% block title %}
-{{ article.title|striptags }}
+  {{ article.title|striptags }}
 {% endblock %}
 {% block content %}
-{% include "article_info.html" %}
-<br/>
-<article>
-  <h1 class="article__title">
-    {{ article.title }}
-  </h1>
-  <div class="article__content">
-    {{ article.content }}
+<div class="dci-article__header">
+  <div class="dci-container">
+    <section>
+      <div class="dci-article__title">{{ article.title }}</div>
+      <div class="dci-article__metadata">
+        <p class="dci-article-metadata__author">
+          {{ article.author }}
+          <span class="dci-article-metadata__separator"></span>
+        </p>
+
+        <p
+          class="dci-article-metadata__date"
+          title="{{ article.date.isoformat() }}"
+        >
+          <time datetime="{{ article.date.isoformat() }}"
+            >{{ article.locale_date }}</time
+          >
+          <span class="dci-article-metadata__separator"></span>
+        </p>
+        <p
+          class="dci-article-metadata__readtime"
+          title="{{ article.date.isoformat() }}"
+        >
+          {{article.readtime_string}} read
+        </p>
+      </div>
+    </section>
   </div>
-</article>
+</div>
+<div class="dci-container">
+  <div class="dci-article__back-link-containter">
+    <a class="dci-article__back-link" href="/"> Back to all posts </a>
+  </div>
+  <hr class="dci-article__divider" />
+  <div class="dci-article__content">{{ article.content }}</div>
+  <hr class="dci-article__divider" />
+  <div class="dci-article__author">
+    <img class="dci-article-summary__avatar" src="https://github.com/{{ article.github }}.png?size=42" />
+    <p class="dci-article-metadata__author">{{ article.author }}</p>
+  </div>
+</div>
 {% endblock %}

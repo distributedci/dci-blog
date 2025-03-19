@@ -1,42 +1,38 @@
 <html>
   <head>
     {% block head %}
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>{% block title %}{% endblock title %} - {{ SITENAME }}</title>
-      <link rel="shortcut icon" href="{{ SITEURL }}/theme/favicon.ico" />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="{{ SITEURL }}/theme/css/styles.css"
-      />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}{% endblock title %} - {{ SITENAME }}</title>
+    <link rel="shortcut icon" href="{{ SITEURL }}/theme/favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ SITEURL }}/theme/css/styles.css"
+    />
     {% endblock %}
   </head>
   <body>
     <header class="dci-header">
-      <nav class="dci-container dci-header__nav" aria-label="Header">
-        <a
-          href="."
-          title="Documentation"
-          class="dci-header__logo-link"
-          aria-label="Documentation"
-          data-dci-component="logo"
-        >
-          <img
-            src="{{ SITEURL }}/theme/images/logo.min.svg"
-            alt="logo"
-            class="dci-header__logo"
-          />
-        </a>
-        <div class="dci-header__title">Blog</div>
-      </nav>
-    </header>
-    <div class="dci-container">
-      <div class="dci-main-content">
-        {% block content %}
-        {% endblock %}
+      <div class="dci-container">
+        <nav class="dci-header__nav" aria-label="Header">
+          <a
+            href="/"
+            title="Documentation"
+            class="dci-header__logo-link"
+            aria-label="Documentation"
+            data-dci-component="logo"
+          >
+            <img
+              src="{{ SITEURL }}/theme/images/logo.min.svg"
+              alt="logo"
+              class="dci-header__logo"
+            />
+          </a>
+        </nav>
       </div>
-    </div>
+    </header>
+    {% block content %} {% endblock %}
   </body>
 </html>

@@ -29,7 +29,7 @@ img {
   height: auto;
 }
 
-a:link {
+a {
   color: #0066cc;
   text-decoration: none;
 }
@@ -39,5 +39,5 @@ a:hover {
 }
 
 a:visited {
-  color: #004080;
+  color: #0066cc;
 }

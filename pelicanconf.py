@@ -33,11 +33,13 @@ STATIC_PATHS = (
 
 THEME = "theme"
 
+PLUGINS = ["readtime"]
+
 MARKDOWN = {
     "extension_configs": {
         "markdown.extensions.admonition": {},
         "markdown.extensions.codehilite": {"css_class": "code"},
         "markdown.extensions.extra": {},
-        "markdown.extensions.toc": {},
+        "markdown.extensions.toc": {"anchorlink": True},
     },
 }
