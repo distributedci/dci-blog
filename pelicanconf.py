@@ -8,11 +8,12 @@ TIMEZONE = "EST"
 
 DEFAULT_LANG = "en"
 
-FEED_DOMAIN = SITEURL
-CATEGORY_FEED_RSS = 'feeds/{slug}.rss.xml'
-FEED_RSS = "feeds/all.rss.xml"
-FEED_ALL_ATOM = "feeds/all.atom.xml"
-CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (("Dashboard", "https://www.distributed-ci.io/"),)
@@ -25,14 +26,18 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
+STATIC_PATHS = (
+    "images",
+    "examples",
+)
+
 THEME = "theme"
 
-PLUGINS = ["readtime"]
 MARKDOWN = {
     "extension_configs": {
         "markdown.extensions.admonition": {},
+        "markdown.extensions.codehilite": {"css_class": "code"},
+        "markdown.extensions.extra": {},
         "markdown.extensions.toc": {},
-        "markdown.extensions.tables": {},
-        "markdown.extensions.codehilite": {"css_class": "highlight"},
-    }
+    },
 }

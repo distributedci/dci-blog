@@ -1,0 +1,91 @@
+.admonition {
+  border-left: 3px solid;
+  padding: 1.25em 1.5em;
+  margin-bottom: 1em;
+}
+
+.admonition-title {
+  font-weight: bolder;
+}
+
+.admonition-title::before {
+  margin-right: 0.5em;
+}
+
+.note .admonition-title::before {
+  content: "🗒️";
+}
+
+.tip .admonition-title::before {
+  content: "💡";
+}
+
+.hint .admonition-title::before {
+  content: "💡";
+}
+
+.attention .admonition-title::before {
+  content: "❗";
+}
+
+.important .admonition-title::before {
+  content: "❗";
+}
+
+.caution .admonition-title::before {
+  content: "🟡";
+}
+
+.warning .admonition-title::before {
+  content: "⚠️";
+}
+
+.danger .admonition-title::before {
+  content: "🧨";
+}
+
+.error .admonition-title::before {
+  content: "🛑";
+}
+
+.danger, .error {
+  background-color: #f8d7da;
+  border-color: #dc3545;
+  color: #721c24;
+}
+
+.warning {
+  background-color: #fff4cc;
+  border-color: #ffcc17;
+  color: #73480b;
+}
+
+.danger, .error {
+  background-color: #fce3e3;
+  border-color: #f56e6e;
+  color: #a60000;
+}
+
+.caution, .important, .attention {
+  background-color: #ffe8cc;
+  border-color: #f5921b;
+  color: #732e00;
+}
+
+.hint, .tip {
+  background-color: #d4edda;
+  border-color: #28a745;
+  color: #155724;
+}
+
+.note {
+  background-color: #e0f0ff;
+  border-color: #4394e5;
+  color: #003366;
+}
+
+
+
+
+
+

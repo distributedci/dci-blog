@@ -27,6 +27,39 @@ Use the image in your blog post like this:
 
 /!\ use {static} to detect missing images at build time
 
+## Add hints
+
+To add hints in you code you can pick one of this
+
+```markdown
+!!! note "Note title"
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+!!! tip "Tip title"
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+!!! hint "Hint title"
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+!!! attention "Attention title"
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+!!! important "Important title"
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+!!! caution "Caution title"
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+!!! warning "Warning title"
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+!!! danger "Danger title"
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+!!! error "Error title"
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+```
+
 ## see other options
 
     make
