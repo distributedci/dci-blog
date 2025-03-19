@@ -48,31 +48,36 @@
   content: "🛑";
 }
 
-.danger, .error {
+.danger,
+.error {
   background-color: #f8d7da;
   border-color: #dc3545;
   color: #721c24;
 }
 
+.caution,
 .warning {
   background-color: #fff4cc;
   border-color: #ffcc17;
   color: #73480b;
 }
 
-.danger, .error {
+.danger,
+.error {
   background-color: #fce3e3;
   border-color: #f56e6e;
   color: #a60000;
 }
 
-.caution, .important, .attention {
+.important,
+.attention {
   background-color: #ffe8cc;
   border-color: #f5921b;
   color: #732e00;
 }
 
-.hint, .tip {
+.hint,
+.tip {
   background-color: #d4edda;
   border-color: #28a745;
   color: #155724;
@@ -83,9 +88,3 @@
   border-color: #4394e5;
   color: #003366;
 }
-
-
-
-
-
-
