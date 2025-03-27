@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed6bbee9_d878a15e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2025-03-27T18:27:24Z",
+      "side": 1,
+      "message": "Couple of small things, lgtm otherwise",
+      "revId": "b9e4ba3beb3d2f640da561e578bc9a395e7b4a4b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f87bb6b0_253699f9",
+        "filename": "content/2025-03-25-intro-to-dci-rhel-agent.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2025-03-27T18:27:24Z",
+      "side": 1,
+      "message": "I\u0027d remove the trailing dots here, I understand is to signal this is a fragment, but you don\u0027t have them on the other block samples so they look out of place here",
+      "revId": "b9e4ba3beb3d2f640da561e578bc9a395e7b4a4b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eca69e24_c8c4ce3c",
+        "filename": "content/2025-03-25-intro-to-dci-rhel-agent.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2025-03-27T18:27:24Z",
+      "side": 1,
+      "message": "`fqdn:` missing",
+      "revId": "b9e4ba3beb3d2f640da561e578bc9a395e7b4a4b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
