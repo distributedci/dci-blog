@@ -35,6 +35,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dee5305f_581a34b9",
+        "filename": "content/2025-03-25-intro-to-dci-rhel-agent.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 586
+      },
+      "writtenOn": "2025-03-31T18:39:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f87bb6b0_253699f9",
+      "revId": "b9e4ba3beb3d2f640da561e578bc9a395e7b4a4b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eca69e24_c8c4ce3c",
@@ -48,6 +66,24 @@
       "writtenOn": "2025-03-27T18:27:24Z",
       "side": 1,
       "message": "`fqdn:` missing",
+      "revId": "b9e4ba3beb3d2f640da561e578bc9a395e7b4a4b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f1848f3_3f03c7f3",
+        "filename": "content/2025-03-25-intro-to-dci-rhel-agent.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 586
+      },
+      "writtenOn": "2025-03-31T18:39:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eca69e24_c8c4ce3c",
       "revId": "b9e4ba3beb3d2f640da561e578bc9a395e7b4a4b",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
