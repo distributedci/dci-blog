@@ -16,7 +16,6 @@
     vars:
       registry: quay.io
       tag: "distributedci/dci-blog"
-      push_stable_tag: false
     templates:
       - dci-container
     check:
