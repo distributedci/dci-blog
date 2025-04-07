@@ -13,6 +13,12 @@
 - project:
     queue: dci
     name: dci-blog
+    vars:
+      registry: quay.io
+      tag: "distributedci/dci-blog"
+      push_stable_tag: false
+    templates:
+      - dci-container
     check:
       jobs:
         - dci-rpm-build-el8
