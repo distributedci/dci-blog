@@ -33,6 +33,23 @@
       "message": "recheck",
       "revId": "c66fed90c09a918d0e767cf554902c097f00cb5b",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4fb64c9f_586bdb92",
+        "filename": "Dockerfile",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 648
+      },
+      "writtenOn": "2025-04-07T15:57:50Z",
+      "side": 1,
+      "message": "/bin/sh will complain about square brackets, use single quotes e.g. `--from \u0027pelican[markdown]\u0027`",
+      "revId": "c66fed90c09a918d0e767cf554902c097f00cb5b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
