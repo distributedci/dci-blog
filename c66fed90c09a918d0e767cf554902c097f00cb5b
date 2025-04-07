@@ -50,6 +50,24 @@
       "message": "/bin/sh will complain about square brackets, use single quotes e.g. `--from \u0027pelican[markdown]\u0027`",
       "revId": "c66fed90c09a918d0e767cf554902c097f00cb5b",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a64b883f_22b53c43",
+        "filename": "Dockerfile",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 28
+      },
+      "writtenOn": "2025-04-07T16:18:20Z",
+      "side": 1,
+      "message": "with or without quotes it doesn\u0027t make a difference (from my tests to be sure, only zsh complains about square brackets)",
+      "parentUuid": "4fb64c9f_586bdb92",
+      "revId": "c66fed90c09a918d0e767cf554902c097f00cb5b",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
