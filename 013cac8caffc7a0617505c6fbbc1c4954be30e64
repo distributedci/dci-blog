@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "afbcb151_a46dff0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-19T10:57:27Z",
+      "side": 1,
+      "message": "LGTM, probably Olivier could give you a better review in case some technical aspect is not correct.\n\nI also wanted to ask if there\u0027s  any documentation regarding how DSL queries could be built, just to add them as a link in the blog post.",
+      "revId": "013cac8caffc7a0617505c6fbbc1c4954be30e64",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
