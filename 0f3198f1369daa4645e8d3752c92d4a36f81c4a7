@@ -1,0 +1,8 @@
+Verified+2: Zuul CI <zuul@softwarefactory-project.io>
+Workflow+1: François Charlier <francois.charlier@redhat.com>
+Code-Review+2: Jorge Gallegos <jgallego@redhat.com>
+Submitted-by: Zuul CI <zuul@softwarefactory-project.io>
+Submitted-at: Thu, 22 May 2025 16:19:51 +0000
+Reviewed-on: https://softwarefactory-project.io/r/c/dci-blog/+/33823
+Project: dci-blog
+Branch: refs/heads/master
