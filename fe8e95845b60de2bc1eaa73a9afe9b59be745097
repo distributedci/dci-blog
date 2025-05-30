@@ -33,6 +33,24 @@
       "message": "Really, not needed to define the machineNetworkCIRD in MNO? interested fact, I wonder if it\u0027s just in ZTP or also in the deployments with ABI.",
       "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bf82609_27f72d64",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T12:48:30Z",
+      "side": 1,
+      "message": "Yeah, I think it\u0027s inferred from the API VIP, Ingress VIP and the nodes IP addresses, here\u0027s the comment we have in our manifests: https://github.com/dci-labs/dallas-gitops/blob/main/cluster1/current/sites/cluster1.yaml#L63-L65, I applied that in that way because it was what was documented in the SiteConfig sample from the ztp-site-generator container. Really curious. Don\u0027t know if could be also applied for ABI for example, it\u0027d be a matter of testing it",
+      "parentUuid": "e0fb549b_2ad81598",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
   ]
 }
