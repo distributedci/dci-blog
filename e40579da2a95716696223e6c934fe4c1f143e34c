@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7ae59ae_d46cc360",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Thanks for your feedback Beto!",
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "40faf5f3_69bddb6f",
@@ -70,6 +87,78 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a00a2a4f_0701d04f",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "I guess you meant \"leveraging\", I\u0027ll change that",
+      "parentUuid": "6a141b7d_a02b76c4",
+      "range": {
+        "startLine": 8,
+        "startChar": 100,
+        "endLine": 8,
+        "endChar": 118
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf02b9bd_d6b69b89",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "40faf5f3_69bddb6f",
+      "range": {
+        "startLine": 8,
+        "startChar": 444,
+        "endLine": 8,
+        "endChar": 464
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a37d296_6e578a14",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1dcd22e6_e5161480",
+      "range": {
+        "startLine": 8,
+        "startChar": 214,
+        "endLine": 8,
+        "endChar": 223
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "894be41a_707d1c33",
@@ -93,6 +182,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2bea1165_a04d633b",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "I was referring to the whole blog web page, I could add a link",
+      "parentUuid": "894be41a_707d1c33",
+      "range": {
+        "startLine": 14,
+        "startChar": 148,
+        "endLine": 14,
+        "endChar": 165
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b0cae320_67750f42",
@@ -106,6 +219,30 @@
       "writtenOn": "2025-05-29T23:19:47Z",
       "side": 1,
       "message": "O would remove \"For example\" from the previous paragraph and rephrase the below blocks with:\n\nSee:\n- [GitOps ZTP with DCI](gitops-ztp-with-dci.html) to find a wider explanation about GitOps ZTP with DCI, focused on baremetal setups.\n\n- [An alternative GitOps ZTP deployment with DCI using virtual machines](ztp-vms.html) that demonstrates how to adapt this kind of deployment to Virtual infrastructures.",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 214
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef82bdca_33836b5d",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b0cae320_67750f42",
       "range": {
         "startLine": 16,
         "startChar": 0,
@@ -185,6 +322,78 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d07b0d63_d84684d3",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2a84baa4_64275303",
+      "range": {
+        "startLine": 19,
+        "startChar": 150,
+        "endLine": 19,
+        "endChar": 154
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e55d3e04_d2c9ed26",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8cce34ce_11dcb23d",
+      "range": {
+        "startLine": 19,
+        "startChar": 169,
+        "endLine": 19,
+        "endChar": 238
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce98ab02_4909ce58",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "92316218_d0232613",
+      "range": {
+        "startLine": 19,
+        "startChar": 318,
+        "endLine": 19,
+        "endChar": 319
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ac855fd5_5328dd23",
@@ -198,6 +407,30 @@
       "writtenOn": "2025-05-29T23:19:47Z",
       "side": 1,
       "message": "separated sections, providing tips to consider when addressing different scenarios. This will help you customize your ZTP setup according to your desired configuration.",
+      "range": {
+        "startLine": 23,
+        "startChar": 230,
+        "endLine": 23,
+        "endChar": 250
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf442250_e6e03ed5",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac855fd5_5328dd23",
       "range": {
         "startLine": 23,
         "startChar": 230,
@@ -231,6 +464,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a833e326_59fdff88",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1eece37f_5793c1e6",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 21
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dbcbe3fa_dea4ab7f",
@@ -244,6 +501,30 @@
       "writtenOn": "2025-05-29T23:19:47Z",
       "side": 1,
       "message": "[DCI queue](dci-queue.html)",
+      "range": {
+        "startLine": 58,
+        "startChar": 101,
+        "endLine": 58,
+        "endChar": 123
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "997ecdca_b7f45ec3",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "I\u0027ve simplified the sentence to directly refer to DCI queue",
+      "parentUuid": "dbcbe3fa_dea4ab7f",
       "range": {
         "startLine": 58,
         "startChar": 101,
@@ -277,6 +558,30 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f446480_61798c63",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9beb9ec8_a8cbd7ef",
+      "range": {
+        "startLine": 93,
+        "startChar": 112,
+        "endLine": 93,
+        "endChar": 120
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1d4bc673_a3868d3c",
@@ -290,6 +595,24 @@
       "writtenOn": "2025-05-29T23:19:47Z",
       "side": 1,
       "message": "I am not sure if the issues that we area having with the integration are relevant or a user. I may just focus on what is supported now but up to you.\n\nLet\u0027s see what the others think",
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18d08712_b0b4898c",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "This is to justify why we follow a static configuration of the Git repo, so that in the conclusions we talk about the ongoing effort to make it more dynamic. And also, to justify one of the differences between SiteConfig and ClusterInstance: with ClusterInstance, we have again a single source of truth, which simplifies the CI.\nAnyway I\u0027ll keep this opened to see what others think about this.",
+      "parentUuid": "1d4bc673_a3868d3c",
       "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -330,6 +653,54 @@
       "writtenOn": "2025-05-29T23:19:47Z",
       "side": 1,
       "message": "clear",
+      "range": {
+        "startLine": 127,
+        "startChar": 78,
+        "endLine": 127,
+        "endChar": 85
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50420c2f_e9304aa4",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "25a62e07_14cd0a1b",
+      "range": {
+        "startLine": 127,
+        "startChar": 153,
+        "endLine": 127,
+        "endChar": 176
+      },
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34933083_736daa25",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-05-30T09:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eea5ae0e_043d0102",
       "range": {
         "startLine": 127,
         "startChar": 78,
