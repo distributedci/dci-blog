@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9516533f_ae8e737c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2025-05-30T11:41:43Z",
+      "side": 1,
+      "message": "Nice summary! LGTM",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0fb549b_2ad81598",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 908
+      },
+      "writtenOn": "2025-05-30T11:41:43Z",
+      "side": 1,
+      "message": "Really, not needed to define the machineNetworkCIRD in MNO? interested fact, I wonder if it\u0027s just in ZTP or also in the deployments with ABI.",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
