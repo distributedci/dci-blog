@@ -18,6 +18,40 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe766143_4dec2e55",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2025-06-02T04:15:15Z",
+      "side": 1,
+      "message": "\"as _the_ installation method\"?",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd491029_caeac2d9",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2025-06-02T04:15:15Z",
+      "side": 1,
+      "message": "\"what are the benefits _of_ using DCI\"",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "e0fb549b_2ad81598",
@@ -49,6 +83,74 @@
       "side": 1,
       "message": "Yeah, I think it\u0027s inferred from the API VIP, Ingress VIP and the nodes IP addresses, here\u0027s the comment we have in our manifests: https://github.com/dci-labs/dallas-gitops/blob/main/cluster1/current/sites/cluster1.yaml#L63-L65, I applied that in that way because it was what was documented in the SiteConfig sample from the ztp-site-generator container. Really curious. Don\u0027t know if could be also applied for ABI for example, it\u0027d be a matter of testing it",
       "parentUuid": "e0fb549b_2ad81598",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b6132ee_5fed243f",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2025-06-02T04:15:15Z",
+      "side": 1,
+      "message": "\"at least 3 _control plane_ nodes\"",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d90cc127_41b5138d",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2025-06-02T04:15:15Z",
+      "side": 1,
+      "message": "\"with 3 _control plane_ nodes and 4 _compute_ nodes\"",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "adabbe49_fddb2a26",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2025-06-02T04:15:15Z",
+      "side": 1,
+      "message": "Here an example of the IP addresses assignment would come handy.",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d88cdf10_dbbd8d37",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 789
+      },
+      "writtenOn": "2025-06-02T04:15:15Z",
+      "side": 1,
+      "message": "Just an aesthetic comment, but I would describe it as \"room for new features to be created\" rather than \"room for improvement\".",
       "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
