@@ -18,6 +18,23 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "13de95d1_f80c541e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-06-02T11:49:22Z",
+      "side": 1,
+      "message": "Thanks for your review Nacho! Closing comments.",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fe766143_4dec2e55",
@@ -35,6 +52,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "63bfcfdb_187aaba2",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-06-02T11:49:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fe766143_4dec2e55",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dd491029_caeac2d9",
@@ -48,6 +83,24 @@
       "writtenOn": "2025-06-02T04:15:15Z",
       "side": 1,
       "message": "\"what are the benefits _of_ using DCI\"",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "40f937f3_af7b77ce",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-06-02T11:49:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd491029_caeac2d9",
       "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -104,6 +157,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a44af4f5_7c7d368e",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-06-02T11:49:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4b6132ee_5fed243f",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d90cc127_41b5138d",
@@ -117,6 +188,24 @@
       "writtenOn": "2025-06-02T04:15:15Z",
       "side": 1,
       "message": "\"with 3 _control plane_ nodes and 4 _compute_ nodes\"",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b13bbd73_394d3566",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-06-02T11:49:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d90cc127_41b5138d",
       "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
@@ -138,6 +227,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e5328da_950478a6",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-06-02T11:49:22Z",
+      "side": 1,
+      "message": "Done, I\u0027ve followed the BOS2 case and anonymized it a little bit.",
+      "parentUuid": "adabbe49_fddb2a26",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d88cdf10_dbbd8d37",
@@ -151,6 +258,24 @@
       "writtenOn": "2025-06-02T04:15:15Z",
       "side": 1,
       "message": "Just an aesthetic comment, but I would describe it as \"room for new features to be created\" rather than \"room for improvement\".",
+      "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "155b345f_799b5e58",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-06-02T11:49:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d88cdf10_dbbd8d37",
       "revId": "fe8e95845b60de2bc1eaa73a9afe9b59be745097",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }

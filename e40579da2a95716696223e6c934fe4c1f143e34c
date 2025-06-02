@@ -617,6 +617,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "836a68d8_d9588564",
+        "filename": "content/2025-05-30-ztp-use-cases.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-06-02T11:49:22Z",
+      "side": 1,
+      "message": "After some days where no reviews were made about this, I\u0027ll consider this as accepted, so closing this.",
+      "parentUuid": "18d08712_b0b4898c",
+      "revId": "e40579da2a95716696223e6c934fe4c1f143e34c",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "25a62e07_14cd0a1b",
