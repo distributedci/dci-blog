@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15a3fdfd_fd8dda09",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2025-06-27T16:33:07Z",
+      "side": 1,
+      "message": "Good stuff, thanks Manny",
+      "revId": "98b2a3512433ffb64f81e3868005f062e8e4ba60",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "602476e8_39f62fde",
+        "filename": "content/2025-06-30-ocp-ipv6-install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2025-06-27T16:33:07Z",
+      "side": 1,
+      "message": "deployments",
+      "range": {
+        "startLine": 9,
+        "startChar": 18,
+        "endLine": 9,
+        "endChar": 30
+      },
+      "revId": "98b2a3512433ffb64f81e3868005f062e8e4ba60",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67479e9c_5e28daf9",
+        "filename": "content/2025-06-30-ocp-ipv6-install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2025-06-27T16:33:07Z",
+      "side": 1,
+      "message": "NMState node network",
+      "range": {
+        "startLine": 68,
+        "startChar": 16,
+        "endLine": 68,
+        "endChar": 28
+      },
+      "revId": "98b2a3512433ffb64f81e3868005f062e8e4ba60",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "399e2904_80ba9779",
+        "filename": "content/2025-06-30-ocp-ipv6-install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 724
+      },
+      "writtenOn": "2025-06-27T16:33:07Z",
+      "side": 1,
+      "message": "(NMstate)[https://nmstate.io/]",
+      "range": {
+        "startLine": 92,
+        "startChar": 242,
+        "endLine": 92,
+        "endChar": 249
+      },
+      "revId": "98b2a3512433ffb64f81e3868005f062e8e4ba60",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
