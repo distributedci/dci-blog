@@ -1,5 +1,5 @@
 Title: Running your pipelines with podman with dci-pipeline-podman
-Date: 2023-09-15 10:00
+Date: 2025-09-18 10:00
 Category: overview
 Tags: deployment
 Author: Pierre Blanc
@@ -71,7 +71,16 @@ Here, within the host's HOME directory, we have a `dev1` directory with all the 
 
         $ dci-pipeline-podman /var/lib/dci-openshift-agent/dev1/ocp-latest-pipeline.yaml
 
-Very important, dci-pipeline-podman only mounts the user's home, it is not possible to use files outside, example in `/opt` or `/etc`.
+By default, dci-pipeline-podman only mounts the user's home, but it is possible to use files outside, example in `/opt` or `/etc` with the optional variable CONTAINER_MOUNTED_PATHS in ~/.config/dci-pipeline/config.
+Example: 
+        cat ~/.config/dci-pipeline/config
+        CONTAINER_MOUNTED_PATHS=(
+          "/var/lib/dci"
+          "/opt/cache"
+          "/etc/firewalld"
+          "/tmp"
+        )
+
 
 As of today, all tests have been carried out in a connected environment. We encountered some challenges in an disconnected environment, in particular because of SElinux. We are currently working on it and will update this article when the disconnected mode is fully functional.
 
