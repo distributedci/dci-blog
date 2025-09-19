@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b83e7644_197d80e9",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-09-19T07:12:36Z",
+      "side": 1,
+      "message": "It\u0027s probably better to add `Modified` below, with the new date, e.g.\n\n```\nDate: 2023-09-15 10:00\nModified: 2025-09-18 10:00\n```",
+      "revId": "6c145174b0b3504fb322c1b3d1dfb28af4910d81",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c8f03189_f0d5c0cb",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 800
+      },
+      "writtenOn": "2025-09-19T07:12:36Z",
+      "side": 1,
+      "message": "- wrap `CONTAINER_MOUNTED_PATHS` into ` quotes\n- same for `~/.config/dci-pipeline/config`",
+      "revId": "6c145174b0b3504fb322c1b3d1dfb28af4910d81",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    }
+  ]
+}
