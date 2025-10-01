@@ -18,6 +18,24 @@
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1579a6e1_1e29ba9f",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2025-10-01T13:59:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b83e7644_197d80e9",
+      "revId": "6c145174b0b3504fb322c1b3d1dfb28af4910d81",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c8f03189_f0d5c0cb",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-09-19T07:12:36Z",
       "side": 1,
       "message": "- wrap `CONTAINER_MOUNTED_PATHS` into ` quotes\n- same for `~/.config/dci-pipeline/config`",
+      "revId": "6c145174b0b3504fb322c1b3d1dfb28af4910d81",
+      "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f623795_b8d5474b",
+        "filename": "content/2023-09-15-dci-pipeline-podman.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 821
+      },
+      "writtenOn": "2025-10-01T13:59:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c8f03189_f0d5c0cb",
       "revId": "6c145174b0b3504fb322c1b3d1dfb28af4910d81",
       "serverId": "6c1dc8ef-8b94-40e4-bd83-c2359d45ecc0"
     }
