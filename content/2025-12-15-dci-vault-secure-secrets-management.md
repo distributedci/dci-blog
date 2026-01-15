@@ -4,7 +4,7 @@ Category: how-to
 Tags: dci, security, ansible-vault, secrets, encryption
 Slug: dci-vault-secure-secrets-management
 Author: Pierre Blanc
-Github: pblanc
+Github: pierreblanc
 Summary: Learn how to securely manage secrets in your DCI pipelines and inventories using dci-vault, a wrapper around ansible-vault that uses your RemoteCI's API secret for encryption.
 
 [TOC]
