@@ -4,14 +4,14 @@ Category: how-to
 Tags: dci, ci, OpenShift, OCP, dci-queue, advanced
 Slug: advanced-dci-queue-features
 Author: Pierre Blanc
-Github: pblanc
-Summary: Advanced features of dci-queue for power users: multi-pools, environment variables, console output, and more
+Github: pierreblanc
+Summary: Advanced features of dci-queue for power users: multi-pools, console output, and more
 
 [TOC]
 
 ## Introduction
 
-In the [previous article](dci-queue.html), we introduced `dci-queue`, a resource management system for DCI deployments. We covered the basics: creating pools, scheduling commands, and managing resources.
+In the [previous article](dci-queue.html), we introduced `dci-queue`, a queuing tool used in DCI deployments. We covered the basics: creating pools, scheduling commands, and managing resources.
 
 This article explores advanced features that help you get more out of `dci-queue` in complex scenarios, such as multi-pool deployments, debugging with console output, and discovering information about your queued jobs.
 
@@ -48,51 +48,6 @@ When you use `dci-pipeline-schedule`, it automatically manages the pool referenc
 In the example above, `acm-hub` uses the first pool (`vpool`), and `-p2` in the command indicates that `ocp-4.19-spoke-ztp-gitops` and `hardware-validation` should use the second pool (`spokes`). This `-p2` reference is automatically added by `dci-pipeline-schedule` based on the pool order you specified.
 
 Multi-pools work seamlessly with dci-pipeline's input and output mechanism. Jobs can share information between them using input/output configuration keys, regardless of which pool they use. The input and output functionality is not impacted by multi-pools and works perfectly across pools.
-
-## Environment Variables
-
-When `dci-queue` executes a command, it sets several environment variables that your scripts and commands can use.
-
-### Standard Environment Variables
-
-For jobs using a single pool, the following variables are available:
-
-- `DCI_QUEUE`: The name of the pool
-- `DCI_QUEUE_RES`: The resource name from the pool
-- `DCI_QUEUE_ID`: The job ID within the pool
-- `DCI_QUEUE_JOBID`: A unique job identifier in the format `<pool>.<id>`
-
-You can check these environment variables in running processes. For example, to see all DCI_QUEUE-related variables for a specific job:
-
-    :::shell-session
-    $ echo $DCI_QUEUE
-    vpool
-    $ echo $DCI_QUEUE_RES
-    jumphost
-
-### Multi-Pool Environment Variables
-
-When using multiple pools, additional environment variables are set for each extra pool:
-
-- `DCI_QUEUE1`: The name of the first extra pool
-- `DCI_QUEUE_RES1`: The resource name from the first extra pool
-- `DCI_QUEUE2`: The name of the second extra pool
-- `DCI_QUEUE_RES2`: The resource name from the second extra pool
-- And so on for additional pools...
-
-For example, with the multi-pool command from earlier:
-
-    :::shell-session
-    $ echo $DCI_QUEUE
-    vpool
-    $ echo $DCI_QUEUE_RES
-    jumphost
-    $ echo $DCI_QUEUE1
-    spokes
-    $ echo $DCI_QUEUE_RES1
-    sno2
-
-These variables are useful in scripts that need to know which resources they're using, or to pass resource information to other tools.
 
 ## Console Output and Logging
 
@@ -136,9 +91,9 @@ Use the `-r` or `--remove-resource` option with the `schedule` command to remove
     :::shell-session
     $ dci-queue schedule -r mypool dci-pipeline pipeline.yml
 
-Once the job starts, the resource is removed from the pool, guaranteeing that no other job will redeploy on that node. This is especially valuable when you need to:
+Once the job starts, the resource is removed from the pool, guaranteeing that no other job will redeploy on that node.
 
-The resource remains removed until you manually add it back to the pool using `dci-queue add`.
+The resource remains removed until you manually add it back to the pool using `dci-queue add-resource <POOL> <RESOURCE>`.
 
 ## Running Multiple Jobs with the Same Command
 
@@ -152,8 +107,8 @@ The `-f` option allows you to schedule a job even if the same command is already
 This is particularly useful when you want to:
 
 - Validate a deployment configuration by running it on multiple resources simultaneously
-- Test the same deployment across different nodes in parallel
-- Ensure consistency by running identical commands on all available resources
+- Test the same deployment across different nodes at the same time
+- Ensure consistency by running identical commands on multiple resources
 
 ## Extracting DCI Job IDs
 
@@ -164,7 +119,7 @@ When `dci-pipeline` or `dci-check-change` runs through `dci-queue`, the logs con
     openshift-vanilla:2441f3a5-aa97-45e9-8122-36dfc6f17d84
     deploy-app1:3b2c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e
 
-The output shows the job definition name and the DCI job ID, one per line. This is useful for tracking jobs in the DCI dashboard or for rebuilding pipelines using `dci-rebuild-pipeline`.
+The output shows the job definition name and the DCI job ID, one per line. This is useful for tracking jobs in the DCI web UI or for rebuilding pipelines using `dci-rebuild-pipeline`.
 
 If no DCI job IDs are found in the log, the command returns an error:
 
@@ -174,6 +129,6 @@ If no DCI job IDs are found in the log, the command returns an error:
 
 ## Conclusion
 
-These advanced features make `dci-queue` more powerful for complex deployment scenarios. Multi-pools enable sophisticated setups like ACM Hub/Spoke architectures, environment variables provide integration points for automation, and the dci-job command helps you track your queued jobs effectively.
+These advanced features make `dci-queue` more powerful for complex deployment scenarios. Multi-pools enable sophisticated setups like ACM Hub/Spoke architectures, and the dci-job command helps you track your queued jobs effectively.
 
 For more information, refer to the [dci-pipeline documentation](https://doc.distributed-ci.io/dci-pipeline/#dci-queue-command).
