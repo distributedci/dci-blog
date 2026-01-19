@@ -4,7 +4,7 @@ Category: how-to
 Tags: dci, podman, container-certification, preflight, dci-pipeline-podman, pyxis
 Slug: use-dci-on-podman-to-certify-container
 Author: Pierre Blanc, Andrew Vu
-Github: pblanc
+Github: pierreblanc
 Summary: Learn how to quickly set up container certification using DCI with Podman. This guide shows you how to use dci-pipeline-podman for streamlined Pyxis test execution with minimal configuration.
 
 [TOC]
