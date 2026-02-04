@@ -11,11 +11,11 @@ Summary: This blog post demonstrates how to use the ansible-collection-redhatci-
 
 ## Introduction
 
-The `redhatci.ocp` Ansible collection provides a comprehensive set of roles and modules for automating OpenShift Platform interactions, deployment, testing, and continuous integration. While the collection is often used with DCI (Distributed CI), it can also be used independently in standalone Ansible playbooks.
+[The `redhatci.ocp` Ansible collection](https://github.com/redhatci/ansible-collection-redhatci-ocp) provides a comprehensive set of roles and modules for automating OpenShift Platform interactions, deployment, testing, and continuous integration. While the collection is often used with DCI (Distributed CI), it can also be used independently in standalone Ansible playbooks.
 
 This blog post is part of a series exploring the `ansible-collection-redhatci-ocp` collection. In this installment, we'll focus on running PTP (Precision Time Protocol) tests on an already deployed OpenShift cluster. PTP is critical for Cloud Native Functions (CNF) workloads that require precise time synchronization, such as 5G RAN applications.
 
-We'll demonstrate how to use the `redhatci.ocp.eco_gotests` role to execute PTP test suites without requiring DCI infrastructure, making it accessible for teams who want to validate PTP functionality on their existing clusters.
+We'll demonstrate how to use the [`redhatci.ocp.eco_gotests` role](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/eco_gotests) to execute PTP test suites without requiring DCI infrastructure, making it accessible for teams who want to validate PTP functionality on their existing clusters.
 
 ## Installing the Collection
 
@@ -41,7 +41,7 @@ Before running PTP tests, ensure you have the following prerequisites in place:
 
 - **Ansible**: Version 2.9 or later
 - **Podman**: Required for running the eco-gotests container
-- **Python dependencies**: The collection may require additional Python libraries (check the collection's `requirements.txt`)
+- **Python dependencies**: The collection may require additional Python libraries (check the collection's [requirements](https://github.com/redhatci/ansible-collection-redhatci-ocp/blob/main/galaxy.yml))
 
 ### PTP Operator Requirements
 
