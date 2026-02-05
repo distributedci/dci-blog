@@ -49,8 +49,8 @@ The PTP operator must be installed and properly configured on your cluster:
 
 - **PTP Operator installed**: The operator should be available in the `openshift-ptp` namespace
 - **PtpOperatorConfig properly configured**: The `PtpOperatorConfig` resource must have the following configuration in its `spec.ptpEventConfig` section:
-  - `enableEventPublisher: true`
-  - `apiVersion: "2.0"`
+    - `enableEventPublisher: true`
+    - `apiVersion: "2.0"`
 
 Here's an example of the required configuration:
 
@@ -130,6 +130,19 @@ Now let's create a complete playbook that uses the `eco_gotests` role:
         msg: "PTP test results are available in {{ eco_gotests_log_dir }}"
 ```
 
+After running the playbook, the test results will be available in the log directory you specified (e.g., `/tmp/ptp-test-results`). You will find JUnit XML result files for each test suite that was executed. These files can be used for further analysis or integration with CI/CD pipelines.
+
+```
+$ cat /tmp/ptp-test-results/ptp_ptp_suite_test_junit.xml
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuites tests="26" disabled="15" errors="0" failures="0" time="1024.203761896">
+      <testsuite name="RAN PTP Suite" package="/home/testuser/tests/cnf/ran/ptp" tests="26" disabled="0" skipped="15" errors="0" failures="0" time="1024.203761896" timestamp="2026-01-27T10:57:45">                
+          <properties>
+              <property name="SuiteSucceeded" value="true"></property>
+              <property name="SuiteHasProgrammaticFocus" value="false"></property>
+[...]
+```
+
 ## Conclusion
 
 The `ansible-collection-redhatci-ocp` collection provides powerful automation capabilities that can be used independently of DCI infrastructure. In this blog post, we demonstrated how to use the `eco_gotests` role to run PTP tests on an already deployed OpenShift cluster.
@@ -137,5 +150,6 @@ The `ansible-collection-redhatci-ocp` collection provides powerful automation ca
 This is part of a blog post series exploring the collection's capabilities. Stay tuned for more posts covering other roles and use cases.
 
 For more information:
+
 - [Collection GitHub Repository](https://github.com/redhatci/ansible-collection-redhatci-ocp)
 - [eco_gotests Role Documentation](https://github.com/redhatci/ansible-collection-redhatci-ocp/blob/main/roles/eco_gotests/README.md)
