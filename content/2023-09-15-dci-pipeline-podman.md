@@ -4,6 +4,7 @@ Modified: 2025-09-18 10:00
 Category: overview
 Tags: deployment
 Author: Pierre Blanc
+Github: pierreblanc
 Summary: This short post will describe a new feature in DCI, the way to run dci-pipeline with a Podman container. We will see how it is easy to install, configure and use it.
 
 [TOC]
