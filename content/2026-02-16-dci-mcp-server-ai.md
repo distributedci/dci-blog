@@ -1,5 +1,5 @@
 Title: Explore the DCI MCP server to unlock AI models support on DCI resources
-Date: 2026-02-18 10:00
+Date: 2026-02-16 10:00
 Category: divulgation
 Tags: dci, mcp, ai
 Slug: dci-mcp-server-ai
@@ -95,7 +95,7 @@ Here is an example of a prompt that you can use with your preferred AI editor to
     4. Recommendations (immediate/medium/long-term): Action items under 'Immediate', 'Medium-term', and 'Long-term' headings, presented as bullet lists.
     5. List of analyzed jobs: for further reference, include the list of jobs that you have retrieved, ordered by date. Also display the date.
 
-You have [here](examples/2026-02-18-dci-mcp-server-ai/dci-report-telco-install-4.20-hybrid-week-2026-02-09.md) a report example based on this prompt.
+You have [here](examples/2026-02-16-dci-mcp-server-ai/dci-report-telco-install-4.20-hybrid-week-2026-02-09.md) a report example based on this prompt.
 
 # Conclusions
 
