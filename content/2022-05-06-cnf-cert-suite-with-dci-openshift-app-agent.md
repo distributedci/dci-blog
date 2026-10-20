@@ -1,6 +1,6 @@
 Title: Running Red Hat Best Practices for Kubernetes test suite with dci-openshift-app-agent
 Date: 2022-05-06 10:00
-Modified: 2024-08-14 10:00
+Modified: 2026-10-19 10:00
 Category: how-to
 Tags: cnf-cert-suite, certsuite, k8s_best_practices_certsuite, dci-openshift-app-agent, certification, partners
 Slug: cnf-cert-suite-with-dci-openshift-app-agent
@@ -12,17 +12,17 @@ Summary: The dci-openshift-app-agent enables Cloud-Native Applications and Opera
 
 ## Introduction
 
-The [dci-openshift-app-agent](https://github.com/redhat-cip/dci-openshift-app-agent) supports the execution of multiple test suites to validate containers, virtual functions, Helm charts, and operators. These suites are built as Ansible roles, helping the partners on getting prepared for the Red Hat certifications or actually running the certification process on the workloads deployed via DCI.
+The [dci-openshift-app-agent](https://github.com/distributedci/dci-openshift-app-agent) supports the execution of multiple test suites to validate containers, virtual functions, Helm charts, and operators. These suites are built as Ansible roles, helping the partners on getting prepared for the Red Hat certifications or actually running the certification process on the workloads deployed via DCI.
 
 One of the test suites included on `dci-openshift-app-agent` is the [Red Hat Best Practices for Kubernetes test suite](https://github.com/redhat-best-practices-for-k8s/certsuite) (also called certsuite), to simplify this set of testing tools. Thanks to this integration, it is possible to run the certification tools on a daily basis with the automation capabilities provided by DCI, validating that the tested workloads are ready for certification.
 
 This blog post is useful for people getting familiar with the usage of the certsuite using `dci-openshift-app-agent` as a tool to automate the whole process. We are going to focus mainly in 3 areas:
 
 1. The code structure of the `dci-openshift-app-agent`, in terms of the integration of the certsuite, will be reviewed, focusing on the [k8s_best_practices_certsuite](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/k8s_best_practices_certsuite) role.
-2. A practical example already defined on `dci-openshift-app-agent`, called [tnf_test_example](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples/tnf_test_example), will be presented, in order to see how to define a workload, based on containers and operators, that will be deployed on a running OpenShift cluster with DCI in order to be tested by the certsuite.
-3. We will review the configuration needed to deploy the `tnf_test_example` and have it tested using the certsuite all via the `dci-openshift-app-agent`.
+2. A practical example already defined on `dci-openshift-app-agent`, called [certsuite_example](https://github.com/distributedci/dci-openshift-app-agent/tree/master/samples/certsuite_example), will be presented, in order to see how to define a workload, based on containers and operators, that will be deployed on a running OpenShift cluster with DCI in order to be tested by the certsuite.
+3. We will review the configuration needed to deploy the `certsuite_example` and have it tested using the certsuite all via the `dci-openshift-app-agent`.
 
-The targeted audience for this blog post is people that are used to using the certsuite and `dci-openshift-app-agent`. For a more general overview, please see the [following presentation](https://drive.google.com/file/d/1k_UUOb4tAeWOR5YBYEDQI-531C5L-IVx/view) (note it is based on former CNF Cert Suite, aka tnf, v3.2.0, so variables are different, but the philosophy is mostly the same). Also, please refer to the documentation for tools like dci-openshift-app-agent, the certsuite, etc. to get more particular details about them.
+The targeted audience for this blog post is people that are used to using the certsuite and `dci-openshift-app-agent`. For a more general overview, please see the [following presentation](https://drive.google.com/file/d/1k_UUOb4tAeWOR5YBYEDQI-531C5L-IVx/view) (note it is based on former CNF Cert Suite, aka certsuite, v3.2.0, so variables are different, but the philosophy is mostly the same). Also, please refer to the documentation for tools like dci-openshift-app-agent, the certsuite, etc. to get more particular details about them.
 
 Note that this blog post is based on certsuite v5.2.2. Please check regularly the `k8s_best_practices_certsuite` role documentation to see what's new for the latest certsuite stable release, because the information you will see in this blog post may be different for different releases than v5.2.2.
 
@@ -70,7 +70,7 @@ The tasks executed on the `k8s_best_practices_certsuite` role rely on variables 
 
 The configuration does not include the deployment of the workloads (containers, operators, etc.), those steps are done in the `dci-openshift-app-agent` hooks. Then, these configurations for the certsuite act on top of the workloads deployed in the hooks.
 
-The main variables to have in mind, whose default values are [these](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/group_vars/all) for some generic variables, and [these](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/k8s_best_practices_certsuite/defaults/main.yml) for some specific variables related to the certification suite, are the following:
+The main variables to have in mind, whose default values are [these](https://github.com/distributedci/dci-openshift-app-agent/blob/master/group_vars/all) for some generic variables, and [these](https://github.com/redhatci/ansible-collection-redhatci-ocp/tree/main/roles/k8s_best_practices_certsuite/defaults/main.yml) for some specific variables related to the certification suite, are the following:
 
 - Generic:
 
@@ -101,9 +101,9 @@ The main variables to have in mind, whose default values are [these](https://git
 
   <sup>1</sup> The logic for this requires an implementation. See examples in the following section.
 
-## Example: the tnf_test_example use case
+## Example: the certsuite_example use case
 
-Before executing the certsuite, it is needed to deploy the workloads and to label the pods and operators to test with the auto-discovery labels required by the certsuite. This can be done manually or programmatically. An example of this can be found in [tnf_test_example](https://github.com/redhat-cip/dci-openshift-app-agent/tree/master/samples/tnf_test_example).
+Before executing the certsuite, it is needed to deploy the workloads and to label the pods and operators to test with the auto-discovery labels required by the certsuite. This can be done manually or programmatically. An example of this can be found in [certsuite_example](https://github.com/distributedci/dci-openshift-app-agent/tree/master/samples/certsuite_example).
 
 This example deploys a couple of pods in two different namespaces, to be used with the CNF Test Suite in a multi-namespace scenario. It also allows the possibility of deploying an operator and a Helm chart to also test them with the certsuite.
 
@@ -114,14 +114,14 @@ The Deployment specification of this pod, obtained from [this repository](https:
 Here are the steps on each hook for this example:
 
 - `pre-run`:
-  - Declare variables to be used in the hooks, related to the pod image, operator and Helm chart. These can be retrieved from `tnf_test_example` DCI component if provided in the settings/pipeline.
+  - Declare variables to be used in the hooks, related to the pod image, operator and Helm chart. These can be retrieved from `certsuite_example` DCI component if provided in the settings/pipeline.
   - Clean resources if there are present in the cluster.
   - Install required RPM packages.
   - Mirror images for disconnected environments.
   - Prepare the operator and Helm chart (if defined) for disconnected environments.
   - Check StorageClass resources.
 - `install`:
-  - Deploy the testing resources. The full list of resources deployed can be checked in the `tnf_test_example` [README file](https://github.com/redhat-cip/dci-openshift-app-agent/blob/master/samples/tnf_test_example/README.md).
+  - Deploy the testing resources. The full list of resources deployed can be checked in the `certsuite_example` [README file](https://github.com/distributedci/dci-openshift-app-agent/blob/master/samples/certsuite_example/README.md).
 - `tests`:
   - Check found CalalogSource with `opcap`.
 - `teardown`:
@@ -131,21 +131,21 @@ Here are the steps on each hook for this example:
 
 To deploy this example, it is needed to define the following variables in your pipelines:
 
-- `dci_config_dir`: it must point to `"/var/lib/dci-openshift-app-agent/samples/tnf_test_example"`, place in which this example is defined. This variable allows to incorporate the hooks defined there to the execution of `dci-openshift-app-agent`.
-- `components`: allows the selection of the `tnf_test_example` DCI component, which provides the pod image, the operator and the Helm chart to be tested.
-  - If not provided, `tnf_app_image` must be provided, including the pod image.
+- `dci_config_dir`: it must point to `"/var/lib/dci-openshift-app-agent/samples/certsuite_example"`, place in which this example is defined. This variable allows to incorporate the hooks defined there to the execution of `dci-openshift-app-agent`.
+- `components`: allows the selection of the `certsuite_example` DCI component, which provides the pod image, the operator and the Helm chart to be tested.
+  - If not provided, `certsuite_app_image` must be provided, including the pod image.
 - `kbpc_test_config`: defining two elements, to deploy the workload in two different namespaces. In one of them, the operator to test is referenced. When showing an example of DCI job, the full definition of this variable will be provided.
 
 ## Running a DCI job
 
-In this section, we will cover an example of execution of a DCI job launching `tnf_test_example` with the certsuite, also commenting some troubleshooting tips that you should have into account, extracted from [this presentation](https://drive.google.com/file/d/12Hyl5I_nm-1uF-ouCZgFVj9S7BPYleTF/view) about how to debug the certsuite with DCI (based on former CNF Cert Suite v4.0.0, but the logic behind this is mostly the same).
+In this section, we will cover an example of execution of a DCI job launching `certsuite_example` with the certsuite, also commenting some troubleshooting tips that you should have into account, extracted from [this presentation](https://drive.google.com/file/d/12Hyl5I_nm-1uF-ouCZgFVj9S7BPYleTF/view) about how to debug the certsuite with DCI (based on former CNF Cert Suite v4.0.0, but the logic behind this is mostly the same).
 
 ### What do you need to configure?
 
 There are two main parts to be configured:
 
 - The pipeline to launch `dci-openshift-app-agent`. For this, mainly, you need to check the `k8s_best_practices_certsuite` role variables that you may want to modify.
-- The correct labelling of the workloads (deployed manually or through hooks) to be tested by the certsuite (both pods and operators). In `tnf_test_example`, you have a good example where you can see how these labels are defined in the workloads under test.
+- The correct labelling of the workloads (deployed manually or through hooks) to be tested by the certsuite (both pods and operators). In `certsuite_example`, you have a good example where you can see how these labels are defined in the workloads under test.
 
 ### Job checklist
 
@@ -173,15 +173,15 @@ When running a job launching the certsuite, you need to confirm that:
       - Configuration applied to run certsuite.
       - Log messages from nodes.
       - etc.
-  - `tnf_config.yml`:
+  - `certsuite_config.yml`:
     - Configuration file used for certsuite execution.
-    - It is built automatically based on tnf_config variable.
+    - It is built automatically based on certsuite_config variable.
   - `<timestamp>-cnf-test-results.tar.gz`:
     - Report of certsuite execution, including the HTML report with the feedback defined by the partner if provided.
 
 Up to this point, what happens if...
 
-- ...tests are displayed but the workloads tested were not the expected ones? Then, read `tnf_config.yml` file and confirm you are testing what you want. If not, recheck `kbpc_test_config` variable and change it accordingly.
+- ...tests are displayed but the workloads tested were not the expected ones? Then, read `certsuite_config.yml` file and confirm you are testing what you want. If not, recheck `kbpc_test_config` variable and change it accordingly.
 - ...tests are displayed but we have failed unit tests? Follow the log messages and troubleshoot.
 - ...the job is still running and it is stuck on the certsuite execution? In this case, we would not be able to see the log files generated during the execution, as they are created just after finishing the execution (e.g. `certsuite-stdout.log` file is created by redirecting the output of the certsuite execution to that file). In this case, you will have to navigate to the source path where these files are created and then check them. This can be done in the following way:
 
@@ -203,9 +203,9 @@ Up to this point, what happens if...
 
   - Remember that this temporary folder is deleted when the job finishes, but after that, the files are present in the Files section of the job, as explained before.
 
-### Example of a correct DCI job running tnf_test_example with the certsuite
+### Example of a correct DCI job running certsuite_example with the certsuite
 
-In order to execute an example of a DCI job, managed by `dci-openshift-app-agent`, making use of the `tnf_test_example` and running the certsuite, just follow these steps:
+In order to execute an example of a DCI job, managed by `dci-openshift-app-agent`, making use of the `certsuite_example` and running the certsuite, just follow these steps:
 
 1.  Confirm you have a cluster up and running:
 
@@ -225,7 +225,7 @@ In order to execute an example of a DCI job, managed by `dci-openshift-app-agent
 1.  Run a DCI job using `dci-pipeline`, with the following pipeline (note this is an example, you should adapt it to your environment):
 
         ---
-        -   name: tnf-test-cnf
+        -   name: certsuite
             stage: cnf
             prev_stages: [ocp-upgrade, ocp]
             ansible_playbook: /usr/share/dci-openshift-app-agent/dci-openshift-app-agent.yml
@@ -237,7 +237,7 @@ In order to execute an example of a DCI job, managed by `dci-openshift-app-agent
                 dci_teardown_on_success: true
                 dci_teardown_on_failure: true
                 dci_cache_dir: /var/lib/dci-pipeline
-                dci_config_dir: /var/lib/dci-openshift-app-agent/samples/tnf_test_example
+                dci_config_dir: /var/lib/dci-openshift-app-agent/samples/certsuite_example
                 do_certsuite: true
                 kbpc_test_labels: "common,telco,extended"
                 kbpc_test_config:
@@ -261,13 +261,13 @@ In order to execute an example of a DCI job, managed by `dci-openshift-app-agent
                     -    module: "tls"
                 kbpc_services_ignore_list:
                     -   operator-webhook
-                    -   tnf-test-example-samplechart
+                    -   certsuite-example-samplechart
             use_previous_topic: true
             components:
-                -   tnf_test_example
+                -   certsuite_example
             inputs:
                 kubeconfig: kubeconfig_path
-            success_tag: tnf-test-cnf-ok
+            success_tag: certsuite-ok
 
 > Please check [the DCI pipeline blog post](automate-dci-components.html) for more information regarding pipelines.
 
